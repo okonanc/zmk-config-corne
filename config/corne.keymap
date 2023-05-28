@@ -18,16 +18,19 @@
 #define FN 10
 
 // Behavior configuration
+// Mod-tap
 &mt {
     tapping-term-ms = <200>;
     quick_tap_ms = <0>;
     flavor = "tap-preferred";
 };
+// Layer-tab
 &lt {
     tapping-term-ms = <200>;
     quick_tap_ms = <0>;
     flavor = "tap-preferred";
 };
+// Stick key
 &sk {
     release-after-ms = <500>;
     quick-release;
@@ -46,9 +49,9 @@
 //                            | ESC/MEDIA | SPACE/NAV | TAB/MOUSE | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
 
             bindings = <
-&trans      &kp Q       &kp W       &kp E          &kp R          &kp T                &kp Y          &kp U         &kp I          &kp O         &kp P          &trans
-&mo LAYERS  &mt LGUI A  &mt LALT S  &mt LCTRL D    &mt LSHFT F    &kp G                &kp H          &mt LSHFT J   &mt LCTRL K    &mt LALT L    &mt LGUI SEMI  &trans
-&trans      &kp Z       &mt RALT X  &kp C          &kp V          &kp B                &kp N          &kp M         &kp CMMA       &mt RALT DOT  &kp FSLH       &trans
+&trans      &kp Q       &kp W       &kp F          &kp P          &kp B                &kp J          &kp L         &kp U          &kp Y         &kp SQT     &trans
+&mo LAYERS  &mt LGUI A  &mt LALT R  &mt LCTRL S    &mt LSHFT T    &kp G                &kp M          &mt LSHFT N   &mt LCTRL E    &mt LALT I    &mt LGUI O  &trans
+&trans      &kp Z       &mt RALT X  &kp C          &kp D          &kp V                &kp K          &kp H         &kp CMMA       &mt RALT DOT  &kp FSLH    &trans
                                     &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB        &lt SYM ENTER  &lt NUM BSPC  &lt FN DEL
             >;
         };
@@ -61,9 +64,9 @@
 //                            | ESC/MEDIA | SPACE/NAV | TAB/MOUSE | # | ENTER/SYM | BSPC/NUM | DEL/FN  |
 
             bindings = <
-&trans      &kp Q       &kp W       &kp F          &kp P          &kp B                &kp J          &kp L         &kp U          &kp Y         &kp SQT     &trans
-&mo LAYERS  &mt LGUI A  &mt LALT R  &mt LCTRL S    &mt LSHFT T    &kp G                &kp M          &mt LSHFT N   &mt LCTRL E    &mt LALT I    &mt LGUI O  &trans
-&trans      &kp Z       &mt RALT X  &kp C          &kp D          &kp V                &kp K          &kp H         &kp CMMA       &mt RALT DOT  &kp FSLH    &trans
+&trans      &kp Q       &kp W       &kp E          &kp R          &kp T                &kp Y          &kp U         &kp I          &kp O         &kp P          &trans
+&mo LAYERS  &mt LGUI A  &mt LALT S  &mt LCTRL D    &mt LSHFT F    &kp G                &kp H          &mt LSHFT J   &mt LCTRL K    &mt LALT L    &mt LGUI SEMI  &trans
+&trans      &kp Z       &mt RALT X  &kp C          &kp V          &kp B                &kp N          &kp M         &kp CMMA       &mt RALT DOT  &kp FSLH       &trans
                                     &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB        &lt SYM ENTER  &lt NUM BSPC  &lt FN DEL
             >;
         };
@@ -156,7 +159,7 @@
 
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans        &bootloader   &ext_power EP_OFF  &cp C_BRI_DN  &cp C_BRI_UP  &ext_power EP_ON  &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans        &sys_reset        &cp C_PREV         &cp C_VOL_DN  &cp C_VOL_UP  &cp C_NEXT        &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans        &sys_reset    &cp C_PREV         &cp C_VOL_DN  &cp C_VOL_UP  &cp C_NEXT        &trans
 &trans  &trans    &kp RALT  &trans     &trans     &trans        &out OUT_BLE  &bt BT_SEL 0       &bt BT_PRV    &bt BT_NXT    &bt BT_CLR        &trans
                             &trans     &trans     &trans        &cp C_STOP    &cp C_PLAY         &cp C_MUTE
             >;
@@ -180,7 +183,7 @@
         symbols {
 // ------------------------------------------------------------------------------------
 // |     |  {  |  &  |  *  |  (  |  }  | # |      |       |       |      |      |     |
-// |     |  :  |  $  |  %  |  ^  |  +  | # |      | LSHFT | LCTRL | LALT | LGUI |     |
+// |     |  "  |  $  |  %  |  ^  |  +  | # |      | LSHFT | LCTRL | LALT | LGUI |     |
 // |     |  ~  |  !  |  @  |  #  |  |  | # |      |       |       | RALT |      |     |
 //                   |  (  |  )  |  _  | # | HELD |       |       |
 
