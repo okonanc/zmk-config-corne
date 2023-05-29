@@ -119,15 +119,15 @@
 
         navigation {
 // -------------------------------------------------------------------------------------------
-// |     |      |      |       |       |     | # | INS   | END   | UP   | HOME  | PGUP  |     |
+// |     |      |      |       |       |     | # | INS   | HOME  | UP   | END   | PGUP  |     |
 // |     | LGUI | LALT | LCTRL | LSHFT |     | # | CAPS  | LEFT  | DOWN | RIGHT | PGDN  |     |
 // |     |      | RALT |       |       |     | # | REDO  | PASTE | COPY | CUT   | UNDO  |     |
 //                     |       | HELD  |     | # | ENTER | BSPC  | DEL  |
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans        &kp INS       &kp END      &kp UP      &kp HOME   &kp PG_UP    &trans
+&trans  &trans    &trans    &trans     &trans     &trans        &kp INS       &kp HOME     &kp UP      &kp END    &kp PG_UP    &trans
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans        &kp CAPSLOCK  &kp LEFT     &kp DOWN    &kp RIGHT  &kp PG_DN    &trans
-&trans  &trans    &kp RALT  &trans     &trans     &trans        &kp K_REDO    &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO  &trans
+&trans  &trans    &kp RALT  &trans     &trans     &trans        &kp K_REDO    &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO   &trans
                             &trans     &trans     &trans        &kp ENTER     &kp BSPC     &kp DEL
             >;
         };
@@ -210,4 +210,4 @@
             >;
         };
     };
-};
+    };
