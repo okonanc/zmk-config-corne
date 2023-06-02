@@ -1,168 +1,118 @@
-on: [push, pull_request, workflow_dispatch]
+name: Reusable user config build
+
+on:
+  workflow_call:
+    inputs:
+      build_matrix_path:
+        description: "Path to the build matrix file"
+        default: "build.yaml"
+        required: false
+        type: string
+      config_path:
+        description: "Path to the config directory"
+        default: "config"
+        required: false
+        type: string
+      fallback_binary:
+        description: "Fallback binary format, if no *.hex file was built"
+        default: "bin"
+        required: false
+        type: string
+      archive_name:
+        description: "Archive output file name"
+        default: "firmware"
+        required: false
+        type: string
 
 jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    name: Fetch Build Keyboards
+    outputs:
+      build_matrix: ${{ env.build_matrix }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install yaml2json
+        run: python3 -m pip install remarshal
+
+      - name: Fetch Build Matrix
+        run: |
+          echo "build_matrix=$(yaml2json '${{ inputs.build_matrix_path }}' | jq -c .)" >> $GITHUB_ENV
+          yaml2json "${{ inputs.build_matrix_path }}" | jq
+
   build:
     runs-on: ubuntu-latest
     container:
       image: zmkfirmware/zmk-build-arm:stable
+    needs: matrix
+    name: Build
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - board: nice_nano
-            shield: corne_ardux_left
-          - board: nice_nano
-            shield: corne_ardux_right
-          - board: nice_nano
-            shield: the_paintbrush_left
-          - board: nice_nano
-            shield: the_paintbrush_right
-          - board: nice_nano_v2
-            shield: the_paintbrush_left
-          - board: nice_nano_v2
-            shield: the_paintbrush_right
-          - board: bluemicro840_v1
-            shield: the_paintbrush_left
-          - board: bluemicro840_v1
-            shield: the_paintbrush_right
-          - board: nrfmicro_13
-            shield: the_paintbrush_left
-          - board: nrfmicro_13
-            shield: the_paintbrush_right
-          - board: nrfmicro_11
-            shield: the_paintbrush_left
-          - board: nrfmicro_11
-            shield: the_paintbrush_right
-          - board: nice_nano
-            shield: artboard_left
-          - board: nice_nano
-            shield: artboard_right
-          - board: nice_nano
-            shield: corne_5_col_ardux_left
-          - board: nice_nano
-            shield: corne_5_col_ardux_right
-          - board: nice_nano
-            shield: corne_5_col_ardux_left_big
-          - board: nice_nano
-            shield: corne_5_col_ardux_right_big
-          - board: nice_nano_v2
-            shield: corne_5_col_ardux_left_big
-          - board: nice_nano_v2
-            shield: corne_5_col_ardux_right_big
-          - board: bluemicro840_v1
-            shield: bluehand_left
-          - board: bluemicro840_v1
-            shield: bluehand_right
-          - board: nice_nano
-            shield: tidbit_ardux_left
-          - board: nice_nano
-            shield: tidbit_ardux_right
-          - board: nice_nano_v2
-            shield: cradio_ardux_left
-          - board: nice_nano_v2
-            shield: cradio_ardux_thumb_left
-          - board: nice_nano_v2
-            shield: cradio_ardux_right
-          - board: nice_nano_v2
-            shield: cradio_ardux_thumb_right
+      matrix: ${{ fromJson(needs.matrix.outputs.build_matrix) }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Cache west modules
-        uses: actions/cache@v2
+      - name: Prepare variables
+        shell: sh -x {0}
         env:
-          cache-name: cache-zephyr-modules
+          shield: ${{ matrix.shield }}
+        run: |
+          echo "zephyr_version=${ZEPHYR_VERSION}" >> $GITHUB_ENV
+          echo "extra_cmake_args=${shield:+-DSHIELD=\"$shield\"}" >> $GITHUB_ENV
+          echo "display_name=${shield:+$shield - }${{ matrix.board }}" >> $GITHUB_ENV
+          echo "artifact_name=${shield:+$shield-}${{ matrix.board }}-zmk" >> $GITHUB_ENV
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Cache west modules
+        uses: actions/cache@v3.0.11
+        continue-on-error: true
+        env:
+          cache_name: cache-zephyr-${{ env.zephyr_version }}-modules
         with:
           path: |
-            bootloader/
             modules/
             tools/
             zephyr/
+            bootloader/
             zmk/
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('config/west.yml') }}
+          key: ${{ runner.os }}-build-${{ env.cache_name }}-${{ hashFiles('**/west.yml', '**/build.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-${{ env.cache_name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-        timeout-minutes: 2
-        continue-on-error: true
-      - name: Initialize workspace (west init)
-        run: west init -l config
-      - name: Update modules (west update)
+
+      - name: West Init
+        run: west init -l "${{ inputs.config_path }}"
+
+      - name: West Update
         run: west update
-      - name: Export Zephyr CMake package (west zephyr-export)
+
+      - name: West Zephyr export
         run: west zephyr-export
-      - name: Prepare variables
-        id: variables
+
+      - name: West Build (${{ env.display_name }})
+        shell: sh -x {0}
+        run: west build -s zmk/app -b "${{ matrix.board }}" -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/${{ inputs.config_path }}" ${{ env.extra_cmake_args }} ${{ matrix.cmake-args }}
+
+      - name: ${{ env.display_name }} Kconfig file
+        run: grep -v -e "^#" -e "^$" build/zephyr/.config | sort
+
+      - name: Rename artifacts
+        shell: sh -x {0}
         run: |
-          if [ -n "${{ matrix.shield }}" ]; then
-            SHIELD_ARG="-DSHIELD=${{ matrix.shield }}"
-            ARTIFACT_NAME="${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux"
-          else
-            SHIELD_ARG=
-            ARTIFACT_NAME="${{ matrix.board }}-zmk-ardux"
+          mkdir build/artifacts
+          if [ -f build/zephyr/zmk.hex ]
+          then
+            cp build/zephyr/zmk.hex "build/artifacts/${{ env.artifact_name }}.hex"
+          elif [ -f build/zephyr/zmk.${{ inputs.fallback_binary }} ]
+          then
+            cp "build/zephyr/zmk.${{ inputs.fallback_binary }}" "build/artifacts/${{ env.artifact_name }}.${{ inputs.fallback_binary }}"
           fi
 
-          echo ::set-output name=shield-arg::${SHIELD_ARG}
-          echo ::set-output name=artifact-name::${ARTIFACT_NAME}
-      - name: Build (west build)
-        run: west build -s zmk/app -b ${{ matrix.board }} -- ${{ steps.variables.outputs.shield-arg }} -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
-      - name: ARDUX implementation dtsi file
-        if: always()
-        run: cat -n config/ardux.dtsi
-      - name: Prep artifact (ardux.dtsi)
-        run: cp config/ardux.dtsi ./ardux.dtsi
-      - name: Prep artifact (${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux.hex)
-        run: cp build/zephyr/zmk.hex ${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux.hex
-      - name: Prep artifact (${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux.uf2)
-        run: cp build/zephyr/zmk.uf2 ${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux.uf2
-      - name: Archive artifacts
-        uses: actions/upload-artifact@v2
+      - name: Archive (${{ env.display_name }})
+        uses: actions/upload-artifact@v3
         with:
-          name: '${{ steps.variables.outputs.artifact-name }}'
-          path: |
-            ardux.dtsi
-            ${{ matrix.shield }}-${{ matrix.board }}.dts.pre.tmp
-            ${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux.hex
-            ${{ matrix.shield }}-${{ matrix.board }}-zmk-ardux.uf2
-        continue-on-error: true
-  release:
-    runs-on: ubuntu-latest
-    name: Create Release
-    needs: build
-    steps:
-      - name: Get current date/time
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y%m%d-%H%M')"
-      - name: Generate release text
-        id: release_text
-        run: >
-          echo "::set-output name=release_text::$(echo '<b>Precompiled firmware files for ARDUX</b><br><br>
-          Download a firmware file by expanding "Assets", right clicking, and choosing "Save File As" or "Save Link As".
-          <br>${{ github.event.inputs.releaseBody }}
-          <br>Released on ${{ steps.date.outputs.date }}.
-          <br><br>${{ steps.docker_build.outputs.commits }}')"
-      - name: Download build artifacts for release
-        uses: actions/download-artifact@v2
-        with:
-          path: release
-      - name: List files to include in release
-        if: always()
-        run: ls -R release/
-      - name: Create zip files directory for individual board assets
-        if: always()
-        run: mkdir zips
-      - name: Zip all firmware files for release
-        if: always()
-        run: cd release && for folder in ./*; do echo $folder; zip -r ../zips/${folder}.zip ${folder}/; done && cd ..
-      - name: Create release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "zips/*"
-          allowUpdates: false
-          artifactErrorsFailBuild: true
-          commit: main
-          tag: ${{ steps.date.outputs.date }}
-          body: ${{ steps.release_text.outputs.release_text }}
-          name: ${{ steps.date.outputs.date }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          name: ${{ inputs.archive_name }}
+          path: build/artifacts
