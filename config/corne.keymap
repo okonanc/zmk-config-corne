@@ -165,8 +165,8 @@
 
             bindings = <
 &bootloader  &out OUT_BLE  &ext_power EP_OFF  &kp C_BRI_DN  &kp C_BRI_UP  &ext_power EP_ON    &trans  &trans     &trans     &trans    &trans    &bootloader
- &sys_reset  &out OUT_TOG  &kp C_PREV         &kp C_VOL_DN  &kp C_VOL_UP  kp C_NEXT           &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &sys_reset
-     &trans  &out OUT_USB  &bt BT_SEL 0       &bt BT_PRV    &bt BT_NXT    &bt BT_CLR          &trans  &trans     &trans     &kp RALT  &trans    &trans
+&sys_reset   &out OUT_TOG  &kp C_PREV         &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT          &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &sys_reset
+&trans       &out OUT_USB  &bt BT_SEL 0       &bt BT_PRV    &bt BT_NXT    &bt BT_CLR          &trans  &trans     &trans     &kp RALT  &trans    &trans
                                               &kp C_MUTE    &kp C_PLAY    &kp C_STOP          &trans  &trans     &trans
             >;
         };
