@@ -17,6 +17,7 @@
 #define NUM 8
 #define SYM 9
 #define FN 10
+#define RESET 11
 
 // Behavior configuration
 // Mod-tap
@@ -50,15 +51,15 @@
 
         colemak {
             // -------------------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     F     |     P     |     B     | # |     J     |     L     |     U      |    Y   |   '    |         |
-            // | LAYERS | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT  |     G     | # |     M     |  N/LSHFT  |  E/LCTRL   | I/LALT | O/LGUI | LAYERS  |
-            // |        |   Z    | X/RALT |     C     |     D     |     V     | # |     K     |     H     |     ,      | ./RALT |   /    |         |
+            // |        |   Q    |   W    |     F     |     P     |     B     | # |     J     |     L     |     U      |    Y   |   '    |        |
+            // | LAYERS | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT  |     G     | # |     M     |  N/LSHFT  |  E/LCTRL   | I/LALT | O/LGUI | LAYERS |
+            // | RESCUE |   Z    | X/RALT |     C     |     D     |     V     | # |     K     |     H     |     ,      | ./RALT |   /    | RESCUE |
             //                            |  DEL/FN   | BSPC/NUM  | ENTER/SYM | # | TAB/MOUSE | SPACE/NAV | ESC/MEDIA  |
 
             bindings = <  
 &trans       &kp Q       &kp W      &kp F        &kp P          &kp B                &kp J        &kp L          &kp U          &kp Y         &kp SQT     &trans
- &mo 4  &mt LGUI A  &mt LALT R      &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N    &mt LCTRL E    &mt LALT I    &mt LGUI O  &mo 4
-&trans       &kp Z  &mt RALT X      &kp C        &kp D          &kp V                &kp K        &kp H          &kp COMMA      &mt RALT DOT  &kp FSLH    &trans
+&mo 4        &mt LGUI A  &mt LALT R &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N    &mt LCTRL E    &mt LALT I    &mt LGUI O  &mo 4
+&mo 11       &kp Z  &mt RALT X      &kp C        &kp D          &kp V                &kp K        &kp H          &kp COMMA      &mt RALT DOT  &kp FSLH    &mo 11
                                     &lt 10 DEL   &lt 8 BSPC     &lt 9 ENTER          &lt 6 TAB    &lt 5 SPACE    &lt 7 ESC
             >;
         };
@@ -213,6 +214,21 @@
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans          &kp SLCK         &kp F4     &kp F5   &kp F6  &kp F11  &trans
 &trans  &trans    &kp RALT  &trans     &trans     &trans          &kp PAUSE_BREAK  &kp F1     &kp F2   &kp F3  &kp F10  &trans
                             &trans     &trans     &trans          &kp TAB          &kp SPACE  &kp ESC
+            >;
+        };
+
+        reset {
+            // ------------------------------------------------------------------------------------------------------------------
+            // |      | BOOTLOAD | RESET  | OUT_TOG |        |        | # |        |        | OUT_TOG | RESET  | BOOTLOAD |      |
+            // |      | BT_0     | BT_PRV | BT_NXT  | BT_CLR |        | # |        | BT_CLR | BT_NXT  | BT_PRV | BT_0     |      |
+            // | HELD |          |        |         |        |        | # |        |        |         |        |          | HELD |
+            //                            |         |        |        | # |        |        |         |
+
+            bindings = <
+&trans  &bootloader   &sys_reset    &out OUT_TOG  &trans      &trans          &trans  &trans      &out OUT_TOG  &sys_reset  &bootloader   &trans
+&trans  &bt BT_SEL 0  &bt BT_PRV    &bt BT_NXT    &bt BT_CLR  &trans          &trans  &bt BT_CLR  &bt BT_NXT    &bt BT_PRV  &bt BT_SEL 0  &trans
+&trans  &trans        &trans        &trans        &trans      &trans          &trans  &trans      &trans        &trans      &trans        &trans
+                                    &trans        &trans      &trans          &trans  &trans      &trans
             >;
         };
     };
