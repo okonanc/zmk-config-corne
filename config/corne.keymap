@@ -218,16 +218,16 @@
         };
 
         GAMING_NUM {
-            // ------------------------------------------------------------------------------------------------------------------
+            // ------------------------------------------------------------------------------------------------------------
             // |      |       |   M   |   L   |   P    |   O    | # |        |        |        |        |        |        |
-            // |      |       |   4   |   5   |   6    |   T    | # |        |        |        |        |        |        |
-            // |      |       |   1   |   2   |   3    |   B    | # |        |        |        |        |        |        |
+            // |      |       |   1   |   2   |   3    |   T    | # |        |        |        |        |        |        |
+            // |      |       |   4   |   5   |   6    |   B    | # |        |        |        |        |        |        |
             //                        |       |  HELD  |        | # |        |        |        |
 
             bindings = <
 &trans  &trans  &kp M    &kp L   &kp P   &kp O         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4   &kp N5  &kp N6  &kp T         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N1   &kp N2  &kp N3  &kp B         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1   &kp N2  &kp N3  &kp T         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4   &kp N5  &kp N6  &kp B         &trans  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans  &trans        &trans  &trans  &trans
             >;
         };
