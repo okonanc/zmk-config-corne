@@ -102,10 +102,10 @@
             //                              |  ESC  |  SPACE/GNUM |  LALT  | # |  TAB  | SPACE  |  ESC  |
 
             bindings = <
-&trans  &kp TAB     &kp Q    &kp W    &kp E     &kp R          &kp Y    &kp U      &kp I      &kp O    &kp P     &trans
- &mo 4  &kp LCTRL   &kp A    &kp S    &kp D     &kp F          &kp H    &kp J      &kp K      &kp L    &kp SEMI  &mo 4
-&trans  &kp LSHIFT  &kp Z    &kp X    &kp C     &kp V          &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                             &kp ESC  &lt 11 SPACE  &kp LALT       &kp TAB  &kp SPACE  &kp ESC
+&trans  &kp TAB     &kp Q    &kp W    &kp E     &kp R          &kp Y      &kp U     &kp I      &kp O    &kp P     &trans
+ &mo 4  &kp LCTRL   &kp A    &kp S    &kp D     &kp F          &kp H      &kp J     &kp K      &kp L    &kp SEMI  &mo 4
+&trans  &kp LSHIFT  &kp Z    &kp X    &kp C     &kp V          &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
+                             &kp ESC  &lt 11 SPACE  &kp LALT   &kp ENTER  &kp BSPC  &kp DEL
             >;
         };
 
