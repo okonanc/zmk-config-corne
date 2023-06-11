@@ -17,7 +17,7 @@
 #define NUM 8
 #define SYM 9
 #define FN 10
-#define RESET 11
+#define GAMING_NUM 11
 
 // Behavior configuration
 // Mod-tap
@@ -50,32 +50,32 @@
         compatible = "zmk,keymap";
 
         colemak {
-            // -------------------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     F     |     P     |     B     | # |     J     |     L     |     U      |    Y   |   '    |        |
-            // | LAYERS | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT  |     G     | # |     M     |  N/LSHFT  |  E/LCTRL   | I/LALT | O/LGUI | LAYERS |
-            // | RESCUE |   Z    | X/RALT |     C     |     D     |     V     | # |     K     |     H     |     ,      | ./RALT |   /    | RESCUE |
-            //                            |  DEL/FN   | BSPC/NUM  | ENTER/SYM | # | TAB/MOUSE | SPACE/NAV | ESC/MEDIA  |
+            // ---------------------------------------------------------------------------------------------------------------------------------------
+            // |        |   Q    |   W    |     F     |     P      |     B     | # |      J      |     L     |     U      |    Y   |   '    |        |
+            // | LAYERS | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT   |     G     | # |      M      |  N/LSHFT  |  E/LCTRL   | I/LALT | O/LGUI | LAYERS |
+            // |        |   Z    | X/RALT |     C     |     D      |     V     | # |      K      |     H     |     ,      | ./RALT |   /    |        |
+            //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
 
             bindings = <  
-&trans       &kp Q       &kp W      &kp F        &kp P          &kp B                &kp J        &kp L          &kp U          &kp Y         &kp SQT     &trans
-&mo 4        &mt LGUI A  &mt LALT R &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N    &mt LCTRL E    &mt LALT I    &mt LGUI O  &mo 4
-&mo 11       &kp Z  &mt RALT X      &kp C        &kp D          &kp V                &kp K        &kp H          &kp COMMA      &mt RALT DOT  &kp FSLH    &mo 11
-                                    &lt 10 DEL   &lt 8 BSPC     &lt 9 ENTER          &lt 6 TAB    &lt 5 SPACE    &lt 7 ESC
+&trans       &kp Q       &kp W      &kp F        &kp P          &kp B                &kp J        &kp L         &kp U          &kp Y         &kp SQT     &trans
+&mo 4        &mt LGUI A  &mt LALT R &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N   &mt LCTRL E    &mt LALT I    &mt LGUI O  &mo 4
+&trans       &kp Z  &mt RALT X      &kp C        &kp D          &kp V                &kp K        &kp H         &kp COMMA      &mt RALT DOT  &kp FSLH    &trans
+                                    &lt 10 ESC   &lt 8 SPACE    &lt 9 TAB            &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
             >;
         };
 
         qwerty {
-            // -------------------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     E     |     R     |     T     | # |     Y     |     U     |     I      |    O   |   P    |         |
-            // | LAYERS | A/LGUI | S/LALT |  D/LCTRL  |  F/LSHFT  |     G     | # |     H     | J/LSHFT   |  K/LCTRL   | L/LALT | ;/LGUI | LAYERS  |
-            // |        |   Z    | X/RALT |     C     |     V     |     B     | # |     N     |     M     |     ,      | ./RALT |   /    |         |
-            //                            |   DEL/FN  |  BSPC/NUM | ENTER/SYM | # | TAB/MOUSE | SPACE/NAV | ESC/MEDIA  |
+            // ----------------------------------------------------------------------------------------------------------------------------------------
+            // |        |   Q    |   W    |     E     |     R      |     T     | # |      Y      |     U     |     I      |    O   |   P    |         |
+            // | LAYERS | A/LGUI | S/LALT |  D/LCTRL  |  F/LSHFT   |     G     | # |      H      | J/LSHFT   |  K/LCTRL   | L/LALT | ;/LGUI | LAYERS  |
+            // |        |   Z    | X/RALT |     C     |     V      |     B     | # |      N      |     M     |     ,      | ./RALT |   /    |         |
+            //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
 
             bindings = <
-&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp Y      &kp U        &kp I        &kp O         &kp P          &trans
-&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H      &mt LSHFT J  &mt LCTRL K  &mt LALT L    &mt LGUI SEMI  &mo 4
-&trans  &kp Z       &mt RALT X  &kp C        &kp V        &kp B               &kp N      &kp M        &kp COMMA    &mt RALT DOT  &kp FSLH       &trans
-                                &lt 10 DEL   &lt 8 BSPC   &lt 9 ENTER         &lt 6 TAB  &lt 5 SPACE  &lt 7 ESC
+&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp Y        &kp U         &kp I        &kp O         &kp P          &trans
+&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H        &mt LSHFT J   &mt LCTRL K  &mt LALT L    &mt LGUI SEMI  &mo 4
+&trans  &kp Z       &mt RALT X  &kp C        &kp V        &kp B               &kp N        &kp M         &kp COMMA    &mt RALT DOT  &kp FSLH       &trans
+                                &lt 10 ESC   &lt 8 SPACE  &lt 9 TAB           &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
             >;
         };
 
@@ -95,17 +95,17 @@
         };
 
         gaming_qwerty {
-            // --------------------------------------------------------------------------------------------------------------
-            // |        |   TAB     |   Q   |   W   |   E   |    R   | # |   Y   |   U    |   I   |   O   |   P   |         |
-            // | LAYERS |   LCTRL   |   A   |   S   |   D   |    F   | # |   H   |   J    |   K   |   L   |   ;   | LAYERS  |
-            // |        |   LSHIFT  |   Z   |   X   |   C   |    V   | # |   N   |   M    |   ,   |   .   |   /   |         |
-            //                              |  ESC  |  LGUI |  LALT  | # |  TAB  | SPACE  |  ESC  |
+            // -------------------------------------------------------------------------------------------------------------------
+            // |        |   TAB     |   Q   |   W   |      E      |    R   | # |   Y   |   U    |   I   |   O   |   P   |         |
+            // | LAYERS |   LCTRL   |   A   |   S   |      D      |    F   | # |   H   |   J    |   K   |   L   |   ;   | LAYERS  |
+            // |        |   LSHIFT  |   Z   |   X   |      C      |    V   | # |   N   |   M    |   ,   |   .   |   /   |         |
+            //                              |  ESC  |  SPACE/GNUM |  LALT  | # |  TAB  | SPACE  |  ESC  |
 
             bindings = <
 &trans  &kp TAB     &kp Q    &kp W    &kp E     &kp R          &kp Y    &kp U      &kp I      &kp O    &kp P     &trans
  &mo 4  &kp LCTRL   &kp A    &kp S    &kp D     &kp F          &kp H    &kp J      &kp K      &kp L    &kp SEMI  &mo 4
-&trans  &kp LSHIFT  &kp Z    &kp X    &kp V     &kp B          &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                             &kp ESC  &kp LGUI  &kp LALT       &kp TAB  &kp SPACE  &kp ESC
+&trans  &kp LSHIFT  &kp Z    &kp X    &kp C     &kp V          &kp N    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
+                             &kp ESC  &lt 11 SPACE  &kp LALT       &kp TAB  &kp SPACE  &kp ESC
             >;
         };
 
@@ -217,18 +217,18 @@
             >;
         };
 
-        reset {
+        GAMING_NUM {
             // ------------------------------------------------------------------------------------------------------------------
-            // |      | BOOTLOAD | RESET  | OUT_TOG |        |        | # |        |        | OUT_TOG | RESET  | BOOTLOAD |      |
-            // |      | BT_0     | BT_PRV | BT_NXT  | BT_CLR |        | # |        | BT_CLR | BT_NXT  | BT_PRV | BT_0     |      |
-            // | HELD |          |        |         |        |        | # |        |        |         |        |          | HELD |
-            //                            |         |        |        | # |        |        |         |
+            // |      |       |   M   |   L   |   P    |   O    | # |        |        |        |        |        |        |
+            // |      |       |   4   |   5   |   6    |   T    | # |        |        |        |        |        |        |
+            // |      |       |   1   |   2   |   3    |   B    | # |        |        |        |        |        |        |
+            //                        |       |  HELD  |        | # |        |        |        |
 
             bindings = <
-&trans  &bootloader   &sys_reset    &out OUT_TOG  &trans      &trans          &trans  &trans      &out OUT_TOG  &sys_reset  &bootloader   &trans
-&trans  &bt BT_SEL 0  &bt BT_PRV    &bt BT_NXT    &bt BT_CLR  &trans          &trans  &bt BT_CLR  &bt BT_NXT    &bt BT_PRV  &bt BT_SEL 0  &trans
-&trans  &trans        &trans        &trans        &trans      &trans          &trans  &trans      &trans        &trans      &trans        &trans
-                                    &trans        &trans      &trans          &trans  &trans      &trans
+&trans  &trans  &kp M    &kp L   &kp P   &kp O         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4   &kp N5  &kp N6  &kp T         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1   &kp N2  &kp N3  &kp B         &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans        &trans  &trans  &trans
             >;
         };
     };
