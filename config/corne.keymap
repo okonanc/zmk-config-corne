@@ -242,10 +242,10 @@
             //                           | ENTER | SPACE  | ESC   | # |        |        |        |
 
             bindings = <
-&to 3   &kp TAB     &trans   &trans     &trans     &kp A          &trans  &trans  &trans  &trans  &trans  &trans
-&mo 4   &kp LCTRL   &kp N1   &kp N2     &kp N3     &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHIFT  &trans   &trans     &kp N4     &trans         &trans  &trans  &trans  &trans  &trans  &trans
-                             &kp ENTER  &kp SPACE  &kp ESC        &trans  &trans  &trans
+&to 3   &kp TAB     &none   &none      &none      &kp A         &trans  &trans  &trans  &trans  &trans  &trans
+&mo 4   &kp LCTRL   &kp N1  &kp N2     &kp N3     &none         &trans  &trans  &trans  &trans  &trans  &trans
+&none   &kp LSHIFT  &none   &none      &kp N4     &none         &trans  &trans  &trans  &trans  &trans  &trans
+                            &kp ENTER  &kp SPACE  &kp ESC       &trans  &trans  &trans
             >;
         };
     };
