@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include "keymap-german-rev3.h"
 
 // Layer Definitions
 
@@ -191,15 +192,15 @@
 
         symbols {
             // -------------------------------------------------------------------------------------
-            // |     |      |        |       |       |      | # |  {  |  &  |  *  |  (  |  }  |    | 
-            // |     | LGUI |  LALT  | LCTRL | LSHFT |      | # |  +  |  $  |  %  |  ^  |  "  |    |  
-            // |     |      |  RALT  |       |       |      | # |  |  |  !  |  @  |  #  |  ~  |    | 
+            // |     |      |        |       |       |      | # |  {  |  &  |  *  |  (  |  }  |  Ä  | 
+            // |     | LGUI |  LALT  | LCTRL | LSHFT |      | # |  +  |  $  |  %  |  ^  |  "  |  Ö  |  
+            // |     |      |  RALT  |       |       |      | # |  |  |  !  |  @  |  #  |  ~  |  Ü  | 
             //                       |       |       | HELD | # |  _  |  (  |  )  | 
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans     &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans     &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp DQT    &trans
-&trans  &trans    &kp RALT  &trans     &trans     &trans     &kp PIPE   &kp EXCL  &kp AT     &kp HASH   &kp TILDE  &trans
+&trans  &trans    &trans    &trans     &trans     &trans     &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &kp DE_AE
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans     &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp DQT    &kp DE_OE
+&trans  &trans    &kp RALT  &trans     &trans     &trans     &kp PIPE   &kp EXCL  &kp AT     &kp HASH   &kp TILDE  &kp DE_UE
                             &trans     &trans     &trans     &kp UNDER  &kp LPAR  &kp RPAR
             >;
         };
