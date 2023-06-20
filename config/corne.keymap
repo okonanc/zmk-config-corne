@@ -77,9 +77,9 @@
             //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
 
             bindings = <
-&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp DE_Z     &kp U         &kp I        &kp O            &kp P          &trans
-&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H        &mt LSHFT J   &mt LCTRL K  &mt LALT L       &mt LGUI SEMI  &mo 4
-&trans  &kp DE_Y    &mt RALT X  &kp C        &kp V        &kp B               &kp N        &kp M         &kp DE_COMMA &mt RALT DE_DOT  &kp DE_FSLH    &trans
+&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp DE_Z     &kp U         &kp I        &kp O            &kp P             &trans
+&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H        &mt LSHFT J   &mt LCTRL K  &mt LALT L       &mt LGUI DE_SEMI  &mo 4
+&trans  &kp DE_Y    &mt RALT X  &kp C        &kp V        &kp B               &kp N        &kp M         &kp DE_COMMA &mt RALT DE_DOT  &kp DE_FSLH       &trans
                                 &lt 10 ESC   &lt 8 SPACE  &lt 9 TAB           &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
             >;
         };
