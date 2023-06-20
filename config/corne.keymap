@@ -237,15 +237,15 @@
         
         GAMING_D4 {
             // ------------------------------------------------------------------------------------------------------------
-            // | GQWERT | TAB    |       |   A   |        |   C   | # |        |        |        |        |        |        |
+            // | GQWERT | TAB    |       |   A   |   E    |   C   | # |        |        |        |        |        |        |
             // | Layers | LCTRL  |   1   |   2   |   3    |       | # |        |        |        |        |        |        |
-            // | QWERTY | LSHIFT |   Q   |       |   4    |       | # |        |        |        |        |        |        |
+            // | QWERTY | LSHIFT |   Q   |   4   |   5    |       | # |        |        |        |        |        |        |
             //                           | ENTER | SPACE  | ESC   | # |        |        |        |
 
             bindings = <
-&to 3   &kp TAB     &none   &kp A      &none      &kp C         &trans  &trans  &trans  &trans  &trans  &trans
+&to 3   &kp TAB     &none   &kp A      &kp E      &kp C         &trans  &trans  &trans  &trans  &trans  &trans
 &mo 4   &kp LCTRL   &kp N1  &kp N2     &kp N3     &none         &trans  &trans  &trans  &trans  &trans  &trans
-&to 1   &kp LSHIFT  &kp Q   &none      &kp N4     &none         &trans  &trans  &trans  &trans  &trans  &trans
+&to 1   &kp LSHIFT  &kp Q   &kp N4     &kp N5     &none         &trans  &trans  &trans  &trans  &trans  &trans
                             &kp ENTER  &kp SPACE  &kp ESC       &trans  &trans  &trans
             >;
         };
