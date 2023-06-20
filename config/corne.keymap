@@ -8,9 +8,9 @@
 // Layer Definitions
 
 #define COLEMAK 0
-#define QWERTY 1
-#define GAMING_COLEMAK 2
-#define GAMING_QWERTY 3
+#define QWERTZ 1
+#define G_CM 2
+#define G_QY 3
 #define LAYERS 4
 #define NAV 5
 #define MOUSE 6
@@ -18,8 +18,8 @@
 #define NUM 8
 #define SYM 9
 #define FN 10
-#define GAMING_NUM 11
-#define GAMING_D4 12
+#define G_NUM 11
+#define G_D_IV 12
 
 
 // Behavior configuration
@@ -60,54 +60,54 @@
             //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
 
             bindings = <  
-&trans       &kp Q       &kp W      &kp F        &kp P          &kp B                &kp J        &kp L         &kp U          &kp Y         &kp SQT     &trans
-&mo 4        &mt LGUI A  &mt LALT R &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N   &mt LCTRL E    &mt LALT I    &mt LGUI O  &mo 4
-&trans       &kp Z  &mt RALT X      &kp C        &kp D          &kp V                &kp K        &kp H         &kp COMMA      &mt RALT DOT  &kp FSLH    &trans
+&trans       &kp Q       &kp W      &kp F        &kp P          &kp B                &kp J        &kp L         &kp U          &kp Y            &kp SQT       &trans
+&mo 4        &mt LGUI A  &mt LALT R &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N   &mt LCTRL E    &mt LALT I       &mt LGUI O    &mo 4
+&trans       &kp Z  &mt RALT X      &kp C        &kp D          &kp V                &kp K        &kp H         &kp DE_COMMA   &mt RALT DE_DOT  &kp DE_FSLH   &trans
                                     &lt 10 ESC   &lt 8 SPACE    &lt 9 TAB            &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
             >;
         };
 
-        qwerty {
+        qwertz {
             // ----------------------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     E     |     R      |     T     | # |      Y      |     U     |     I      |    O   |   P    |         |
+            // |        |   Q    |   W    |     E     |     R      |     T     | # |      Z      |     U     |     I      |    O   |   P    |         |
             // | LAYERS | A/LGUI | S/LALT |  D/LCTRL  |  F/LSHFT   |     G     | # |      H      | J/LSHFT   |  K/LCTRL   | L/LALT | ;/LGUI | LAYERS  |
-            // |        |   Z    | X/RALT |     C     |     V      |     B     | # |      N      |     M     |     ,      | ./RALT |   /    |         |
+            // |        |   Y    | X/RALT |     C     |     V      |     B     | # |      N      |     M     |     ,      | ./RALT |   /    |         |
             //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
 
             bindings = <
-&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp Y        &kp U         &kp I        &kp O         &kp P          &trans
-&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H        &mt LSHFT J   &mt LCTRL K  &mt LALT L    &mt LGUI SEMI  &mo 4
-&trans  &kp Z       &mt RALT X  &kp C        &kp V        &kp B               &kp N        &kp M         &kp COMMA    &mt RALT DOT  &kp FSLH       &trans
+&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp DE_Z     &kp U         &kp I        &kp O            &kp P          &trans
+&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H        &mt LSHFT J   &mt LCTRL K  &mt LALT L       &mt LGUI SEMI  &mo 4
+&trans  &kp DE_Y    &mt RALT X  &kp C        &kp V        &kp B               &kp N        &kp M         &kp DE_COMMA &mt RALT DE_DOT  &kp DE_FSLH    &trans
                                 &lt 10 ESC   &lt 8 SPACE  &lt 9 TAB           &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
             >;
         };
 
-        gaming_colemak {
+        g_cm {
             // -----------------------------------------------------------------------------------------------------------
             // |        |   Q   |   W   |   F   |   P   |    B    | # |   J   |   L    |   U   |   Y   |   '   |         |
             // | LAYERS |   A   |   R   |   S   |   T   |    G    | # |   M   |   N    |   E   |   I   |   O   | LAYERS  |
             // |        |   Z   |   X   |   C   |   D   |    V    | # |   K   |   H    |   ,   |   .   |   /   |         |
             //                          |  ESC  |  SPACE |  LALT  | # |  ENTER  | BSPC  |  DEL  |
 
-            bindings = <
-&trans  &kp Q  &kp W    &kp F    &kp P    &kp B      &kp J        &kp L      &kp U      &kp Y    &kp SQT   &trans
-&mo 4   &kp A  &kp R    &kp S    &kp T    &kp G      &kp M        &kp N      &kp E      &kp I    &kp O     &mo 4
-&trans  &kp Z  &kp X    &kp C    &kp D    &kp V      &kp K        &kp H      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                                 &kp ESC  &kp SPACE  &kp TAB      &kp ENTER  &kp BSPC   &kp DEL
+            bindings =<
+&trans  &kp Q  &kp W    &kp F    &kp P    &kp B      &kp J        &kp L      &kp U         &kp Y       &kp SQT      &trans
+&mo 4   &kp A  &kp R    &kp S    &kp T    &kp G      &kp M        &kp N      &kp E         &kp I       &kp O        &mo 4
+&trans  &kp Z  &kp X    &kp C    &kp D    &kp V      &kp K        &kp H      &kp DE_COMMA  &kp DE_DOT  &kp DE_FSLH  &trans
+                                 &kp ESC  &kp SPACE  &kp TAB      &kp ENTER  &kp BSPC      &kp DEL
             >;
         };
 
-        gaming_qwerty {
-            // -------------------------------------------------------------------------------------------------------------------
-            // |        |   TAB     |   Q   |   W   |      E      |    R   | # |   Y     |   U   |   I   |   O   |   P   |         |
+        g_qz {
+        // -------------------------------------------------------------------------------------------------------------------
+            // |        |   TAB     |   Q   |   W   |      E      |    R   | # |   Z     |   U   |   I   |   O   |   P   |         |
             // | LAYERS |   LCTRL   |   A   |   S   |      D      |    F   | # |   H     |   J   |   K   |   L   |   ;   | LAYERS  |
-            // |        |   LSHIFT  |   Z   |   X   |      C      |    V   | # |   N     |   M   |   ,   |   .   |   /   |         |
+            // |        |   LSHIFT  |   Y   |   X   |      C      |    V   | # |   N     |   M   |   ,   |   .   |   /   |         |
             //                              |  ESC  |  SPACE/GNUM |  LALT  | # |  ENTER  | BSPC  |  DEL  |
 
             bindings = <
-&trans  &kp TAB     &kp Q    &kp W    &kp E         &kp R          &kp Y      &kp U     &kp I      &kp O    &kp P     &trans
- &mo 4  &kp LCTRL   &kp A    &kp S    &kp D         &kp F          &kp H      &kp J     &kp K      &kp L    &kp SEMI  &mo 4
-&trans  &kp LSHIFT  &kp Z    &kp X    &kp C         &kp V          &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans  &kp TAB     &kp Q    &kp W    &kp E         &kp R          &kp DE_Z   &kp U     &kp I         &kp O       &kp P        &trans
+ &mo 4  &kp LCTRL   &kp A    &kp S    &kp D         &kp F          &kp H      &kp J     &kp K         &kp L       &kp SEMI     &mo 4
+&trans  &kp LSHIFT  &kp DE_Y &kp X    &kp C         &kp V          &kp N      &kp M     &kp DE_COMMA  &kp DE_DOT  &kp DE_FSLH  &trans
                              &kp ESC  &lt 11 SPACE  &kp LALT       &kp ENTER  &kp BSPC  &kp DEL
             >;
         };
@@ -183,10 +183,10 @@
             //                       |       | HELD  |      | # |  -  |  0  |  .  | 
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans       &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT   &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp SQT    &trans
-&trans  &trans    &kp RALT  &trans     &trans     &trans       &kp BSLH   &kp N1  &kp N2  &kp N3  &kp GRAVE  &trans
-                            &trans     &trans     &trans       &kp MINUS  &kp N0  &kp DOT
+&trans  &trans    &trans    &trans     &trans     &trans       &kp DE_LBKT   &kp N7  &kp N8  &kp N9  &kp DE_RBKT   &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp DE_EQUAL  &kp N4  &kp N5  &kp N6  &kp DE_SQT    &trans
+&trans  &trans    &kp RALT  &trans     &trans     &trans       &kp DE_BSLH   &kp N1  &kp N2  &kp N3  &kp DE_GRAVE  &trans
+                            &trans     &trans     &trans       &kp DE_MINUS  &kp N0  &kp DE_DOT
             >;
         };
 
@@ -198,10 +198,10 @@
             //                       |       |       | HELD | # |  _  |  (  |  )  | 
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans     &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &kp DE_AE
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans     &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp DQT    &kp DE_OE
-&trans  &trans    &kp RALT  &trans     &trans     &trans     &kp PIPE   &kp EXCL  &kp AT     &kp HASH   &kp TILDE  &kp DE_UE
-                            &trans     &trans     &trans     &kp UNDER  &kp LPAR  &kp RPAR
+&trans  &trans    &trans    &trans     &trans     &trans     &kp DE_LBRC   &kp DE_AMPS  &kp DE_ASTRK  &kp DE_LPAR   &kp DE_RBRC   &kp DE_AE
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans     &kp DE_PLUS   &kp DE_DLLR  &kp DE_PRCNT  &kp DE_CARET  &kp DE_DQT    &kp DE_OE
+&trans  &trans    &kp RALT  &trans     &trans     &trans     &kp DE_PIPE   &kp DE_EXCL  &kp DE_AT     &kp DE_HASH   &kp DE_TILDE  &kp DE_UE
+                            &trans     &trans     &trans     &kp DE_UNDER  &kp DE_LPAR  &kp DE_RPAR
             >;
         };
 
@@ -220,7 +220,7 @@
             >;
         };
 
-        GAMING_NUM {
+        G_NUM {
             // ------------------------------------------------------------------------------------------------------------
             // |      |       |   M   |   L   |   P    |   O    | # |        |        |        |        |        |        |
             // |      |       |   1   |   2   |   3    |   T    | # |        |        |        |        |        |        |
@@ -235,11 +235,11 @@
             >;
         };
         
-        GAMING_D4 {
+        G_D_IV {
             // ------------------------------------------------------------------------------------------------------------
-            // | GQWERT | TAB    |       |   A   |   E    |   C   | # |        |        |        |        |        |        |
+            // | G_QZ   | TAB    |       |   A   |   E    |   C   | # |        |        |        |        |        |        |
             // | Layers | LCTRL  |   1   |   2   |   3    |       | # |        |        |        |        |        |        |
-            // | QWERTY | LSHIFT |   Q   |   4   |   5    |       | # |        |        |        |        |        |        |
+            // | QWERTZ | LSHIFT |   Q   |   4   |   5    |       | # |        |        |        |        |        |        |
             //                           | ENTER | SPACE  | ESC   | # |        |        |        |
 
             bindings = <
