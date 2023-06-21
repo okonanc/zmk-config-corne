@@ -10,7 +10,7 @@
 #define COLEMAK 0
 #define QWERTZ 1
 #define G_CM 2
-#define G_QY 3
+#define G_QZ 3
 #define LAYERS 4
 #define NAV 5
 #define MOUSE 6
@@ -125,7 +125,7 @@
             //                               |         |     |     | # |     |     |         |
 
             bindings = <
-&trans  &trans  &to 12  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &to 12  &trans  &trans  &trans       &trans  &trans  &trans  &to 12  &trans  &trans
 &trans  &trans  &to 2   &to 0   &trans  &trans       &trans  &trans  &to 0   &to 2   &trans  &trans
 &trans  &trans  &to 3   &to 1   &trans  &trans       &trans  &trans  &to 1   &to 3   &trans  &trans
                         &trans  &trans  &trans       &trans  &trans  &trans
