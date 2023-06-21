@@ -92,7 +92,7 @@
             // |        |   Z   |   X   |   C   |   D   |    V    | # |   K   |   H    |   ,   |   .   |   /   |         |
             //                          |  ESC  |  SPACE |  LALT  | # |  ENTER  | BSPC  |  DEL  |
 
-            bindings =<
+            bindings = <
 &trans  &kp Q  &kp W    &kp F    &kp P    &kp B      &kp J        &kp L      &kp U         &kp Y       &kp SQT      &trans
 &mo 4   &kp A  &kp R    &kp S    &kp T    &kp G      &kp M        &kp N      &kp E         &kp I       &kp O        &mo 4
 &trans  &kp Z  &kp X    &kp C    &kp D    &kp V      &kp K        &kp H      &kp DE_COMMA  &kp DE_DOT  &kp DE_FSLH  &trans
