@@ -202,13 +202,13 @@
         symbols {
             label = "$$$";
             // -------------------------------------------------------------------------------------
-            // |     |      |        |       |       |      | # |  {  |  &  |  *  |  (  |  }  |  Ä  | 
+            // |     |      |        |       |       |      | # |  {  |  &  |  *  |  ?  |  }  |  Ä  | 
             // |     | LGUI |  LALT  | LCTRL | LSHFT |      | # |  +  |  $  |  %  |  ^  |  "  |  Ö  |  
             // |     |      |  RALT  |       |       |      | # |  |  |  !  |  @  |  #  |  ~  |  Ü  | 
             //                       |       |       | HELD | # |  _  |  (  |  )  | 
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans     &kp DE_LBRC   &kp DE_AMPS  &kp DE_STAR   &kp DE_LPAR   &kp DE_RBRC   &kp DE_AE
+&trans  &trans    &trans    &trans     &trans     &trans     &kp DE_LBRC   &kp DE_AMPS  &kp DE_STAR   &kp DE_QMARK   &kp DE_RBRC   &kp DE_AE
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans     &kp DE_PLUS   &kp DE_DLLR  &kp DE_PRCNT  &kp DE_CARET  &kp DE_DQT    &kp DE_OE
 &trans  &trans    &kp RALT  &trans     &trans     &trans     &kp DE_PIPE   &kp DE_EXCL  &kp DE_AT     &kp DE_HASH   &kp DE_TILDE  &kp DE_UE
                             &trans     &trans     &trans     &kp DE_UNDER  &kp DE_LPAR  &kp DE_RPAR
