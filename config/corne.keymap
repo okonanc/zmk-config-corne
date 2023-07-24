@@ -251,15 +251,15 @@
         G_D_IV {
             label = "D IV";
             // ------------------------------------------------------------------------------------------------------------
-            // | G_QZ   | TAB    |   Z   |   A   |   E    |   C   | # |        |        |        |        |        |        |
-            // | Layers | LCTRL  |   1   |   2   |   3    |       | # |        |        |        |        |        |        |
-            // | QWERTZ | LSHIFT |   Q   |   4   |   5    |       | # |        |        |        |        |        |        |
-            //                           | ENTER | SPACE  | ESC   | # |        |        |        |
+            // |   U   |   S    |   Z   |   A   |   E    |   C   | # |       |        |        |        |        |        |
+            // |       | LCTRL  |   1   |   2   |   3    |       | # |       |        |        |        |        |        |
+            // |       | LSHIFT |   Q   |   4   |   5    |       | # |       |        |        |        |        |        |
+            //                          |  TAB  | SPACE  | ESC   | # |       |        |        |
 
             bindings = <
-&to 3   &kp TAB     &kp DE_Z  &kp A     &kp E      &kp C         &trans  &trans  &trans  &trans  &trans  &trans
-&mo 4   &kp LCTRL   &kp N1    &kp N2    &kp N3     &none         &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &kp LSHIFT  &kp Q     &kp N4    &kp N5     &none         &trans  &trans  &trans  &trans  &trans  &trans
+&kp U   &kp S       &kp DE_Z  &kp A     &kp E      &kp C         &trans  &trans  &trans  &trans  &trans  &trans
+&none   &kp LCTRL   &kp N1    &kp N2    &kp N3     &none         &trans  &trans  &trans  &trans  &trans  &trans
+&none   &kp LSHIFT  &kp Q     &kp N4    &kp N5     &none         &trans  &trans  &trans  &trans  &trans  &trans
                               &kp TAB   &kp SPACE  &kp ESC       &trans  &trans  &trans
             >;
         };
