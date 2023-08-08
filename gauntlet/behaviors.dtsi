@@ -1,31 +1,3 @@
-/*
-// Behavior configuration
-// Mod-tap
-
-&mt {
-    tapping-term-ms = <200>;
-    quick_tap_ms = <0>;
-    flavor = "tap-preferred";
-};
-
-// Layer-tab
-
-&lt {
-    tapping-term-ms = <200>;
-    quick_tap_ms = <0>;
-    flavor = "tap-preferred";
-};
-
-// Stick key
-
-&sk {
-    release-after-ms = <500>;
-    quick-release;
-};
-
-*/
-
-
 &mt {
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM_MS>;
