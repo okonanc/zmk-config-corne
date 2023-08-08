@@ -3,8 +3,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "keymap-german-rev3.h"
 
+
+#include "../gauntlet/base.dtsi"
+#include "../gauntlet/L1_qwertz.dtsi"
 // Layer Definitions
 
 #define QWERTZ 0
@@ -21,101 +23,6 @@
 #define G_NUM 11
 #define G_D_IV 12
 
-
-// Behavior configuration
-// Mod-tap
-
-&mt {
-    tapping-term-ms = <200>;
-    quick_tap_ms = <0>;
-    flavor = "tap-preferred";
-};
-
-// Layer-tab
-
-&lt {
-    tapping-term-ms = <200>;
-    quick_tap_ms = <0>;
-    flavor = "tap-preferred";
-};
-
-// Stick key
-
-&sk {
-    release-after-ms = <500>;
-    quick-release;
-};
-
-// Keymap configuration (Colemak-DHm)
-
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
-        qwertz {
-            label = "Base";
-            // ----------------------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     E     |     R      |     T     | # |      Z      |     U     |     I      |    O   |   P    |         |
-            // | LAYERS | A/LGUI | S/LALT |  D/LCTRL  |  F/LSHFT   |     G     | # |      H      | J/LSHFT   |  K/LCTRL   | L/LALT | ;/LGUI | LAYERS  |
-            // |        |   Y    | X/RALT |     C     |     V      |     B     | # |      N      |     M     |     ,      | ./RALT |   /    |         |
-            //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
-
-            bindings = <
-&trans  &kp Q       &kp W       &kp E        &kp R        &kp T               &kp DE_Z     &kp U         &kp I        &kp O            &kp P             &trans
-&mo 4   &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G               &kp H        &mt LSHFT J   &mt LCTRL K  &mt LALT L       &mt LGUI DE_SEMI  &mo 4
-&trans  &kp DE_Y    &mt RALT X  &kp C        &kp V        &kp B               &kp N        &kp M         &kp DE_COMMA &mt RALT DE_DOT  &kp DE_FSLH       &trans
-                                &lt 10 ESC   &lt 8 SPACE  &lt 9 TAB           &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
-            >;
-        };
-
-
-        colemak {
-            label = "CM";
-            // ---------------------------------------------------------------------------------------------------------------------------------------
-            // |        |   Q    |   W    |     F     |     P      |     B     | # |      J      |     L     |     U      |    Y   |   '    |        |
-            // | LAYERS | A/LGUI | R/LALT |  S/LCTRL  |  T/LSHFT   |     G     | # |      M      |  N/LSHFT  |  E/LCTRL   | I/LALT | O/LGUI | LAYERS |
-            // |        |   Z    | X/RALT |     C     |     D      |     V     | # |      K      |     H     |     ,      | ./RALT |   /    |        |
-            //                            |  ESC/FN   | SPACE/NUM  |  TAB/SYM  | # | ENTER/MOUSE | BSPC/NAV  | DEL/MEDIA  |
-
-            bindings = <  
-&trans       &kp Q       &kp W         &kp F        &kp P          &kp B                &kp J        &kp L         &kp U          &kp Y            &kp SQT       &trans
-&mo 4        &mt LGUI A  &mt LALT R    &mt LCTRL S  &mt LSHFT T    &kp G                &kp M        &mt LSHFT N   &mt LCTRL E    &mt LALT I       &mt LGUI O    &mo 4
-&trans       &kp Z       &mt RALT X    &kp C        &kp D          &kp V                &kp K        &kp H         &kp DE_COMMA   &mt RALT DE_DOT  &kp DE_FSLH   &trans
-                                       &lt 10 ESC   &lt 8 SPACE    &lt 9 TAB            &lt 6 ENTER  &lt 5 BSPC    &lt 7 DEL
-            >;
-        };
-
-        g_cm {
-            label = "G CM";
-            // -----------------------------------------------------------------------------------------------------------
-            // |        |   Q   |   W   |   F   |   P   |    B    | # |   J   |   L    |   U   |   Y   |   '   |         |
-            // | LAYERS |   A   |   R   |   S   |   T   |    G    | # |   M   |   N    |   E   |   I   |   O   | LAYERS  |
-            // |        |   Z   |   X   |   C   |   D   |    V    | # |   K   |   H    |   ,   |   .   |   /   |         |
-            //                          |  ESC  |  SPACE |  LALT  | # |  ENTER  | BSPC  |  DEL  |
-
-            bindings = <
-&trans  &kp Q  &kp W    &kp F    &kp P    &kp B      &kp J        &kp L      &kp U         &kp Y       &kp SQT      &trans
-&mo 4   &kp A  &kp R    &kp S    &kp T    &kp G      &kp M        &kp N      &kp E         &kp I       &kp O        &mo 4
-&trans  &kp Z  &kp X    &kp C    &kp D    &kp V      &kp K        &kp H      &kp DE_COMMA  &kp DE_DOT  &kp DE_FSLH  &trans
-                                 &kp ESC  &kp SPACE  &kp TAB      &kp ENTER  &kp BSPC      &kp DEL
-            >;
-        };
-
-        g_qz {
-            label = "G Base";
-        // -------------------------------------------------------------------------------------------------------------------
-            // |        |   TAB     |   Q   |   W   |      E      |    R   | # |   Z     |   U   |   I   |   O   |   P   |         |
-            // | LAYERS |   LCTRL   |   A   |   S   |      D      |    F   | # |   H     |   J   |   K   |   L   |   ;   | LAYERS  |
-            // |        |   LSHIFT  |   Y   |   X   |      C      |    V   | # |   N     |   M   |   ,   |   .   |   /   |         |
-            //                              |  ESC  |  SPACE/GNUM |  LALT  | # |  ENTER  | BSPC  |  DEL  |
-
-            bindings = <
-&trans  &kp TAB     &kp Q    &kp W    &kp E         &kp R          &kp DE_Z   &kp U     &kp I         &kp O       &kp P        &trans
-&mo 4   &kp LCTRL   &kp A    &kp S    &kp D         &kp F          &kp H      &kp J     &kp K         &kp L       &kp SEMI     &mo 4
-&trans  &kp LSHIFT  &kp DE_Y &kp X    &kp C         &kp V          &kp N      &kp M     &kp DE_COMMA  &kp DE_DOT  &kp DE_FSLH  &trans
-                             &kp ESC  &lt 11 SPACE  &kp LALT       &kp ENTER  &kp BSPC  &kp DEL
-            >;
-        };
 
         layers {
             label = "Layers";
@@ -149,25 +56,6 @@
             >;
         };
 
-        // TODO
-        // Add mouse keys when implemented in ZMK
-
-        mouse {
-            label = "Mouse";
-            // ------------------------------------------------------------------------------------------------
-            // |      |      |      |       |       |      | # |        |       |       |      |       |      |
-            // |      |      |      |       |       |      | # |        | LSHFT | LCTRL | LALT | LGUI  |      |
-            // |      |      |      |       |       |      | # |        |       |       | RALT |       |      |
-            //                      |       |       |      | # |  HELD  |       |       |
-
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans     &trans      &trans   &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans     &trans     &kp RALT  &trans    &trans
-                        &trans  &trans  &trans       &trans  &trans     &trans
-            >;
-        };
-
         media {
             label = "Media";
             // ------------------------------------------------------------------------------------------------------------------
@@ -187,32 +75,16 @@
         numbers {
             label = "123";
             // -------------------------------------------------------------------------------------
-            // |     |      |        |       |       |      | # |  [  |  7  |  8  |  9  |  ]  |    |
-            // |     | LGUI |  LALT  | LCTRL | LSHFT |      | # |  =  |  4  |  5  |  6  |  '  |    | 
-            // |     |      |  RALT  |       |       |      | # |  \  |  1  |  2  |  3  |  `  |    | 
-            //                       |       | HELD  |      | # |  -  |  0  |  .  | 
+            // |  F12  |  F7  |  F8  |  F9  | PSCRN |      | # |  [  |  7  |  8  |  9  |  ]  |    |
+            // |  F11  |  F4  |  F5  |  F6  | SLCK  |      | # |  =  |  4  |  5  |  6  |  '  |    | 
+            // |  F10  |  F1  |  F2  |  F3  | PAUSE |      | # |  \  |  1  |  2  |  3  |  `  |    | 
+            //                       |      | HELD  |      | # |  -  |  0  |  .  | 
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans       &kp DE_LBKT   &kp N7  &kp N8  &kp N9  &kp DE_RBKT   &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp DE_EQUAL  &kp N4  &kp N5  &kp N6  &kp DE_SQT    &trans
-&trans  &trans    &kp RALT  &trans     &trans     &trans       &kp DE_BSLH   &kp N1  &kp N2  &kp N3  &kp DE_GRAVE  &trans
-                            &trans     &trans     &trans       &kp DE_MINUS  &kp N0  &kp DE_DOT
-            >;
-        };
-
-        symbols {
-            label = "$$$";
-            // -------------------------------------------------------------------------------------
-            // |     |      |        |       |       |      | # |  {  |  &  |  *  |  ?  |  }  |  Ä  | 
-            // |     | LGUI |  LALT  | LCTRL | LSHFT |      | # |  +  |  $  |  %  |  ^  |  "  |  Ö  |  
-            // |     |      |  RALT  |       |       |      | # |  |  |  !  |  @  |  #  |  ~  |  Ü  | 
-            //                       |       |       | HELD | # |  _  |  (  |  )  | 
-
-            bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans     &kp DE_LBRC   &kp DE_AMPS  &kp DE_STAR   &kp DE_QMARK   &kp DE_RBRC   &kp DE_AE
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans     &kp DE_PLUS   &kp DE_DLLR  &kp DE_PRCNT  &kp DE_CARET  &kp DE_DQT    &kp DE_OE
-&trans  &trans    &kp RALT  &trans     &trans     &trans     &kp DE_PIPE   &kp DE_EXCL  &kp DE_AT     &kp DE_HASH   &kp DE_TILDE  &kp DE_UE
-                            &trans     &trans     &trans     &kp DE_UNDER  &kp DE_LPAR  &kp DE_RPAR
+&trans  &kp F12    &ko F7    &kp F8     &kp F9     &kp PSCRN           &kp DE_LBKT   &kp N7  &kp N8  &kp N9  &kp DE_RBKT   &trans
+&trans  &kp F11    &kp F4    &kp F5     &kp F6     &kp SLCK            &kp DE_EQUAL  &kp N4  &kp N5  &kp N6  &kp DE_SQT    &trans
+&trans  &kp F10    &kp F1    &kp F2     &kp F3     &kp PAUSE_BREAK     &kp DE_BSLH   &kp N1  &kp N2  &kp N3  &kp DE_GRAVE  &trans
+                             &trans     &trans     &trans              &kp DE_MINUS  &kp N0  &kp DE_DOT
             >;
         };
 
