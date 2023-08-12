@@ -1,8 +1,8 @@
-#include "keymap-german-rev3.h"
-
 /**
  * Alpha Layer - QWERTZ
  */
+
+#include "keymap-german-rev3.h"
 
 / {
   keymap {
@@ -22,7 +22,7 @@
     &csl Fn         &mt LCTRL DE_Y  &mt LALT X      &mt LCMD C      &mt MEH V       &kp B               &kp N           &mt MEH M       &mt RCMD COMMA  &mt RALT DOT   &mt RCTRL SLASH  &csl Fn
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &kp TAB         &mt LSHFT SPACE &smart_num L2 0     &smart_num L2 0 &smart_shift    &kp GRAVE
+                                                    &lt Sym TAB     &mt LSHFT SPACE &smart_num L2 0     &smart_num L2 0 &smart_shift    &kp GRAVE
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
