@@ -24,7 +24,8 @@
     */
 
     /* Layers */
-    // COMBO(to_2, &to L2, 38 39, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_1, &to L1, 12 37, L2 Gaming, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_gaming, &to Gaming, 0 38, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Symbols */
     // Left
