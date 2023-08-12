@@ -22,7 +22,7 @@
     &kp LCTRL       &kp DE_Z        &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp SLASH       &csl Fn
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &mt LCTRL TAB   &mt LSHFT SPACE &mt LALT ESC        &smart_num L2 0 &smart_shift    &to Base
+                                                    &mt LCTRL TAB   &mt LSHFT SPACE &mt LALT ESC        &smart_num L1 0 &smart_shift    &to Base
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
