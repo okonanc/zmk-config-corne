@@ -26,7 +26,7 @@
 // Adds arrows and shift to smart layer for more comfortable navigation/selection moves
 
 &num_word {
-  layers = <L2>;
+  layers = <L1>;
   //continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL RSHFT LEFT RIGHT UP DOWN>;
   continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL RSHFT LEFT RIGHT UP DOWN>;
 };
