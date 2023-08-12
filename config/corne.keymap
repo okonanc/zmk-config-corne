@@ -1,6 +1,17 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include "../gauntlet/base.dtsi"
 
+// Alpha layer: uncomment desired, comment the others
 #include "../gauntlet/L1_qwertz.dtsi"
 
+// Other layers
 #include "../gauntlet/L2.dtsi"
 #include "../gauntlet/L3.dtsi"
+
+
+
