@@ -16,7 +16,7 @@
     /*
       KEY POSITIONS
       ╭────────────────────────╮  ╭────────────────────────╮
-      │ 0   1   2   3   4   5  │  │ 6   7   8   9   10  11 │
+      │ 0   1   2   3   4   5  │  │ 6   7   8   9   10  11 │ 
       │ 12  13  14  15  16  17 │  │ 18  19  20  21  22  23 │
       │ 24  25  26  27  28  29 │  │ 30  31  32  33  34  35 │
       ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
@@ -24,8 +24,8 @@
     */
 
     /* Layers */
-    COMBO(to_1, &to L1, 12 37, L2 Gaming, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_gaming, &to Gaming, 0 38, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_gaming, &to Gaming,  0 38,    Base,        COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_base,   &to Base,    12 37,   L1 Gaming,   COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Symbols */
     // Left
@@ -64,6 +64,6 @@
     COMBO(bt_sel_4, &bt BT_SEL 4, 13 29, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Media */
-    COMBO(play, &kp C_PP, 6 7, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(play, &kp C_PP, 6 7, Base L1 Fn Gaming, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
   };
 };

@@ -1,26 +1,28 @@
 /**
- * Symbols Layer
+ * Alpha Layer - QWERTZ
  */
+
+#include "keymap-german-rev3.h"
 
 / {
   keymap {
     compatible = "zmk,keymap";
 
     layer_4 {
-      label = "Sym";
+      label = "Gaming";
       bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 //  0               1               2               3               4               5                   6               7               8               9               10              11
-    &trans          &kp DE_ACUT     &kp DE_PRCNT    &kp DE_DLLR     &kp DE_EURO     &kp DE_STAR         &kp DE_CARET    &kp DE_TILDE    &kp DE_SQT      &kp DE_DQT      &kp DE_GRAVE    &trans
+    &kp ESC         &kp Q           &kp W           &kp E           &kp R           &kp T               &kp DE_Y        &kp U           &kp I           &kp O           &kp P           &kp K_CANCEL
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//  12              13              14              15              16              17                  18              19              20              21              22              23rans
-    &trans          &kp DE_LT       &kp DE_LBRC     &kp DE_LBKT     &kp DE_LPAR     &kp DE_BSLH         &kp DE_FSLH     &kp DE_RPAR     &kp DE_RBKT     &kp DE_RBRC     &kp DE_GT       &trans
+//  12              13              14              15              16              17                  18              19              20              21              22              23
+    &kp LSHFT       &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SQT         &kp ENTER
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-//  24              25              26              27              28              29                  30              31              32              33              34              35rans
-    &trans          &kp DE_EXCL     &kp DE_AT       &kp DE_HASH     &kp DE_AMPS     &kp DE_PIPE         &kp DE_UNDER    &kp DE_MINUS    &kp DE_EQUAL    &kp DE_PLUS     &kp DE_QMARK    &trans
+//  24              25              26              27              28              29                  30              31              32              33              34              35
+    &kp LCTRL       &kp DE_Z        &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp SLASH       &csl Fn
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &trans          &trans          &trans             &trans          &trans          &trans
+                                                    &mt LCTRL TAB   &mt LSHFT SPACE &mt LALT ESC        &smart_num L2 0 &smart_shift    &to Base
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
