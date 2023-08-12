@@ -12,6 +12,4 @@
 // Other layers
 #include "../gauntlet/L2.dtsi"
 #include "../gauntlet/L3.dtsi"
-
-
-
+#include "../gauntlet/L4.dtsi"
