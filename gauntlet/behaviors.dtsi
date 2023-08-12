@@ -74,7 +74,7 @@
       label = "NUM_DANCE";
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&sl L2>, <&num_word>;
+      bindings = <&sl L1>, <&num_word>;
       #binding-cells = <0>;
     };
 
