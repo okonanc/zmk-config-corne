@@ -17,12 +17,15 @@
 #define MEH      LS(LC(LALT)) 
 
 // Desktop and tab navigation shortcuts
-#define D_LT      LC(LG(LEFT))fjj
+#define D_LT      LC(LG(LEFT))
 #define D_RT      LC(LG(RIGHT))
 #define TAB_RT    LC(TAB)
 #define TAB_LT    LC(LS(TAB))
 #define MOV_W_LT  LG(LS(LEFT))
 #define MOV_W_RT  LG(LS(RIGHT))
+#define TEAMS_HR  LC(LS(K))
+#define TEAMS_TV  LC(LS(O))
+#define TEAMS_TA  LC(LS(M))
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 280
