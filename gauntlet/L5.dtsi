@@ -9,7 +9,7 @@
 #define TAB_LT LC(LS(TAB))
 / {
   keymap {
-    compatible = "zmk,keymap";
+    compatible = "zmk,keymap"
 
     layer_1 {
       label = "L1";
