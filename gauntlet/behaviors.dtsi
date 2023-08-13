@@ -81,14 +81,24 @@
     /*
      - tap: &kp COMMA
      - tap x 2: &kp DOT
-
-     From: https://github.com/urob/zmk-config/
      */
     /omit-if-no-ref/ comma_dance: comma_dance {
       label = "COMMA_DANCE";
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&kp COMMA>, <&kp DOT>;
+      #binding-cells = <0>;
+    };
+
+     /*
+     - tap: &kp K_CANCEL
+     - tap x 2: &tog GME
+     */
+    /omit-if-no-ref/ cangme_dance: cangme_dance {
+      label = "COMMA_DANCE";
+      compatible = "zmk,behavior-tap-dance";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp K_CANCEL>, <&tog GME>;
       #binding-cells = <0>;
     };
 
