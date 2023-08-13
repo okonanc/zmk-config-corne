@@ -17,7 +17,7 @@
 #define MEH      LS(LC(LALT)) 
 
 // Desktop and tab navigation shortcuts
-#define D_LT      LC(LG(LEFT))
+#define D_LT      LC(LG(LEFT))fjj
 #define D_RT      LC(LG(RIGHT))
 #define TAB_RT    LC(TAB)
 #define TAB_LT    LC(LS(TAB))
