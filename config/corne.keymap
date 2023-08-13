@@ -3,8 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "keymap-german-rev3.h"
-
+ 
 #include "../gauntlet/base.dtsi"
 
 // Alpha layer: uncomment desired, comment the others

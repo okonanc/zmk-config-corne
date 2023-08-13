@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#include "keymap-german-rev3.h"
+
 // Layers
 #define DEF 0
 #define NUM 1
