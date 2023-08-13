@@ -65,7 +65,7 @@
     };
 
     /*
-     - tap: &sl L2
+     - tap: &sl L1
      - tap x 2: &num_word
 
      From: https://github.com/urob/zmk-config/
@@ -75,6 +75,20 @@
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&sl L1>, <&num_word>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: &kp COMMA
+     - tap x 2: &kp DOT
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ comma_dance: comma_dance {
+      label = "COMMA_DANCE";
+      compatible = "zmk,behavior-tap-dance";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp COMMA>, <&kp DOT>;
       #binding-cells = <0>;
     };
 

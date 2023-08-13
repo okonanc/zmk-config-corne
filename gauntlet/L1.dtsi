@@ -1,5 +1,5 @@
 /**
- * Numeric, Navigation and Media Controls Layer
+ * Navigation and Media Controls Layer
  */
 
 // Desktop and tab navigation shortcuts
@@ -16,16 +16,16 @@
       bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 //  0               1               2               3               4               5                   6               7               8               9               10              11
-    &trans          &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp INS             &kp C_PREV      &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT      &kp C_MUTE      &trans
+    &trans          &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp INS             &kp SLASH       &kp N7          &kp N8          &kp N9          &kp MINUS       &kp C_AL_CALC
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  12              13              14              15              16              17                  18              19              20              21              22              23
-    &trans          &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp END             &trans          &kp D_LT        &kp TAB_LT      &kp TAB_RT      &kp D_RT        &trans
+    &trans          &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp END             &kp STAR        &kp N4          &kp N5          &mt LALT N6     &kp PLUS        &trans
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
-    &trans          &kp TAB_LT      &kp LA(F4)      &kp LC(F4)      &kp TAB_RT      &trans              &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(INS)     &LC(Y)          &trans
+    &trans          &kp TAB_LT      &kp LA(F4)      &kp LC(F4)      &kp TAB_RT      &trans              &trans          &mt MEH N1      &mt RCMD N2     &mt RALT N3     &mt RCTRL EQUAL &trans
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &trans          &trans          &cmo L1             &cmo L1         &kp N0          &trans
+                                                    &trans          &trans          &cmo L1             &cmo L1         &kp N0          &comma_dance
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
