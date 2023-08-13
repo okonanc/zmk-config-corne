@@ -7,11 +7,11 @@
 #include "keymap-german-rev3.h"
 
 // Layers
-#define Base 0
-#define L1 1
-#define Fn 2
-#define Sym 3
-#define Gaming 4
+#define DEF 0
+#define NUM 1
+#define FNC 2
+#define SYM 3
+#define GME 4
 
 // Meh key
 #define MEH LS(LC(LALT)) 

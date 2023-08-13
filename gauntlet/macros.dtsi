@@ -9,7 +9,7 @@
         2. Modifier to press while layer is active
 
       Example:
-        `&lm L1 LSHIFT`
+        `&lm NUM LSHIFT`
      */
     /omit-if-no-ref/ lm: lm {
       compatible = "zmk,behavior-macro-two-param";
@@ -62,7 +62,7 @@
         1. Layer to switch to
 
       Example:
-        `&cmo L1`
+        `&cmo NUM`
      */
     /omit-if-no-ref/ cmo: clear_mo {
       label = "Clear + Momentary Layer";
