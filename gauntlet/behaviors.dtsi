@@ -92,7 +92,7 @@
 
      /*
      - tap: &kp K_CANCEL
-     - tap x 2: &tog GME
+     - tap x 2: b
      */
     /omit-if-no-ref/ cangme_dance: cangme_dance {
       label = "COMMA_DANCE";
