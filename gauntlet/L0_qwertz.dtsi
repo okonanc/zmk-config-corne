@@ -2,8 +2,6 @@
  * Alpha Layer - QWERTZ
  */
 
-#include "keymap-german-rev3.h"
-
 / {
   keymap {
     compatible = "zmk,keymap";

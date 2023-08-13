@@ -14,7 +14,15 @@
 #define GME 4
 
 // Meh key
-#define MEH LS(LC(LALT)) 
+#define MEH      LS(LC(LALT)) 
+
+// Desktop and tab navigation shortcuts
+#define D_LT     LC(LG(LEFT))
+#define D_RT     LC(LG(RIGHT))
+#define TAB_RT   LC(TAB)
+#define TAB_LT   LC(LS(TAB))
+#define MOV_W_L  LG(LS(LEFT))
+#define MOV_W_R  LG(LS(RIGHT))
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 280

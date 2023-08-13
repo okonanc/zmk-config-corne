@@ -1,12 +1,7 @@
 /**
- * Navigation and Media Controls Layer
+ * Numbers and Navigation Layer
  */
 
-// Desktop and tab navigation shortcuts
-#define D_LT   LC(LG(LEFT))
-#define D_RT   LC(LG(RIGHT))
-#define TAB_RT LC(TAB)
-#define TAB_LT LC(LS(TAB))
 / {
   keymap {
     compatible = "zmk,keymap";
