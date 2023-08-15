@@ -1,5 +1,6 @@
 # Example for using the keymap-drawer ZMK user config workflow
-name: Draw ZMK keymaps
+name: Draw keymap
+
 on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
@@ -8,8 +9,13 @@ on:
       - "config/*.dtsi"
       - "gauntlet/*.dtsi"
       - "keymap_drawer.config.yaml"
-      # - 'config/boards/*/*/*.keymap'
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+  
 jobs:
   draw:
     uses: minusfive/keymap-drawer/.github/workflows/draw-zmk.yml@main
@@ -22,5 +28,5 @@ jobs:
       config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
       output_folder: "img" # path to save produced SVG and keymap YAML files
       amend_commit: true # whether to amend the commit or create a new one
-      parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      #parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
+      #draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
