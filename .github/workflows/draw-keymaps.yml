@@ -11,8 +11,8 @@ on:
 
 jobs:
   draw:
-    #uses: okonanc/zmk-config-corne/.github/workflows/draw-zmk.yml@main
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    uses: okonanc/zmk-config-corne/.github/workflows/draw-zmk.yml@main
+    #uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
       keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
       config_path: "keymap_drawer.config.yaml"  # config file, ignored if not exists
