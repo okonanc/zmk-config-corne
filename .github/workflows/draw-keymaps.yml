@@ -6,6 +6,7 @@ on:
     paths:
       - "config/*.keymap"
       - "config/*.dtsi"
+      - "gauntlet/*.dtsi"
       - "keymap_drawer.config.yaml"
       # - 'config/boards/*/*/*.keymap'
 
@@ -16,8 +17,10 @@ jobs:
     permissions:
       contents: write
     with:
-      keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
-      config_path: "keymap_drawer.config.yaml"  # config file, ignored if not exists
-      output_folder: "keymap-drawer"            # path to save produced SVG and keymap YAML files
+      install_branch: "main" # branch to install keymap-drawer from
+      keymap_patterns: "config/*.keymap" # path to the keymaps to parse
+      config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
+      output_folder: "img" # path to save produced SVG and keymap YAML files
+      amend_commit: true # whether to amend the commit or create a new one
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
