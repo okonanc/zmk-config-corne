@@ -396,17 +396,17 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&smart_num L2 0":
+    "&smart_num NUM 0":
       shifted: $$mdi:alpha-w-box$$
-      tap: L2
+      tap: NUM
       hold: $$mdi:gesture-tap-hold$$
-    "&csl Fn":
-      tap: Fn
+    "&csl 2":
+      tap: FNC
       hold: $$mdi:close-box$$
-    "&cmo L2":
+    "&cmo 1":
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
-      hold: L2
+      hold: NUM
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
@@ -566,10 +566,10 @@ parse_config:
       shifted: "!"
     N2:
       tap: 2
-      shifted: "@"
+      shifted: '"'
     N3:
       tap: 3
-      shifted: "#"
+      shifted: "§"
     N4:
       tap: 4
       shifted: "$"
@@ -578,19 +578,19 @@ parse_config:
       shifted: "%"
     N6:
       tap: 6
-      shifted: "^"
+      shifted: "&"
     N7:
       tap: 7
-      shifted: "&"
+      shifted: "/"
     N8:
       tap: 8
-      shifted: "*"
+      shifted: "("
     N9:
       tap: 9
-      shifted: "("
+      shifted: ")"
     N0:
       tap: 0
-      shifted: ")"
+      shifted: "="
 
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
@@ -657,10 +657,10 @@ parse_config:
     K_CANCEL: $$mdi:close-box$$
 
     # Zoom
-    RG(RS(A)):
+    LC(LS(M)):
       tap: $$mdi:microphone$$
       hold: zoom
-    RG(RS(V)):
+    LC(LS(O)):
       tap: $$mdi:video$$
       hold: zoom
 
