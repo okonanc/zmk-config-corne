@@ -765,4 +765,13 @@ parse_config:
   #      hold: "]"
     combo_ouml:
       key:
-        tap: "ö"
+        tap: "Ö"
+    combo_auml:
+      key:
+        tap: "Ä"
+    combo_uuml:
+      key:
+        tap: "Ü"
+    combo_de_ss:
+      key:
+        tap: "ß"
