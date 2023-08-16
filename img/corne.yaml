@@ -25,7 +25,7 @@ layers:
   - L
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&csl 2'
+  - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
@@ -36,11 +36,11 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
-  - '&csl 2'
+  - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&num_dance', h: NUM}
-  - {t: '&num_dance', h: NUM}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
@@ -51,9 +51,9 @@ layers:
   - END
   - INS
   - {t: /, s: '?'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '7', s: /}
+  - {t: '8', s: (}
+  - {t: '9', s: )}
   - {t: '-', s: _}
   - AL CALC
   - {t: '$$mdi:transfer$$', type: trans}
@@ -65,7 +65,7 @@ layers:
   - '*'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: ^}
+  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -76,15 +76,15 @@ layers:
   - LC(TAB)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', h: '$$mdi:star-three-points$$', s: '!'}
-  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: '#'}
+  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '"'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
   - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '&cmo 1', type: held}
-  - {t: '&cmo 1', type: held}
-  - {t: '0', s: )}
+  - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
+  - {t: '0', s: '='}
   - '&comma_dance'
   FNC:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
@@ -104,7 +104,7 @@ layers:
   - F4
   - F5
   - F6
-  - LC(LS(M))
+  - {t: '$$mdi:microphone$$', h: zoom}
   - {t: '$$mdi:transfer$$', type: trans}
   - LC(LG(LEFT))
   - LC(LS(TAB))
@@ -116,7 +116,7 @@ layers:
   - F1
   - F2
   - F3
-  - LC(LS(O))
+  - {t: '$$mdi:video$$', h: zoom}
   - LC(Y)
   - LC(X)
   - LC(INS)
