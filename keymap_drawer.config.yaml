@@ -406,7 +406,7 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
-    #"&comma_dance": ", ."
+    "&comma_dance": ", ."
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
@@ -687,10 +687,10 @@ parse_config:
     # Tabs, Window and Desktop
     LC(LG(LEFT)):
       tap: $$mdi:chevron-left-box-outline$$
-      hold: "Desktop"
+      hold: "Desk"
     LC(LG(RIGHT)):
       tap: $$mdi:chevron-right-box-outline$$
-      hold: "Desktop"
+      hold: "Desk"
     LC(LS(TAB)):
       tap: $$mdi:chevron-left$$
       hold: "Tab"
@@ -699,18 +699,18 @@ parse_config:
       hold: "Tab"
     LG(LS(LEFT)):
       tap: $$mdi:pan-left$$
-      hold: "Window"
+      hold: "Win"
     LG(LS(RIGHT)):
       tap: $$mdi:pan-right$$
-      hold: "Window"
+      hold: "Win"
 
     # Symbols
     
-    RA(7):
+    RA(N7):
       tap: "{"
-    RA(8):
+    RA(N8):
       tap: "["
-    LS(8): 
+    LS(N8): 
       tap: "("
     RA(MINUS):
       tap: '\'

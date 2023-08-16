@@ -70,9 +70,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:chevron-left$$', h: Tab}
-  - {t: '$$mdi:pan-left$$', h: Window}
+  - {t: '$$mdi:pan-left$$', h: Win}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:pan-right$$', h: Window}
+  - {t: '$$mdi:pan-right$$', h: Win}
   - {t: '$$mdi:chevron-right$$', h: Tab}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', h: '$$mdi:star-three-points$$', s: '!'}
@@ -85,7 +85,7 @@ layers:
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '0', s: '='}
-  - '&comma_dance'
+  - ', .'
   FNC:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - F10
@@ -106,10 +106,10 @@ layers:
   - F6
   - {t: '$$mdi:microphone$$', h: Teams}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:chevron-left-box-outline$$', h: Desktop}
+  - {t: '$$mdi:chevron-left-box-outline$$', h: Desk}
   - {t: '$$mdi:chevron-left$$', h: Tab}
   - {t: '$$mdi:chevron-right$$', h: Tab}
-  - {t: '$$mdi:chevron-right-box-outline$$', h: Desktop}
+  - {t: '$$mdi:chevron-right-box-outline$$', h: Desk}
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - $$mdi:backup-restore$$
   - F12
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: <, s: '>'}
-  - RA(7)
-  - RA(8)
-  - LS(8)
+  - '{'
+  - '['
+  - (
   - \
   - LS(7)
   - LS(9)
