@@ -482,7 +482,8 @@ parse_config:
     RIGHT_PARENTHESIS: )
     RPAR: )
     EQUAL:
-      tap: "="
+      tap: "´"
+      shifted: "`"
     PLUS: 
       tap: "+"
       shifted: "*"
@@ -495,8 +496,8 @@ parse_config:
       tap: "/"
       shifted: "?"
     FSLH:
-      tap: "/"
-      shifted: "?"
+      tap: "-"
+      shifted: "_"
     QUESTION: "?"
     QMARK: "?"
     BACKSLASH:
@@ -548,13 +549,13 @@ parse_config:
       tap: "]"
       shifted: "}"
     RBKT:
-      tap: "]"
-      shifted: "}"
+      tap: "+"
+      shifted: "*"
     RIGHT_BRACE: "}"
     RBRC: "}"
     GRAVE:
-      tap: "`"
-      shifted: "~"
+      tap: "^"
+      shifted: "°"
     TILDE: "~"
     NON_US_HASH: "#"
     NUHS: "#"
@@ -706,23 +707,39 @@ parse_config:
 
     # Symbols
     
-    RA(N7):
-      tap: "{"
-    RA(N8):
-      tap: "["
-    LS(N8): 
-      tap: "("
-    RA(MINUS):
-      tap: '\'
-    
+    RA(N7): "{"
+    RA(N8): "["
+    LS(N8): "("
+    RA(MINUS): '\'
+    LS(N5): "%"
+    LS(N4): "$"
+    RA(E): "€"
+    LS(RBKT): "*"
+    LS(N1): "!"
+    RA(Q): "@"
+    LS(N6): "&"
+    RA(NON_US_BLSH): "|"
+    RA(GRAVE): "~"
+    RA(RBKT): "~"
+    LS(NON_US_HASH): "'"
+    LS(N2): '"'
+    LS(EQUAL): "`"
+    LS(N7): "/"
+    LS(N9): ")"
+    RA(N9): "]"
+    RA(N0): "}"
+    LS(NON_US_BSLH): ">"
+    LS(FSLH): "_"
+    LS(N0): "="
+    LS(MINUS): "?"
     C_AL_CALC:
       tap: $$mdi:calculator$$
 
 
   zmk_combos:
-    combo_to_2:
+    combo_to_gaming:
       align: top
-    combo_to_3:
+    combo_to_base:
       align: top
     combo_bt_clear:
       align: top
@@ -730,10 +747,7 @@ parse_config:
     combo_mute:
       align: top
       offset: 0.15
-    combo_minus:
-      key:
-        shifted: "_"
-        hold: "-"
+    combo_auml: "ä"
     combo_equal:
       key:
         shifted: "+"
