@@ -50,7 +50,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:transfer-right$$
   - INS
-  - DE SLASH
+  - /
   - {t: '7', s: /}
   - {t: '8', s: (}
   - {t: '9', s: )}
