@@ -718,7 +718,7 @@ parse_config:
     LS(N1): "!"
     RA(Q): "@"
     LS(N6): "&"
-    RA(NON_US_BLSH): "|"
+    RA(NON_US_BSLH): "|"
     RA(GRAVE): "~"
     RA(RBKT): "~"
     LS(NON_US_HASH): "'"
@@ -738,15 +738,16 @@ parse_config:
 
   zmk_combos:
     combo_to_gaming:
-      align: top
+      align: right
     combo_to_base:
-      align: top
+      align: bottom
     combo_bt_clear:
       align: top
       offset: 0.03
     combo_mute:
       align: top
       offset: 0.15
+    combo_apos: "ä"
     combo_equal:
       key:
         shifted: "+"
