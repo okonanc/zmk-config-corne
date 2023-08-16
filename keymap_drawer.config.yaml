@@ -749,6 +749,7 @@ parse_config:
       offset: 0.15y
   #  combo_equal:
   #    key:y
+  #    key:y
   #      shifted: "+"
   #      hold: "="
   #  combo_backslash:
