@@ -407,7 +407,9 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
-
+    "&comma_dance":
+      tap: ", ."
+y
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
@@ -483,8 +485,9 @@ parse_config:
     RPAR: )
     EQUAL:
       tap: "="
-      shifted: "+"
-    PLUS: +
+    PLUS: 
+      tap: "+"
+      shifted: "*"
     MINUS:
       tap: "-"
       shifted: "_"
@@ -504,10 +507,9 @@ parse_config:
     BSLH:
       tap: '\'
       shifted: "|"
-    PIPE: "|"
-    NON_US_BACKSLASH: \
-    PIPE2: "|"
-    NON_US_BSLH: "|"
+    NON_US_BSLH: 
+      tap: "<"
+      shifted: ">"
     SEMICOLON:
       tap: ";"
       shifted: ":"
@@ -656,13 +658,68 @@ parse_config:
     C_AL_LOCK: $$mdi:lock$$
     K_CANCEL: $$mdi:close-box$$
 
-    # Zoom
+    # Teams
+    LC(LS(K)):
+      tap: $$mdi:hand-front-right-outline$$
+      hold: Teams
     LC(LS(M)):
       tap: $$mdi:microphone$$
-      hold: zoom
+      hold: Teams
     LC(LS(O)):
       tap: $$mdi:video$$
-      hold: zoom
+      hold: Teams
+
+    # Clipboard
+    LC(Y):
+      tap: $$mdi:undo-variant$$
+      hold: "Undo"
+    LC(Z):
+      tap: $$mdi:redo-variant$$
+      hold: "Redo"
+    LC(X):
+      tap: $$content-cut$$
+      hold: "Cut"
+    LC(INS): 
+      tap: $$mdi:content-copy$$
+      hold: "Copy"
+    LS(INS):
+      tap: $$mdi:content-paste$$
+      hold: "Paste"
+
+    # Tabs and Desktop
+    LC(LG(LEFT)):
+      tap: $$mdi:chevron-left-box-outline$$
+      hold: "Desktop"
+    LC(LG(RIGHT)):
+      tap: $$mdi:chevron-right-box-outline$$
+      hold: "Desktop"
+    LC(LS(TAB)):
+      tap: $$mdi:chevron-left$$
+      hold: "Tab"
+    LC(TAB):
+      tap: $$mdi:chevron-right$$
+      hold: "Tab"
+    LG(LS(LEFT)):
+      tap: $$mdi:pan-left$$
+      hold: "Window"
+    LG(LS(RIGHT)):
+      tap: $$mdi:pan-right$$
+      hold: "Window"
+
+    # Symbols
+    
+    RA(7):
+      tap: "{"
+    RA(8):
+      tap: "["
+    LS(8): 
+      tap: "("
+    RA(MINUS):
+      tap: '\'
+    
+    C_AL_CALC:
+      tap: $$mdi:calculator$$
+
 
   zmk_combos:
     combo_to_2:
