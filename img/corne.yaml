@@ -225,16 +225,16 @@ combos:
   l: [NUM, FNC, GME]
   a: bottom
 - p: [1, 13]
-  k: .
+  k: Ä
   l: [DEF, NUM]
 - p: [9, 21]
-  k: ö
+  k: Ö
   l: [DEF, NUM]
 - p: [7, 19]
-  k: '['
+  k: Ü
   l: [DEF, NUM]
 - p: [2, 14]
-  k: '-'
+  k: ß
   l: [DEF, NUM]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
