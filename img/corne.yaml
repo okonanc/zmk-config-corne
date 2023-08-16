@@ -45,10 +45,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG UP
-  - HOME
+  - $$mdi:transfer-up$$
+  - $$mdi:transfer-left$$
   - $$mdi:arrow-up-bold$$
-  - END
+  - $$mdi:transfer-right$$
   - INS
   - {t: /, s: '?'}
   - {t: '7', s: /}
@@ -57,11 +57,11 @@ layers:
   - {t: '-', s: _}
   - $$mdi:calculator$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG DN
+  - $$mdi:transer-down$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - END
+  - $$mdi:transfer-right$$
   - '*'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
