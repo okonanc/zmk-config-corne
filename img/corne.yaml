@@ -85,7 +85,7 @@ layers:
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '0', s: '='}
-  - ', .'
+  - '&comma_dance'
   FNC:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - F10
