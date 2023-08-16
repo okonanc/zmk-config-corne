@@ -687,7 +687,7 @@ parse_config:
     PG_UP:
       tap: $$mdi:transfer-up$$
     PG_DN:
-      tap: $$mdi:transer-down$$
+      tap: $$mdi:transfer-down$$
     HOME:
       tap: $$mdi:transfer-left$$
     END:
