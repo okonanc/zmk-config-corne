@@ -198,7 +198,7 @@ draw_config:
         --color--combo--bg: var(--color--material--blue-gray--100);
         --color--combo--border: var(--color--combo--bg);
         --color--combo--dendron: var(--color--combo--border);
-        --color--combo--text--tap: var(--color--material--blue-gray--800);
+        --color--combo--text--tap: var(--color--material--blue-blue--800);
         --color--combo--text--shifted: var(--color--combo--text--tap);
         --color--combo--text--hold: var(--color--combo--text--tap);
 
@@ -743,7 +743,6 @@ parse_config:
     C_AL_CALC:
       tap: $$mdi:calculator$$
 
-
   zmk_combos:
     combo_to_gaming:
       align: right
@@ -754,7 +753,7 @@ parse_config:
       offset: 0.03
     combo_mute:
       align: top
-      offset: 0.15y
+      offset: 0.15
   #  combo_equal:
   #    key:y
   #    key:y
