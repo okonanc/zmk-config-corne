@@ -747,7 +747,7 @@ parse_config:
     combo_mute:
       align: top
       offset: 0.15
-    combo_auml: "ä"
+    combo_de_ss: "ß"
     combo_equal:
       key:
         shifted: "+"
