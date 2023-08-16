@@ -763,7 +763,4 @@ parse_config:
   #    key:
   #      shifted: "}"
   #      hold: "]"
-    combo_semicolon:
-      key:
-        shifted: ":"
-        hold: "ö"
+    combo_semicolon: "ö"
