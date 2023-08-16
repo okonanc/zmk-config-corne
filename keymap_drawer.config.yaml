@@ -748,7 +748,7 @@ parse_config:
       align: top
       offset: 0.15y
   #  combo_equal:
-  #    key:
+  #    key:y
   #      shifted: "+"
   #      hold: "="
   #  combo_backslash:
@@ -763,4 +763,6 @@ parse_config:
   #    key:
   #      shifted: "}"
   #      hold: "]"
-    combo_semicolon: "ö"
+    combo_ouml:
+      key:
+        tap: "ö"
