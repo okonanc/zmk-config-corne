@@ -118,7 +118,7 @@ layers:
   - F3
   - {t: '$$mdi:video$$', h: Teams}
   - {t: '$$mdi:undo-variant$$', h: Undo}
-  - {t: $$content-cut$$, h: Cut}
+  - {t: '$$mdi:content-cut$$', h: Cut}
   - {t: '$$mdi:content-copy$$', h: Copy}
   - {t: '$$mdi:content-paste$$', h: Paste}
   - {t: '$$mdi:redo-variant$$', h: Redo}
