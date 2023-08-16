@@ -262,6 +262,8 @@ combos:
 - p: [15, 37]
   k: $$mdi:cloud-upload$$
   l: [GME]
+  a: right
 - p: [3, 37]
   k: $$mdi:cloud-download$$
   l: [GME]
+  a: right
