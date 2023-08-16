@@ -740,9 +740,10 @@ parse_config:
     LS(FSLH): "_"
     LS(N0): "="
     LS(MINUS): "?"
+    LS(N0): "="
+    LS(RBKT): "*"
     C_AL_CALC:
       tap: $$mdi:calculator$$
-    LS(N0): "="
 
   zmk_combos:
     combo_to_gaming:
