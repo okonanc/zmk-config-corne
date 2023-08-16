@@ -57,7 +57,7 @@ layers:
   - {t: '-', s: _}
   - $$mdi:calculator$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:transer-down$$
+  - $$mdi:transfer-down$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
