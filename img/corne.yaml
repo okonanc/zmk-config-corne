@@ -61,7 +61,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:transfer-right$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - '*'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
