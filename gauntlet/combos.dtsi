@@ -42,8 +42,8 @@
     COMBO(play      , &kp C_PP     , 6 7      , DEF NUM FNC GME , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Gaming */
-    COMBO(quicksave , &kp F5       , 15 37    ,             GME , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(quickload , &kp F8       , 3 37     ,             GME , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(quicksave , &kp F5       , 14 15    ,             GME , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(quickload , &kp F8       , 2 3      ,             GME , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     /* Symbols */
     // Left
     /*

@@ -769,10 +769,8 @@ parse_config:
       key:
         tap: "ß"
     combo_quicksave:
-      align: right
       key:
         tap: $$mdi:cloud-upload$$
     combo_quickload:
-      align: right
       key:
         tap: $$mdi:cloud-download$$
