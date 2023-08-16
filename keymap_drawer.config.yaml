@@ -190,7 +190,7 @@ draw_config:
         --color--layer--text: var(--color--material--blue-gray--400);
 
         --color--key--bg: var(--color--material--blue-gray--50);
-        --color--key--border: white;
+        --color--key--border: none;
         --color--key--text--tap: var(--color--text);
         --color--key--text--shifted: var(--color--material--blue-gray--500);
         --color--key--text--hold: var(--color--material--blue-gray--500);
@@ -361,7 +361,7 @@ draw_config:
     .backspace,
     .bootloader {
         --color--key--bg: var(--color--material--red--300);
-        --color--key--border: var(--color--material--red--200);
+        --color--key--border: none;
         --color--key--text--shifted: var(--color--key--text--tap);
     }
 
@@ -369,7 +369,7 @@ draw_config:
     .enter,
     .bootloader ~ .bootloader {
         --color--key--bg: var(--color--material--teal--200);
-        --color--key--border: var(--color--material--teal--100);
+        --color--key--border: none;
     }
 
     /* Outer column + thumb keys */
