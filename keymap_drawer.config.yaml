@@ -407,7 +407,7 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
-    "&comma_dance": ", ."
+    #"&comma_dance": ", ."
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
