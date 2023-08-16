@@ -409,7 +409,7 @@ parse_config:
       hold: NUM
     "&comma_dance":
       tap: ", ."
-y
+
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
