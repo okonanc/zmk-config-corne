@@ -684,6 +684,14 @@ parse_config:
     LS(INS):
       tap: $$mdi:content-paste$$
       hold: "Paste"
+    PG_UP:
+      tap: $$mdi:transfer-up$$
+    PG_DN:
+      tap: $$mdi:transer-down$$
+    HOME:
+      tap: $$mdi:transfer-left$$
+    END:
+      tap: $$mdi:transfer-right$$
 
     # Tabs, Window and Desktop
     LC(LG(LEFT)):
