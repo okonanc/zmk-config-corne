@@ -784,3 +784,9 @@ parse_config:
     combo_de_ss:
       key:
         tap: "ß"
+    combo_quicksave:
+      key:
+        tap: $$mdi:cloud-upload$$
+    combo_quickload:
+      key:
+        tap: $$mdi:cloud-download$$
