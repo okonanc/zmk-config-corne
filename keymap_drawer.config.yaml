@@ -746,24 +746,24 @@ parse_config:
       offset: 0.03
     combo_mute:
       align: top
-      offset: 0.15
-    combo_equal:
-      key:
-        shifted: "+"
-        hold: "="
-    combo_backslash:
-      key:
-        shifted: "|"
-        hold: \
-    combo_lbkt:
-      key:
-        shifted: "{"
-        hold: "["
-    combo_rbkt:
-      key:
-        shifted: "}"
-        hold: "]"
-    combo_semicolon:
-      key:
-        shifted: ":"
-        hold: ";"
+      offset: 0.15y
+  #  combo_equal:
+  #    key:
+  #      shifted: "+"
+  #      hold: "="
+  #  combo_backslash:
+  #    key:
+  #      shifted: "|"
+  #      hold: \
+  #  combo_lbkt:
+  #    key:
+  #      shifted: "{"
+  #      hold: "["
+  #  combo_rbkt:
+  #    key:
+  #      shifted: "}"
+  #      hold: "]"
+  #  combo_semicolon:
+  #    key:
+  #      shifted: ":"
+  #      hold: ";"
