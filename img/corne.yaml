@@ -50,7 +50,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:transfer-right$$
   - INS
-  - {t: /, s: '?'}
+  - DE SLASH
   - {t: '7', s: /}
   - {t: '8', s: (}
   - {t: '9', s: )}
@@ -78,7 +78,7 @@ layers:
   - {t: '1', h: '$$mdi:star-three-points$$', s: '!'}
   - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '"'}
   - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
-  - {t: ´, h: '$$mdi:apple-keyboard-control$$', s: '`'}
+  - {t: '=', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$

@@ -742,6 +742,7 @@ parse_config:
     LS(MINUS): "?"
     C_AL_CALC:
       tap: $$mdi:calculator$$
+    LS(N0): "="
 
   zmk_combos:
     combo_to_gaming:
@@ -754,23 +755,6 @@ parse_config:
     combo_mute:
       align: top
       offset: 0.15
-  #  combo_equal:
-  #    key:y
-  #    key:y
-  #      shifted: "+"
-  #      hold: "="
-  #  combo_backslash:
-  #    key:
-  #      shifted: "|"
-  #      hold: \
-  #  combo_lbkt:
-  #    key:
-  #      shifted: "{"
-  #      hold: "["
-  #  combo_rbkt:
-  #    key:
-  #      shifted: "}"
-  #      hold: "]"
     combo_ouml:
       key:
         tap: "Ö"
