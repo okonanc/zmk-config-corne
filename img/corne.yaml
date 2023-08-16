@@ -260,8 +260,8 @@ combos:
   k: $$mdi:play-pause$$
   l: [DEF, NUM, FNC, GME]
 - p: [15, 37]
-  k: F5
+  k: $$mdi:cloud-upload$$
   l: [GME]
 - p: [3, 37]
-  k: F8
+  k: $$mdi:cloud-download$$
   l: [GME]
