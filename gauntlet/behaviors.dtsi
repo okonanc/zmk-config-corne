@@ -53,11 +53,11 @@
 
      From: https://github.com/urob/zmk-config/
      */
-    /omit-if-no-ref/ std: sticky_dance {
-      label = "STICKY_DANCE";
+    /omit-if-no-ref/ sld: sticky_layer_dance {
+      label = "STICKY_LAYER_DANCE";
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&kp>, <&csl>;
+      bindings = <&kp>, <&sl>;
       #binding-cells = <0>;
     };
 
@@ -67,7 +67,7 @@
      - hold: sticky layer
 
      Example: &cld SYM TAB
-    */
+
     /omit-if-no-ref/ cld: clear-layer-dance {
       compatible = "zmk,behavior-hold-tap";
       label = "CLEAR_LAYER_DANCE";
@@ -78,7 +78,7 @@
       global-quick-tap;
       bindings = <&std>, <&kp>;
     };
-
+    */
     /*
      - tap: num-word
      - hold: &mo layer
