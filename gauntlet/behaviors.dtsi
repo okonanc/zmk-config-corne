@@ -53,7 +53,7 @@
 
      From: https://github.com/urob/zmk-config/
      */
-    /omit-if-no-ref/ sd: sticky_dance {
+    /omit-if-no-ref/ std: sticky_dance {
       label = "STICKY_DANCE";
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
