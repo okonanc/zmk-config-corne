@@ -53,12 +53,12 @@
 
      From: https://github.com/urob/zmk-config/
      */
-    /omit-if-no-ref/ sld: sticky_layer_dance {
-      label = "STICKY_LAYER_DANCE";
-      compatible = "zmk,behavior-tap-dance";
+    /omit-if-no-ref/ ht_tosl: hold_tap_to_stickylayer {
+      label = "HOLD_TAP_TO_STICKY_LAYER";
+      compatible = "zmk,behavior-hold-tap";
       tapping-term-ms = <TAPPING_TERM_MS>;
+      #binding-cells = <2>;
       bindings = <&kp>, <&sl>;
-      #binding-cells = <0>;
     };
 
     /*
@@ -76,7 +76,7 @@
       tapping-term-ms = <200>;
       quick-tap-ms = <125>;
       global-quick-tap;
-      bindings = <&std>, <&kp>;
+      bindings = <&kp>, <&ht_tosl>;
     };
     */
     /*
