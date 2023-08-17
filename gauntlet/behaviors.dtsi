@@ -47,6 +47,37 @@
       #binding-cells = <0>;
     };
 
+    /*
+     - tap: &kp TAB
+     - double-tab: &sl SYM
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ sd: sticky_dance {
+      label = "STICKY_DANCE";
+      compatible = "zmk,behavior-tap-dance";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp>, <&csl>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tab: key press
+     - double-tab: layer
+     - hold: sticky layer
+
+     Example: &cld SYM TAB
+    */
+    /omit-if-no-ref/ cld: clear-layer-dance {
+      compatible = "zmk,behavior-hold-tap";
+      label = "CLEAR_LAYER_DANCE";
+      #binding-cells = <2>;
+      flavor = "tap-preferred";
+      tapping-term-ms = <200>;
+      quick-tap-ms = <125>;
+      global-quick-tap;
+      bindings = <&sd>, <&kp>;
+    };
 
     /*
      - tap: num-word
@@ -86,18 +117,6 @@
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&kp COMMA>, <&kp DOT>;
-      #binding-cells = <0>;
-    };
-
-     /*
-     - tap: &kp K_CANCEL
-     - tap x 2: b
-     */
-    /omit-if-no-ref/ cangme_dance: cangme_dance {
-      label = "COMMA_DANCE";
-      compatible = "zmk,behavior-tap-dance";
-      tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&kp K_CANCEL>, <&tog GME>;
       #binding-cells = <0>;
     };
 

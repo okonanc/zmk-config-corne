@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - '&sd 3 TAB'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -166,7 +166,7 @@ layers:
   - {t: +, s: '*'}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
