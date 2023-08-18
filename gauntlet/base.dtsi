@@ -22,6 +22,10 @@
 #  define MSE 6
 #endif
 
+#ifdef TEST_LAYER
+#  define TST 7
+#endif
+
 // Meh key
 #define MEH      LS(LC(LALT)) 
 

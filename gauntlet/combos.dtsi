@@ -25,6 +25,10 @@
     COMBO(to_gaming , &to GME      , 0 38     , DEF NUM FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_base   , &to DEF      , 12 37    ,     NUM FNC GME CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_cdh    , &to CDH      , 12 37 16 , DEF NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    
+    #ifdef TEST_LAYER
+    COMBO(to_test   , &to TST      , 19 16    , DEF NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    #endif
 
     #ifdef MOUSE_KEYS
     COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
