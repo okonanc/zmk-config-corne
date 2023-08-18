@@ -10,8 +10,8 @@
 #include "../gauntlet/L0_qwertz.dtsi"
 
 // Other layers
-#include "../gauntlet/L4.dtsi"
-#include "../gauntlet/L1.dtsi"
-#include "../gauntlet/L2.dtsi"
-#include "../gauntlet/L3.dtsi"
-//#include "../gauntlet/L5.dtsi"
+#include "../gauntlet/L_GME.dtsi"
+#include "../gauntlet/L_NUM.dtsi"
+#include "../gauntlet/L_FNC.dtsi"
+#include "../gauntlet/L_SYM.dtsi"
+//#include "../gauntlet/L_MSE.dtsi"
