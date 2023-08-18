@@ -5,7 +5,7 @@
  */
 
 #define COLEMAK_DHM
-//#define MOUSE_KEYS
+#define NO_MOUSE_KEYS
 
 #include "../gauntlet/base.dtsi"
 
