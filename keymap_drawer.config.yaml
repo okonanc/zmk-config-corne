@@ -750,6 +750,8 @@ parse_config:
       align: right
     combo_to_base:
       align: bottom
+    combo_to_cdh:
+      align: right
     combo_bt_clear:
       align: top
       offset: 0.03
