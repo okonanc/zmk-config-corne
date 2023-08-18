@@ -62,9 +62,9 @@
     };
 
     /*
-     - tab: key press
-     - double-tab: layer
-     - hold: sticky layer
+     - tab: &kp TAB
+     - double-tab: &sl SYM
+     - hold: &mo SYM
 
      Example: &cld SYM TAB
 
@@ -117,6 +117,18 @@
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&kp COMMA>, <&kp DOT>;
+      #binding-cells = <0>;
+    };
+    
+    /*
+     - tap: &kp 
+     - tap x 2: &csl
+     */
+    /omit-if-no-ref/ td_kp_csl: td_kp_csl {
+      label = "DANCE_KP_CSL";
+      compatible = "zmk,behavior-tap-dance";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp>, <&csl>;
       #binding-cells = <0>;
     };
 
