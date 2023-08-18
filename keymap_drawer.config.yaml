@@ -399,15 +399,15 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: NUM
       hold: $$mdi:gesture-tap-hold$$
-    "&csl FNC":
+    "&csl 2":
       tap: FNC
       hold: $$mdi:close-box$$
-    "&cmo NUM":
+    "&cmo 1":
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
     "&comma_dance": ", ."
-    
+
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
