@@ -21,9 +21,9 @@
                   ╰────────────╯  ╰────────────╯
     * 
     /* Layers */
-    COMBO(to_base   , &to DEF      , 12 37    ,     NUM FNC GME MSE , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_base   , &to DEF      , 12 37    ,     NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_gaming , &to GME      , 0 38     , DEF NUM FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    //COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     COMBO(auml      , &kp DE_AE    , 1 13     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(ouml      , &kp DE_OE    , 9 21     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
