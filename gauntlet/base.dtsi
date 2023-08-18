@@ -13,8 +13,7 @@
 #define NUM 2
 #define FNC 3
 #define SYM 4
-
-#define MSE 5
+//#define MSE 5
 
 // Meh key
 #define MEH      LS(LC(LALT)) 
