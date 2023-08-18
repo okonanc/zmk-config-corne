@@ -23,7 +23,7 @@
 #endif
 
 #ifdef TEST_LAYER
-#  define TST 7
+#  define TST 6
 #endif
 
 // Meh key
