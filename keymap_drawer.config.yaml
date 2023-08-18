@@ -493,8 +493,8 @@ parse_config:
     UNDERSCORE: _
     UNDER: _
     SLASH:
-      tap: "/"
-      shifted: "?"
+      tap: "-"
+      shifted: "_"
     FSLH:
       tap: "-"
       shifted: "_"
@@ -531,10 +531,10 @@ parse_config:
     LT: <
     DOT:
       tap: "."
-      shifted: ">"
+      shifted: ":"
     COMMA:
       tap: ","
-      shifted: "<"
+      shifted: ";"
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET:
