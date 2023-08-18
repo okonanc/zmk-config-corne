@@ -395,19 +395,20 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&smart_num NUM 0":
-      shifted: $$mdi:alpha-w-box$$
-      tap: NUM
-      hold: $$mdi:gesture-tap-hold$$
-    "&csl FNC":
-      tap: FNC
-      hold: $$mdi:close-box$$
-    "&cmo NUM":
-      shifted: $$mdi:alpha-w-box$$
-      tap: $$mdi:close-box$$
-      hold: NUM
+    
+  #  "&smart_num NUM 0":
+  #    shifted: $$mdi:alpha-w-box$$
+  #    tap: NUM
+  #    hold: $$mdi:gesture-tap-hold$$
+  #  "&csl FNC":
+  #    tap: FNC
+  #    hold: $$mdi:close-box$$
+  #  "&cmo NUM":
+  #    shifted: $$mdi:alpha-w-box$$
+  #    tap: $$mdi:close-box$$
+  #    hold: NUM
     "&comma_dance": ", ."
-
+    
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
