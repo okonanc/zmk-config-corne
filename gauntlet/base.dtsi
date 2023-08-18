@@ -9,10 +9,10 @@
 
 // Layers
 #define DEF 0
-#define NUM 1
-#define FNC 2
-#define SYM 3
-#define GME 4
+#define GME 1
+#define NUM 2
+#define FNC 3
+#define SYM 4
 #define MSE 5
 
 // Meh key
