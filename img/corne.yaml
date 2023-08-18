@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - TST
+  - Ä
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
@@ -45,6 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYM}
   CDH:
   - $$mdi:keyboard-esc$$
+  - Q
   - W
   - F
   - P
@@ -53,8 +54,7 @@ layers:
   - L
   - U
   - Y
-  - P
-  - {t: '''', s: '"'}
+  - ''''
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - A
@@ -78,7 +78,7 @@ layers:
   - {t: H, h: '$$mdi:star-three-points$$'}
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
+  - {t: '"', h: '$$mdi:apple-keyboard-control$$'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -258,49 +258,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  TST:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE))))'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - DEF
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 38]
   k: GME
@@ -313,21 +270,19 @@ combos:
 - p: [12, 37, 16]
   k: CDH
   l: [DEF, NUM, FNC, GME]
-- p: [19, 16]
-  k: TST
-  l: [DEF, NUM, FNC, GME]
+  a: right
 - p: [1, 13]
   k: Ä
-  l: [DEF]
+  l: [DEF, CDH]
 - p: [9, 21]
   k: Ö
-  l: [DEF]
+  l: [DEF, CDH]
 - p: [7, 19]
   k: Ü
-  l: [DEF]
+  l: [DEF, CDH]
 - p: [2, 14]
   k: ß
-  l: [DEF]
+  l: [DEF, CDH]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [FNC]
@@ -350,7 +305,7 @@ combos:
   l: [FNC]
 - p: [6, 7]
   k: $$mdi:play-pause$$
-  l: [DEF, NUM, FNC, GME]
+  l: [DEF, NUM, FNC, GME, CDH]
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
   l: [GME]
