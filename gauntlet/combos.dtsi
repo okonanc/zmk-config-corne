@@ -29,8 +29,18 @@
     COMBO(ouml      , &kp DE_OE    , 9 21     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(uuml      , &kp DE_UE    , 7 19     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(de_ss     , &kp DE_SS    , 2 14     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(auml      , &kp DE_AE    , 1 13     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(ouml      , &kp DE_OE    , 9 21     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(uuml      , &kp DE_UE    , 7 19     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(de_ss     , &kp DE_SS    , 2 14     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Bluetooth */
+    COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_0  , &bt BT_SEL 0 , 1 13     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_1  , &bt BT_SEL 1 , 2 14     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_2  , &bt BT_SEL 2 , 3 15     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_3  , &bt BT_SEL 3 , 4 16     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_4  , &bt BT_SEL 4 , 5 17     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_0  , &bt BT_SEL 0 , 1 13     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_1  , &bt BT_SEL 1 , 2 14     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -40,8 +50,11 @@
 
     /* Media */
     COMBO(play      , &kp C_PP     , 6 7      , DEF NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(play      , &kp C_PP     , 6 7      , DEF NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Gaming */
+    COMBO(quicksave , &kp F5       , 14 15    ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(quickload , &kp F8       , 2 3      ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(quicksave , &kp F5       , 14 15    ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(quickload , &kp F8       , 2 3      ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     /* Symbols */
@@ -59,6 +72,7 @@
     COMBO(rpar, &kp DE_RPAR, 17 29, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     */
       // Right
+    /*
     /*
     COMBO(minus, &kp DE_MINUS, 7 19, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(equal, &kp DE_EQUAL, 8 20, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)

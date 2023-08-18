@@ -42,7 +42,7 @@ layers:
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&td_kp_csl ENTER 3'
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   GME:
   - T
   - $$mdi:keyboard-esc$$
@@ -215,15 +215,61 @@ layers:
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  MSE:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mwh S_LEFT'
+  - '&mwh S_DOWN'
+  - '&mmv M_UP'
+  - '&mwh S_UP'
+  - '&mwh S_RIGHT'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mmv M_LEFT'
+  - '&mmv M_DOWN'
+  - '&mmv M_RIGHT'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MCLK'
+  - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
+- p: [12, 37]
+  k: DEF
+  l: [NUM, FNC, GME, MSE]
+  a: bottom
 - p: [0, 38]
   k: GME
   l: [DEF, NUM, FNC]
   a: right
-- p: [12, 37]
-  k: DEF
-  l: [NUM, FNC, GME]
-  a: bottom
+- p: [6, 7]
+  k: MSE
+  l: [DEF, GME]
 - p: [1, 13]
   k: Ä
   l: [DEF]
