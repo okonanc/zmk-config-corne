@@ -129,7 +129,7 @@
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&kp>, <&csl>;
-      #binding-cells = <0>;
+      #binding-cells = <2>;
     };
 
     /*
