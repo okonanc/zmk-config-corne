@@ -34,10 +34,10 @@
     COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
-    COMBO(auml      , &kp DE_AE    , 1 13     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(ouml      , &kp DE_OE    , 9 21     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(uuml      , &kp DE_UE    , 7 19     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(de_ss     , &kp DE_SS    , 2 14     , DEF                 , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(auml      , &kp DE_AE    , 1 13     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(ouml      , &kp DE_OE    , 9 21     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(uuml      , &kp DE_UE    , 7 19     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(de_ss     , &kp DE_SS    , 2 14     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Bluetooth */
     COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -48,7 +48,7 @@
     COMBO(bt_sel_4  , &bt BT_SEL 4 , 5 17     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Media */
-    COMBO(play      , &kp C_PP     , 6 7      , DEF NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(play      , &kp C_PP     , 6 7      , DEF NUM FNC GME CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Gaming */
     COMBO(quicksave , &kp F5       , 14 15    ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
