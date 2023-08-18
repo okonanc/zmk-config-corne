@@ -23,13 +23,8 @@
     /* Layers */
     
     COMBO(to_gaming , &to GME      , 0 38     , DEF NUM FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    
-    #ifdef COLEMAK_DHM
     COMBO(to_base   , &to DEF      , 12 37    ,     NUM FNC GME CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_cdh    , &to CDH      , 12 37 16 , DEF NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    #else
-    COMBO(to_base   , &to DEF      , 12 37    ,     NUM FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    #endif
 
     #ifdef MOUSE_KEYS
     COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -54,30 +49,5 @@
     /* Gaming */
     COMBO(quicksave , &kp F5       , 14 15    ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(quickload , &kp F8       , 2 3      ,             GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-
-    /* Symbols */
-    // Left
-    /*
-    COMBO(excl, &kp DE_EXCL, 1 13, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(at, &kp DE_AT, 2 14, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(hash, &kp DE_HASH, 3 15, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(dollar, &kp DE_DLLR, 4 16, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(percent, &kp DE_PRCNT, 5 17, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(caret, &kp DE_CARET, 13 25, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(ampersand, &kp DE_AMPS, 14 26, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(star, &kp DE_STAR, 15 27, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(lpar, &kp DE_LPAR, 16 28, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(rpar, &kp DE_RPAR, 17 29, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    */
-      // Right
-    /*
-    /*
-    COMBO(minus, &kp DE_MINUS, 7 19, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(equal, &kp DE_EQUAL, 8 20, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(semicolon, &kp DE_SEMI, 9 21, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(lbkt, &kp DE_LBKT, 19 31, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(rbkt, &kp DE_RBKT, 20 32, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(backslash, &kp DE_BSLH, 21 33, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    */
   };
 };
