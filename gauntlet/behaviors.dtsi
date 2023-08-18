@@ -39,7 +39,7 @@
 
 &num_word {
   layers = <NUM>;
-  continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA>;
+  continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT>;
 };
 
 / {
