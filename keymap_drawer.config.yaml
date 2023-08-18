@@ -523,7 +523,7 @@ parse_config:
       tap: "'"
       shifted: '"'
     APOSTROPHE: <
-    APOS: .
+    APOS: "Ä"
     DOUBLE_QUOTES: '"'
     DQT: '"'
 
