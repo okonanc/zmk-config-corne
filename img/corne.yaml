@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: '''', s: '"'}
+  - GME
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
@@ -227,7 +227,7 @@ layers:
   - '&mmv M_UP'
   - '&mwh S_UP'
   - '&mwh S_RIGHT'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - DEF
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -248,16 +248,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
-  - '&mkp MCLK'
   - '&mkp MB5'
+  - '&mkp MB6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp LCLK'
-  - '&mkp RCLK'
   - '&mkp MCLK'
+  - '&mkp RCLK'
 combos:
 - p: [12, 37]
   k: DEF
