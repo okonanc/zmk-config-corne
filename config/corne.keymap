@@ -14,4 +14,4 @@
 #include "../gauntlet/L_NUM.dtsi"
 #include "../gauntlet/L_FNC.dtsi"
 #include "../gauntlet/L_SYM.dtsi"
-//#include "../gauntlet/L_MSE.dtsi"
+#include "../gauntlet/L_MSE.dtsi"
