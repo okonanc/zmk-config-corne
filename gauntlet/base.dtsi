@@ -3,17 +3,31 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-//#include <dt-bindings/zmk/mouse.h>
+
+#ifdef MOUSE_KEYS
+#  include <dt-bindings/zmk/mouse.h>
+#endif
 
 #include "keymap-german-rev3.h"
 
 // Layers
 #define DEF 0
-#define GME 1
-#define NUM 2
-#define FNC 3
-#define SYM 4
-//#define MSE 5
+
+
+#ifdef COLEMAK_DHM
+#  define CDH DEF + 1
+#  define GME CDH + 1
+#else
+#  define GME DEF + 1
+#endif
+
+#define NUM GME + 1
+#define FNC NUM + 1
+#define SYM FNC + 1
+
+#ifdef MOUSE_KEYS
+#  define MSE SYM + 1
+#endif
 
 // Meh key
 #define MEH      LS(LC(LALT)) 
