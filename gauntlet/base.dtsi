@@ -12,21 +12,14 @@
 
 // Layers
 #define DEF 0
-
-
-#ifdef COLEMAK_DHM
-#  define CDH (DEF + 1)
-#  define GME (CDH + 1)
-#else
-#  define GME (DEF + 1)
-#endif
-
-#define NUM (GME + 1)
-#define FNC (NUM + 1)
-#define SYM (FNC + 1)
+#define CDH 1
+#define GME 2
+#define NUM 3
+#define FNC 4
+#define SYM 5
 
 #ifdef MOUSE_KEYS
-#  define MSE (SYM + 1)
+#  define MSE 6
 #endif
 
 // Meh key
