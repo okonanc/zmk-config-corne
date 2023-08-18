@@ -39,7 +39,7 @@
 
 &num_word {
   layers = <NUM>;
-  //continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL RSHFT LEFT RIGHT UP DOWN>;
+  continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN>;
 };
 
 / {
@@ -91,6 +91,7 @@
       bindings = <&kp>, <&ht_tosl>;
     };
     */
+    
     /*
      - tap: num-word
      - hold: &mo layer
