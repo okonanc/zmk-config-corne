@@ -11,16 +11,16 @@
       bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 //  0               1               2               3               4               5                   6               7               8               9               10              11
-    &trans          &trans          &trans          &trans          &trans          &trans              &mwh S_LEFT     &mwh S_DOWN     &mmv M_UP       &mwh S_UP       &mwh S_RIGHT    &to DEF
+    &none           &none           &none           &none           &none           &none               &mwh S_LEFT     &mwh S_DOWN     &mmv M_UP       &mwh S_UP       &mwh S_RIGHT    &to DEF
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  12              13              14              15              16              17                  18              19              20              21              22              23
-    &trans          &kp LCTRL       &kp LCMD        &kp LALT        &kp LSHFT       &trans              &trans          &mmv M_LEFT     &mmv M_DOWN     &mmv M_RIGHT    &trans          &trans
+    &none           &kp LCTRL       &kp LCMD        &kp LALT        &kp LSHFT       &none               &none           &mmv M_LEFT     &mmv M_DOWN     &mmv M_RIGHT    &none           &none 
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
-    &trans          &trans          &trans          &trans          &trans          &trans              &trans          &mkp MB4        &mkp MB5        &mkp MB6        &trans          &trans          
+    &none           &none           &none           &none           &none           &none               &none           &mkp MB4        &mkp MB5        &mkp MB6        &none           &none           
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &trans          &trans          &trans              &mkp LCLK       &mkp MCLK       &mkp RCLK        
+                                                    &none           &none           &none               &mkp LCLK       &mkp MCLK       &mkp RCLK        
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
