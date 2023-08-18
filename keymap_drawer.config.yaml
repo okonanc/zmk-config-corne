@@ -399,10 +399,10 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: NUM
       hold: $$mdi:gesture-tap-hold$$
-    "&csl 2":
+    "&csl 3":
       tap: FNC
       hold: $$mdi:close-box$$
-    "&cmo 1":
+    "&cmo 2":
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
