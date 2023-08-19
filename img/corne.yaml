@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - Y
+  - Z
   - U
   - I
   - O
@@ -26,11 +26,11 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: ;}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - Z
+  - Y
   - X
   - C
   - V
-  - W
+  - B
   - N
   - M
   - {t: '''', s: '"'}
@@ -53,7 +53,7 @@ layers:
   - J
   - L
   - U
-  - Y
+  - Z
   - {t: '''', s: '"'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
@@ -69,7 +69,7 @@ layers:
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - Z
+  - Y
   - X
   - C
   - D
@@ -93,7 +93,7 @@ layers:
   - W
   - E
   - R
-  - Z
+  - Y
   - U
   - I
   - O
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: B, h: FNC}
   - $$mdi:apple-keyboard-control$$
-  - Y
+  - Z
   - X
   - C
   - V
@@ -261,15 +261,15 @@ layers:
 combos:
 - p: [0, 38]
   k: GME
-  l: [DEF, NUM, FNC]
+  l: [DEF, CDH]
   a: right
 - p: [12, 37]
   k: DEF
-  l: [NUM, FNC, GME, CDH]
+  l: [GME, CDH]
   a: bottom
 - p: [12, 37, 16]
   k: CDH
-  l: [DEF, NUM, FNC, GME]
+  l: [DEF, GME]
   a: bottom
 - p: [5, 17]
   k: Ä
