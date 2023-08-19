@@ -39,7 +39,7 @@
 
 &num_word {
   layers = <NUM>;
-  continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT>;
+  continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>;
 };
 
 / {
@@ -188,6 +188,38 @@
       label = "BACKSPACE_DELETE";
       compatible = "zmk,behavior-mod-morph";
       bindings = <&kp BACKSPACE>, <&kp DELETE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: single
+     - hold: repeat single quotes
+     - shift + tap: double quote
+     - shift + hold: repeated double quotes
+
+     From: https://zmk.dev/docs/behaviors/mod-morph#advanced-configuration
+     */
+    /omit-if-no-ref/ sd_quotes: single_double_quotes {
+      label = "SD_QUOTES";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp DE_SQT>, <&kp DE_DQT>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+        /*
+     - tap: single
+     - hold: repeat single quotes
+     - shift + tap: double quote
+     - shift + hold: repeated double quotes
+
+     From: https://zmk.dev/docs/behaviors/mod-morph#advanced-configuration
+     */
+    /omit-if-no-ref/ qe_mark: question_excl_mark {
+      label = "QUEST_EXCL_MARK";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp DE_QMARK>, <&kp DE_EXCL>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
       #binding-cells = <0>;
     };
