@@ -270,7 +270,7 @@ combos:
 - p: [12, 37, 16]
   k: CDH
   l: [DEF, NUM, FNC, GME]
-  a: right
+  a: bottom
 - p: [5, 17]
   k: Ä
   l: [DEF, CDH]
