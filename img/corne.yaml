@@ -14,28 +14,28 @@ layers:
   - P
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:star-three-points$$'}
   - G
   - H
-  - J
-  - K
-  - L
-  - Ä
+  - {t: J, h: '$$mdi:star-three-points$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: ;}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:star-three-points$$'}
-  - B
+  - Z
+  - X
+  - C
+  - V
+  - W
   - N
-  - {t: M, h: '$$mdi:star-three-points$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
+  - M
+  - {t: '''', s: '"'}
+  - {t: '?', s: '!'}
+  - {t: ., s: ':'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -54,31 +54,31 @@ layers:
   - L
   - U
   - Y
-  - ''''
+  - {t: '''', s: '"'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - A
-  - R
-  - S
-  - T
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: T, h: '$$mdi:star-three-points$$'}
   - G
   - M
-  - N
-  - E
-  - I
-  - O
+  - {t: N, h: '$$mdi:star-three-points$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:star-three-points$$'}
+  - Z
+  - X
+  - C
+  - D
   - V
   - K
-  - {t: H, h: '$$mdi:star-three-points$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '"', h: '$$mdi:apple-keyboard-control$$'}
+  - H
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -271,16 +271,16 @@ combos:
   k: CDH
   l: [DEF, NUM, FNC, GME]
   a: right
-- p: [1, 13]
+- p: [5, 17]
   k: Ä
   l: [DEF, CDH]
-- p: [9, 21]
+- p: [6, 18]
   k: Ö
   l: [DEF, CDH]
-- p: [7, 19]
+- p: [18, 30]
   k: Ü
   l: [DEF, CDH]
-- p: [2, 14]
+- p: [17, 19]
   k: ß
   l: [DEF, CDH]
 - p: [1, 2, 3, 4]
