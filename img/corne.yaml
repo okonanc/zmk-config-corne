@@ -149,10 +149,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '*'
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
+  - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
-  - {t: +, s: '*'}
+  - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:chevron-left$$', h: Tab}
@@ -161,10 +161,10 @@ layers:
   - {t: '$$mdi:pan-right$$', h: Win}
   - {t: '$$mdi:chevron-right$$', h: Tab}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', h: '$$mdi:star-three-points$$', s: '!'}
-  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '"'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
   - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
-  - {t: '=', h: '$$mdi:apple-keyboard-control$$'}
+  - '='
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -274,14 +274,14 @@ combos:
 - p: [5, 17]
   k: Ä
   l: [DEF, CDH]
+- p: [17, 29]
+  k: ß
+  l: [DEF, CDH]
 - p: [6, 18]
   k: Ö
   l: [DEF, CDH]
 - p: [18, 30]
   k: Ü
-  l: [DEF, CDH]
-- p: [17, 19]
-  k: ß
   l: [DEF, CDH]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
