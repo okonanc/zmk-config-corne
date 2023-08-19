@@ -41,7 +41,7 @@
 #define TEAMS_TA  LC(LS(M))
 
 // Behaviors Constants
-#define TAPPING_TERM_MS 280
+#define TAPPING_TERM_MS 200
 #define QUICK_TAP_MS 175
 #define GLOBAL_QUICK_TAP_MS 150
 
