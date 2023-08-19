@@ -34,10 +34,10 @@
     COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
-    COMBO(auml      , &kp DE_AE    , 1 13     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(ouml      , &kp DE_OE    , 9 21     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(uuml      , &kp DE_UE    , 7 19     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(de_ss     , &kp DE_SS    , 2 14     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(auml      , &kp DE_AE    , 5 17     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(ouml      , &kp DE_OE    , 6 18     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(uuml      , &kp DE_UE    , 18 30    , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(de_ss     , &kp DE_SS    , 17 19    , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Bluetooth */
     COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
