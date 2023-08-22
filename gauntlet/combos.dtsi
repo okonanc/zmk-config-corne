@@ -34,6 +34,7 @@
     COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
+    /* Umlaute */
     COMBO(auml      , &kp DE_AE    , 5 17     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(de_ss     , &kp DE_SS    , 17 29    , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(ouml      , &kp DE_OE    , 6 18     , DEF             CDH , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)

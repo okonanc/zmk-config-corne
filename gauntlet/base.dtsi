@@ -39,9 +39,10 @@
 #define TEAMS_HR  LC(LS(K))
 #define TEAMS_TV  LC(LS(O))
 #define TEAMS_TA  LC(LS(M))
+#define QUOTES    &sd_quotes
 
 // Behaviors Constants
-#define TAPPING_TERM_MS 200
+#define TAPPING_TERM_MS 280
 #define QUICK_TAP_MS 175
 #define GLOBAL_QUICK_TAP_MS 150
 

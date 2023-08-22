@@ -1,7 +1,7 @@
 /**
  * Alpha Layer - QWERTZ
  */
-#define QUOTES &sd_quotes
+
 / {
   keymap {
     compatible = "zmk,keymap";
