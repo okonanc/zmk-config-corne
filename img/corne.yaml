@@ -97,7 +97,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: '''', s: '"'}
   - $$mdi:close-box$$
   - G
   - $$mdi:apple-keyboard-shift$$
@@ -109,7 +109,7 @@ layers:
   - J
   - K
   - L
-  - {t: '''', s: '"'}
+  - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: B, h: FNC}
   - $$mdi:apple-keyboard-control$$
@@ -121,7 +121,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: '-', s: _}
+  - {t: '?', s: '!'}
   - FNC
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
