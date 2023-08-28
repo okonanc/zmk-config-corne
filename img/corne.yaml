@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - WIN CLOSE
   - $$mdi:transfer-up$$
   - $$mdi:transfer-left$$
   - $$mdi:arrow-up-bold$$
