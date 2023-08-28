@@ -39,7 +39,7 @@
 #define TEAMS_HR        LC(LS(K))
 #define TEAMS_TV        LC(LS(O))
 #define TEAMS_TA        LC(LS(M))
-#define WIN_NEXT        LS(TAB)
+#define WIN_PREVas        LS(TAB)
 #define PHT(key1, key2) &prefer_hold_tap key1 key2
 #define HPT(key1, key2) &hold_prefer_tap key1 key2
 #define HTB(key1, key2) &balanced_hold_tap key1 key2
