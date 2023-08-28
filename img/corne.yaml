@@ -135,7 +135,7 @@ layers:
   - $$mdi:transfer-left$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:transfer-right$$
-  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
+  - WIN PREV
   - /
   - {t: '7', s: /}
   - {t: '8', s: (}
