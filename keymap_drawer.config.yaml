@@ -714,7 +714,7 @@ parse_config:
     LG(LS(RIGHT)):
       tap: $$mdi:application-outline$$
       hold: $$mdi:pan-right$$
-    "&swapper":
+    &swapper:
       tap: $$mdi:application-outline$$
       hold: $$mdi:chevron-right$$
     LS(TAB):
