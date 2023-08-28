@@ -30,15 +30,18 @@
 #define MEH      LS(LC(LALT)) 
 
 // Desktop and tab navigation shortcuts
-#define D_LT      LC(LG(LEFT))
-#define D_RT      LC(LG(RIGHT))
-#define TAB_RT    LC(TAB)
-#define TAB_LT    LC(LS(TAB))
-#define MOV_W_LT  LG(LS(LEFT))
-#define MOV_W_RT  LG(LS(RIGHT))
-#define TEAMS_HR  LC(LS(K))
-#define TEAMS_TV  LC(LS(O))
-#define TEAMS_TA  LC(LS(M))
+#define D_LT            LC(LG(LEFT))
+#define D_RT            LC(LG(RIGHT))
+#define TAB_RT          LC(TAB)
+#define TAB_LT          LC(LS(TAB))
+#define MOV_W_LT        LG(LS(LEFT))
+#define MOV_W_RT        LG(LS(RIGHT))
+#define TEAMS_HR        LC(LS(K))
+#define TEAMS_TV        LC(LS(O))
+#define TEAMS_TA        LC(LS(M))
+#define PHT(key1, key2) &prefer_hold_tap key1 key2
+#define HPT(key1, key2) &hold_prefer_tap key1 key2
+#define HTB(key1, key2) &balanced_hold_tap key1 key2,
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 280

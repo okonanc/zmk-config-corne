@@ -1,0 +1,85 @@
+#define str(s) #s
+
+#define THCHORD(name, tapMacro, holdMacro) \
+  name: name { \
+    compatible = "zmk,behavior-hold-tap"; \
+    label = str(name); \
+    #binding-cells = <2>; \
+    tapping_term_ms = <200>; \
+    quick_tap_ms = <0>; \
+    flavor = "tap-preferred"; \
+    bindings = <&holdMacro>, <&tapMacro>; \
+  };
+
+#define COMBO(name, keypress, keypos) \
+  combo_##name { \
+    timeout-ms = <60>; \
+    bindings = <keypress>; \
+    key-positions = <keypos>; \
+  };
+
+#define LAYER_CHORD(name, keypress, keypos, lays) \
+  chord_##name { \
+    timeout-ms = <60>; \
+    bindings = <keypress>; \
+    key-positions = <keypos>; \
+    layers = <lays>; \
+  };
+
+#define CHORD(name, keypress, keypos) \
+  LAYER_CHORD(name, keypress, keypos, DEF)
+
+#define MACRO(name, keys) \
+  name: name##_macro { \
+  label = #name; \
+  compatible = "zmk,behavior-macro"; \
+  #binding-cells = <0>; \
+  tap-ms = <1>; \
+  wait-ms = <1>; \
+  bindings = <keys>; \
+  };
+
+#define CHMAC(name, keys) \
+  name: name##_macro { \
+    label = #name; \
+    compatible = "zmk,behavior-macro"; \
+    #binding-cells = <0>; \
+    tap-ms = <1>; \
+    wait-ms = <1>; \
+    bindings = <keys>, <&to DEF>; \
+  };
+
+/ {
+  behaviors {
+    THCHORD(ht_delete_, ch_delete__t, ch_delete__h)
+  };
+};
+
+
+
+/ {
+  combos {
+    compatible = "zmk,combos";
+
+    /*
+      KEY POSITIONS
+      ╭────────────────────────╮  ╭────────────────────────╮
+      │ 0   1   2   3   4   5  │  │ 6   7   8   9   10  11 │ 
+      │ 12  13  14  15  16  17 │  │ 18  19  20  21  22  23 │
+      │ 24  25  26  27  28  29 │  │ 30  31  32  33  34  35 │
+      ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
+                  ╰────────────╯  ╰────────────╯
+    * 
+    /* Layers */
+
+    CHORD(ch__ing, &ch__ing, 8 17 39)
+    CHORD(ch_develop, &ch_develop, 15 28 23)
+  };
+};
+
+/ {
+  macros {
+    CHMAC(ch__ing, &kp BSPC &kp I &kp N &kp G &kp SPC)
+    CHMAC(ch_develop, &kp D &kp E &kp V &kp E &kp L &kp O &kp P &kp SPC)
+  };
+};
