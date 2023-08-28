@@ -135,7 +135,7 @@ layers:
   - $$mdi:transfer-left$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:transfer-right$$
-  - INS
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - /
   - {t: '7', s: /}
   - {t: '8', s: (}
@@ -147,7 +147,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
   - {t: '4', h: '$$mdi:star-three-points$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
