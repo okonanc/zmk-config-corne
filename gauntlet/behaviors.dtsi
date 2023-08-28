@@ -45,6 +45,15 @@
 / {
   behaviors {
 
+    // Swapper for smart alt+tab
+    /omit-if-no-ref/ swapper: swapper {
+      compatible = "zmk,behavior-tri-state";
+      label = "SWAPPER";
+      #binding-cells = <0>;
+      bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+      ignored-key-positions = <SWP_POS>;
+    };
+
     /omit-if-no-ref/ hold_prefer_tap: hold_prefer_tap {
       compatible = "zmk,behavior-hold-tap";
       label = "HOLD_PREFER_TAP";

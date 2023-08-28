@@ -147,7 +147,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
+  - '&swapper'
   - '*'
   - {t: '4', h: '$$mdi:star-three-points$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}

@@ -1278,8 +1278,7 @@ g[class^="layer-"] {
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:application-outline" xlink:href="#mdi:application-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:application-outline"/>
-<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right"/>
+<text x="0" y="0" class="key tap" style="font-size: 62%">&amp;swapper</text>
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
