@@ -64,7 +64,7 @@
     */
 
     CHORD(ch__ing, &ch__ing, 8 17 39)
-    CHORD(ch_develop, &ch_develop, 15 28 23)
+    CHORD(ch_develop, &ch_develop, 15 28 22)
   };
 };
 
