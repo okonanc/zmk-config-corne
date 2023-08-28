@@ -111,6 +111,9 @@
 <svg id="mdi:microphone">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-microphone" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z" /></svg>
 </svg>
+<svg id="mdi:monitor">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-monitor" viewBox="0 0 24 24"><path d="M21,16H3V4H21M21,2H3C1.89,2 1,2.89 1,4V16A2,2 0 0,0 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4C23,2.89 22.1,2 21,2Z" /></svg>
+</svg>
 <svg id="mdi:pan-left">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-left" viewBox="0 0 24 24"><path d="M7,8L2.5,12L7,16V8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
 </svg>
@@ -137,6 +140,9 @@
 </svg>
 <svg id="mdi:star-three-points">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-star-three-points" viewBox="0 0 24 24"><path d="M12,2.6L9,12.4L2,19.9L12,17.6L22,20L15,12.5L12,2.6Z" /></svg>
+</svg>
+<svg id="mdi:tab">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-tab" viewBox="0 0 24 24"><path d="M21,3H3A2,2 0 0,0 1,5V19A2,2 0 0,0 3,21H21A2,2 0 0,0 23,19V5A2,2 0 0,0 21,3M21,19H3V5H13V9H21V19Z" /></svg>
 </svg>
 <svg id="mdi:toggle-switch">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-toggle-switch" viewBox="0 0 24 24"><path d="M17,7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7M17,15A3,3 0 0,1 14,12A3,3 0 0,1 17,9A3,3 0 0,1 20,12A3,3 0 0,1 17,15Z" /></svg>
@@ -1322,13 +1328,13 @@ g[class^="layer-"] {
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:chevron-left" xlink:href="#mdi:chevron-left" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:chevron-left"/>
-<text x="0" y="38" class="key hold">Tab</text>
+<use href="#mdi:tab" xlink:href="#mdi:tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:tab"/>
+<use href="#mdi:chevron-left" xlink:href="#mdi:chevron-left" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-left"/>
 </g>
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-left"/>
-<text x="0" y="38" class="key hold">Win</text>
+<use href="#mdi:application-outline" xlink:href="#mdi:application-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:application-outline"/>
+<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:pan-left"/>
 </g>
 <g transform="translate(280, 200)" class="key trans keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1336,13 +1342,13 @@ g[class^="layer-"] {
 </g>
 <g transform="translate(360, 210)" class="key keypos-28">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-right"/>
-<text x="0" y="38" class="key hold">Win</text>
+<use href="#mdi:application-outline" xlink:href="#mdi:application-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:application-outline"/>
+<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:pan-right"/>
 </g>
 <g transform="translate(440, 220)" class="key keypos-29">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:chevron-right"/>
-<text x="0" y="38" class="key hold">Tab</text>
+<use href="#mdi:tab" xlink:href="#mdi:tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:tab"/>
+<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right"/>
 </g>
 <g transform="translate(760, 220)" class="key trans keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1494,23 +1500,23 @@ g[class^="layer-"] {
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:chevron-left-box-outline" xlink:href="#mdi:chevron-left-box-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:chevron-left-box-outline"/>
-<text x="0" y="38" class="key hold">Desk</text>
+<use href="#mdi:monitor" xlink:href="#mdi:monitor" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:monitor"/>
+<use href="#mdi:chevron-left-box-outline" xlink:href="#mdi:chevron-left-box-outline" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-left-box-outline"/>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:chevron-left" xlink:href="#mdi:chevron-left" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:chevron-left"/>
-<text x="0" y="38" class="key hold">Tab</text>
+<use href="#mdi:tab" xlink:href="#mdi:tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:tab"/>
+<use href="#mdi:chevron-left" xlink:href="#mdi:chevron-left" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-left"/>
 </g>
 <g transform="translate(1000, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:chevron-right"/>
-<text x="0" y="38" class="key hold">Tab</text>
+<use href="#mdi:tab" xlink:href="#mdi:tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:tab"/>
+<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right"/>
 </g>
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:chevron-right-box-outline" xlink:href="#mdi:chevron-right-box-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:chevron-right-box-outline"/>
-<text x="0" y="38" class="key hold">Desk</text>
+<use href="#mdi:monitor" xlink:href="#mdi:monitor" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:monitor"/>
+<use href="#mdi:chevron-right-box-outline" xlink:href="#mdi:chevron-right-box-outline" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right-box-outline"/>
 </g>
 <g transform="translate(1160, 150)" class="key bootloader keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key bootloader"/>

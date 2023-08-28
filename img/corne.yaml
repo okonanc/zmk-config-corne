@@ -155,11 +155,11 @@ layers:
   - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:chevron-left$$', h: Tab}
-  - {t: '$$mdi:pan-left$$', h: Win}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:pan-right$$', h: Win}
-  - {t: '$$mdi:chevron-right$$', h: Tab}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
@@ -192,10 +192,10 @@ layers:
   - F6
   - {t: '$$mdi:microphone$$', h: Teams}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:chevron-left-box-outline$$', h: Desk}
-  - {t: '$$mdi:chevron-left$$', h: Tab}
-  - {t: '$$mdi:chevron-right$$', h: Tab}
-  - {t: '$$mdi:chevron-right-box-outline$$', h: Desk}
+  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
+  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - {t: '$$mdi:backup-restore$$', type: held}
   - F12
