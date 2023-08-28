@@ -11,7 +11,7 @@
       bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 //  0               1               2               3               4               5                   6               7               8               9               10              11
-    &trans          &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp WIN_PREV        &kp DE_FSLH     &kp N7          &kp N8          &kp N9          &kp DE_MINUS    &kp C_AL_CALC
+    &kp WIN_CLOSE   &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp WIN_PREV        &kp DE_FSLH     &kp N7          &kp N8          &kp N9          &kp DE_MINUS    &kp C_AL_CALC
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  12              13              14              15              16              17                  18              19              20              21              22              23
     &trans          &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &swapper            &kp DE_STAR     &mt MEH N4      &mt RCMD N5     &mt RALT N6     &mt RCTRL DE_PLUS  &trans

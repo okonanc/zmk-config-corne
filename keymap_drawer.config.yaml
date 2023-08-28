@@ -720,6 +720,9 @@ parse_config:
     LS(TAB):
       tap: $$mdi:application-outline$$
       hold: $$mdi:chevron-left$$
+    LA(F4):
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:window-close$$
 
     # Symbols
     
