@@ -312,3 +312,9 @@ combos:
 - p: [2, 3]
   k: $$mdi:cloud-download$$
   l: [GME]
+- p: [8, 17, 39]
+  k: '&ch__ing'
+  l: [DEF]
+- p: [15, 28, 23]
+  k: '&ch_develop'
+  l: [DEF]

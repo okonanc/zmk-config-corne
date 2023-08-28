@@ -743,6 +743,20 @@ g[class^="layer-"] {
 <rect rx="4" ry="4" x="784" y="39" width="32" height="32" class="combo"/>
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="787" y="42" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
 </g>
+<g class="combo combopos-7">
+<path d="M686,167 l210,-114" class="combo"/>
+<path d="M686,167 l-220,-24" class="combo"/>
+<path d="M686,167 l10,127" class="combo"/>
+<rect rx="4" ry="4" x="670" y="151" width="32" height="32" class="combo"/>
+<text x="686" y="167" class="combo tap" style="font-size: 62%">&amp;ch__ing</text>
+</g>
+<g class="combo combopos-8">
+<path d="M600,160 l-294,-37" class="combo"/>
+<path d="M600,160 l-214,45" class="combo"/>
+<path d="M600,160 l533,-10" class="combo"/>
+<rect rx="4" ry="4" x="584" y="144" width="32" height="32" class="combo"/>
+<text x="600" y="160" class="combo tap" style="font-size: 60%">&amp;ch_develop</text>
+</g>
 </g>
 </g>
 <g transform="translate(0, 392)" class="layer-CDH">
