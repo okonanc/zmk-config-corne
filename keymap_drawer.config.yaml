@@ -714,6 +714,12 @@ parse_config:
     LG(LS(RIGHT)):
       tap: $$mdi:pan-right$$
       hold: "Win"
+    LA(LS(TAB)):
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:chevron-left$$
+    LA(TAB):
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:chevron-right$$
 
     # Symbols
     
