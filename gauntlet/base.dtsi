@@ -55,3 +55,4 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 #include "combos.dtsi"
+#include "chords_en_qwertz.dtsi"
