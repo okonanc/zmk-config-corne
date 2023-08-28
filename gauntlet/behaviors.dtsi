@@ -51,7 +51,7 @@
       label = "SWAPPER";
       #binding-cells = <0>;
       bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-      ignored-key-positions = <SWP_POS>;
+      ignored-key-positions = <5>;
     };
 
     /omit-if-no-ref/ hold_prefer_tap: hold_prefer_tap {
