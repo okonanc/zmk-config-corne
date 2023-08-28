@@ -315,6 +315,6 @@ combos:
 - p: [8, 17, 39]
   k: '&ch__ing'
   l: [DEF]
-- p: [15, 28, 23]
+- p: [15, 28, 22]
   k: '&ch_develop'
   l: [DEF]
