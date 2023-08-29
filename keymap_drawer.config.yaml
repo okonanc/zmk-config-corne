@@ -769,8 +769,7 @@ parse_config:
       align: top
       offset: 0.03
     combo_mute:
-      align: top
-      offset: 0.15
+      align: center
     combo_ouml:
       key:
         tap: "Ö"
