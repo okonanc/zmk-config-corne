@@ -147,7 +147,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '&swapper'
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
   - {t: '4', h: '$$mdi:star-three-points$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
@@ -179,11 +179,11 @@ layers:
   - F8
   - F9
   - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
   - $$mdi:volume-high$$
+  - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:power-standby$$
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - F11
@@ -191,7 +191,7 @@ layers:
   - F5
   - F6
   - {t: '$$mdi:microphone$$', h: Teams}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-low$$
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
@@ -305,14 +305,19 @@ combos:
   l: [FNC]
 - p: [6, 7]
   k: $$mdi:play-pause$$
-  l: [DEF, NUM, FNC, GME, CDH]
+  l: [DEF, FNC, GME, CDH]
+- p: [6, 18]
+  k: $$mdi:volume-off$$
+  l: [DEF, FNC, GME, CDH]
+  a: top
+  o: 0.15
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
   l: [GME]
 - p: [2, 3]
   k: $$mdi:cloud-download$$
   l: [GME]
-- p: [8, 17, 39]
+- p: [8, 17, 30]
   k: '&ch__ing'
   l: [DEF]
 - p: [15, 28, 22]
