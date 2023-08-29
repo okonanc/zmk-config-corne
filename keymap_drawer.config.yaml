@@ -457,7 +457,12 @@ parse_config:
     "&bootloader":
       type: bootloader
       tap: $$mdi:progress-download$$
-
+    
+    # Swapper
+    "&swapper":
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:chevron-right$$
+      
   # ZMK
   zmk_keycode_map:
     # Symbols
@@ -714,9 +719,6 @@ parse_config:
     LG(LS(RIGHT)):
       tap: $$mdi:application-outline$$
       hold: $$mdi:pan-right$$
-    "&swapper":
-      tap: $$mdi:application-outline$$
-      hold: $$mdi:chevron-right$$
     LS(TAB):
       tap: $$mdi:application-outline$$
       hold: $$mdi:chevron-left$$
@@ -725,7 +727,6 @@ parse_config:
       hold: $$mdi:window-close$$
 
     # Symbols
-    
     RA(N7): "{"
     RA(N8): "["
     LS(N8): "("
@@ -756,6 +757,7 @@ parse_config:
     C_AL_CALC:
       tap: $$mdi:calculator$$
 
+  # Combos
   zmk_combos:
     combo_to_gaming:
       align: right
