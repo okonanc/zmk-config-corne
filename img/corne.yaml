@@ -305,10 +305,10 @@ combos:
   l: [FNC]
 - p: [6, 7]
   k: $$mdi:play-pause$$
-  l: [DEF, FNC, GME, CDH]
+  l: [FNC, GME]
 - p: [6, 18]
   k: $$mdi:volume-off$$
-  l: [DEF, FNC, GME, CDH]
+  l: [FNC, GME]
   a: top
   o: 0.15
 - p: [14, 15]
