@@ -49,7 +49,7 @@
     COMBO(bt_sel_4  , &bt BT_SEL 4 , 5 17     ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Media */
-    COMBO(play      , &kp C_PP     , 6 7      ,         FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(play      , &kp C_PP     , 7 19     ,         FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(mute      , &kp C_MUTE   , 6 18     ,         FNC GME     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Gaming */
