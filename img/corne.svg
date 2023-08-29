@@ -1,4 +1,4 @@
-<svg width="1200" height="2378" viewBox="0 0 1200 2378" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1200" height="2357" viewBox="0 0 1200 2357" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:alpha-w-box">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-alpha-w-box" viewBox="0 0 24 24"><path d="M9,17H15A2,2 0 0,0 17,15V7H15V15H13V8H11V15H9V7H7V15A2,2 0 0,0 9,17M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg>
@@ -993,7 +993,7 @@ g[class^="layer-"] {
 </g>
 <g transform="translate(0, 785)" class="layer-GME">
 <text x="0" y="0" class="label">GME</text>
-<g transform="translate(0, 12)">
+<g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">T</text>
@@ -1192,10 +1192,8 @@ g[class^="layer-"] {
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="787" y="42" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-3">
-<path d="M760,7 l0,26" class="combo"/>
-<path d="M760,7 l0,106" class="combo"/>
-<rect rx="4" ry="4" x="744" y="-9" width="32" height="32" class="combo"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="747" y="-6" height="26" width="26.0" class="combo tap glyph mdi:volume-off"/>
+<rect rx="4" ry="4" x="744" y="84" width="32" height="32" class="combo"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="747" y="87" height="26" width="26.0" class="combo tap glyph mdi:volume-off"/>
 </g>
 <g class="combo combopos-4">
 <rect rx="4" ry="4" x="224" y="109" width="32" height="32" class="combo"/>
@@ -1207,7 +1205,7 @@ g[class^="layer-"] {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1189)" class="layer-NUM">
+<g transform="translate(0, 1177)" class="layer-NUM">
 <text x="0" y="0" class="label">NUM</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
@@ -1410,9 +1408,9 @@ g[class^="layer-"] {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1581)" class="layer-FNC">
+<g transform="translate(0, 1569)" class="layer-FNC">
 <text x="0" y="0" class="label">FNC</text>
-<g transform="translate(0, 12)">
+<g transform="translate(0, 2)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:toggle-switch"/>
@@ -1633,14 +1631,12 @@ g[class^="layer-"] {
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="787" y="42" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-7">
-<path d="M760,7 l0,26" class="combo"/>
-<path d="M760,7 l0,106" class="combo"/>
-<rect rx="4" ry="4" x="744" y="-9" width="32" height="32" class="combo"/>
-<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="747" y="-6" height="26" width="26.0" class="combo tap glyph mdi:volume-off"/>
+<rect rx="4" ry="4" x="744" y="84" width="32" height="32" class="combo"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="747" y="87" height="26" width="26.0" class="combo tap glyph mdi:volume-off"/>
 </g>
 </g>
 </g>
-<g transform="translate(0, 1986)" class="layer-SYM">
+<g transform="translate(0, 1964)" class="layer-SYM">
 <text x="0" y="0" class="label">SYM</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
