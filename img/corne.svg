@@ -1188,8 +1188,8 @@ g[class^="layer-"] {
 <text x="269" y="345" class="combo tap">CDH</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="4" ry="4" x="784" y="39" width="32" height="32" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="787" y="42" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
+<rect rx="4" ry="4" x="824" y="74" width="32" height="32" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="827" y="77" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="4" ry="4" x="744" y="84" width="32" height="32" class="combo"/>
@@ -1262,9 +1262,10 @@ g[class^="layer-"] {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:calculator" xlink:href="#mdi:calculator" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:calculator"/>
 </g>
-<g transform="translate(40, 150)" class="key trans keypos-12">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(40, 150)" class="key keypos-12">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:monitor" xlink:href="#mdi:monitor" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:monitor"/>
+<use href="#mdi:chevron-left-box-outline" xlink:href="#mdi:chevron-left-box-outline" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-left-box-outline"/>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1319,9 +1320,10 @@ g[class^="layer-"] {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(40, 230)" class="key trans keypos-24">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(40, 230)" class="key keypos-24">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:monitor" xlink:href="#mdi:monitor" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:monitor"/>
+<use href="#mdi:chevron-right-box-outline" xlink:href="#mdi:chevron-right-box-outline" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right-box-outline"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1446,9 +1448,9 @@ g[class^="layer-"] {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-previous"/>
 </g>
-<g transform="translate(920, 40)" class="key keypos-8">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-next"/>
+<g transform="translate(920, 40)" class="key trans keypos-8">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(1000, 50)" class="key trans keypos-9">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1493,23 +1495,19 @@ g[class^="layer-"] {
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:monitor" xlink:href="#mdi:monitor" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:monitor"/>
-<use href="#mdi:chevron-left-box-outline" xlink:href="#mdi:chevron-left-box-outline" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-left-box-outline"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-next"/>
 </g>
-<g transform="translate(920, 120)" class="key keypos-20">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:tab" xlink:href="#mdi:tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:tab"/>
-<use href="#mdi:chevron-left" xlink:href="#mdi:chevron-left" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-left"/>
+<g transform="translate(920, 120)" class="key trans keypos-20">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(1000, 130)" class="key keypos-21">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:tab" xlink:href="#mdi:tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:tab"/>
-<use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right"/>
+<g transform="translate(1000, 130)" class="key trans keypos-21">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(1080, 150)" class="key keypos-22">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:monitor" xlink:href="#mdi:monitor" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:monitor"/>
-<use href="#mdi:chevron-right-box-outline" xlink:href="#mdi:chevron-right-box-outline" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:chevron-right-box-outline"/>
+<g transform="translate(1080, 150)" class="key trans keypos-22">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(1160, 150)" class="key bootloader keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key bootloader"/>
@@ -1627,8 +1625,8 @@ g[class^="layer-"] {
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="431" y="84" height="18" width="18.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-6">
-<rect rx="4" ry="4" x="784" y="39" width="32" height="32" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="787" y="42" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
+<rect rx="4" ry="4" x="824" y="74" width="32" height="32" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="827" y="77" height="26" width="26.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-7">
 <rect rx="4" ry="4" x="744" y="84" width="32" height="32" class="combo"/>
