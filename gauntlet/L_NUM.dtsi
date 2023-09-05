@@ -17,7 +17,7 @@
     &kp D_LT        &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &swapper            &kp DE_STAR     &mt MEH N4      &mt RCMD N5     &mt RALT N6     &mt RCTRL DE_PLUS  &trans
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
-    &kp D_RT        &kp TAB_LT      &kp MOV_W_LT    &trans          &kp MOV_W_RT    &kp TAB_RT          &trans          &kp N1          &kp N2          &mt LALT N3     &kp DE_EQUAL    &trans
+    &kp D_RT        &kp TAB_LT      &kp MOV_W_LT    &none           &kp MOV_W_RT    &kp TAB_RT          &trans          &kp N1          &kp N2          &mt LALT N3     &kp DE_EQUAL    &trans
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
                                                     &trans          &kp LSHFT       &cmo NUM            &cmo NUM        &kp N0          &comma_dance
