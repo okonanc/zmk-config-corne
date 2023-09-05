@@ -526,7 +526,7 @@ g[class^="layer-"] {
     > :nth-child(37 of .key):not(.trans),
     > :nth-child(38 of .key):not(.trans),
     > g[transform] .key:not(.trans) {
-        --color--key--bg: var(--color--material--blue-gray--100);
+        --color--key--bg: var(--color--material--blue-gray--50);
         --color--key--border: var(--color--material--blue-gray--50);
     }
 }
