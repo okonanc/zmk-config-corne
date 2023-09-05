@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - K
   - U
-  - {t: '[', s: '{'}
+  - Ü
   - {t: ., s: ':'}
   - Ä
   - V
@@ -67,11 +67,11 @@ layers:
   - {t: R, h: '$$mdi:apple-keyboard-command$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '-', s: _}
+  - ß
   - {t: FNC, h: '$$mdi:close-box$$'}
   - X
   - Y
-  - {t: ;, s: ':'}
+  - Ö
   - {t: ',', s: ;}
   - Q
   - B
@@ -270,6 +270,7 @@ combos:
 - p: [12, 37, 16]
   k: AdNW
   l: [DEF, GME]
+  a: bottom
 - p: [5, 17]
   k: Ä
   l: [DEF]
