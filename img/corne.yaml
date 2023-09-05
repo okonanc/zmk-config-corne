@@ -27,14 +27,14 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - Y
-  - X
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - C
   - V
   - B
   - N
   - M
   - {t: ',', s: ;}
-  - {t: ., s: ':'}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
@@ -70,14 +70,14 @@ layers:
   - ß
   - {t: FNC, h: '$$mdi:close-box$$'}
   - X
-  - Y
+  - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
   - Ö
   - {t: ',', s: ;}
   - Q
   - B
   - P
   - W
-  - M
+  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
   - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:transfer$$', type: trans}

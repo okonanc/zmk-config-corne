@@ -111,6 +111,9 @@
 <svg id="mdi:microphone">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-microphone" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z" /></svg>
 </svg>
+<svg id="mdi:minus-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
+</svg>
 <svg id="mdi:monitor">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-monitor" viewBox="0 0 24 24"><path d="M21,16H3V4H21M21,2H3C1.89,2 1,2.89 1,4V16A2,2 0 0,0 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4C23,2.89 22.1,2 21,2Z" /></svg>
 </svg>
@@ -649,6 +652,7 @@ g[class^="layer-"] {
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">X</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -678,6 +682,7 @@ g[class^="layer-"] {
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
 <text x="0" y="-38" class="key shifted">:</text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
@@ -888,6 +893,7 @@ g[class^="layer-"] {
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">Y</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -917,6 +923,7 @@ g[class^="layer-"] {
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1317,9 +1324,9 @@ g[class^="layer-"] {
 <use href="#mdi:application-outline" xlink:href="#mdi:application-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:application-outline"/>
 <use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-9" y="20" height="18" width="18.0" class="key hold glyph mdi:pan-left"/>
 </g>
-<g transform="translate(280, 200)" class="key trans keypos-27">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(280, 200)" class="key none keypos-27">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-13" y="-13" height="26" width="26.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g transform="translate(360, 210)" class="key keypos-28">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
