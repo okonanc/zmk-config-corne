@@ -756,20 +756,6 @@ g[class^="layer-"] {
 <rect rx="4" ry="4" x="744" y="164" width="32" height="32" class="combo"/>
 <text x="760" y="180" class="combo tap">Ü</text>
 </g>
-<g class="combo combopos-6">
-<path d="M707,133 l189,-83" class="combo"/>
-<path d="M707,133 l-240,6" class="combo"/>
-<path d="M707,133 l39,64" class="combo"/>
-<rect rx="4" ry="4" x="691" y="117" width="32" height="32" class="combo"/>
-<text x="707" y="133" class="combo tap"><tspan style="font-size: 62%">&amp;ch__ing</tspan></text>
-</g>
-<g class="combo combopos-7">
-<path d="M573,160 l-267,-36" class="combo"/>
-<path d="M573,160 l-187,44" class="combo"/>
-<path d="M573,160 l480,-9" class="combo"/>
-<rect rx="4" ry="4" x="557" y="144" width="32" height="32" class="combo"/>
-<text x="573" y="160" class="combo tap"><tspan style="font-size: 60%">&amp;ch_develop</tspan></text>
-</g>
 </g>
 </g>
 <g transform="translate(0, 392)" class="layer-AdNW">
