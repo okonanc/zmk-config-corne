@@ -24,7 +24,7 @@
     
     COMBO(to_gaming , &to GME      , 0 38     , DEF             AdNW , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_base   , &to DEF      , 12 37    ,             GME AdNW , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_cdh    , &to CDH      , 12 37 16 , DEF         GME      , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_adnw   , &to AdNW     , 12 37 16 , DEF         GME      , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     
     #ifdef TEST_LAYER
     COMBO(to_test   , &to TST      , 19 16    , DEF NUM FNC GME      , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -35,10 +35,10 @@
     #endif
 
     /* Umlaute */
-    COMBO(auml      , &kp DE_AE    , 5 17     , DEF             AdNW , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(de_ss     , &kp DE_SS    , 17 29    , DEF             AdNW , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(ouml      , &kp DE_OE    , 6 18     , DEF             AdNW , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(uuml      , &kp DE_UE    , 18 30    , DEF             AdNW , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(auml      , &kp DE_AE    , 5 17     , DEF                  , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(de_ss     , &kp DE_SS    , 17 29    , DEF                  , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(ouml      , &kp DE_OE    , 6 18     , DEF                  , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(uuml      , &kp DE_UE    , 18 30    , DEF                  , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Bluetooth */
     COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC          , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
