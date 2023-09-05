@@ -492,9 +492,7 @@ parse_config:
     PLUS: 
       tap: "+"
       shifted: "*"
-    MINUS:
-      tap: "-"
-      shifted: "_"
+    MINUS: "ß"
     UNDERSCORE: _
     UNDER: _
     SLASH:
@@ -517,9 +515,7 @@ parse_config:
     SEMICOLON:
       tap: ";"
       shifted: ":"
-    SEMI:
-      tap: ";"
-      shifted: ":"
+    SEMI: "Ö"
     COLON: ":"
     SINGLE_QUOTE:
       tap: "'"
@@ -545,9 +541,7 @@ parse_config:
     LEFT_BRACKET:
       tap: "["
       shifted: "{"
-    LBKT:
-      tap: "["
-      shifted: "{"
+    LBKT: "Ü"
     LEFT_BRACE: "{"
     LBRC: "{"
     RIGHT_BRACKET:
@@ -763,7 +757,7 @@ parse_config:
       align: right
     combo_to_base:
       align: bottom
-    combo_to_cdh:
+    combo_to_adnw:
       align: bottom
     combo_bt_clear:
       align: top
