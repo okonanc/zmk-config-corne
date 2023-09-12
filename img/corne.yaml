@@ -26,14 +26,14 @@ layers:
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - Y
+  - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - C
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - V
   - B
   - N
   - M
-  - {t: ',', s: ;}
+  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
@@ -69,16 +69,16 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - ß
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - X
+  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
   - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
-  - Ö
+  - {t: Ö, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ',', s: ;}
   - Q
   - B
   - P
-  - W
+  - {t: W, h: '$$mdi:apple-keyboard-command$$'}
   - {t: M, h: '$$mdi:apple-keyboard-option$$'}
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
