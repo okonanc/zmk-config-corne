@@ -43,19 +43,19 @@ layers:
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
-  AdNW:
+  BuT:
   - $$mdi:keyboard-esc$$
-  - K
+  - B
   - U
-  - Ü
   - {t: ., s: ':'}
-  - Ä
-  - V
-  - G
+  - {t: ',', s: ;}
+  - Ü
+  - P
   - C
   - L
-  - J
+  - M
   - F
+  - X
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
@@ -69,15 +69,15 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - ß
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Ö, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ',', s: ;}
+  - Ä
   - Q
-  - B
-  - P
+  - J
+  - G
   - {t: W, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
@@ -261,16 +261,15 @@ layers:
 combos:
 - p: [0, 38]
   k: GME
-  l: [DEF, AdNW]
+  l: [DEF, BuT]
   a: right
 - p: [12, 37]
   k: DEF
-  l: [GME, AdNW]
+  l: [GME, BuT]
   a: bottom
 - p: [12, 37, 16]
-  k: AdNW
+  k: BuT
   l: [DEF, GME]
-  a: bottom
 - p: [5, 17]
   k: Ä
   l: [DEF]

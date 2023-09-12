@@ -12,7 +12,7 @@
 // Alpha layer: uncomment desired, comment the others
 #include "../gauntlet/L0_qwertz.dtsi"
 //#include "../gauntlet/L0_colemak_dhm.dtsi"
-#include "../gauntlet/L0_AdNW.dtsi"
+#include "../gauntlet/L0_Buteck.dtsi"
 
 // Other layers
 #include "../gauntlet/L_GME.dtsi"
