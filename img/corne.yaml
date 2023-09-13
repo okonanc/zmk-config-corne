@@ -174,47 +174,47 @@ layers:
   - ', .'
   FNC:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-5$$
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-high$$
+  - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
   - F7
   - F8
   - F9
-  - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
-  - $$mdi:volume-high$$
-  - $$mdi:skip-previous$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - $$mdi:power-standby$$
   - {t: '$$mdi:progress-download$$', type: bootloader}
-  - F11
+  - {t: '$$mdi:undo-variant$$', h: Undo}
+  - {t: '$$mdi:redo-variant$$', h: Redo}
+  - {t: '$$mdi:content-copy$$', h: Copy}
+  - FC NEXT
+  - $$mdi:volume-low$$
+  - {t: '$$mdi:microphone$$', h: Teams}
   - F4
   - F5
   - F6
-  - {t: '$$mdi:microphone$$', h: Teams}
-  - $$mdi:volume-low$$
-  - $$mdi:skip-next$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
   - {t: '$$mdi:progress-download$$', type: bootloader}
-  - {t: '$$mdi:backup-restore$$', type: held}
-  - F12
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:content-paste$$', h: Paste}
+  - {t: '$$mdi:content-cut$$', h: Cut}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:video$$', h: Teams}
   - F1
   - F2
   - F3
-  - {t: '$$mdi:video$$', h: Teams}
-  - {t: '$$mdi:undo-variant$$', h: Undo}
-  - {t: '$$mdi:content-cut$$', h: Cut}
-  - {t: '$$mdi:content-copy$$', h: Copy}
-  - {t: '$$mdi:content-paste$$', h: Paste}
-  - {t: '$$mdi:redo-variant$$', h: Redo}
-  - $$mdi:backup-restore$$
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
-  - DEF
-  - DEF
-  - $$mdi:apple-keyboard-caps$$
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backup-restore$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - DEF
+  - DEF
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backup-restore$$
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ´, s: '`'}
