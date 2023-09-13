@@ -175,7 +175,7 @@ layers:
   FNC:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - $$mdi:skip-previous$$
   - $$mdi:volume-high$$
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:undo-variant$$', h: Undo}
   - {t: '$$mdi:redo-variant$$', h: Redo}
   - {t: '$$mdi:content-copy$$', h: Copy}
-  - FC NEXT
+  - $$mdi:skip-next$$
   - $$mdi:volume-low$$
   - {t: '$$mdi:microphone$$', h: Teams}
   - F4
