@@ -43,7 +43,7 @@
 #define TEAMS_TV        LC(LS(O))
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
-
+#define QEMARK          &qe_mark
 #define PHT(key1, key2) &prefer_hold_tap key1 key2
 #define HPT(key1, key2) &hold_prefer_tap key1 key2
 #define HTB(key1, key2) &balanced_hold_tap key1 key2
