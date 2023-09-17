@@ -43,11 +43,11 @@ layers:
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
-  BuT:
+  PUQ:
   - $$mdi:keyboard-esc$$
   - P
   - U
-  - QE MARK
+  - {t: '?', s: '!'}
   - {t: ',', s: ;}
   - Q
   - G
@@ -72,7 +72,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., h: '$$mdi:apple-keyboard-command$$', s: ':'}
-  - SD QUOTES
+  - {t: '''', s: '"'}
   - X
   - J
   - V
@@ -261,14 +261,14 @@ layers:
 combos:
 - p: [0, 38]
   k: GME
-  l: [DEF, BuT]
+  l: [DEF, PUQ]
   a: right
 - p: [12, 37]
   k: DEF
-  l: [GME, BuT]
+  l: [GME, PUQ]
   a: bottom
 - p: [12, 37, 16]
-  k: BuT
+  k: PUQ
   l: [DEF, GME]
 - p: [5, 17]
   k: Ä
@@ -284,16 +284,16 @@ combos:
   l: [DEF]
 - p: [3, 16]
   k: Ä
-  l: [BuT]
+  l: [PUQ]
 - p: [3, 13]
   k: ß
-  l: [BuT]
+  l: [PUQ]
 - p: [3, 17]
   k: Ö
-  l: [BuT]
-- p: [3, 4]
+  l: [PUQ]
+- p: [3, 2]
   k: Ü
-  l: [BuT]
+  l: [PUQ]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [FNC]

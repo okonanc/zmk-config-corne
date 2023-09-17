@@ -44,7 +44,7 @@
     COMBO(puq_auml      , &kp DE_AE    , 3 16     ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(puq_de_ss     , &kp DE_SS    , 3 13     ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(puq_ouml      , &kp DE_OE    , 3 17     ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_uuml      , &kp DE_UE    , 3 4      ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)    
+    COMBO(puq_uuml      , &kp DE_UE    , 3 2      ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)    
 
     /* Bluetooth */
     COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
