@@ -780,15 +780,19 @@ path.combo {
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">U</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">?</text>
-<text x="0" y="-34" class="key shifted">!</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em">qe</tspan><tspan x="0" dy="1.0em">mark</tspan>
+</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
+<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
 <text x="0" y="-34" class="key shifted">;</text>
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">

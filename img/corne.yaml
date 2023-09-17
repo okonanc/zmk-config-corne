@@ -46,9 +46,9 @@ layers:
   PUQ:
   - $$mdi:keyboard-esc$$
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
-  - U
-  - {t: '?', s: '!'}
-  - {t: ',', s: ;}
+  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: qe mark, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
   - Q
   - G
   - C
