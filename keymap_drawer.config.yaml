@@ -463,6 +463,12 @@ parse_config:
     "&swapper":
       tap: $$mdi:application-outline$$
       hold: $$mdi:chevron-right$$
+    
+    # Power
+    "&ext_power EP_ON":
+      tap: $$mdi:power-on$$
+    "&ext_power EP_OFF":
+      tap: $$mdi:power-off$$
       
   # ZMK
   zmk_keycode_map:
@@ -659,10 +665,6 @@ parse_config:
     C_AL_LOCK: $$mdi:lock$$
     K_CANCEL: $$mdi:close-box$$
 
-    # Power
-    EP_ON: $$mdi:power-on$$
-    EP_OFF: $$mdi:power-off$$
-
     # Teams
     LC(LS(K)):
       tap: $$mdi:hand-front-right-outline$$
@@ -763,6 +765,8 @@ parse_config:
     combo_to_base:
       align: bottom
     combo_to_adnw:
+      align: bottom
+    combo_to_puq:
       align: bottom
     combo_bt_clear:
       align: top

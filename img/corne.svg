@@ -123,6 +123,12 @@
 <svg id="mdi:play-pause">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
 </svg>
+<svg id="mdi:power-off">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-power-off" viewBox="0 0 24 24"><path d="M12,3A9,9 0 0,0 3,12A9,9 0 0,0 12,21A9,9 0 0,0 21,12A9,9 0 0,0 12,3M12,19A7,7 0 0,1 5,12A7,7 0 0,1 12,5A7,7 0 0,1 19,12A7,7 0 0,1 12,19Z" /></svg>
+</svg>
+<svg id="mdi:power-on">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-power-on" viewBox="0 0 24 24"><path d="M11,3H13V21H11V3Z" /></svg>
+</svg>
 <svg id="mdi:power-standby">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-power-standby" viewBox="0 0 24 24"><path d="M13,3H11V13H13V3M17.83,5.17L16.41,6.59C18.05,7.91 19,9.9 19,12A7,7 0 0,1 12,19C8.14,19 5,15.88 5,12C5,9.91 5.95,7.91 7.58,6.58L6.17,5.17C2.38,8.39 1.92,14.07 5.14,17.86C8.36,21.64 14.04,22.1 17.83,18.88C19.85,17.17 21,14.65 21,12C21,9.37 19.84,6.87 17.83,5.17Z" /></svg>
 </svg>
@@ -735,11 +741,11 @@ path.combo {
 <text x="542" y="195" class="combo tap">GME</text>
 </g>
 <g class="combo combopos-1">
-<path d="M269,195 l-203,-40" class="combo"/>
-<path d="M269,195 l118,93" class="combo"/>
-<path d="M269,195 l69,-49" class="combo"/>
-<rect rx="4" ry="4" x="251" y="177" width="36" height="36" class="combo"/>
-<text x="269" y="195" class="combo tap">PUQ</text>
+<path d="M269,345 h-223 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
+<path d="M269,345 h133 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
+<path d="M269,345 h85 a6.0,6.0 0 0 0 6.0,-6.0 v-182" class="combo"/>
+<rect rx="4" ry="4" x="251" y="327" width="36" height="36" class="combo"/>
+<text x="269" y="345" class="combo tap">PUQ</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="422" y="82" width="36" height="36" class="combo"/>
@@ -1183,11 +1189,11 @@ path.combo {
 <text x="224" y="345" class="combo tap">DEF</text>
 </g>
 <g class="combo combopos-1">
-<path d="M269,195 l-203,-40" class="combo"/>
-<path d="M269,195 l118,93" class="combo"/>
-<path d="M269,195 l69,-49" class="combo"/>
-<rect rx="4" ry="4" x="251" y="177" width="36" height="36" class="combo"/>
-<text x="269" y="195" class="combo tap">PUQ</text>
+<path d="M269,345 h-223 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
+<path d="M269,345 h133 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
+<path d="M269,345 h85 a6.0,6.0 0 0 0 6.0,-6.0 v-182" class="combo"/>
+<rect rx="4" ry="4" x="251" y="327" width="36" height="36" class="combo"/>
+<text x="269" y="345" class="combo tap">PUQ</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="822" y="72" width="36" height="36" class="combo"/>
@@ -1520,9 +1526,7 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key held keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
-<text x="0" y="0" class="key held tap">
-<tspan x="0" dy="-0.5em">EP</tspan><tspan x="0" dy="1.0em">ON</tspan>
-</text>
+<use href="#mdi:power-on" xlink:href="#mdi:power-on" x="-13" y="-13" height="26" width="26.0" class="key held tap glyph mdi:power-on"/>
 </g>
 <g transform="translate(120, 230)" class="key trans keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1569,9 +1573,7 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">EP</tspan><tspan x="0" dy="1.0em">OFF</tspan>
-</text>
+<use href="#mdi:power-off" xlink:href="#mdi:power-off" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:power-off"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
