@@ -30,7 +30,7 @@
 #endif
 
 // Meh key
-#define MEH             LS(LC(LALT)) 
+#define MEH             LC(LS(LALT)) 
 
 // Desktop and tab navigation shortcuts
 #define D_LT            LC(LG(LEFT))
@@ -46,8 +46,6 @@
 
 #define PHT(key1, key2) &prefer_hold_tap key1 key2
 #define HTB(key1, key2) &balanced_hold_tap key1 key2
-
-#define HRL(layer, key) &hrl layer key
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 300
