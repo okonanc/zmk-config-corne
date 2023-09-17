@@ -17,7 +17,7 @@
     &bootloader     &kp LC(DE_Z)    &kp LC(DE_Y)    &kp LC(INS)     &kp C_NEXT      &kp C_VOL_DN        &kp TEAMS_TA    &kp F4          &kp F5          &kp F6          &kp F11         &bootloader
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
-    &ext_power EP_ON &trans         &trans          &kp LS(INS)     &kp LC(X)       &trans              &kp TEAMS_TV    &kp F1          &kp F2          &kp F3          &kp F12         &ext_power EP_OFF
+    &ext_power EP_ON &trans         &trans          &kp LC(X)       &kp LS(INS)     &trans              &kp TEAMS_TV    &kp F1          &kp F2          &kp F3          &kp F12         &ext_power EP_OFF
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
                                                     &sys_reset      &trans          &to DEF             &to DEF         &trans          &sys_reset     
