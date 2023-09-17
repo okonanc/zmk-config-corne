@@ -707,6 +707,7 @@ path.combo {
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(408, 304) rotate(15.0)" class="key keypos-37">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -939,6 +940,7 @@ path.combo {
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(408, 304) rotate(15.0)" class="key keypos-37">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1443,7 +1445,7 @@ path.combo {
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-previous"/>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:volume-low"/>
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1495,11 +1497,11 @@ path.combo {
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-next"/>
+<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-previous"/>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:volume-low"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skip-next"/>
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1528,7 +1530,6 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key held keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
-<use href="#mdi:power-on" xlink:href="#mdi:power-on" x="-13" y="-13" height="26" width="26.0" class="key held tap glyph mdi:power-on"/>
 </g>
 <g transform="translate(120, 230)" class="key trans keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1575,7 +1576,9 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:power-off" xlink:href="#mdi:power-off" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:power-off"/>
+<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:toggle-switch"/>
+<use href="#mdi:power-off" xlink:href="#mdi:power-off" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:power-off"/>
+<use href="#mdi:power-on" xlink:href="#mdi:power-on" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:power-on"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
