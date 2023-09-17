@@ -464,7 +464,7 @@ parse_config:
       tap: $$mdi:application-outline$$
       hold: $$mdi:chevron-right$$
     
-    # Power
+    # External Power
     "&ext_power EP_TOG":
       shifted: $$mdi:power-on$$
       tap: $$mdi:toggle-switch$$

@@ -20,7 +20,7 @@
     &csl FNC        &hpt RCTRL DE_Y &hpt RALT X     &hpt RCMD C     &kp V           &kp B               &kp N           &kp M           &hpt LCMD COMMA &hpt LALT DOT   &qe_mark        &csl FNC
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &td ENTER TAB   &mt LSHFT SPACE &smart_num NUM 0    &smart_num NUM 0 &smart_shift   &kp ENTER
+                                                    &td TAB ENTER   &mt LSHFT SPACE &smart_num NUM 0    &smart_num NUM 0 &smart_shift   &kp ENTER
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
