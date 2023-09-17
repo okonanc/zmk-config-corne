@@ -1,17 +1,17 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  Q-Z:
+  DEF:
   - $$mdi:keyboard-esc$$
-  - '&hpt LCTRL Q'
-  - '&hpt LALT W'
-  - '&hpt LCMD E'
-  - '&hpt LS(LC(LALT)) R'
+  - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: W, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: LC(LS(LALT))}
   - T
   - Z
-  - '&hpt LS(LC(LALT)) U'
-  - '&hpt RCMD I'
-  - '&hpt RALT O'
-  - '&hpt RCTRL P'
+  - {t: U, h: LC(LS(LALT))}
+  - {t: I, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - A
@@ -26,15 +26,15 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - '&hpt RCTRL Z'
-  - '&hpt RALT X'
-  - '&hpt RCMD C'
+  - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - V
   - B
   - N
   - M
-  - '&hpt LCMD COMMA'
-  - '&hpt LALT DOT'
+  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
@@ -45,16 +45,16 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   PUQ:
   - $$mdi:keyboard-esc$$
-  - '&hpt LCTRL P'
-  - '&hpt LALT U'
-  - '&hpt LCMD DOT'
-  - '&hpt LS(LC(LALT)) COMMA'
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ., h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - {t: ',', h: LC(LS(LALT)), s: ;}
   - Q
   - G
-  - '&hpt LS(LC(LALT)) C'
-  - '&hpt RCMD L'
-  - '&hpt RALT M'
-  - '&hpt RCTRL F'
+  - {t: C, h: LC(LS(LALT))}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - H
@@ -69,16 +69,16 @@ layers:
   - S
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - '&hpt RCTRL K'
-  - '&hpt RALT Z'
-  - '&hpt RCMD DOT'
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ., h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
   - X
   - J
   - V
-  - '&hpt LCMD W'
-  - '&hpt LALT B'
-  - '&hpt LCTRL Y'
+  - {t: W, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: B, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -149,7 +149,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
-  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
+  - {t: '4', h: LC(LS(LALT)), s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
@@ -211,8 +211,8 @@ layers:
   - $$mdi:power-off$$
   - $$mdi:backup-restore$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Q-Z
-  - Q-Z
+  - DEF
+  - DEF
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
   SYM:
@@ -261,28 +261,28 @@ layers:
 combos:
 - p: [0, 38]
   k: GME
-  l: [Q-Z, PUQ]
+  l: [DEF, PUQ]
   a: right
 - p: [12, 37]
-  k: Q-Z
+  k: DEF
   l: [GME, PUQ]
   a: bottom
 - p: [12, 37, 16]
   k: PUQ
-  l: [Q-Z, GME]
+  l: [DEF, GME]
   a: bottom
 - p: [5, 17]
   k: Ä
-  l: [Q-Z]
+  l: [DEF]
 - p: [17, 29]
   k: ß
-  l: [Q-Z]
+  l: [DEF]
 - p: [6, 18]
   k: Ö
-  l: [Q-Z]
+  l: [DEF]
 - p: [18, 30]
   k: Ü
-  l: [Q-Z]
+  l: [DEF]
 - p: [3, 16]
   k: Ä
   l: [PUQ]
