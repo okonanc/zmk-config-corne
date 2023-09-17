@@ -144,9 +144,6 @@
 <svg id="mdi:skip-previous">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
 </svg>
-<svg id="mdi:star-three-points">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-star-three-points" viewBox="0 0 24 24"><path d="M12,2.6L9,12.4L2,19.9L12,17.6L22,20L15,12.5L12,2.6Z" /></svg>
-</svg>
 <svg id="mdi:tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-tab" viewBox="0 0 24 24"><path d="M21,3H3A2,2 0 0,0 1,5V19A2,2 0 0,0 3,21H21A2,2 0 0,0 23,19V5A2,2 0 0,0 21,3M21,19H3V5H13V9H21V19Z" /></svg>
 </svg>
@@ -610,7 +607,7 @@ path.combo {
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
-<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">hiLS(LC(LALT))</tspan></text>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -623,7 +620,7 @@ path.combo {
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">hiLS(LC(LALT))</tspan></text>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -775,6 +772,7 @@ path.combo {
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -841,7 +839,7 @@ path.combo {
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
-<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">hiLS(LC(LALT))</tspan></text>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -854,7 +852,7 @@ path.combo {
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">T</text>
-<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">hiLS(LC(LALT))</tspan></text>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1303,7 +1301,7 @@ path.combo {
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">4</text>
-<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">hiLS(LC(LALT))</tspan></text>
 <text x="0" y="-34" class="key shifted">$</text>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">

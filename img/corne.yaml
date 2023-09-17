@@ -17,10 +17,10 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:star-three-points$$'}
+  - {t: F, h: hiLS(LC(LALT))}
   - G
   - H
-  - {t: J, h: '$$mdi:star-three-points$$'}
+  - {t: J, h: hiLS(LC(LALT))}
   - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYM}
   PUQ:
   - $$mdi:keyboard-esc$$
-  - P
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - U
   - {t: '?', s: '!'}
   - {t: ',', s: ;}
@@ -60,10 +60,10 @@ layers:
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: A, h: '$$mdi:star-three-points$$'}
+  - {t: A, h: hiLS(LC(LALT))}
   - O
   - D
-  - {t: T, h: '$$mdi:star-three-points$$'}
+  - {t: T, h: hiLS(LC(LALT))}
   - {t: R, h: '$$mdi:apple-keyboard-command$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -149,7 +149,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
-  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
+  - {t: '4', h: hiLS(LC(LALT)), s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
