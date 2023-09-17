@@ -5,10 +5,10 @@ layers:
   - '&hpt LCTRL Q'
   - '&hpt LALT W'
   - '&hpt LCMD E'
-  - '&hpt LS(LC(LALT)) R'
+  - '&hpt LC(LS(LALT)) R'
   - T
   - Z
-  - '&hpt LS(LC(LALT)) U'
+  - '&hpt LC(LS(LALT)) U'
   - '&hpt RCMD I'
   - '&hpt RALT O'
   - '&hpt RCTRL P'
@@ -48,10 +48,10 @@ layers:
   - '&hpt LCTRL P'
   - '&hpt LALT U'
   - '&hpt LCMD DOT'
-  - '&hpt LS(LC(LALT)) COMMA'
+  - '&hpt LC(LS(LALT)) COMMA'
   - Q
   - G
-  - '&hpt LS(LC(LALT)) C'
+  - '&hpt LC(LS(LALT)) C'
   - '&hpt RCMD L'
   - '&hpt RALT M'
   - '&hpt RCTRL F'
@@ -149,7 +149,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
-  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
+  - {t: '4', h: LC(LS(LALT)), s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}

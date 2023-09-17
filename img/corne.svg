@@ -144,9 +144,6 @@
 <svg id="mdi:skip-previous">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
 </svg>
-<svg id="mdi:star-three-points">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-star-three-points" viewBox="0 0 24 24"><path d="M12,2.6L9,12.4L2,19.9L12,17.6L22,20L15,12.5L12,2.6Z" /></svg>
-</svg>
 <svg id="mdi:tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-tab" viewBox="0 0 24 24"><path d="M21,3H3A2,2 0 0,0 1,5V19A2,2 0 0,0 3,21H21A2,2 0 0,0 23,19V5A2,2 0 0,0 21,3M21,19H3V5H13V9H21V19Z" /></svg>
 </svg>
@@ -566,7 +563,7 @@ path.combo {
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LS(LC(LALT))</tspan>
+<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LC(LS(LALT))</tspan>
 <tspan x="0" dy="1.0em" style="font-size: 60%">R</tspan>
 </text>
 </g>
@@ -581,7 +578,7 @@ path.combo {
 <g transform="translate(840, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LS(LC(LALT))</tspan>
+<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LC(LS(LALT))</tspan>
 <tspan x="0" dy="1.0em" style="font-size: 60%">U</tspan>
 </text>
 </g>
@@ -821,7 +818,7 @@ path.combo {
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LS(LC(LALT))</tspan>
+<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LC(LS(LALT))</tspan>
 <tspan x="0" dy="1.0em" style="font-size: 60%">COMMA</tspan>
 </text>
 </g>
@@ -836,7 +833,7 @@ path.combo {
 <g transform="translate(840, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LS(LC(LALT))</tspan>
+<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;hpt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LC(LS(LALT))</tspan>
 <tspan x="0" dy="1.0em" style="font-size: 60%">C</tspan>
 </text>
 </g>
@@ -1354,7 +1351,7 @@ path.combo {
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">4</text>
-<use href="#mdi:star-three-points" xlink:href="#mdi:star-three-points" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:star-three-points"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">LC(LS(LALT))</tspan></text>
 <text x="0" y="-34" class="key shifted">$</text>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
