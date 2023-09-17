@@ -30,7 +30,7 @@
 #endif
 
 // Meh key
-#define MEH             hiLS(LC(LALT)) 
+#define MEH             LS(LC(LALT)) 
 
 // Desktop and tab navigation shortcuts
 #define D_LT            LC(LG(LEFT))
