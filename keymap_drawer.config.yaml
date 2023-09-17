@@ -659,6 +659,10 @@ parse_config:
     C_AL_LOCK: $$mdi:lock$$
     K_CANCEL: $$mdi:close-box$$
 
+    # Power
+    EP_ON: $$mdi:power-on$$
+    EP_OFF: $$mdi:power-off$$
+
     # Teams
     LC(LS(K)):
       tap: $$mdi:hand-front-right-outline$$
