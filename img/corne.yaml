@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-return$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -80,7 +80,7 @@ layers:
   - {t: B, h: '$$mdi:apple-keyboard-option$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-return$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
-  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
   - F7
@@ -189,15 +189,15 @@ layers:
   - {t: '$$mdi:undo-variant$$', h: Undo}
   - {t: '$$mdi:redo-variant$$', h: Redo}
   - {t: '$$mdi:content-copy$$', h: Copy}
+  - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
-  - $$mdi:volume-low$$
   - {t: '$$mdi:microphone$$', h: Teams}
   - F4
   - F5
   - F6
   - F11
   - {t: '$$mdi:progress-download$$', type: bootloader}
-  - {t: '$$mdi:power-on$$', type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:content-cut$$', h: Cut}
@@ -208,7 +208,7 @@ layers:
   - F2
   - F3
   - F12
-  - $$mdi:power-off$$
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$'}
   - $$mdi:backup-restore$$
   - {t: '$$mdi:transfer$$', type: trans}
   - DEF
