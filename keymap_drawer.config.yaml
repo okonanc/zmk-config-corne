@@ -775,6 +775,18 @@ parse_config:
     combo_de_ss:
       key:
         tap: "ß"
+    combo_puq_ouml:
+      key:
+        tap: "Ö"
+    combo_puq_auml:
+      key:
+        tap: "Ä"
+    combo_puq_uuml:
+      key:
+        tap: "Ü"
+    combo_puq_de_ss:
+      key:
+        tap: "ß"
     combo_quicksave:
       key:
         tap: $$mdi:cloud-upload$$
