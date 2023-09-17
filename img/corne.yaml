@@ -1,0 +1,329 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  Q-Z:
+  - $$mdi:keyboard-esc$$
+  - '&hpt LCTRL Q'
+  - '&hpt LALT W'
+  - '&hpt LCMD E'
+  - '&hpt LS(LC(LALT)) R'
+  - T
+  - Z
+  - '&hpt LS(LC(LALT)) U'
+  - '&hpt RCMD I'
+  - '&hpt RALT O'
+  - '&hpt RCTRL P'
+  - $$mdi:close-box$$
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - A
+  - S
+  - D
+  - {t: F, h: SYM}
+  - G
+  - H
+  - {t: J, h: SYM}
+  - K
+  - L
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: FNC, h: '$$mdi:close-box$$'}
+  - '&hpt RCTRL Z'
+  - '&hpt RALT X'
+  - '&hpt RCMD C'
+  - V
+  - B
+  - N
+  - M
+  - '&hpt LCMD COMMA'
+  - '&hpt LALT DOT'
+  - {t: '?', s: '!'}
+  - {t: FNC, h: '$$mdi:close-box$$'}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  PUQ:
+  - $$mdi:keyboard-esc$$
+  - '&hpt LCTRL P'
+  - '&hpt LALT U'
+  - '&hpt LCMD DOT'
+  - '&hpt LS(LC(LALT)) COMMA'
+  - Q
+  - G
+  - '&hpt LS(LC(LALT)) C'
+  - '&hpt RCMD L'
+  - '&hpt RALT M'
+  - '&hpt RCTRL F'
+  - $$mdi:close-box$$
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - H
+  - I
+  - E
+  - {t: A, h: SYM}
+  - O
+  - D
+  - {t: T, h: SYM}
+  - R
+  - N
+  - S
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: FNC, h: '$$mdi:close-box$$'}
+  - '&hpt RCTRL K'
+  - '&hpt RALT Z'
+  - '&hpt RCMD DOT'
+  - {t: '''', s: '"'}
+  - X
+  - J
+  - V
+  - '&hpt LCMD W'
+  - '&hpt LALT B'
+  - '&hpt LCTRL Y'
+  - {t: FNC, h: '$$mdi:close-box$$'}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  GME:
+  - T
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - {t: '''', s: '"'}
+  - $$mdi:close-box$$
+  - G
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - P
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: B, h: FNC}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
+  - FNC
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  NUM:
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:window-close$$'}
+  - $$mdi:transfer-up$$
+  - $$mdi:transfer-left$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:transfer-right$$
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
+  - /
+  - {t: '7', s: /}
+  - {t: '8', s: (}
+  - {t: '9', s: )}
+  - {t: '-', s: _}
+  - $$mdi:calculator$$
+  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
+  - $$mdi:transfer-down$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
+  - '*'
+  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
+  - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
+  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
+  - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '"'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
+  - '='
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
+  - {t: '0', s: '='}
+  - {t: ., h: ',', s: ':'}
+  FNC:
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-high$$
+  - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
+  - F7
+  - F8
+  - F9
+  - F10
+  - $$mdi:power-standby$$
+  - {t: '$$mdi:progress-download$$', type: bootloader}
+  - {t: '$$mdi:undo-variant$$', h: Undo}
+  - {t: '$$mdi:redo-variant$$', h: Redo}
+  - {t: '$$mdi:content-copy$$', h: Copy}
+  - $$mdi:skip-next$$
+  - $$mdi:volume-low$$
+  - {t: '$$mdi:microphone$$', h: Teams}
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: '$$mdi:progress-download$$', type: bootloader}
+  - {t: '$$mdi:power-on$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:content-paste$$', h: Paste}
+  - {t: '$$mdi:content-cut$$', h: Cut}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:video$$', h: Teams}
+  - F1
+  - F2
+  - F3
+  - F12
+  - $$mdi:power-off$$
+  - $$mdi:backup-restore$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Q-Z
+  - Q-Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backup-restore$$
+  SYM:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ´, s: '`'}
+  - '%'
+  - $
+  - €
+  - '*'
+  - {t: ^, s: °}
+  - '~'
+  - ''''
+  - '"'
+  - '`'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: <, s: '>'}
+  - '{'
+  - '['
+  - {t: (, type: held}
+  - \
+  - /
+  - {t: ), type: held}
+  - ']'
+  - '}'
+  - '>'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - '&'
+  - '|'
+  - _
+  - {t: '-', s: _}
+  - '='
+  - {t: +, s: '*'}
+  - '?'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 38]
+  k: GME
+  l: [Q-Z, PUQ]
+  a: right
+- p: [12, 37]
+  k: Q-Z
+  l: [GME, PUQ]
+  a: bottom
+- p: [12, 37, 16]
+  k: PUQ
+  l: [Q-Z, GME]
+  a: bottom
+- p: [5, 17]
+  k: Ä
+  l: [Q-Z]
+- p: [17, 29]
+  k: ß
+  l: [Q-Z]
+- p: [6, 18]
+  k: Ö
+  l: [Q-Z]
+- p: [18, 30]
+  k: Ü
+  l: [Q-Z]
+- p: [3, 16]
+  k: Ä
+  l: [PUQ]
+- p: [3, 13]
+  k: ß
+  l: [PUQ]
+- p: [3, 17]
+  k: Ö
+  l: [PUQ]
+- p: [3, 2]
+  k: Ü
+  l: [PUQ]
+- p: [1, 2, 3, 4]
+  k: $$mdi:bluetooth-off$$
+  l: [FNC]
+  a: top
+  o: 0.03
+- p: [1, 13]
+  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  l: [FNC]
+- p: [2, 14]
+  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  l: [FNC]
+- p: [3, 15]
+  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  l: [FNC]
+- p: [4, 16]
+  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  l: [FNC]
+- p: [5, 17]
+  k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  l: [FNC]
+- p: [7, 19]
+  k: $$mdi:play-pause$$
+  l: [FNC, GME]
+- p: [6, 18]
+  k: $$mdi:volume-off$$
+  l: [FNC, GME]
+- p: [14, 15]
+  k: $$mdi:cloud-upload$$
+  l: [GME]
+- p: [2, 3]
+  k: $$mdi:cloud-download$$
+  l: [GME]
