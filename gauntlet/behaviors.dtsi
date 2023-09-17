@@ -164,13 +164,23 @@
     /*
      - tap: &kp COMMA
      - tap x 2: &kp DOT
-     */
+     
     /omit-if-no-ref/ comma_dance: comma_dance {
       label = "COMMA_DANCE";
       compatible = "zmk,behavior-tap-dance";
       tapping-term-ms = <TAPPING_TERM_MS>;
       bindings = <&kp COMMA>, <&kp DOT>;
       #binding-cells = <0>;
+    };
+    */
+    /omit-if-no-ref/ td: tapdance {
+      compatible = "zmk,behavior-hold-tap";
+      label = "TAPDANCE";
+      #binding-cells = <2>;
+      tapping-term-ms = <190>;
+      quick-tap-ms = <250>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
     };
     
     /*

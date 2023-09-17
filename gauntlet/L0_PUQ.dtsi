@@ -1,26 +1,26 @@
 /**
- * Numbers and Navigation Layer
+ * Alpha Layer - BuT - Bu-Teck
  */
 
 / {
   keymap {
     compatible = "zmk,keymap";
 
-    layer_num {
-      label = "NUM";
+    layer_def_adnw {
+      label = "BuT";
       bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
 //  0               1               2               3               4               5                   6               7               8               9               10              11
-    &kp LA(F4)      &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp WIN_PREV        &kp DE_FSLH     &kp N7          &kp N8          &kp N9          &kp DE_MINUS    &kp C_AL_CALC
+    &kp ESC         &kp P           &kp U           &kp QE_MARK     &kp COMMA       &kp Q               &kp G           &kp C           &kp L           &kp M           &kp F           &kp K_CANCEL
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  12              13              14              15              16              17                  18              19              20              21              22              23
-    &kp D_LT        &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &swapper            &kp DE_STAR     &mt MEH N4      &mt RCMD N5     &mt RALT N6     &mt RCTRL DE_PLUS  &trans
+    &bkspc_del      &mt LCTRL H     &mt LALT I      &mt LCMD E      &mt MEH A       &kp O               &kp D           &mt MEH T       &mt RCMD R      &mt RALT N      &mt RCTRL S     &kp ENTER
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
-    &kp D_RT        &kp TAB_LT      &kp MOV_W_LT    &none           &kp MOV_W_RT    &kp TAB_RT          &trans          &kp N1          &kp N2          &mt LALT N3     &kp DE_EQUAL    &trans
+    &csl FNC        &mt RCTRL K     &mt RALT DE_Y   &mt RCMD DOT    &kp SD_QUOTES   &kp X               &kp J           &kp V           &mt LCMD W      &mt LALT B      &mt LCTRL DE_Z  &csl FNC
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &trans          &kp LSHFT       &cmo NUM            &cmo NUM        &kp N0          &td COMMA DOT
+                                                    &lt SYM TAB     &mt LSHFT SPACE &lt NUM ENTER       &smart_num NUM 0 &smart_shift   &lt SYM ENTER
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
