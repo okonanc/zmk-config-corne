@@ -54,7 +54,7 @@
       ignored-key-positions = <5>;
     };
 
-    /omit-if-no-ref/ hold_prefer_tap: hold_prefer_tap {
+    /omit-if-no-ref/ hpt: hpt {
       compatible = "zmk,behavior-hold-tap";
       label = "HOLD_PREFER_TAP";
       #binding-cells = <2>;
