@@ -197,7 +197,7 @@ layers:
   - F6
   - F11
   - {t: '$$mdi:progress-download$$', type: bootloader}
-  - {t: EP ON, type: held}
+  - {t: '$$mdi:power-on$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:content-paste$$', h: Paste}
@@ -208,7 +208,7 @@ layers:
   - F2
   - F3
   - F12
-  - EP OFF
+  - $$mdi:power-off$$
   - $$mdi:backup-restore$$
   - {t: '$$mdi:transfer$$', type: trans}
   - DEF
@@ -270,6 +270,7 @@ combos:
 - p: [12, 37, 16]
   k: PUQ
   l: [DEF, GME]
+  a: bottom
 - p: [5, 17]
   k: Ä
   l: [DEF]
