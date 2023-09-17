@@ -13,7 +13,8 @@
 // Layers
 #define DEF 0
 //#define CDH 1
-#define BuT 1
+//#define BuT 1
+#define PUQ 1
 #define GME 2
 #define NUM 3
 #define FNC 4
@@ -53,6 +54,7 @@
 
 // Combos Constants
 #define COMBO_TERM_DEFAULT 30
+#define COMBO_UMLAUT_DEFAULT 100
 #define COMBO_QUICK_TAP_MS 100
 
 #include "behaviors.dtsi"
