@@ -5,10 +5,10 @@ layers:
   - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - {t: W, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: LC(LS(LALT))}
+  - {t: R, h: '$$mdi:star-three-points$$'}
   - T
   - Z
-  - {t: U, h: LC(LS(LALT))}
+  - {t: U, h: '$$mdi:star-three-points$$'}
   - {t: I, h: '$$mdi:apple-keyboard-command$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
@@ -48,10 +48,10 @@ layers:
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: U, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., h: '$$mdi:apple-keyboard-command$$', s: ':'}
-  - {t: ',', h: LC(LS(LALT)), s: ;}
+  - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
   - Q
   - G
-  - {t: C, h: LC(LS(LALT))}
+  - {t: C, h: '$$mdi:star-three-points$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: M, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
@@ -149,7 +149,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
-  - {t: '4', h: LC(LS(LALT)), s: $}
+  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
@@ -200,8 +200,8 @@ layers:
   - {t: '$$mdi:power-on$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:content-paste$$', h: Paste}
   - {t: '$$mdi:content-cut$$', h: Cut}
+  - {t: '$$mdi:content-paste$$', h: Paste}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:video$$', h: Teams}
   - F1
