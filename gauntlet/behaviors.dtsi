@@ -59,7 +59,7 @@
       label = "HOLD_PREFER_TAP";
       #binding-cells = <2>;
       tapping_term_ms = <TAPPING_TERM_MS>; // <200>;
-      quick_tap_ms = <0>;
+      quick_tap_ms = <LONG_QUICK_TAP_MS>; // <0>
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
@@ -83,7 +83,16 @@
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
     };
-      
+    
+    /omit-if-no-ref hrl: homerow_layers {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_LAYERS";
+      #binding-cells = <2>;
+      tapping-term-ms = <220>;
+      quick-tap-ms = <LONG_QUICK_TAP_MS>;
+      flavor = "tap-preferred";
+      bindings = <&mo>, <&kp>;
+    };    
     /*
      - tap: sticky shift
      - double-tap: caps-word (shift + tap mod-morph)
