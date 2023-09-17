@@ -84,7 +84,7 @@
       bindings = <&kp>, <&kp>;
     };
     
-    /omit-if-no-ref hrl: homerow_layers {
+    /omit-if-no-ref/ hrl: homerow_layers {
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_LAYERS";
       #binding-cells = <2>;
