@@ -17,7 +17,7 @@
     &bkspc_del      &kp A           &kp S           &kp D           &hrl SYM F      &kp G               &kp H           &hrl SYM J      &kp K           &kp L           &sd_quotes      &kp ENTER
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
-    &csl FNC        &hpt RCTRL DE_Y &hpt RALT X     &hpt RCMD C     &kp V           &kp B               &kp N           &kp M           &hpt LCMD COMMA &hpt LALT DOT   &qe_mark        &csl FNC
+    &csl FNC        &hpt RCTRL DE_Y &hpt RALT X     &hpt RCMD C     &kp V           &kp B               &kp N           &kp M           &hpt LCMD COMMA &hpt LALT DOT   &hpt LCTRL (&qe_mark) &csl FNC
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
                                                     &kp TAB         &mt LSHFT SPACE &smart_num NUM 0    &smart_num NUM 0 &smart_shift   &kp ENTER

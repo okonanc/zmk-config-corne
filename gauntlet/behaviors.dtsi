@@ -157,7 +157,7 @@
     };
 
     /*
-     - tap: &sl L1
+     - tap: &sl NUM
      - tap x 2: &num_word
 
      From: https://github.com/urob/zmk-config/
@@ -170,19 +170,6 @@
       #binding-cells = <0>;
     };
 
-    /*
-     - tap: &kp COMMA
-     - tap x 2: &kp DOT
-     
-    /omit-if-no-ref/ comma_dance: comma_dance {
-      label = "COMMA_DANCE";
-      compatible = "zmk,behavior-tap-dance";
-      tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&kp COMMA>, <&kp DOT>;
-      #binding-cells = <0>;
-    };
-    */
-
     /omit-if-no-ref/ th: taphold {
       compatible = "zmk,behavior-hold-tap";
       label = "TAP-HOLD";
@@ -191,18 +178,6 @@
       quick-tap-ms = <250>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
-    };
-
-    /*
-     - tap: &kp 
-     - tap x 2: &csl
-     */
-    /omit-if-no-ref/ td_kp_csl: td_kp_csl {
-      label = "DANCE_KP_CSL";
-      compatible = "zmk,behavior-tap-dance";
-      tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&kp>, <&csl>;
-      #binding-cells = <2>;
     };
 
     /*
@@ -235,7 +210,7 @@
       mods = <(MOD_LCTL)>;
       #binding-cells = <0>;
     };
-
+    
     /*
      - tap: backspace
      - hold: repeat backspace
