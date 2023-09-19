@@ -182,25 +182,17 @@
       #binding-cells = <0>;
     };
     */
-  
-    /omit-if-no-ref/ td: tapdance {
-      label = "TAPDANCE";
-      compatible = "zmk,behavior-tap-dance";
-      tapping-term-ms = <TAPPING_TERM_MS>;
-      bindings = <&kp>, <&kp>;
-      #binding-cells = <2>;
-    };
-    /*
-    /omit-if-no-ref/ td: tapdance {
+
+    /omit-if-no-ref/ th: taphold {
       compatible = "zmk,behavior-hold-tap";
-      label = "TAPDANCE";
+      label = "TAP-HOLD";
       #binding-cells = <2>;
-      tapping-term-ms = <TAPPING_TERM_MS>;
+      tapping-term-ms = <TAPHOLD_MS>;
       quick-tap-ms = <250>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-    */
+
     /*
      - tap: &kp 
      - tap x 2: &csl
