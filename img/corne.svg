@@ -1233,7 +1233,8 @@ path.combo {
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-up-bold"/>
+<use href="#mdi:transfer-up" xlink:href="#mdi:transfer-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:transfer-up"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1283,15 +1284,18 @@ path.combo {
 </g>
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-left-bold"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 62%">LC(LEFT)</tspan></text>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:arrow-left-bold"/>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-down-bold"/>
+<use href="#mdi:transfer-down" xlink:href="#mdi:transfer-down" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:transfer-down"/>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:arrow-down-bold"/>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:arrow-right-bold"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">LC(RIGHT)</tspan></text>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:arrow-right-bold"/>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
