@@ -182,6 +182,15 @@
       #binding-cells = <0>;
     };
     */
+  
+    /omit-if-no-ref/ td: tapdance {
+      label = "TAPDANCE";
+      compatible = "zmk,behavior-tap-dance";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp>, <&kp>;
+      #binding-cells = <2>;
+    };
+    /*
     /omit-if-no-ref/ td: tapdance {
       compatible = "zmk,behavior-hold-tap";
       label = "TAPDANCE";
@@ -191,7 +200,7 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-    
+    */
     /*
      - tap: &kp 
      - tap x 2: &csl
