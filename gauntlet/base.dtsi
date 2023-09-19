@@ -60,6 +60,7 @@
 #define COMBO_QUICK_TAP_MS 100
 
 #include "behaviors.dtsi"
+#include "dances.dtsi"
 #include "macros.dtsi"
 #include "combos.dtsi"
 // #include "chords_en_qwertz.dtsi"

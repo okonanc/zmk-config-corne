@@ -35,7 +35,8 @@ layers:
   - M
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '?', s: '!'}
+  - {t: (, h: '$$mdi:apple-keyboard-control$$'}
+  - '&qe_mark)'
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -130,7 +131,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUM:
-  - {t: '$$mdi:application-outline$$', h: '$$mdi:window-close$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
   - $$mdi:transfer-left$$
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:transfer-up$$'}
@@ -141,7 +142,7 @@ layers:
   - {t: '8', s: (}
   - {t: '9', s: )}
   - {t: '-', s: _}
-  - $$mdi:calculator$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - $$mdi:transfer-down$$
   - {t: '$$mdi:arrow-left-bold$$', h: LC(LEFT)}
@@ -153,11 +154,11 @@ layers:
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:calculator$$
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:window-close$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:transfer$$', type: trans}
