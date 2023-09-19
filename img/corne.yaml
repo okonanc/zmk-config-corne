@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:application-outline$$', h: '$$mdi:window-close$$'}
   - $$mdi:transfer-up$$
   - $$mdi:transfer-left$$
-  - {t: '$$mdi:transfer-up$$', h: '$$mdi:arrow-up-bold$$'}
+  - '&td UP PG_UP'
   - $$mdi:transfer-right$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - /
@@ -144,9 +144,9 @@ layers:
   - $$mdi:calculator$$
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - $$mdi:transfer-down$$
-  - {t: LC(LEFT), h: '$$mdi:arrow-left-bold$$'}
-  - {t: '$$mdi:transfer-down$$', h: '$$mdi:arrow-down-bold$$'}
-  - {t: LC(RIGHT), h: '$$mdi:arrow-right-bold$$'}
+  - '&td LEFT LC(LEFT)'
+  - '&td DOWN PG_DN'
+  - '&td RIGHT LC(RIGHT)'
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
   - {t: '4', h: '$$mdi:star-three-points$$', s: $}
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '0', s: '='}
-  - {t: ., h: ',', s: ':'}
+  - '&td COMMA DOT'
   FNC:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
