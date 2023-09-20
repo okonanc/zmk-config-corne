@@ -243,6 +243,22 @@
       #binding-cells = <0>;
     };
 
+    /*
+    /*
+     - tap: sd_quotes
+     - hold: &kp
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ smq: smart_quotes {
+      label = "SMART_QUOTES";
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp>, <&sd_quotes>;
+      #binding-cells = <2>;
+    };
+
         /*
      - tap: single
      - hold: repeat single quotes
