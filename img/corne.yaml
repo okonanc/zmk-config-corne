@@ -11,7 +11,7 @@ layers:
   - {t: U, h: '$$mdi:star-three-points$$'}
   - {t: I, h: '$$mdi:apple-keyboard-command$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - A
@@ -23,7 +23,7 @@ layers:
   - {t: J, h: SYM}
   - K
   - L
-  - {t: '''', s: '"'}
+  - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
@@ -35,8 +35,7 @@ layers:
   - M
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: (, h: '$$mdi:apple-keyboard-control$$'}
-  - '&qe_mark)'
+  - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
