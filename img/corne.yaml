@@ -271,30 +271,18 @@ combos:
   k: PUQ XCV
   l: [DEF, GME]
   a: bottom
-- p: [5, 17]
-  k: Ä
-  l: [DEF]
-- p: [17, 29]
-  k: ß
-  l: [DEF]
-- p: [6, 18]
-  k: Ö
-  l: [DEF]
-- p: [18, 30]
-  k: Ü
-  l: [DEF]
 - p: [3, 16]
   k: Ä
-  l: [PUQ XCV]
+  l: [DEF, PUQ XCV]
 - p: [3, 13]
   k: ß
-  l: [PUQ XCV]
+  l: [DEF, PUQ XCV]
 - p: [3, 17]
   k: Ö
-  l: [PUQ XCV]
+  l: [DEF, PUQ XCV]
 - p: [3, 2]
   k: Ü
-  l: [PUQ XCV]
+  l: [DEF, PUQ XCV]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [FNC]
