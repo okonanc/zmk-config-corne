@@ -22,44 +22,47 @@
     * 
     /* Layers */
     
-    COMBO(to_gaming , &to GME      , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_base   , &to DEF      , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_puq    , &to PUQ      , 12 37 16 , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-   //COMBO(to_but    , &to BuT      , 12 37 16 , DEF         GME          , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_base   , &to DEF        , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_puq    , &to PUQ        , 12 37 16 , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    //COMBO(to_but    , &to BuT        , 12 37 16 , DEF         GME          , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     #ifdef TEST_LAYER
-    COMBO(to_test   , &to TST      , 19 16    , DEF NUM FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_test   , &to TST        , 19 16    , DEF NUM FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
     #ifdef MOUSE_KEYS
-    COMBO(to_mouse  , &to MSE      , 7 8      , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(to_mouse  , &to MSE        , 7 8      , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
     /* Umlaute */
-    COMBO(auml      , &kp DE_AE    , 5 17     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(de_ss     , &kp DE_SS    , 17 29    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(ouml      , &kp DE_OE    , 6 18     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(uuml      , &kp DE_UE    , 18 30    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(auml      , &kp DE_AE      , 5 17     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(de_ss     , &kp DE_SS      , 17 29    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(ouml      , &kp DE_OE      , 6 18     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(uuml      , &kp DE_UE      , 18 30    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
 
-    COMBO(puq_auml      , &kp DE_AE    , 3 16     ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_de_ss     , &kp DE_SS    , 3 13     ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_ouml      , &kp DE_OE    , 3 17     ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_uuml      , &kp DE_UE    , 3 2      ,                 PUQ , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)    
+    COMBO(puq_auml  , &kp DE_AE      , 3 16     ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(puq_de_ss , &kp DE_SS      , 3 13     ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(puq_ouml  , &kp DE_OE      , 3 17     ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(puq_uuml  , &kp DE_UE      , 3 2      ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)    
 
     /* Bluetooth */
-    COMBO(bt_clear  , &bt BT_CLR   , 1 2 3 4  ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_0  , &bt BT_SEL 0 , 1 13     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_1  , &bt BT_SEL 1 , 2 14     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_2  , &bt BT_SEL 2 , 3 15     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_3  , &bt BT_SEL 3 , 4 16     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_4  , &bt BT_SEL 4 , 5 17     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_clear  , &bt BT_CLR     , 1 2 3 4  ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_0  , &bt BT_SEL 0   , 1 13     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_1  , &bt BT_SEL 1   , 2 14     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_2  , &bt BT_SEL 2   , 3 15     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_3  , &bt BT_SEL 3   , 4 16     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_sel_4  , &bt BT_SEL 4   , 5 17     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Media */
-    COMBO(play      , &kp C_PP     , 16 17    ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(mute      , &kp C_MUTE   , 4 5      ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(play      , &kp C_PP       , 16 17    ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(mute      , &kp C_MUTE     , 4 5      ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Gaming */
-    COMBO(quicksave , &kp F5       , 14 15    ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(quickload , &kp F8       , 2 3      ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(quicksave , &kp F5         , 14 15    ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(quickload , &kp F8         , 2 3      ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+
+    /* Misc */
+    COMBO(del_word  , &kp LCTRL(BSPC), 12 13    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
   };
 };

@@ -244,7 +244,6 @@
     };
 
     /*
-    /*
      - tap: sd_quotes
      - hold: &kp
 
@@ -259,7 +258,7 @@
       #binding-cells = <2>;
     };
 
-        /*
+    /*
      - tap: single
      - hold: repeat single quotes
      - shift + tap: double quote
@@ -273,6 +272,22 @@
       bindings = <&kp DE_QMARK>, <&kp DE_EXCL>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
       #binding-cells = <0>;
+    };
+
+    /*
+    /*
+     - tap: qe_mark
+     - hold: &kp
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ smm: smart_marks {
+      label = "SMART_MARKS";
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <TAPPING_TERM_MS>;
+      bindings = <&kp>, <&qe_mark>;
+      #binding-cells = <2>;
     };
 
     /*
