@@ -35,7 +35,7 @@ layers:
   - M
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '?', s: '!'}
+  - {t: '?', h: '$$mdi:apple-keyboard-control$$', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
