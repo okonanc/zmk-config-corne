@@ -761,6 +761,10 @@ path.combo {
 <rect rx="4" ry="4" x="742" y="162" width="36" height="36" class="combo"/>
 <text x="760" y="180" class="combo tap">Ü</text>
 </g>
+<g class="combo combopos-6">
+<rect rx="4" ry="4" x="62" y="132" width="36" height="36" class="combo"/>
+<text x="80" y="150" class="combo tap"><tspan style="font-size: 60%">LCTRL(BSPC)</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(0, 392)" class="layer-PUQ">
@@ -782,9 +786,9 @@ path.combo {
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="0" class="key tap">?</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-command"/>
-<text x="0" y="-34" class="key shifted">:</text>
+<text x="0" y="-34" class="key shifted">!</text>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -995,6 +999,10 @@ path.combo {
 <g class="combo combopos-5">
 <rect rx="4" ry="4" x="222" y="27" width="36" height="36" class="combo"/>
 <text x="240" y="45" class="combo tap">Ü</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="4" ry="4" x="62" y="132" width="36" height="36" class="combo"/>
+<text x="80" y="150" class="combo tap"><tspan style="font-size: 60%">LCTRL(BSPC)</tspan></text>
 </g>
 </g>
 </g>
