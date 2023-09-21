@@ -65,6 +65,6 @@
     COMBO(quickload , &kp F8         , 2 3      ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Misc */
-    COMBO(del_word  , &kp LCTRL(BSPC), 12 13    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(del_word  , &kp LC(BSPC)   , 12 13    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
   };
 };

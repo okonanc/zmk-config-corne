@@ -755,6 +755,8 @@ parse_config:
     LS(MINUS): "?"
     LS(N0): "="
     LS(RBKT): "*"
+    LC(LEFT): "$$mdi:chevron-double-left$$"
+    LC(RIGHT): "$$mdi:chevron-double-right$$"    
     C_AL_CALC:
       tap: $$mdi:calculator$$
 
