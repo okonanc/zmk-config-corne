@@ -795,6 +795,9 @@ parse_config:
     combo_puq_de_ss:
       key:
         tap: "ß"
+    combo_del_word:
+      key:
+        tap: $$mdi:eraser$$
     combo_quicksave:
       key:
         tap: $$mdi:cloud-upload$$
