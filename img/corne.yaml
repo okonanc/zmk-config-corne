@@ -330,6 +330,6 @@ combos:
 - p: [12, 13]
   k: $$mdi:eraser$$
   l: [DEF, PUQ XCV]
-- p: [28, 27]
+- p: [16, 15]
   k: $$mdi:keyboard-return$$
   l: [DEF, PUQ XCV]

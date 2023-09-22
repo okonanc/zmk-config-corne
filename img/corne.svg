@@ -778,8 +778,8 @@ path.combo {
 <use href="#mdi:eraser" xlink:href="#mdi:eraser" x="67" y="137" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
 </g>
 <g class="combo combopos-7">
-<rect rx="4" ry="4" x="302" y="187" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="192" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="112" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
@@ -1019,8 +1019,8 @@ path.combo {
 <use href="#mdi:eraser" xlink:href="#mdi:eraser" x="67" y="137" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
 </g>
 <g class="combo combopos-7">
-<rect rx="4" ry="4" x="302" y="187" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="192" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="112" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
