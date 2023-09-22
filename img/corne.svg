@@ -120,6 +120,12 @@
 <svg id="mdi:monitor">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-monitor" viewBox="0 0 24 24"><path d="M21,16H3V4H21M21,2H3C1.89,2 1,2.89 1,4V16A2,2 0 0,0 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4C23,2.89 22.1,2 21,2Z" /></svg>
 </svg>
+<svg id="mdi:page-first">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-page-first" viewBox="0 0 24 24"><path d="M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z" /></svg>
+</svg>
+<svg id="mdi:page-last">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-page-last" viewBox="0 0 24 24"><path d="M5.59,7.41L10.18,12L5.59,16.59L7,18L13,12L7,6L5.59,7.41M16,6H18V18H16V6Z" /></svg>
+</svg>
 <svg id="mdi:pan-left">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-pan-left" viewBox="0 0 24 24"><path d="M7,8L2.5,12L7,16V8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
 </svg>
@@ -164,12 +170,6 @@
 </svg>
 <svg id="mdi:transfer-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-down" viewBox="0 0 24 24"><path d="M16,3V5H8V3H16M16,7V9H8V7H16M16,11V13H8V11H16M5,15H19L12,22L5,15Z" /></svg>
-</svg>
-<svg id="mdi:transfer-left">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-left" viewBox="0 0 24 24"><path d="M21,16H19V8H21V16M17,16H15V8H17V16M13,16H11V8H13V16M9,5V19L2,12L9,5Z" /></svg>
-</svg>
-<svg id="mdi:transfer-right">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-right" viewBox="0 0 24 24"><path d="M3,8H5V16H3V8M7,8H9V16H7V8M11,8H13V16H11V8M15,19.25V4.75L22.25,12L15,19.25Z" /></svg>
 </svg>
 <svg id="mdi:transfer-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-up" viewBox="0 0 24 24"><path d="M8,21V19H16V21H8M8,17V15H16V17H8M8,13V11H16V13H8M19,9H5L12,2L19,9Z" /></svg>
@@ -758,28 +758,28 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-2">
-<rect rx="4" ry="4" x="302" y="67" width="36" height="36" class="combo"/>
-<text x="320" y="85" class="combo tap">Ä</text>
+<rect rx="4" ry="4" x="422" y="82" width="36" height="36" class="combo"/>
+<text x="440" y="100" class="combo tap">Ä</text>
 </g>
 <g class="combo combopos-3">
-<path d="M200,95 l58,-40" class="combo"/>
-<path d="M200,95 l-58,40" class="combo"/>
-<rect rx="4" ry="4" x="182" y="77" width="36" height="36" class="combo"/>
-<text x="200" y="95" class="combo tap">ß</text>
+<rect rx="4" ry="4" x="422" y="162" width="36" height="36" class="combo"/>
+<text x="440" y="180" class="combo tap">ß</text>
 </g>
 <g class="combo combopos-4">
-<path d="M360,90 l-57,-36" class="combo"/>
-<path d="M360,90 l57,36" class="combo"/>
-<rect rx="4" ry="4" x="342" y="72" width="36" height="36" class="combo"/>
-<text x="360" y="90" class="combo tap">Ö</text>
+<rect rx="4" ry="4" x="742" y="82" width="36" height="36" class="combo"/>
+<text x="760" y="100" class="combo tap">Ö</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="4" ry="4" x="222" y="27" width="36" height="36" class="combo"/>
-<text x="240" y="45" class="combo tap">Ü</text>
+<rect rx="4" ry="4" x="742" y="162" width="36" height="36" class="combo"/>
+<text x="760" y="180" class="combo tap">Ü</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="4" ry="4" x="62" y="132" width="36" height="36" class="combo"/>
 <use href="#mdi:eraser" xlink:href="#mdi:eraser" x="67" y="137" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="4" ry="4" x="302" y="187" width="36" height="36" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="192" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
@@ -997,28 +997,30 @@ path.combo {
 <text x="224" y="345" class="combo tap">DEF</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="4" ry="4" x="302" y="67" width="36" height="36" class="combo"/>
-<text x="320" y="85" class="combo tap">Ä</text>
+<rect rx="4" ry="4" x="862" y="67" width="36" height="36" class="combo"/>
+<text x="880" y="85" class="combo tap">Ä</text>
 </g>
 <g class="combo combopos-3">
-<path d="M200,95 l58,-40" class="combo"/>
-<path d="M200,95 l-58,40" class="combo"/>
-<rect rx="4" ry="4" x="182" y="77" width="36" height="36" class="combo"/>
-<text x="200" y="95" class="combo tap">ß</text>
+<rect rx="4" ry="4" x="862" y="27" width="36" height="36" class="combo"/>
+<text x="880" y="45" class="combo tap">ß</text>
 </g>
 <g class="combo combopos-4">
-<path d="M360,90 l-57,-36" class="combo"/>
-<path d="M360,90 l57,36" class="combo"/>
-<rect rx="4" ry="4" x="342" y="72" width="36" height="36" class="combo"/>
-<text x="360" y="90" class="combo tap">Ö</text>
+<path d="M840,90 l57,-36" class="combo"/>
+<path d="M840,90 l-57,36" class="combo"/>
+<rect rx="4" ry="4" x="822" y="72" width="36" height="36" class="combo"/>
+<text x="840" y="90" class="combo tap">Ö</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="4" ry="4" x="222" y="27" width="36" height="36" class="combo"/>
-<text x="240" y="45" class="combo tap">Ü</text>
+<rect rx="4" ry="4" x="942" y="27" width="36" height="36" class="combo"/>
+<text x="960" y="45" class="combo tap">Ü</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="4" ry="4" x="62" y="132" width="36" height="36" class="combo"/>
 <use href="#mdi:eraser" xlink:href="#mdi:eraser" x="67" y="137" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="4" ry="4" x="302" y="187" width="36" height="36" class="combo"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="192" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
@@ -1251,7 +1253,7 @@ path.combo {
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:transfer-left" xlink:href="#mdi:transfer-left" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:transfer-left"/>
+<use href="#mdi:page-first" xlink:href="#mdi:page-first" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:page-first"/>
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1260,7 +1262,7 @@ path.combo {
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:transfer-right" xlink:href="#mdi:transfer-right" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:transfer-right"/>
+<use href="#mdi:page-last" xlink:href="#mdi:page-last" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:page-last"/>
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
