@@ -327,7 +327,7 @@ combos:
 - p: [2, 3]
   k: $$mdi:cloud-download$$
   l: [GME]
-- p: [12, 13]
+- p: [14, 15]
   k: $$mdi:eraser$$
   l: [DEF, PUQ XCV]
 - p: [16, 15]

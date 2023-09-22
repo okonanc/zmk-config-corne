@@ -774,8 +774,8 @@ path.combo {
 <text x="760" y="180" class="combo tap">Ü</text>
 </g>
 <g class="combo combopos-6">
-<rect rx="4" ry="4" x="62" y="132" width="36" height="36" class="combo"/>
-<use href="#mdi:eraser" xlink:href="#mdi:eraser" x="67" y="137" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<use href="#mdi:eraser" xlink:href="#mdi:eraser" x="227" y="112" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
 </g>
 <g class="combo combopos-7">
 <rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
@@ -1015,8 +1015,8 @@ path.combo {
 <text x="960" y="45" class="combo tap">Ü</text>
 </g>
 <g class="combo combopos-6">
-<rect rx="4" ry="4" x="62" y="132" width="36" height="36" class="combo"/>
-<use href="#mdi:eraser" xlink:href="#mdi:eraser" x="67" y="137" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<use href="#mdi:eraser" xlink:href="#mdi:eraser" x="227" y="112" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
 </g>
 <g class="combo combopos-7">
 <rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
