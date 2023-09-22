@@ -697,9 +697,9 @@ parse_config:
     PG_DN:
       tap: $$mdi:transfer-down$$
     HOME:
-      tap: $$mdi:transfer-left$$
+      tap: $$mdi:page-first$$
     END:
-      tap: $$mdi:transfer-right$$
+      tap: $$mdi:page-last$$
 
     # Tabs, Window and Desktop
     LC(LG(LEFT)):
@@ -806,3 +806,6 @@ parse_config:
     combo_quickload:
       key:
         tap: $$mdi:cloud-download$$
+    combo_enter:
+      key:
+        tap: $$mdi:keyboard-return$$
