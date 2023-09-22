@@ -66,6 +66,6 @@
 
     /* Misc */
     COMBO(del_word  , &kp LC(BSPC)   , 12 13    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(enter     , &kp ENTER      , 28 27    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(enter     , &kp ENTER      , 16 15    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
   };
 };
