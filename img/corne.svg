@@ -995,22 +995,22 @@ path.combo {
 <text x="224" y="345" class="combo tap">DEF</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="67" width="36" height="36" class="combo"/>
-<text x="880" y="85" class="combo tap">Ä</text>
+<rect rx="4" ry="4" x="302" y="67" width="36" height="36" class="combo"/>
+<text x="320" y="85" class="combo tap">Ä</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="4" ry="4" x="862" y="27" width="36" height="36" class="combo"/>
-<text x="880" y="45" class="combo tap">ß</text>
+<rect rx="4" ry="4" x="302" y="27" width="36" height="36" class="combo"/>
+<text x="320" y="45" class="combo tap">ß</text>
 </g>
 <g class="combo combopos-4">
-<path d="M840,90 l57,-36" class="combo"/>
-<path d="M840,90 l-57,36" class="combo"/>
-<rect rx="4" ry="4" x="822" y="72" width="36" height="36" class="combo"/>
-<text x="840" y="90" class="combo tap">Ö</text>
+<path d="M360,90 l-57,-36" class="combo"/>
+<path d="M360,90 l57,36" class="combo"/>
+<rect rx="4" ry="4" x="342" y="72" width="36" height="36" class="combo"/>
+<text x="360" y="90" class="combo tap">Ö</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="4" ry="4" x="942" y="27" width="36" height="36" class="combo"/>
-<text x="960" y="45" class="combo tap">Ü</text>
+<rect rx="4" ry="4" x="222" y="27" width="36" height="36" class="combo"/>
+<text x="240" y="45" class="combo tap">Ü</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
