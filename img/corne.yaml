@@ -16,26 +16,26 @@ layers:
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - A
   - S
-  - D
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F, h: SYM}
   - G
   - H
   - {t: J, h: SYM}
-  - K
-  - L
-  - P
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - Y
+  - X
+  - C
   - V
   - B
   - N
   - M
-  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: ;}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '?', h: '$$mdi:apple-keyboard-control$$', s: '!'}
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -57,28 +57,28 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - H
-  - I
-  - E
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: A, h: SYM}
   - O
   - D
   - {t: T, h: SYM}
-  - R
-  - N
-  - S
+  - {t: R, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ., h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - K
+  - Y
+  - {t: ., s: ':'}
   - {t: '''', s: '"'}
   - X
   - J
   - V
-  - {t: W, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: B, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
+  - W
+  - B
+  - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
   - $$mdi:page-first$$
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:transfer-up$$'}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:page-last$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - /
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - $$mdi:transfer-down$$
-  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:chevron-double-left$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:transfer-down$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:chevron-double-right$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - '*'
   - {t: '4', h: '$$mdi:star-three-points$$', s: $}
