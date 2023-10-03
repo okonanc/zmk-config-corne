@@ -51,7 +51,7 @@
 #define TAPPING_TERM_MS 300
 #define QUICK_TAP_MS 175
 #define LONG_QUICK_TAP_MS 250
-#define GLOBAL_QUICK_TAP_MS 150
+#define REQUIRE_PRIOR_IDLE_MS 150
 #define TAPHOLD_MS 190
 
 // Combos Constants
