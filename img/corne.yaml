@@ -5,10 +5,10 @@ layers:
   - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - {t: W, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: '$$mdi:star-three-points$$'}
+  - R
   - T
   - Z
-  - {t: U, h: '$$mdi:star-three-points$$'}
+  - U
   - {t: I, h: '$$mdi:apple-keyboard-command$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
@@ -17,10 +17,10 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: SYM}
+  - {t: F, h: '$$mdi:star-three-points$$'}
   - G
   - H
-  - {t: J, h: SYM}
+  - {t: J, h: '$$mdi:star-three-points$$'}
   - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
@@ -37,21 +37,21 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   PUQ:
   - $$mdi:keyboard-esc$$
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: U, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '?', h: '$$mdi:apple-keyboard-command$$', s: '!'}
-  - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
+  - {t: ',', s: ;}
   - Q
   - G
-  - {t: C, h: '$$mdi:star-three-points$$'}
+  - C
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: M, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
@@ -60,10 +60,10 @@ layers:
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: A, h: SYM}
+  - {t: A, h: '$$mdi:star-three-points$$'}
   - O
   - D
-  - {t: T, h: SYM}
+  - {t: T, h: '$$mdi:star-three-points$$'}
   - {t: R, h: '$$mdi:apple-keyboard-command$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -80,12 +80,12 @@ layers:
   - B
   - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: SYM}
   GME:
   - T
   - $$mdi:keyboard-esc$$
@@ -232,10 +232,10 @@ layers:
   - {t: <, s: '>'}
   - '{'
   - '['
-  - {t: (, type: held}
+  - (
   - \
   - /
-  - {t: ), type: held}
+  - )
   - ']'
   - '}'
   - '>'
@@ -252,12 +252,12 @@ layers:
   - {t: +, s: '*'}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
 combos:
 - p: [0, 38]
   k: GME
