@@ -295,7 +295,7 @@ combos:
 - p: [3, 2]
   k: Ü
   l: [PUQ]
-- p: [13, 14, 15, 16]
+- p: [7, 8, 9]
   k: $$mdi:bluetooth-off$$
   l: [FNC]
   a: top
@@ -336,6 +336,6 @@ combos:
 - p: [14, 15]
   k: $$mdi:eraser$$
   l: [DEF, PUQ]
-- p: [16, 15]
+- p: [15, 16]
   k: $$mdi:keyboard-return$$
   l: [DEF, PUQ]
