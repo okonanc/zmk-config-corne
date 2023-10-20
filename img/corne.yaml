@@ -295,7 +295,7 @@ combos:
 - p: [3, 2]
   k: Ü
   l: [PUQ]
-- p: [1, 2, 3, 4]
+- p: [13, 14, 15, 16]
   k: $$mdi:bluetooth-off$$
   l: [FNC]
   a: top
