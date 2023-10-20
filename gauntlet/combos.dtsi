@@ -47,7 +47,7 @@
     COMBO(puq_uuml  , &kp DE_UE      , 3 2      ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)    
 
     /* Bluetooth */
-    COMBO(bt_clear  , &bt BT_CLR     , 7 8 9    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(bt_clear  , &bt BT_CLR     , 19 20 21 ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_0  , &bt BT_SEL 0   , 1 13     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_1  , &bt BT_SEL 1   , 2 14     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_2  , &bt BT_SEL 2   , 3 15     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -56,7 +56,7 @@
 //    COMBO(bt_nxt    , &bt BT_NXT     , 13 14    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 //    COMBO(bt_prv    , &bt BT_PRV     , 25 26    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
-    /* Media */
+a   /* Media */
     COMBO(play      , &kp C_PP       , 16 17    ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(mute      , &kp C_MUTE     , 4 5      ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 

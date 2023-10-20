@@ -1617,11 +1617,11 @@ path.combo {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-0">
-<path d="M920,-3 h-74 a6.0,6.0 0 0 0 -6.0,6.0 v20" class="combo"/>
-<path d="M920,-3 l0,27" class="combo"/>
-<path d="M920,-3 h74 a6.0,6.0 0 0 1 6.0,6.0 v20" class="combo"/>
-<rect rx="4" ry="4" x="902" y="-21" width="36" height="36" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="907" y="-16" height="26" width="26.0" class="combo tap glyph mdi:bluetooth-off"/>
+<path d="M920,77 h-74 a6.0,6.0 0 0 0 -6.0,6.0 v20" class="combo"/>
+<path d="M920,77 l0,27" class="combo"/>
+<path d="M920,77 h74 a6.0,6.0 0 0 1 6.0,6.0 v20" class="combo"/>
+<rect rx="4" ry="4" x="902" y="59" width="36" height="36" class="combo"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="907" y="64" height="26" width="26.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="102" y="92" width="36" height="36" class="combo"/>
