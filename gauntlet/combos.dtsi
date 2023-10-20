@@ -22,7 +22,6 @@
     */
 
     /* Layers */
-    
     COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_base   , &to DEF        , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_puq    , &to PUQ        , 12 37 16 , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -37,7 +36,6 @@
     #endif
 
     /* Umlaute */
-    
     COMBO(auml      , &kp DE_AE      , 5 17     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(de_ss     , &kp DE_SS      , 17 29    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(ouml      , &kp DE_OE      , 6 18     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -55,8 +53,8 @@
     COMBO(bt_sel_2  , &bt BT_SEL 2   , 3 15     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_3  , &bt BT_SEL 3   , 4 16     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(bt_sel_4  , &bt BT_SEL 4   , 5 17     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_nxt    , &bt BT_NXT     , 13 14    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_prv    , &bt BT_PRV     , 25 26    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+//    COMBO(bt_nxt    , &bt BT_NXT     , 13 14    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+//    COMBO(bt_prv    , &bt BT_PRV     , 25 26    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
     /* Media */
     COMBO(play      , &kp C_PP       , 16 17    ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
