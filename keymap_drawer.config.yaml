@@ -809,3 +809,12 @@ parse_config:
     combo_enter:
       key:
         tap: $$mdi:keyboard-return$$
+    combo_cut:
+      key:
+        tap: $$mdi:content-cut$$
+    combo_copy:
+      key:
+        tap: $$mdi:content-copy$$
+    combo_paste:
+      key:
+        tap: $$mdi:content-paste$$

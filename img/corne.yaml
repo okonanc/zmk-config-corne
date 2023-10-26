@@ -334,11 +334,11 @@ combos:
   k: $$mdi:keyboard-return$$
   l: [DEF, PUQ]
 - p: [26, 28]
-  k: {t: '$$mdi:content-cut$$', h: Cut}
+  k: $$mdi:content-cut$$
   l: [DEF, PUQ]
 - p: [26, 27]
-  k: LC(C)
+  k: $$mdi:content-copy$$
   l: [DEF, PUQ]
 - p: [27, 28]
-  k: LS(C)
+  k: $$mdi:content-paste$$
   l: [DEF, PUQ]
