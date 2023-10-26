@@ -67,5 +67,9 @@
     /* Misc */
     COMBO(del_word  , &kp LC(BSPC)   , 14 15    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(enter     , &kp ENTER      , 15 16    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(cut       , &kp LC(X)      , 26 28    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(copy      , &kp LC(C)      , 26 27    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(paste     , &kp LS(C)      , 27 28    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+
   };
 };

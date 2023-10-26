@@ -333,3 +333,12 @@ combos:
 - p: [15, 16]
   k: $$mdi:keyboard-return$$
   l: [DEF, PUQ]
+- p: [26, 28]
+  k: {t: '$$mdi:content-cut$$', h: Cut}
+  l: [DEF, PUQ]
+- p: [26, 27]
+  k: LC(C)
+  l: [DEF, PUQ]
+- p: [27, 28]
+  k: LS(C)
+  l: [DEF, PUQ]
