@@ -1,32 +1,18 @@
-&mt {
-  flavor = "balanced";
-  tapping-term-ms = <TAPPING_TERM_MS>;
-  quick-tap-ms = <0>;
-  require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
-};
-
 &lt {
   flavor = "balanced";
-  tapping-term-ms = <TAPPING_TERM_MS>;
+  tapping-term-ms = <200>;
   quick-tap-ms = <QUICK_TAP_MS>;
-  require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
 };
 
-&sk {
-  quick-release;
+&sk {  // sticky-key config
+    release-after-ms = <900>;  // release after 0.9s
+    quick-release;             // no double capitalization when rolling keys
 };
 
-&mmv {
-    acceleration-exponent = <1>;      // 1
-    time-to-max-speed-ms = <400>;     // 300
-    delay-ms = <0>;                   // 0
+&sl {  // sticky-layer config
+    ignore-modifiers;          // allow chording sticky mods & layers
 };
 
-&mwh {
-    acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <40>;      // 300
-    delay-ms = <0>;                   // 0
-};
 
 // mods deactivate caps-word, requires PR https://github.com/zmkfirmware/zmk/pull/1451
 // &caps_word {
@@ -41,6 +27,23 @@
   layers = <NUM>;
   continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>;
 };
+
+#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
+    ZMK_BEHAVIOR(NAME, hold_tap, \
+        flavor = "balanced"; \
+        tapping-term-ms = <280>; \
+        quick-tap-ms = <QUICK_TAP_MS>; \
+        require-prior-idle-ms = <150>; \
+        bindings = <HOLD>, <TAP>; \
+        hold-trigger-key-positions = <TRIGGER_POS>; \
+        hold-trigger-on-release; \
+    )
+MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
+MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
+
+MAKE_HRM(hml_repeat, &kp, &key_repeat, KEYS_R THUMBS)  // used for HRM-combo
+MAKE_HRM(hmr_lpar_lt, &kp, &lpar_lt, KEYS_L THUMBS)    // "    "   "   "
+MAKE_HRM(hmr_rpar_gt, &kp, &rpar_gt, KEYS_L THUMBS)    // "    "   "   "
 
 / {
   behaviors {
