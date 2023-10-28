@@ -7,6 +7,8 @@
 
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
+#include "../zmk-nodefree-config/helper.h"
+#include "../zmk-nodefree-config/international_chars/german.dtsi"
 
 // Layers
 #define DEF 0
@@ -19,8 +21,13 @@
 #if MOUSE_KEYS
     #include <dt-bindings/zmk/mouse.h>
     #define MSE 6
+#if MOUSE_KEYS
+    #include <dt-bindings/zmk/mouse.h>
+    #define MSE 6
 #endif
 
+#define XXX &none
+#define ___ &trans
 #define XXX &none
 #define ___ &trans
 
@@ -39,6 +46,7 @@
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
 
+/* Global settings */
 /* Global settings */
 
 #define QUICK_TAP_MS 175
