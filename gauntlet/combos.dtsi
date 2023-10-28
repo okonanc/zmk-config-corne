@@ -1,75 +1,71 @@
-/* Copied (modified) from https://github.com/caksoylar/zmk-config */
-#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TERM, QUICKTAP) \
-  combo_##NAME { \
-    timeout-ms = <TERM>; \
-    bindings = <BINDINGS>; \
-    key-positions = <KEYPOS>; \
-    layers = <LAYERS>; \
-    require-prior-idle-ms = <QUICKTAP>; \
-  };
+/*                KEY POSITIONS
 
-/ {
-  combos {
-    compatible = "zmk,combos";
-    /*
-      KEY POSITIONS
-      ╭────────────────────────╮  ╭────────────────────────╮
-      │ 0   1   2   3   4   5  │  │ 6   7   8   9   10  11 │
-      │ 12  13  14  15  16  17 │  │ 18  19  20  21  22  23 │
-      │ 24  25  26  27  28  29 │  │ 30  31  32  33  34  35 │
-      ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
-                  ╰────────────╯  ╰────────────╯
-    */
+  ╭─────────────────────────╮ ╭─────────────────────────╮
+  │ LT5 LT4 LT3 LT2 LT1 LT0 │ │ RT0 RT1 RT2 RT3 RT4 RT5 │
+  │ LM5 LM4 LM3 LM2 LM1 LM0 │ │ RM0 RM1 RM2 RM3 RM4 RM5 │
+  │ LB5 LB4 LB3 LB2 LB1 LB0 │ │ RB0 RB1 RB2 RB3 RB4 RB5 │
+  ╰───────────╮ LH2 LH1 LH0 │ │ RH0 RH1 RH2 ╭───────────╯
+              ╰─────────────╯ ╰─────────────╯ */
 
-    /* Layers */
-    COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_base   , &to DEF        , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_puq    , &to PUQ        , 12 37 16 , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    //COMBO(to_but    , &to BuT        , 12 37 16 , DEF         GME          , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+// use require-prior-idle-ms for combos
+#undef COMBO_HOOK
+#define COMBO_HOOK require-prior-idle-ms = <150>;
 
-    #ifdef TEST_LAYER
-    COMBO(to_test   , &to TST        , 19 16    , DEF NUM FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    #endif
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
 
-    #ifdef MOUSE_KEYS
-    COMBO(to_mouse  , &to MSE        , 7 8      , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    #endif
+// make homerow combos tap-only (so HRMs can be chorded instantaneously)
+#define HRC_TAB    &hml         LA(LCTRL) TAB
+#define HRC_REPEAT &hml_repeat  LS(LCTRL) 0
+#define HRC_LPAR   &hmr_lpar_lt RS(LCTRL) 0
+#define HRC_RPAR   &hmr_rpar_gt LA(LCTRL) 0
 
-    /* Umlaute */
-    COMBO(auml      , &kp DE_AE      , 5 17     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(de_ss     , &kp DE_SS      , 17 29    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(ouml      , &kp DE_OE      , 6 18     , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(uuml      , &kp DE_UE      , 18 30    , DEF                     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    
-    COMBO(puq_auml  , &kp DE_AE      , 3 16     ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_de_ss , &kp DE_SS      , 3 4      ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_ouml  , &kp DE_OE      , 3 17     ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(puq_uuml  , &kp DE_UE      , 3 2      ,                 PUQ     , COMBO_UMLAUT_DEFAULT, COMBO_QUICK_TAP_MS)    
 
-    /* Bluetooth */
-    COMBO(bt_clear  , &bt BT_CLR     , 19 20 21 ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_0  , &bt BT_SEL 0   , 1 13     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_1  , &bt BT_SEL 1   , 2 14     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_2  , &bt BT_SEL 2   , 3 15     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_3  , &bt BT_SEL 3   , 4 16     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(bt_sel_4  , &bt BT_SEL 4   , 5 17     ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-//    COMBO(bt_nxt    , &bt BT_NXT     , 13 14    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-//    COMBO(bt_prv    , &bt BT_PRV     , 25 26    ,         FNC             , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+/* Layers */
+ZMK_COMBO(to_gaming , &to GME        , LT5 LH0    , DEF             PUQ, COMBO_TERM_FAST)
+ZMK_COMBO(to_base   , &to DEF        , LM5 LH1    ,             GME PUQ, COMBO_TERM_FAST)
+ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1, DEF         GME    , COMBO_TERM_FAST)
 
-   /* Media */
-    COMBO(play      , &kp C_PP       , 16 17    ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(mute      , &kp C_MUTE     , 4 5      ,         FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+#ifd TEST_LAYER
+ZMK_COMBO(to_test   , &to TST        , RM1 LM1    , DEF NUM FNC GME    , COMBO_TERM_FAST)
+#endif
 
-    /* Gaming */
-    COMBO(quicksave , &kp F5         , 14 15    ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(quickload , &kp F8         , 2 3      ,             GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+#if MOUSE_KEYS
+ZMK_COMBO(to_mouse  , &to MSE        , RT1 RT2    , DEF         GME    , COMBO_TERM_FAST)
+#endif
 
-    /* Misc */
-    COMBO(del_word  , &kp LC(BSPC)   , 14 15    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(enter     , &kp ENTER      , 15 16    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(cut       , &kp LC(X)      , 26 28    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(copy      , &kp LC(INS)    , 26 27    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(paste     , &kp LS(INS)    , 27 28    , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+/* Umlaute */
+ZMK_COMBO(auml      , &kp DE_AE      , LT0 LM0    , DEF                , COMBO_TERM_SLOW)
+ZMK_COMBO(de_ss     , &kp DE_SS      , LM0 LB0    , DEF                , COMBO_TERM_SLOW)
+ZMK_COMBO(ouml      , &kp DE_OE      , RT0 RM0    , DEF                , COMBO_TERM_SLOW)
+ZMK_COMBO(uuml      , &kp DE_UE      , RM0 RB0    , DEF                , COMBO_TERM_SLOW)
 
-  };
-};
+ZMK_COMBO(puq_auml  , &kp DE_AE      , LT2 LM1    ,                 PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_de_ss , &kp DE_SS      , LT2 LT1    ,                 PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_ouml  , &kp DE_OE      , LT2 LM0    ,                 PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_uuml  , &kp DE_UE      , LT2 LT3    ,                 PUQ, COMBO_TERM_SLOW)    
+
+/* Bluetooth */
+ZMK_COMBO(bt_clear  , &bt BT_CLR     , RM1 RM2 RM3,         FNC        , COMBO_TERM_FAST)
+ZMK_COMBO(bt_sel_0  , &bt BT_SEL 0   , LT4 LM4    ,         FNC        , COMBO_TERM_FAST)
+ZMK_COMBO(bt_sel_1  , &bt BT_SEL 1   , LT3 LM3    ,         FNC        , COMBO_TERM_FAST)
+ZMK_COMBO(bt_sel_2  , &bt BT_SEL 2   , LT2 LM2    ,         FNC        , COMBO_TERM_FAST)
+ZMK_COMBO(bt_sel_3  , &bt BT_SEL 3   , LT1 LM1    ,         FNC        , COMBO_TERM_FAST)
+ZMK_COMBO(bt_sel_4  , &bt BT_SEL 4   , LT0 LM0    ,         FNC        , COMBO_TERM_FAST)
+//    ZMK_COMBO(bt_nxt    , &bt BT_NXT     , LM4 LM3      ,         FNC        , COMBO_TERM_FAST)
+//    ZMK_COMBO(bt_prv    , &bt BT_PRV     , LB4 LB3      ,         FNC        , COMBO_TERM_FAST)
+
+/* Media */
+ZMK_COMBO(play      , &kp C_PP       , LM1 LM0    ,         FNC GME    , COMBO_TERM_FAST)
+ZMK_COMBO(mute      , &kp C_MUTE     , LT1 LT0    ,         FNC GME    , COMBO_TERM_FAST)
+
+/* Gaming */
+ZMK_COMBO(quicksave , &kp F5         , LM3 LM2    ,             GME    , COMBO_TERM_FAST)
+ZMK_COMBO(quickload , &kp F8         , LT3 LT2    ,             GME    , COMBO_TERM_FAST)
+
+/* Misc */
+ZMK_COMBO(del_word  , &kp LC(BSPC)   , LM3 LM2   , DEF              PUQ,  COMBO_TERM_FAST)
+ZMK_COMBO(enter     , &kp ENTER      , LM2 LM1   , DEF              PUQ,  COMBO_TERM_FAST)
+ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1   , DEF              PUQ,  COMBO_TERM_FAST)
+ZMK_COMBO(copy      , &kp LC(INS)    , LB3 LB2   , DEF              PUQ,  COMBO_TERM_FAST)
+ZMK_COMBO(paste     , &kp LS(INS)    , LB2 LB1   , DEF              PUQ,  COMBO_TERM_FAST)
