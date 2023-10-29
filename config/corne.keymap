@@ -6,9 +6,9 @@
 
 #define MOUSE_KEYS 0
 
-#include "keymap-german-rev3.h"
 #include "../zmk-nodefree-config/helper.h"
 
+#include "../gauntlet/keymap-german-rev3.h"
 #include "../gauntlet/base.dtsi"
 
 
