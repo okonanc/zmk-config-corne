@@ -63,7 +63,6 @@
       compatible = "zmk,behavior-hold-tap";
       label = "HOLD_PREFER_TAP";
       #binding-cells = <2>;
-      300 = <300>; // <200>;
       quick_tap_ms = <250>; // <0>
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
@@ -73,7 +72,6 @@
       compatible = "zmk,behavior-hold-tap";
       label = "PREFER_HOLD_TAP";
       #binding-cells = <2>;
-      300 = <300>; // <200>;
       quick_tap_ms = <0>;
       flavor = "hold-preferred";
       bindings = <&kp>, <&kp>;
@@ -82,8 +80,6 @@
     /omit-if-no-ref/ balanced_hold_tap: balanced_hold_tap {
       compatible = "zmk,behavior-hold-tap";
       label = "BALANCED_HOLD_TAP";
-      #binding-cells = <2>;
-      300 = <300>; // <200>;
       quick_tap_ms = <0>;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
