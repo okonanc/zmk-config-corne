@@ -56,6 +56,22 @@
 #define COMBO_UMLAUT_DEFAULT 200
 #define COMBO_QUICK_TAP_MS 100
 
+// Alpha layer: uncomment desired, comment the others
+#include "../gauntlet/L0_qwertz.dtsi"
+//#include "../gauntlet/L0_colemak_dhm.dtsi"
+//#include "../gauntlet/L0_Buteck.dtsi"
+#include "../gauntlet/L0_PUQ.dtsi"
+
+// Other layers
+#include "../gauntlet/L_GME.dtsi"
+#include "../gauntlet/L_NUM.dtsi"
+#include "../gauntlet/L_FNC.dtsi"
+#include "../gauntlet/L_SYM.dtsi"
+
+#if MOUSE_KEYS
+#include "../gauntlet/L_MSE.dtsi"
+#endif
+
 #include "behaviors.dtsi"
 #include "dances.dtsi"
 #include "macros.dtsi"
