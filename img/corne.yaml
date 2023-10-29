@@ -333,9 +333,6 @@ combos:
 - p: [15, 16]
   k: $$mdi:keyboard-return$$
   l: [base, puq]
-- p: [26, 28]
-  k: $$mdi:content-cut$$
-  l: [base, puq]
 - p: [26, 27]
   k: $$mdi:content-copy$$
   l: [base, puq]
