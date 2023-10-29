@@ -559,8 +559,7 @@ path.combo {
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Y))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">Z</tspan>
 </text>
 </g>
 <g transform="translate(840, 50)" class="key keypos-7">
@@ -649,8 +648,7 @@ path.combo {
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Z))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">Y</tspan>
 </text>
 </g>
 <g transform="translate(200, 210)" class="key keypos-26">
@@ -896,8 +894,7 @@ path.combo {
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Z))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">Y</tspan>
 </text>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
@@ -933,8 +930,7 @@ path.combo {
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Y))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">Z</tspan>
 </text>
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
@@ -1050,8 +1046,7 @@ path.combo {
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Z))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">Y</tspan>
 </text>
 </g>
 <g transform="translate(840, 50)" class="key keypos-7">
@@ -1135,8 +1130,7 @@ path.combo {
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Y))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">Z</tspan>
 </text>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
@@ -1269,8 +1263,7 @@ path.combo {
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">FSLH</tspan>
 </text>
 </g>
 <g transform="translate(840, 50)" class="key keypos-7">
@@ -1291,8 +1284,7 @@ path.combo {
 <g transform="translate(1080, 70)" class="key keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">MINUS</tspan>
 </text>
 </g>
 <g transform="translate(1160, 70)" class="key trans keypos-11">
@@ -1328,8 +1320,7 @@ path.combo {
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">STAR</tspan>
 </text>
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
@@ -1353,10 +1344,9 @@ path.combo {
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.5em" style="font-size: 60%">&amp;mt</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">RCTRL</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))</tspan>
+<tspan x="0" dy="-1.0em">DE</tspan><tspan x="0" dy="1.0em">PLUS</tspan>
 </text>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(1160, 150)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1415,8 +1405,7 @@ path.combo {
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">EQUAL</tspan>
 </text>
 </g>
 <g transform="translate(1160, 230)" class="key trans keypos-35">
@@ -1512,15 +1501,13 @@ path.combo {
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LC((ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Y)))</tspan>
+<tspan x="0" dy="-0.5em">LC(DE</tspan><tspan x="0" dy="1.0em">Z)</tspan>
 </text>
 </g>
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">LC((ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Z)))</tspan>
+<tspan x="0" dy="-0.5em">LC(DE</tspan><tspan x="0" dy="1.0em">Y)</tspan>
 </text>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
@@ -1689,71 +1676,61 @@ path.combo {
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_EQUAL_AND_PLUS))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">ACUTE</tspan>
 </text>
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">PRCNT</tspan>
 </text>
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_4_AND_DOLLAR))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">DLLR</tspan>
 </text>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_E)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">EURO</tspan>
 </text>
 </g>
 <g transform="translate(440, 60)" class="key keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">STAR</tspan>
 </text>
 </g>
 <g transform="translate(760, 60)" class="key keypos-6">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_GRAVE_ACCENT_AND_TILDE))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">CARET</tspan>
 </text>
 </g>
 <g transform="translate(840, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">TILDE</tspan>
 </text>
 </g>
 <g transform="translate(920, 40)" class="key keypos-8">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">SQT</tspan>
 </text>
 </g>
 <g transform="translate(1000, 50)" class="key keypos-9">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_2_AND_AT))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">DQT</tspan>
 </text>
 </g>
 <g transform="translate(1080, 70)" class="key keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_EQUAL_AND_PLUS)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">GRAVE</tspan>
 </text>
 </g>
 <g transform="translate(1160, 70)" class="key trans keypos-11">
@@ -1767,71 +1744,61 @@ path.combo {
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">LT</tspan>
 </text>
 </g>
 <g transform="translate(200, 130)" class="key keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">LBRC</tspan>
 </text>
 </g>
 <g transform="translate(280, 120)" class="key keypos-15">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">LBKT</tspan>
 </text>
 </g>
 <g transform="translate(360, 130)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">LPAR</tspan>
 </text>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">BSLH</tspan>
 </text>
 </g>
 <g transform="translate(760, 140)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">FSLH</tspan>
 </text>
 </g>
 <g transform="translate(840, 130)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">RPAR</tspan>
 </text>
 </g>
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">RBKT</tspan>
 </text>
 </g>
 <g transform="translate(1000, 130)" class="key keypos-21">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">RBRC</tspan>
 </text>
 </g>
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">GT</tspan>
 </text>
 </g>
 <g transform="translate(1160, 150)" class="key trans keypos-23">
@@ -1845,71 +1812,61 @@ path.combo {
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">EXCL</tspan>
 </text>
 </g>
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_Q))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">AT</tspan>
 </text>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">HASH</tspan>
 </text>
 </g>
 <g transform="translate(360, 210)" class="key keypos-28">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_6_AND_CARET))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">AMPS</tspan>
 </text>
 </g>
 <g transform="translate(440, 220)" class="key keypos-29">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(RA(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">PIPE</tspan>
 </text>
 </g>
 <g transform="translate(760, 220)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">UNDER</tspan>
 </text>
 </g>
 <g transform="translate(840, 210)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">MINUS</tspan>
 </text>
 </g>
 <g transform="translate(920, 200)" class="key keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS)))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">EQUAL</tspan>
 </text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">PLUS</tspan>
 </text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 60%">&amp;kp</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">((LS(ZMK_HID_USAGE(HID_USAGE_KEY,</tspan>
-<tspan x="0" dy="1.0em" style="font-size: 60%">HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))))</tspan>
+<tspan x="0" dy="-0.5em">DE</tspan><tspan x="0" dy="1.0em">QMARK</tspan>
 </text>
 </g>
 <g transform="translate(1160, 230)" class="key trans keypos-35">
