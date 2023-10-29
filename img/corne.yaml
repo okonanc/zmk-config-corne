@@ -40,8 +40,8 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - '&lt_spc 5'
   - {t: RET, h: fnc}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&smart_shift'
+  - '&smart_num'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - sym
   puq:
   - $$mdi:keyboard-esc$$
@@ -83,8 +83,8 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - '&lt_spc 5'
   - {t: RET, h: fnc}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&smart_shift'
+  - '&smart_num'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - sym
   gme:
   - T
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&smart_shift'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - sym
   num:
   - {t: '$$mdi:transfer$$', type: trans}
