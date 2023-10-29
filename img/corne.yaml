@@ -37,13 +37,13 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - {t: '$$mdi:keyboard-tab$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - SYM
-  PUQ:
+  - sym
+  puq:
   - $$mdi:keyboard-esc$$
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: U, h: '$$mdi:apple-keyboard-option$$'}
@@ -80,13 +80,13 @@ layers:
   - B
   - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - {t: '$$mdi:keyboard-tab$$', h: sym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:keyboard-return$$', h: SYM}
-  GME:
+  - {t: '$$mdi:keyboard-return$$', h: sym}
+  gme:
   - T
   - $$mdi:keyboard-esc$$
   - Q
@@ -111,7 +111,7 @@ layers:
   - L
   - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: B, h: FNC}
+  - {t: B, h: fnc}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -122,14 +122,14 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - FNC
+  - fnc
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  NUM:
+  num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
   - $$mdi:page-first$$
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '0', s: '='}
   - {t: ',', h: ., s: ;}
-  FNC:
+  fnc:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
@@ -215,7 +215,7 @@ layers:
   - def
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
-  SYM:
+  sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ´, s: '`'}
   - '%'
@@ -260,16 +260,16 @@ layers:
   - {type: held}
 combos:
 - p: [0, 38]
-  k: GME
-  l: [def, PUQ]
+  k: gme
+  l: [def, puq]
   a: right
 - p: [12, 37]
   k: def
-  l: [GME, PUQ]
+  l: [gme, puq]
   a: bottom
 - p: [12, 37, 16]
-  k: PUQ
-  l: [def, GME]
+  k: puq
+  l: [def, gme]
   a: bottom
 - p: [5, 17]
   k: Ä
@@ -285,60 +285,60 @@ combos:
   l: [def]
 - p: [3, 16]
   k: Ä
-  l: [PUQ]
+  l: [puq]
 - p: [3, 4]
   k: ß
-  l: [PUQ]
+  l: [puq]
 - p: [3, 17]
   k: Ö
-  l: [PUQ]
+  l: [puq]
 - p: [3, 2]
   k: Ü
-  l: [PUQ]
+  l: [puq]
 - p: [19, 20, 21]
   k: $$mdi:bluetooth-off$$
-  l: [FNC]
+  l: [fnc]
   a: top
   o: 0.03
 - p: [1, 13]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  l: [FNC]
+  l: [fnc]
 - p: [2, 14]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: [FNC]
+  l: [fnc]
 - p: [3, 15]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  l: [FNC]
+  l: [fnc]
 - p: [4, 16]
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  l: [FNC]
+  l: [fnc]
 - p: [5, 17]
   k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  l: [FNC]
+  l: [fnc]
 - p: [16, 17]
   k: $$mdi:play-pause$$
-  l: [FNC, GME]
+  l: [fnc, gme]
 - p: [4, 5]
   k: $$mdi:volume-off$$
-  l: [FNC, GME]
+  l: [fnc, gme]
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
-  l: [GME]
+  l: [gme]
 - p: [2, 3]
   k: $$mdi:cloud-download$$
-  l: [GME]
+  l: [gme]
 - p: [14, 15]
   k: $$mdi:eraser$$
-  l: [def, PUQ]
+  l: [def, puq]
 - p: [15, 16]
   k: $$mdi:keyboard-return$$
-  l: [def, PUQ]
+  l: [def, puq]
 - p: [26, 28]
   k: $$mdi:content-cut$$
-  l: [def, PUQ]
+  l: [def, puq]
 - p: [26, 27]
   k: $$mdi:content-copy$$
-  l: [def, PUQ]
+  l: [def, puq]
 - p: [27, 28]
   k: $$mdi:content-paste$$
-  l: [def, PUQ]
+  l: [def, puq]
