@@ -42,7 +42,6 @@
 #define WIN_PREV        LS(TAB)
 
 /* Global settings */
-/* Global settings */
 
 #define QUICK_TAP_MS 175
 
