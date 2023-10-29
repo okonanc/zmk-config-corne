@@ -7,6 +7,9 @@
 #define NO_TEST_LAYER
 #define NO_MOUSE_KEYS
 
+#include "../zmk-nodefree-config/helper.h"
+#include "../zmk-nodefree-config/international_chars/german.dtsi"
+
 #include "../gauntlet/base.dtsi"
 
 // Alpha layer: uncomment desired, comment the others

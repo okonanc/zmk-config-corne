@@ -5,9 +5,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#include "../zmk-nodefree-config/helper.h"
-#include "../zmk-nodefree-config/international_chars/german.dtsi"
-
 // Layers
 #define DEF 0
 #define PUQ 1
