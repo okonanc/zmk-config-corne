@@ -21,5 +21,5 @@
 #include "../gauntlet/L_SYM.dtsi"
 
 #if MOUSE_KEYS
-#  include "../gauntlet/L_MSE.dtsi"
+#include "../gauntlet/L_MSE.dtsi"
 #endif
