@@ -3,9 +3,10 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
-#define NO_TEST_LAYER
-#define NO_MOUSE_KEYS
+ 
+ #include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
+ 
+#define MOUSE_KEYS 0
 
 #include "../gauntlet/base.dtsi"
 
@@ -21,10 +22,7 @@
 #include "../gauntlet/L_FNC.dtsi"
 #include "../gauntlet/L_SYM.dtsi"
 
-#ifdef MOUSE_KEYS
+#if MOUSE_KEYS
 #  include "../gauntlet/L_MSE.dtsi"
 #endif
 
-#ifdef TEST_LAYER
-#  include "../gauntlet/L_TST.dtsi"
-#endif
