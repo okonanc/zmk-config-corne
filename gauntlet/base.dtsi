@@ -16,11 +16,6 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
-#include "behaviors.dtsi"
-#include "dances.dtsi"
-#include "macros.dtsi"
-#include "combos.dtsi"
-
 // Layers
 #define DEF 0
 //#define CDH 1
@@ -53,7 +48,10 @@
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
 
-
+#include "behaviors.dtsi"
+#include "dances.dtsi"
+#include "macros.dtsi"
+#include "combos.dtsi"
 
 // Alpha layer: uncomment desired, comment the others
 #include "../gauntlet/L0_qwertz.dtsi"
