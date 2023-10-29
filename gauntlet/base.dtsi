@@ -195,6 +195,12 @@ ZMK_BEHAVIOR(qexcl, mod_morph,
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
+// tap: sqt | shift + tap: dqt
+ZMK_BEHAVIOR(sdq, mod_morph,
+    bindings = <&kp SQT>, <&kp DQT>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
 ZMK_BEHAVIOR(lt_spc, hold_tap,
     flavor = "balanced";
