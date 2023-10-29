@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - '&sd_quotes'
+  - {t: '''', s: '"'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
@@ -35,7 +35,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - '&qe_mark'
+  - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - '&lt_spc 5'
@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - P
   - U
-  - '&sd_quotes'
+  - {t: '?', s: '!'}
   - {t: ',', s: ;}
   - Q
   - G
@@ -72,7 +72,7 @@ layers:
   - K
   - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
   - {t: ., s: ':'}
-  - '&sd_quotes'
+  - {t: '''', s: '"'}
   - X
   - J
   - V
