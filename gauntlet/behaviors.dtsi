@@ -1,19 +1,24 @@
+
+&sk {  // sticky-key config
+    release-after-ms = <900>;  // release after 0.9s
+    quick-release;             // no double capitalization when rolling keys
+};
+
+&sl {  // sticky-layer config
+    ignore-modifiers;          // allow chording sticky mods & layers
+};
+
+&lt {  // layer-tap config
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+};
+
 &mt {
   flavor = "balanced";
   tapping-term-ms = <300>;
   quick-tap-ms = <0>;
   require-prior-idle-ms = <150>;
-};
-
-&lt {
-  flavor = "balanced";
-  tapping-term-ms = <300>;
-  quick-tap-ms = <QUICK_TAP_MS>;
-  require-prior-idle-ms = <150>;
-};
-
-&sk {
-  quick-release;
 };
 
 &mmv {
