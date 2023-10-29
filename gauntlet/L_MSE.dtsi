@@ -4,12 +4,12 @@
 
 ZMK_LAYER(MSE,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    &none           &none           &none           &none           &none           &none               &mwh S_LEFT     &mwh S_DOWN     &mmv M_UP       &mwh S_UP       &mwh S_RIGHT    &to DEF
+    XXX             XXX             XXX             XXX             XXX             XXX                 &mwh S_LEFT     &mwh S_DOWN     &mmv M_UP       &mwh S_UP       &mwh S_RIGHT    &to DEF
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &none           &kp LCTRL       &kp LCMD        &kp LALT        &kp LSHFT       &none               &none           &mmv M_LEFT     &mmv M_DOWN     &mmv M_RIGHT    &none           &none 
+    XXX             &kp LCTRL       &kp LCMD        &kp LALT        &kp LSHFT       XXX                 XXX             &mmv M_LEFT     &mmv M_DOWN     &mmv M_RIGHT    XXX             XXX   
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &none           &none           &none           &none           &none           &none               &none           &mkp MB4        &mkp MB5        &mkp MB6        &none           &none           
+    XXX             XXX             XXX             XXX             XXX             XXX                 XXX             &mkp MB4        &mkp MB5        &mkp MB6        XXX             XXX             
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
-                                                    &none           &none           &none               &mkp LCLK       &mkp MCLK       &mkp RCLK        
+                                                    XXX             XXX             XXX                 &mkp LCLK       &mkp MCLK       &mkp RCLK        
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
 )

@@ -9,8 +9,10 @@
 #  include <dt-bindings/zmk/mouse.h>
 #endif
 
-#include "keymap-german-rev3.h"
-#include "../zmk-nodefree-config/helper.h"
+#include "behaviors.dtsi"
+#include "dances.dtsi"
+#include "macros.dtsi"
+#include "combos.dtsi"
 
 // Layers
 #define DEF 0
@@ -25,6 +27,9 @@
 #if MOUSE_KEYS
 #  define MSE 6
 #endif
+
+#define XXX &none
+#define ___ &trans
 
 // Meh key
 #define MEH             LC(LS(LALT)) 
@@ -41,15 +46,8 @@
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
 
-#define PHT(key1, key2) &prefer_hold_tap key1 key2
-#define HTB(key1, key2) &balanced_hold_tap key1 key2
-
 // Behaviors Constants
-#define TAPPING_TERM_MS 300
 #define QUICK_TAP_MS 175
-#define LONG_QUICK_TAP_MS 250
-#define REQUIRE_PRIOR_IDLE_MS 150
-#define TAPHOLD_MS 190
 
 // Combos Constants
 #define COMBO_TERM_DEFAULT 30
@@ -72,8 +70,4 @@
 #include "../gauntlet/L_MSE.dtsi"
 #endif
 
-#include "behaviors.dtsi"
-#include "dances.dtsi"
-#include "macros.dtsi"
-#include "combos.dtsi"
 // #include "chords_en_qwertz.dtsi"

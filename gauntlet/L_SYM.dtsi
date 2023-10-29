@@ -2,14 +2,14 @@
  * Symbols Layer
  */
 
-ZMK_LAYER(SYMas,
+ZMK_LAYER(SYM,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    &trans          &kp DE_ACUT     &kp DE_PRCNT    &kp DE_DLLR     &kp DE_EURO     &kp DE_STAR         &kp DE_CARET    &kp DE_TILDE    &kp DE_SQT      &kp DE_DQT      &kp DE_GRAVE    &trans
+    ___             &kp DE_ACUT     &kp DE_PRCNT    &kp DE_DLLR     &kp DE_EURO     &kp DE_STAR         &kp DE_CARET    &kp DE_TILDE    &kp DE_SQT      &kp DE_DQT      &kp DE_GRAVE    ___   
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &trans          &kp DE_LT       &kp DE_LBRC     &kp DE_LBKT     &kp DE_LPAR     &kp DE_BSLH         &kp DE_FSLH     &kp DE_RPAR     &kp DE_RBKT     &kp DE_RBRC     &kp DE_GT       &trans
+    ___             &kp DE_LT       &kp DE_LBRC     &kp DE_LBKT     &kp DE_LPAR     &kp DE_BSLH         &kp DE_FSLH     &kp DE_RPAR     &kp DE_RBKT     &kp DE_RBRC     &kp DE_GT       ___   
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &trans          &kp DE_EXCL     &kp DE_AT       &kp DE_HASH     &kp DE_AMPS     &kp DE_PIPE         &kp DE_UNDER    &kp DE_MINUS    &kp DE_EQUAL    &kp DE_PLUS     &kp DE_QMARK    &trans
+    ___             &kp DE_EXCL     &kp DE_AT       &kp DE_HASH     &kp DE_AMPS     &kp DE_PIPE         &kp DE_UNDER    &kp DE_MINUS    &kp DE_EQUAL    &kp DE_PLUS     &kp DE_QMARK    ___   
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
-                                                    &trans          &trans          &kp ENTER           &kp ENTER       &trans          &trans
+                                                    ___             ___             &kp ENTER           &kp ENTER       ___             ___   
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
 )
