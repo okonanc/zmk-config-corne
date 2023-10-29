@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  DEF:
+  def:
   - $$mdi:keyboard-esc$$
   - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - {t: W, h: '$$mdi:apple-keyboard-option$$'}
@@ -211,8 +211,8 @@ layers:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$'}
   - $$mdi:backup-restore$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - DEF
-  - DEF
+  - def
+  - def
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
   SYM:
@@ -258,31 +258,74 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  MSE:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mwh S_LEFT'
+  - '&mwh S_DOWN'
+  - '&mmv M_UP'
+  - '&mwh S_UP'
+  - '&mwh S_RIGHT'
+  - def
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mmv M_LEFT'
+  - '&mmv M_DOWN'
+  - '&mmv M_RIGHT'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - '&mkp MB6'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
 combos:
 - p: [0, 38]
   k: GME
-  l: [DEF, PUQ]
+  l: [def, PUQ]
   a: right
 - p: [12, 37]
-  k: DEF
+  k: def
   l: [GME, PUQ]
   a: bottom
 - p: [12, 37, 16]
   k: PUQ
-  l: [DEF, GME]
+  l: [def, GME]
   a: bottom
 - p: [5, 17]
   k: Ä
-  l: [DEF]
+  l: [def]
 - p: [17, 29]
   k: ß
-  l: [DEF]
+  l: [def]
 - p: [6, 18]
   k: Ö
-  l: [DEF]
+  l: [def]
 - p: [18, 30]
   k: Ü
-  l: [DEF]
+  l: [def]
 - p: [3, 16]
   k: Ä
   l: [PUQ]
@@ -329,16 +372,16 @@ combos:
   l: [GME]
 - p: [14, 15]
   k: $$mdi:eraser$$
-  l: [DEF, PUQ]
+  l: [def, PUQ]
 - p: [15, 16]
   k: $$mdi:keyboard-return$$
-  l: [DEF, PUQ]
+  l: [def, PUQ]
 - p: [26, 28]
   k: $$mdi:content-cut$$
-  l: [DEF, PUQ]
+  l: [def, PUQ]
 - p: [26, 27]
   k: $$mdi:content-copy$$
-  l: [DEF, PUQ]
+  l: [def, PUQ]
 - p: [27, 28]
   k: $$mdi:content-paste$$
-  l: [DEF, PUQ]
+  l: [def, PUQ]
