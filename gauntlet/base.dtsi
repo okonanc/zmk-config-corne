@@ -12,6 +12,10 @@
 // Behaviors Constants
 #define QUICK_TAP_MS 175
 
+// Combos Constants
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
 // Layers
 #define DEF 0
 //#define CDH 1
@@ -44,7 +48,7 @@
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
 
-#include "combos.dtsi"
+//#include "combos.dtsi"
 #include "behaviors.dtsi"
 //#include "dances.dtsi"
 #include "macros.dtsi"
