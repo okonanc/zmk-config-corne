@@ -563,10 +563,10 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
 </g>
-<g transform="translate(40, 150)" class="key backspace keypos-12">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key backspace tap glyph mdi:backspace"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-34" height="18" width="18.0" class="key backspace shifted glyph mdi:backspace-reverse-outline"/>
+<g transform="translate(40, 150)" class="key keypos-12">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:backspace-reverse-outline"/>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -622,8 +622,8 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">FNC</text>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:close-box"/>
+<text x="0" y="0" class="key tap">fnc</text>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -673,8 +673,8 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">FNC</text>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:close-box"/>
+<text x="0" y="0" class="key tap">fnc</text>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -761,10 +761,10 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
 </g>
-<g transform="translate(40, 150)" class="key backspace keypos-12">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key backspace tap glyph mdi:backspace"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-34" height="18" width="18.0" class="key backspace shifted glyph mdi:backspace-reverse-outline"/>
+<g transform="translate(40, 150)" class="key keypos-12">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:backspace-reverse-outline"/>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -820,8 +820,8 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">FNC</text>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:close-box"/>
+<text x="0" y="0" class="key tap">fnc</text>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -873,8 +873,8 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">FNC</text>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:close-box"/>
+<text x="0" y="0" class="key tap">fnc</text>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1470,11 +1470,11 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">F12</text>
 </g>
-<g transform="translate(1160, 230)" class="key keypos-35">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:toggle-switch"/>
-<use href="#mdi:power-off" xlink:href="#mdi:power-off" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:power-off"/>
-<use href="#mdi:power-on" xlink:href="#mdi:power-on" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:power-on"/>
+<g transform="translate(1160, 230)" class="key held keypos-35">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
+<use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-13" y="-13" height="26" width="26.0" class="key held tap glyph mdi:toggle-switch"/>
+<use href="#mdi:power-off" xlink:href="#mdi:power-off" x="-9" y="16" height="18" width="18.0" class="key held hold glyph mdi:power-off"/>
+<use href="#mdi:power-on" xlink:href="#mdi:power-on" x="-9" y="-34" height="18" width="18.0" class="key held shifted glyph mdi:power-on"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
