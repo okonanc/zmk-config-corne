@@ -9,6 +9,13 @@
 #  include <dt-bindings/zmk/mouse.h>
 #endif
 
+// Behaviors Constants
+#define QUICK_TAP_MS 175
+
+// Combos Constants
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
 #include "behaviors.dtsi"
 #include "dances.dtsi"
 #include "macros.dtsi"
@@ -46,13 +53,7 @@
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
 
-// Behaviors Constants
-#define QUICK_TAP_MS 175
 
-// Combos Constants
-#define COMBO_TERM_DEFAULT 30
-#define COMBO_UMLAUT_DEFAULT 200
-#define COMBO_QUICK_TAP_MS 100
 
 // Alpha layer: uncomment desired, comment the others
 #include "../gauntlet/L0_qwertz.dtsi"
