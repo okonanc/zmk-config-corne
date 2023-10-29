@@ -20,6 +20,6 @@
 #include "../gauntlet/L_FNC.dtsi"
 #include "../gauntlet/L_SYM.dtsi"
 
-#ifdef MOUSE_KEYS
+#if MOUSE_KEYS
 #  include "../gauntlet/L_MSE.dtsi"
 #endif
