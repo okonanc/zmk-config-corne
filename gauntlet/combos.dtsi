@@ -26,10 +26,6 @@ ZMK_COMBO(to_gaming , &to GME        , LT5 LH0    , DEF             PUQ, COMBO_T
 ZMK_COMBO(to_base   , &to DEF        , LM5 LH1    ,             GME PUQ, COMBO_TERM_FAST)
 ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1, DEF         GME    , COMBO_TERM_FAST)
 
-#if MOUSE_KEYS
-ZMK_COMBO(to_mouse  , &to MSE        , RT1 RT2    , DEF         GME    , COMBO_TERM_FAST)
-#endif
-
 /* Umlaute */
 ZMK_COMBO(auml      , &kp DE_AE      , LT0 LM0    , DEF                , COMBO_TERM_SLOW)
 ZMK_COMBO(de_ss     , &kp DE_ESZETT  , LM0 LB0    , DEF                , COMBO_TERM_SLOW)
