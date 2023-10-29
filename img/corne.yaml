@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Y))'
+  - DE Z
   - U
   - I
   - O
@@ -26,7 +26,7 @@ layers:
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - DE Y
   - X
   - C
   - V
@@ -70,7 +70,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - K
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - DE Y
   - {t: ., s: ':'}
   - {t: '''', s: '"'}
   - X
@@ -78,7 +78,7 @@ layers:
   - V
   - W
   - B
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Y))'
+  - DE Z
   - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - '&lt_spc 5'
@@ -93,7 +93,7 @@ layers:
   - W
   - E
   - R
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - DE Y
   - U
   - I
   - O
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: B, h: fnc}
   - $$mdi:apple-keyboard-control$$
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Y))'
+  - DE Z
   - X
   - C
   - V
@@ -136,11 +136,11 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:page-last$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))'
+  - DE FSLH
   - {t: '7', s: /}
   - {t: '8', s: (}
   - {t: '9', s: )}
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
+  - DE MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - $$mdi:transfer-down$$
@@ -148,11 +148,11 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))))'
+  - DE STAR
   - {t: '4', h: '$$mdi:star-three-points$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
-  - '&mt RCTRL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))'
+  - {t: DE PLUS, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:calculator$$
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
@@ -164,7 +164,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
   - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
-  - '&kp (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS)))'
+  - DE EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -186,8 +186,8 @@ layers:
   - F10
   - $$mdi:power-standby$$
   - {t: '$$mdi:progress-download$$', type: bootloader}
-  - '&kp LC((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Y)))'
-  - '&kp LC((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z)))'
+  - LC(DE Z)
+  - LC(DE Y)
   - {t: '$$mdi:content-copy$$', h: Copy}
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
@@ -217,40 +217,40 @@ layers:
   - $$mdi:backup-restore$$
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_EQUAL_AND_PLUS))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_4_AND_DOLLAR))))'
-  - '&kp (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_E)))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))))'
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_GRAVE_ACCENT_AND_TILDE))'
-  - '&kp (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE)))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE))))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_2_AND_AT))))'
-  - '&kp (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_EQUAL_AND_PLUS)))'
+  - DE ACUTE
+  - DE PRCNT
+  - DE DLLR
+  - DE EURO
+  - DE STAR
+  - DE CARET
+  - DE TILDE
+  - DE SQT
+  - DE DQT
+  - DE GRAVE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&kp ((ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE)))'
-  - '&kp ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))'
-  - '&kp ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK))))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK))))'
-  - '&kp ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))))'
-  - '&kp ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))))'
-  - '&kp ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS))))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE))))'
+  - DE LT
+  - DE LBRC
+  - DE LBKT
+  - DE LPAR
+  - DE BSLH
+  - DE FSLH
+  - DE RPAR
+  - DE RBKT
+  - DE RBRC
+  - DE GT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION))))'
-  - '&kp ((RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Q))))'
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_6_AND_CARET))))'
-  - '&kp (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_BACKSLASH_AND_PIPE)))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))))'
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))'
-  - '&kp (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS)))'
-  - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))'
-  - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))))'
+  - DE EXCL
+  - DE AT
+  - DE HASH
+  - DE AMPS
+  - DE PIPE
+  - DE UNDER
+  - DE MINUS
+  - DE EQUAL
+  - DE PLUS
+  - DE QMARK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -332,9 +332,6 @@ combos:
   l: [base, puq]
 - p: [15, 16]
   k: $$mdi:keyboard-return$$
-  l: [base, puq]
-- p: [26, 28]
-  k: $$mdi:content-cut$$
   l: [base, puq]
 - p: [26, 27]
   k: $$mdi:content-copy$$
