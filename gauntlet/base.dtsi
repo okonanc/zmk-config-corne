@@ -16,7 +16,7 @@
 #define FNC 4
 #define SYM 5
 
-#include "combos.dtsi"
+//#include "combos.dtsi"
 
 #if MOUSE_KEYS
     #include <dt-bindings/zmk/mouse.h>
