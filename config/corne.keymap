@@ -4,8 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#define NO_TEST_LAYER
-#define NO_MOUSE_KEYS
+#define MOUSE_KEYS 0
 
 #include "../gauntlet/base.dtsi"
 
@@ -23,8 +22,4 @@
 
 #ifdef MOUSE_KEYS
 #  include "../gauntlet/L_MSE.dtsi"
-#endif
-
-#ifdef TEST_LAYER
-#  include "../gauntlet/L_TST.dtsi"
 #endif
