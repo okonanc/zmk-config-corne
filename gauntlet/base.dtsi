@@ -16,6 +16,8 @@
 #define FNC 4
 #define SYM 5
 
+#include "combos.dtsi"
+
 #if MOUSE_KEYS
     #include <dt-bindings/zmk/mouse.h>
     #define MSE 6
@@ -260,5 +262,3 @@ ZMK_BEHAVIOR(win_sleep, macro,
 #define VOL_DOWN    &hmr LCTRL C_VOL_DN
 
 //ZMK_CONDITIONAL_LAYER(FNC NUM, SYM)  // FNC + NUM --> SYS
-
-#include "combos.dtsi"
