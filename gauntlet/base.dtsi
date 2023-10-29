@@ -13,10 +13,10 @@
 #define FNC 4
 #define SYM 5
 
-#if MOUSE_KEYS
+#ifdef MOUSE_KEYS
     #include <dt-bindings/zmk/mouse.h>
     #define MSE 6
-#if MOUSE_KEYS
+#ifdef MOUSE_KEYS
     #include <dt-bindings/zmk/mouse.h>
     #define MSE 6
 #endif
