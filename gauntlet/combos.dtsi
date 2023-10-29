@@ -27,11 +27,11 @@
     COMBO(to_puq    , &to PUQ        , 12 37 16 , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     //COMBO(to_but    , &to BuT        , 12 37 16 , DEF         GME          , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
-    #ifdef TEST_LAYER
+    #if TEST_LAYER
     COMBO(to_test   , &to TST        , 19 16    , DEF NUM FNC GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
-    #ifdef MOUSE_KEYS
+    #if MOUSE_KEYS
     COMBO(to_mouse  , &to MSE        , 7 8      , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     #endif
 
