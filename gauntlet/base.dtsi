@@ -12,10 +12,6 @@
 // Behaviors Constants
 #define QUICK_TAP_MS 175
 
-// Combos Constants
-#define COMBO_TERM_FAST 18
-#define COMBO_TERM_SLOW 30
-
 // Layers
 #define DEF 0
 //#define CDH 1

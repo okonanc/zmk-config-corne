@@ -1,4 +1,4 @@
-/*
+/**
   KEY POSITIONS
  ╭─────────────────────────┬─────────────────────────╮
  │ LT5 LT4 LT3 LT2 LT1 LT0 │ RT0 RT1 RT2 RT3 RT4 RT5 │
@@ -11,6 +11,10 @@
 // use require-prior-idle-ms for combos
 #undef COMBO_HOOK
 #define COMBO_HOOK require-prior-idle-ms = <150>;
+
+// Combos Constants
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
 
 // make homerow combos tap-only (so HRMs can be chorded instantaneously)
 /*
