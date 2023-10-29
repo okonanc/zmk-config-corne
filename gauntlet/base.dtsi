@@ -48,7 +48,7 @@
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
 
-//#include "combos.dtsi"
+#include "combos.dtsi"
 #include "behaviors.dtsi"
 //#include "dances.dtsi"
 #include "macros.dtsi"
