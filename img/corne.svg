@@ -535,8 +535,8 @@ path.combo {
     --color--key--border: var(--color--material--teal--100);
 }
 </style>
-<g transform="translate(0, 0)" class="layer-DEF">
-<text x="0" y="0" class="label">DEF</text>
+<g transform="translate(0, 0)" class="layer-def">
+<text x="0" y="0" class="label">def</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -999,7 +999,7 @@ path.combo {
 <path d="M224,345 h-178 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
 <path d="M224,345 h178 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <rect rx="4" ry="4" x="206" y="327" width="36" height="36" class="combo"/>
-<text x="224" y="345" class="combo tap">DEF</text>
+<text x="224" y="345" class="combo tap">def</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="302" y="67" width="36" height="36" class="combo"/>
@@ -1230,7 +1230,7 @@ path.combo {
 <path d="M224,345 h-178 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
 <path d="M224,345 h178 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <rect rx="4" ry="4" x="206" y="327" width="36" height="36" class="combo"/>
-<text x="224" y="345" class="combo tap">DEF</text>
+<text x="224" y="345" class="combo tap">def</text>
 </g>
 <g class="combo combopos-1">
 <path d="M269,345 h-223 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
@@ -1630,11 +1630,11 @@ path.combo {
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<text x="0" y="0" class="key tap">DEF</text>
+<text x="0" y="0" class="key tap">def</text>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<text x="0" y="0" class="key tap">DEF</text>
+<text x="0" y="0" class="key tap">def</text>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key trans keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
