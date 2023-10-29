@@ -26,15 +26,15 @@ ZMK_COMBO(to_base   , &to DEF        , LM5 LH1    ,             GME PUQ, COMBO_T
 ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1, DEF         GME    , COMBO_TERM_FAST)
 
 /* Umlaute */
-ZMK_COMBO(auml      , &kp DE_AE      , LT0 LM0    , DEF                , COMBO_TERM_SLOW)
+ZMK_COMBO(auml      , &kp DE_A_UMLAUT, LT0 LM0    , DEF                , COMBO_TERM_SLOW)
 ZMK_COMBO(de_ss     , &kp DE_ESZETT  , LM0 LB0    , DEF                , COMBO_TERM_SLOW)
-ZMK_COMBO(ouml      , &kp DE_OE      , RT0 RM0    , DEF                , COMBO_TERM_SLOW)
-ZMK_COMBO(uuml      , &kp DE_UE      , RM0 RB0    , DEF                , COMBO_TERM_SLOW)
+ZMK_COMBO(ouml      , &kp DE_O_UMLAUT, RT0 RM0    , DEF                , COMBO_TERM_SLOW)
+ZMK_COMBO(uuml      , &kp DE_U_UMLAUT, RM0 RB0    , DEF                , COMBO_TERM_SLOW)
 
-ZMK_COMBO(puq_auml  , &kp DE_AE      , LT2 LM1    ,                 PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_auml  , &kp DE_A_UMLAUT, LT2 LM1    ,                 PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_de_ss , &kp DE_ESZETT  , LT2 LT1    ,                 PUQ, COMBO_TERM_SLOW)
-ZMK_COMBO(puq_ouml  , &kp DE_OE      , LT2 LM0    ,                 PUQ, COMBO_TERM_SLOW)
-ZMK_COMBO(puq_uuml  , &kp DE_UE      , LT2 LT3    ,                 PUQ, COMBO_TERM_SLOW)    
+ZMK_COMBO(puq_ouml  , &kp DE_O_UMLAUT, LT2 LM0    ,                 PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_uuml  , &kp DE_U_UMLAUT, LT2 LT3    ,                 PUQ, COMBO_TERM_SLOW)    
 
 /* Bluetooth */
 ZMK_COMBO(bt_clear  , &bt BT_CLR     , RM1 RM2 RM3,         FNC        , COMBO_TERM_FAST)
