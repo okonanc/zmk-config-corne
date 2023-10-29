@@ -49,7 +49,7 @@
 #define WIN_PREV        LS(TAB)
 
 #include "behaviors.dtsi"
-#include "dances.dtsi"
+//#include "dances.dtsi"
 #include "macros.dtsi"
 #include "combos.dtsi"
 
