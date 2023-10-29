@@ -23,7 +23,7 @@ layers:
   - {t: J, h: '$$mdi:star-three-points$$'}
   - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - '&hml LCTRL'
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - DE Y
