@@ -22,12 +22,8 @@
 #define FNC 4
 #define SYM 5
 
-#ifdef MOUSE_KEYS
+#if MOUSE_KEYS
 #  define MSE 6
-#endif
-
-#ifdef TEST_LAYER
-#  define TST 6
 #endif
 
 // Meh key
