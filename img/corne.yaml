@@ -39,11 +39,11 @@ layers:
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - '&lt_spc 5'
-  - {t: RET, h: '4'}
+  - {t: RET, h: fnc}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - '&smart_shift'
-  - '5'
-  '1':
+  - sym
+  puq:
   - $$mdi:keyboard-esc$$
   - P
   - U
@@ -82,11 +82,11 @@ layers:
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - '&lt_spc 5'
-  - {t: RET, h: '4'}
+  - {t: RET, h: fnc}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - '&smart_shift'
-  - '5'
-  '2':
+  - sym
+  gme:
   - T
   - $$mdi:keyboard-esc$$
   - Q
@@ -111,7 +111,7 @@ layers:
   - L
   - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: B, h: '4'}
+  - {t: B, h: fnc}
   - $$mdi:apple-keyboard-control$$
   - '&kp (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Y))'
   - X
@@ -122,14 +122,14 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - '&qe_mark'
-  - '4'
+  - fnc
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - '&smart_shift'
-  - '5'
-  '3':
+  - sym
+  num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
   - $$mdi:page-first$$
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
   - {t: '0', s: '='}
   - '&th DOT COMMA'
-  '4':
+  fnc:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
@@ -215,7 +215,7 @@ layers:
   - base
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
-  '5':
+  sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - DE ACUT
   - '&kp ((LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))))'
