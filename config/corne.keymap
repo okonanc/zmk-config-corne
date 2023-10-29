@@ -4,8 +4,13 @@
  * SPDX-License-Identifier: MIT
  */
  
- #include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
- 
+#include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
+#include "../zmk-nodefree-config/helper.h"
+#include "../zmk-nodefree-config/international_chars/german.dtsi"
+
+#include "../gauntlet/base.keymap"
+
+/*
 #define MOUSE_KEYS 0
 
 #include "../gauntlet/base.dtsi"
@@ -25,4 +30,4 @@
 #if MOUSE_KEYS
 #  include "../gauntlet/L_MSE.dtsi"
 #endif
-
+*/
