@@ -2,16 +2,16 @@ layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   '0':
   - $$mdi:keyboard-esc$$
-  - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: W, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - Q
+  - W
+  - E
   - R
   - T
   - Z
   - U
-  - {t: I, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - I
+  - O
+  - {t: '''', s: '"'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: FNC, h: '$$mdi:close-box$$'}
+  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
   - Y
   - X
   - C
@@ -36,25 +36,25 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: FNC, h: '$$mdi:close-box$$'}
+  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - '&smart_shift'
   - '5'
   '1':
   - $$mdi:keyboard-esc$$
-  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '?', h: '$$mdi:apple-keyboard-command$$', s: '!'}
+  - P
+  - U
+  - {t: '?', s: '!'}
   - {t: ',', s: ;}
   - Q
   - G
   - C
-  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - L
+  - M
+  - F
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
@@ -68,7 +68,7 @@ layers:
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: FNC, h: '$$mdi:close-box$$'}
+  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
   - K
   - Y
   - {t: ., s: ':'}
@@ -79,13 +79,13 @@ layers:
   - W
   - B
   - Z
-  - {t: FNC, h: '$$mdi:close-box$$'}
+  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '5'}
+  - '&smart_shift'
+  - '5'
   '2':
   - T
   - $$mdi:keyboard-esc$$
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - '&smart_shift'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -168,10 +168,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:close-box$$', h: NUM, s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: '='}
-  - {t: ',', h: ., s: ;}
+  - {t: '$$mdi:transfer$$', type: trans}
   '4':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -208,7 +208,7 @@ layers:
   - F2
   - F3
   - F12
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$'}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$', type: held}
   - $$mdi:backup-restore$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
@@ -252,10 +252,10 @@ layers:
   - {t: +, s: '*'}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
 combos:

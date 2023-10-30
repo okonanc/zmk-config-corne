@@ -91,16 +91,17 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
 )
 &num_word {  // num-word, requires PR #1451
     layers = <NUM>;
-    continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+    //continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+    continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>;
 };
-
+/*
 // smart-mouse, requires PR #1366
 ZMK_BEHAVIOR(smart_mouse, tri_state,
     bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
     ignored-key-positions = <LT1 LT3 RT1 RT2 RT3 RM1 RM2 RM3 RH0 RH1>;
     ignored-layers = <MOUSE>;
 )
-
+*/
 /* Custom behaviors */
 
 // Alt+Tab swapper, requires PR #1366
@@ -109,6 +110,7 @@ ZMK_BEHAVIOR(swapper, tri_state,
     ignored-key-positions = <LT2>;
 )
 
+/*
 // Sticky layer + sticky shift (workaround for issue #1421)
 ZMK_BEHAVIOR(sls, sticky_key,
     release-after-ms = <1000>;
@@ -122,6 +124,7 @@ ZMK_BEHAVIOR(uc_shift, macro,
              , <&macro_pause_for_release>
              , <&macro_release &mo UC &kp LSHFT>;
 )
+*/
 
 // tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
 ZMK_BEHAVIOR(comma_morph, mod_morph,
@@ -149,6 +152,12 @@ ZMK_BEHAVIOR(qexcl, mod_morph,
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
+// tap: sqt | shift + tap: dqt
+ZMK_BEHAVIOR(sdq, mod_morph,
+    bindings = <&kp DE_SQT>, <&kp DE_DQT>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
 ZMK_BEHAVIOR(lt_spc, hold_tap,
     flavor = "balanced";
@@ -167,7 +176,7 @@ ZMK_BEHAVIOR(dot_spc, macro,
 )
 
 // tap: backspace | lshft + tap: delete | rshft + tap: shift-delete
-ZMK_BEHAVIOR(bs_del, mod_morph,
+ZMK_BEHAVIOR(bkspc_del, mod_morph,
     bindings = <&kp BSPC>, <&kp DEL>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     keep-mods = <MOD_RSFT>;

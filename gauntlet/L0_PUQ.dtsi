@@ -4,12 +4,12 @@
 
 ZMK_LAYER(PUQ,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    &kp ESC         &hpt RCTRL P    &hpt RALT U     &smm RCMD 0     &kp COMMA       &kp Q               &kp G           &kp C           &hpt RCMD L     &hpt RALT M     &hpt RCTRL F    &kp K_CANCEL
+    &kp ESC         &kp P           &kp U           &qexcl          &kp COMMA       &kp Q               &kp G           &kp C           &kp L           &kp M           &kp F           &kp K_CANCEL
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &bkspc_del      &hpt LCTRL H    &hpt LALT I     &hpt LCMD E     &hpt MEH A      &kp O               &kp D           &hpt MEH T      &hpt LCMD R     &hpt LALT N     &hpt LCTRL S    &kp ENTER
+    &bkspc_del      &hml LCTRL H    &hml LALT I     &hml LCMD E     &hml MEH A      &kp O               &kp D           &hmr MEH T      &hmr LCMD R     &hmr LALT N     &hmr LCTRL S    &kp ENTER
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &csl FNC        &kp K           &kp DE_Y        &kp DOT         &sd_quotes      &kp X               &kp J           &kp V           &kp W           &kp B           &kp DE_Z        &csl FNC
+    &sl FNC         &kp K           &kp DE_Y        &kp DOT         &sdq            &kp X               &kp J           &kp V           &kp W           &kp B           &kp DE_Z        &sl FNC
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
-                                                    &hrl SYM TAB    &mt LSHFT SPACE &smart_num NUM 0    &smart_num NUM 0 &smart_shift   &hrl SYM ENTER
+                                                    &hml SYM TAB    &mt LSHFT SPACE SMART_NUM           SMART_NUM       &smart_shift    &mo SYM
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
 )
