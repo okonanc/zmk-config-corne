@@ -18,6 +18,7 @@
 #define NUM 3
 #define FNC 4
 #define SYM 5
+#define SYS 6
 
 #if MOUSE_KEYS
 #  define MSE 6
@@ -46,14 +47,12 @@
 
 // Combos Constants
 #define COMBO_TERM_FAST 18
-#define COMBO_TERM_SLOW 30
-#define COMBO_TERM_DEFAULT 30
-#define COMBO_QUICK_TAP_MS 100
+#define COMBO_TERM_SLOW 100
 
 #include "combos.dtsi"
 #include "behaviors.dtsi"
 //#include "dances.dtsi"
-#include "macros.dtsi"
+//#include "macros.dtsi"
 
 // Alpha layer: uncomment desired, comment the others
 #include "../gauntlet/L0_qwertz.dtsi"
@@ -66,6 +65,7 @@
 #include "../gauntlet/L_NUM.dtsi"
 #include "../gauntlet/L_FNC.dtsi"
 #include "../gauntlet/L_SYM.dtsi"
+#include "../gauntlet/L_SYS.dtsi"
 
 #if MOUSE_KEYS
 #include "../gauntlet/L_MSE.dtsi"
