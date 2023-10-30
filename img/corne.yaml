@@ -259,6 +259,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
 combos:
+- p: [0, 38]
+  k: '2'
+  l: ['0', '1']
+  a: right
 - p: [12, 37]
   k: '0'
   l: ['2', '1']
@@ -338,7 +342,3 @@ combos:
 - p: [27, 28]
   k: $$mdi:content-paste$$
   l: ['0', '1']
-- p: [0, 38]
-  k: '2'
-  l: ['0', '1']
-  a: right
