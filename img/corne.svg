@@ -535,8 +535,8 @@ path.combo {
     --color--key--border: var(--color--material--teal--100);
 }
 </style>
-<g transform="translate(0, 0)" class="layer-QWERTZ-KBL">
-<text x="0" y="0" class="label">QWERTZ-KBL</text>
+<g transform="translate(0, 0)" class="layer-qwertz">
+<text x="0" y="0" class="label">qwertz</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -646,7 +646,7 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Func</text>
+<text x="0" y="0" class="key tap">fnc</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
@@ -694,7 +694,7 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Func</text>
+<text x="0" y="0" class="key tap">fnc</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
@@ -727,20 +727,20 @@ path.combo {
 </g>
 <g transform="translate(880, 293)" class="key keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 71%">Symbols</tspan></text>
+<text x="0" y="0" class="key tap">sym</text>
 </g>
 <g class="combo combopos-0">
 <path d="M542,195 v-119 a6.0,6.0 0 0 0 -6.0,-6.0 h-470" class="combo"/>
 <path d="M542,195 v119 a6.0,6.0 0 0 1 -6.0,6.0 h-8" class="combo"/>
 <rect rx="4" ry="4" x="524" y="177" width="36" height="36" class="combo"/>
-<text x="542" y="195" class="combo tap">2</text>
+<text x="542" y="195" class="combo tap">gme</text>
 </g>
 <g class="combo combopos-1">
 <path d="M269,345 h-223 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
 <path d="M269,345 h133 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <path d="M269,345 h85 a6.0,6.0 0 0 0 6.0,-6.0 v-182" class="combo"/>
 <rect rx="4" ry="4" x="251" y="327" width="36" height="36" class="combo"/>
-<text x="269" y="345" class="combo tap">1-KBL</text>
+<text x="269" y="345" class="combo tap">puq</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="422" y="82" width="36" height="36" class="combo"/>
@@ -782,8 +782,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 392)" class="layer-1-KBL">
-<text x="0" y="0" class="label">1-KBL</text>
+<g transform="translate(0, 392)" class="layer-puq">
+<text x="0" y="0" class="label">puq</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -894,7 +894,7 @@ path.combo {
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Func</text>
+<text x="0" y="0" class="key tap">fnc</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
@@ -941,7 +941,7 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Func</text>
+<text x="0" y="0" class="key tap">fnc</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
@@ -974,19 +974,19 @@ path.combo {
 </g>
 <g transform="translate(880, 293)" class="key keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 71%">Symbols</tspan></text>
+<text x="0" y="0" class="key tap">sym</text>
 </g>
 <g class="combo combopos-0">
 <path d="M542,195 v-119 a6.0,6.0 0 0 0 -6.0,-6.0 h-470" class="combo"/>
 <path d="M542,195 v119 a6.0,6.0 0 0 1 -6.0,6.0 h-8" class="combo"/>
 <rect rx="4" ry="4" x="524" y="177" width="36" height="36" class="combo"/>
-<text x="542" y="195" class="combo tap">2</text>
+<text x="542" y="195" class="combo tap">gme</text>
 </g>
 <g class="combo combopos-1">
 <path d="M224,345 h-178 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
 <path d="M224,345 h178 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <rect rx="4" ry="4" x="206" y="327" width="36" height="36" class="combo"/>
-<text x="224" y="345" class="combo tap"><tspan style="font-size: 60%">QWERTZ-KBL</tspan></text>
+<text x="224" y="345" class="combo tap"><tspan style="font-size: 83%">qwertz</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="302" y="67" width="36" height="36" class="combo"/>
@@ -1030,8 +1030,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 785)" class="layer-2">
-<text x="0" y="0" class="label">2</text>
+<g transform="translate(0, 785)" class="layer-gme">
+<text x="0" y="0" class="label">gme</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1133,7 +1133,7 @@ path.combo {
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
-<text x="0" y="34" class="key hold">Func</text>
+<text x="0" y="34" class="key hold">fnc</text>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1180,7 +1180,7 @@ path.combo {
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">Func</text>
+<text x="0" y="0" class="key tap">fnc</text>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1217,14 +1217,14 @@ path.combo {
 <path d="M224,345 h-178 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
 <path d="M224,345 h178 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <rect rx="4" ry="4" x="206" y="327" width="36" height="36" class="combo"/>
-<text x="224" y="345" class="combo tap"><tspan style="font-size: 60%">QWERTZ-KBL</tspan></text>
+<text x="224" y="345" class="combo tap"><tspan style="font-size: 83%">qwertz</tspan></text>
 </g>
 <g class="combo combopos-1">
 <path d="M269,345 h-223 a6.0,6.0 0 0 1 -6.0,-6.0 v-162" class="combo"/>
 <path d="M269,345 h133 a6.0,6.0 0 0 0 6.0,-6.0 v-8" class="combo"/>
 <path d="M269,345 h85 a6.0,6.0 0 0 0 6.0,-6.0 v-182" class="combo"/>
 <rect rx="4" ry="4" x="251" y="327" width="36" height="36" class="combo"/>
-<text x="269" y="345" class="combo tap">1-KBL</text>
+<text x="269" y="345" class="combo tap">puq</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="382" y="117" width="36" height="36" class="combo"/>
@@ -1244,8 +1244,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1177)" class="layer-NumNav">
-<text x="0" y="0" class="label">NumNav</text>
+<g transform="translate(0, 1177)" class="layer-num">
+<text x="0" y="0" class="label">num</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1443,8 +1443,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1569)" class="layer-Func">
-<text x="0" y="0" class="label">Func</text>
+<g transform="translate(0, 1569)" class="layer-fnc">
+<text x="0" y="0" class="label">fnc</text>
 <g transform="translate(0, 2)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1611,11 +1611,11 @@ path.combo {
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">QWERTZ-KBL</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 83%">qwertz</tspan></text>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">QWERTZ-KBL</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 83%">qwertz</tspan></text>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key trans keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1667,8 +1667,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1964)" class="layer-Symbols">
-<text x="0" y="0" class="label">Symbols</text>
+<g transform="translate(0, 1964)" class="layer-sym">
+<text x="0" y="0" class="label">sym</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 70)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
