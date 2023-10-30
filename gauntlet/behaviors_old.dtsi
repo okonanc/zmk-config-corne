@@ -1,0 +1,336 @@
+
+&sk {  // sticky-key config
+    release-after-ms = <900>;  // release after 0.9s
+    quick-release;             // no double capitalization when rolling keys
+};
+
+&sl {  // sticky-layer config
+    ignore-modifiers;          // allow chording sticky mods & layers
+};
+
+&lt {  // layer-tap config
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+};
+
+&mt {
+  flavor = "balanced";
+  tapping-term-ms = <300>;
+  quick-tap-ms = <0>;
+  require-prior-idle-ms = <150>;
+};
+
+&mmv {
+    acceleration-exponent = <1>;      // 1
+    time-to-max-speed-ms = <400>;     // 300
+    delay-ms = <0>;                   // 0
+};
+
+&mwh {
+    acceleration-exponent = <1>;      // 0
+    time-to-max-speed-ms = <40>;      // 300
+    delay-ms = <0>;                   // 0
+};
+
+// mods deactivate caps-word, requires PR https://github.com/zmkfirmware/zmk/pull/1451
+// &caps_word {
+//   /delete-property/ ignore-modifiers;
+// };
+
+// From: https://github.com/urob/zmk-config/
+// num-word, requires PR https://github.com/zmkfirmware/zmk/pull/1451
+// Adds arrows and shift to smart layer for more comfortable navigation/selection moves
+
+&num_word {
+  layers = <NUM>;
+  continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>;
+};
+
+/ {
+  behaviors {
+
+    // Swapper for smart alt+tab
+    /omit-if-no-ref/ swapper: swapper {
+      compatible = "zmk,behavior-tri-state";
+      label = "SWAPPER";
+      #binding-cells = <0>;
+      bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+      ignored-key-positions = <5>;
+    };
+
+    /omit-if-no-ref/ hpt: hpt {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOLD_PREFER_TAP";
+      #binding-cells = <2>;
+      tapping-term-ms = <300>; // <200>;
+      quick_tap_ms = <250>; // <0>
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+
+    /omit-if-no-ref/ prefer_hold_tap: prefer_hold_tap {
+      compatible = "zmk,behavior-hold-tap";
+      label = "PREFER_HOLD_TAP";
+      #binding-cells = <2>;
+      tapping-term-ms = <300>; // <200>;
+      quick_tap_ms = <0>;
+      flavor = "hold-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+
+    /omit-if-no-ref/ balanced_hold_tap: balanced_hold_tap {
+      compatible = "zmk,behavior-hold-tap";
+      label = "BALANCED_HOLD_TAP";
+      #binding-cells = <2>;
+      tapping-term-ms = <300>; // <200>;
+      quick_tap_ms = <0>;
+      flavor = "balanced";
+      bindings = <&kp>, <&kp>;
+    };
+    
+    /omit-if-no-ref/ hrl: homerow_layers {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_LAYERS";
+      #binding-cells = <2>;
+      tapping-term-ms = <220>;
+      quick-tap-ms = <250>;
+      flavor = "tap-preferred";
+      bindings = <&mo>, <&kp>;
+    };    
+    /*
+     - tap: sticky shift
+     - double-tap: caps-word (shift + tap mod-morph)
+     - hold: shift
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ smart_shift: smart_shift {
+      label = "SMART_SHIFT";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&sk RSHFT>, <&caps_word>;
+      mods = <(MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: &kp TAB
+     - double-tab: &sl SYM
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ ht_tosl: hold_tap_to_stickylayer {
+      label = "HOLD_TAP_TO_STICKY_LAYER";
+      compatible = "zmk,behavior-hold-tap";
+      tapping-term-ms = <300>;
+      #binding-cells = <2>;
+      bindings = <&sl>, <&kp>;
+    };
+
+    /*
+     - tab: &kp TAB
+     - double-tab: &sl SYM
+     - hold: &mo SYM
+
+     Example: &cld SYM TAB
+
+    /omit-if-no-ref/ cld: clear-layer-dance {
+      compatible = "zmk,behavior-hold-tap";
+      label = "CLEAR_LAYER_DANCE";
+      #binding-cells = <2>;
+      flavor = "tap-preferred";
+      tapping-term-ms = <200>;
+      quick-tap-ms = <125>;
+      global-quick-tap;
+      bindings = <&kp>, <&ht_tosl>;
+    };
+    */
+    
+    /*
+     - tap: num-word
+     - hold: &mo layer
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ smart_num: smart_num {
+      label = "SMART_NUM";
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <300>;
+      bindings = <&mo>, <&num_dance>;
+      #binding-cells = <2>;
+    };
+
+    /*
+     - tap: &sl NUM
+     - tap x 2: &num_word
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ num_dance: num_dance {
+      label = "NUM_DANCE";
+      compatible = "zmk,behavior-tap-dance";
+      tapping-term-ms = <300>;
+      bindings = <&sl NUM>, <&num_word>;
+      #binding-cells = <0>;
+    };
+
+    /omit-if-no-ref/ th: taphold {
+      compatible = "zmk,behavior-hold-tap";
+      label = "TAP-HOLD";
+      #binding-cells = <2>;
+      tapping-term-ms = <190>;
+      quick-tap-ms = <250>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+
+    /*
+     - tap: &kp <PARAM_2>
+     - hold: &none
+
+     Example: &nh 0 K_CANCEL
+     */
+    /omit-if-no-ref/ nh: no_hold {
+      label = "NO_HOLD";
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <300>;
+      bindings = <&none>, <&kp>;
+      #binding-cells = <2>;
+    };
+
+    /*
+     - tap: sticky ctrl
+     - hold: ctrl
+     - double-tap: sticky meh (ctrl + tap mod-morph)
+     - tap + hold: meh (ctrl + hold mod-morph)
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ ctrl_meh: ctrl_meh {
+      label = "CTRL_MEH";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&sk LCTRL>, <&sk MEH>;
+      mods = <(MOD_LCTL)>;
+      #binding-cells = <0>;
+    };
+    
+    /*
+     - tap: backspace
+     - hold: repeat backspace
+     - shift + tap: delete
+     - shift + hold: repeat delete
+
+     From: https://zmk.dev/docs/behaviors/mod-morph#advanced-configuration
+     */
+    /omit-if-no-ref/ bkspc_del: backspace_delete {
+      label = "BACKSPACE_DELETE";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp BACKSPACE>, <&kp DELETE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: single
+     - hold: repeat single quotes
+     - shift + tap: double quote
+     - shift + hold: repeated double quotes
+
+     From: https://zmk.dev/docs/behaviors/mod-morph#advanced-configuration
+     */
+    /omit-if-no-ref/ sd_quotes: single_double_quotes {
+      label = "SD_QUOTES";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp DE_SQT>, <&kp DE_DQT>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: sd_quotes
+     - hold: &kp
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ smq: smart_quotes {
+      label = "SMART_QUOTES";
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <300>;
+      bindings = <&kp>, <&sd_quotes>;
+      #binding-cells = <2>;
+    };
+
+    /*
+     - tap: single
+     - hold: repeat single quotes
+     - shift + tap: double quote
+     - shift + hold: repeated double quotes
+
+     From: https://zmk.dev/docs/behaviors/mod-morph#advanced-configuration
+     */
+    /omit-if-no-ref/ qe_mark: question_excl_mark {
+      label = "QUEST_EXCL_MARK";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp DE_QMARK>, <&kp DE_EXCL>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+    /*
+     - tap: qe_mark
+     - hold: &kp
+
+     From: https://github.com/urob/zmk-config/
+     */
+    /omit-if-no-ref/ smm: smart_marks {
+      label = "SMART_MARKS";
+      compatible = "zmk,behavior-hold-tap";
+      flavor = "balanced";
+      tapping-term-ms = <300>;
+      bindings = <&kp>, <&qe_mark>;
+      #binding-cells = <2>;
+    };
+
+    /*
+     - tap: brightness up
+     - hold: repeat brightness up
+     - shift + tap: brightness down
+     - shift + hold: repeat brightness down
+     */
+    /omit-if-no-ref/ brightness: brightness {
+      label = "BRIGHTNESS";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp C_BRI_UP>, <&kp C_BRI_DN>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: next track
+     - shift + tap: prev track
+     */
+    /omit-if-no-ref/ next_prev: next_prev {
+      label = "NEXT_PREV_TRACK";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp C_NEXT>, <&kp C_PREV>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /*
+     - tap: volume up
+     - shift + tap: volume down
+     */
+    /omit-if-no-ref/ volume: volume {
+      label = "VOLUME";
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+  };
+};
