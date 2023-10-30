@@ -51,7 +51,7 @@
 #define COMBO_QUICK_TAP_MS 100
 
 #include "combos.dtsi"
-#include "behaviors_old.dtsi"
+#include "behaviors.dtsi"
 //#include "dances.dtsi"
 #include "macros.dtsi"
 
