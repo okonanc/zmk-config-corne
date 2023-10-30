@@ -22,7 +22,7 @@
     */
 
     /* Layers */
-    ZMK_COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULTas)
+    ZMK_COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT)
     //COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_base   , &to DEF        , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
