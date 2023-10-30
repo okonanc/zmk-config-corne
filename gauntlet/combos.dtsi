@@ -23,7 +23,6 @@
 
     /* Layers */
     //COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_base   , &to DEF        , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_puq    , &to PUQ        , 12 37 16 , DEF         GME         , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     //COMBO(to_but    , &to BuT        , 12 37 16 , DEF         GME          , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -98,7 +97,7 @@
 //*/
 //
 ///* Layers */
-ZMK_COMBO(to_gaming , &to GME        , LT5 LH0    , DEF             PUQ, COMBO_TERM_FAST)
+ZMK_COMBO(to_gaming , &to GME        , 0 38    , DEF             PUQ, COMBO_TERM_FAST)
 //ZMK_COMBO(to_base   , &to DEF        , LM5 LH1    ,             GME PUQ, COMBO_TERM_FAST)
 //ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1, DEF         GME    , COMBO_TERM_FAST)
 ////ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1, DEF         GME  ,  , COMBO_TERM_FAST)
