@@ -22,7 +22,6 @@
     */
 
     /* Layers */
-    ZMK_COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT)
     //COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_gaming , &to GME        , 0 38     , DEF             PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(to_base   , &to DEF        , 12 37    ,             GME PUQ     , COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
@@ -87,8 +86,8 @@
 */
 
 // use require-prior-idle-ms for combos
-//#undef COMBO_HOOK
-//#define COMBO_HOOK require-prior-idle-ms = <150>;
+#undef COMBO_HOOK
+#define COMBO_HOOK require-prior-idle-ms = <150>;
 //
 //// make homerow combos tap-only (so HRMs can be chorded instantaneously)
 ///*
@@ -99,7 +98,7 @@
 //*/
 //
 ///* Layers */
-//ZMK_COMBO(to_gaming , &to GME        , LT5 LH0    , DEF             PUQ, COMBO_TERM_FAST)
+ZMK_COMBO(to_gaming , &to GME        , LT5 LH0    , DEF             PUQ, COMBO_TERM_FAST)
 //ZMK_COMBO(to_base   , &to DEF        , LM5 LH1    ,             GME PUQ, COMBO_TERM_FAST)
 //ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1, DEF         GME    , COMBO_TERM_FAST)
 ////ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1, DEF         GME  ,  , COMBO_TERM_FAST)
