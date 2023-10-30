@@ -15,6 +15,8 @@
 // Combos Constants
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
+#define COMBO_TERM_DEFAULT 30
+#define COMBO_QUICK_TAP_MS 100
 
 // Layers
 #define DEF 0
