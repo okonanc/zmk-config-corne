@@ -9,15 +9,6 @@
 #  include <dt-bindings/zmk/mouse.h>
 #endif
 
-// Behaviors Constants
-#define QUICK_TAP_MS 175
-
-// Combos Constants
-#define COMBO_TERM_FAST 18
-#define COMBO_TERM_SLOW 30
-#define COMBO_TERM_DEFAULT 30
-#define COMBO_QUICK_TAP_MS 100
-
 // Layers
 #define DEF 0
 //#define CDH 1
@@ -49,6 +40,15 @@
 #define TEAMS_TV        LC(LS(O))
 #define TEAMS_TA        LC(LS(M))
 #define WIN_PREV        LS(TAB)
+
+// Behaviors Constants
+#define QUICK_TAP_MS 175
+
+// Combos Constants
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+#define COMBO_TERM_DEFAULT 30
+#define COMBO_QUICK_TAP_MS 100
 
 #include "combos.dtsi"
 #include "behaviors.dtsi"
