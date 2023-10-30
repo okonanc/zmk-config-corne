@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  '0':
+  qwertz:
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - Y
   - X
   - C
@@ -36,14 +36,14 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '5'
-  '1':
+  - sym
+  puq:
   - $$mdi:keyboard-esc$$
   - P
   - U
@@ -68,7 +68,7 @@ layers:
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - K
   - Y
   - {t: ., s: ':'}
@@ -79,14 +79,14 @@ layers:
   - W
   - B
   - Z
-  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '5'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '5'
-  '2':
+  - sym
+  gme:
   - T
   - $$mdi:keyboard-esc$$
   - Q
@@ -111,7 +111,7 @@ layers:
   - L
   - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: B, h: '4'}
+  - {t: B, h: fnc}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -122,14 +122,14 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - '4'
+  - fnc
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  '3':
+  num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
   - $$mdi:page-first$$
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: '='}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  fnc:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
@@ -211,11 +211,11 @@ layers:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$', type: held}
   - $$mdi:backup-restore$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '0'
-  - '0'
+  - qwertz
+  - qwertz
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
-  '5':
+  sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ´, s: '`'}
   - '%'
@@ -260,85 +260,85 @@ layers:
   - {type: held}
 combos:
 - p: [0, 38]
-  k: '2'
-  l: ['0', '1']
+  k: gme
+  l: [qwertz, puq]
   a: right
 - p: [12, 37]
-  k: '0'
-  l: ['2', '1']
+  k: qwertz
+  l: [gme, puq]
   a: bottom
 - p: [12, 37, 16]
-  k: '1'
-  l: ['0', '2']
+  k: puq
+  l: [qwertz, gme]
   a: bottom
 - p: [5, 17]
   k: Ä
-  l: ['0']
+  l: [qwertz]
 - p: [17, 29]
   k: ß
-  l: ['0']
+  l: [qwertz]
 - p: [6, 18]
   k: Ö
-  l: ['0']
+  l: [qwertz]
 - p: [18, 30]
   k: Ü
-  l: ['0']
+  l: [qwertz]
 - p: [3, 16]
   k: Ä
-  l: ['1']
+  l: [puq]
 - p: [3, 4]
   k: ß
-  l: ['1']
+  l: [puq]
 - p: [3, 17]
   k: Ö
-  l: ['1']
+  l: [puq]
 - p: [3, 2]
   k: Ü
-  l: ['1']
+  l: [puq]
 - p: [19, 20, 21]
   k: $$mdi:bluetooth-off$$
-  l: ['4']
+  l: [fnc]
   a: top
   o: 0.03
 - p: [1, 13]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  l: ['4']
+  l: [fnc]
 - p: [2, 14]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: ['4']
+  l: [fnc]
 - p: [3, 15]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  l: ['4']
+  l: [fnc]
 - p: [4, 16]
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  l: ['4']
+  l: [fnc]
 - p: [5, 17]
   k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  l: ['4']
+  l: [fnc]
 - p: [16, 17]
   k: $$mdi:play-pause$$
-  l: ['4', '2']
+  l: [fnc, gme]
 - p: [4, 5]
   k: $$mdi:volume-off$$
-  l: ['4', '2']
+  l: [fnc, gme]
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
-  l: ['2']
+  l: [gme]
 - p: [2, 3]
   k: $$mdi:cloud-download$$
-  l: ['2']
+  l: [gme]
 - p: [14, 15]
   k: $$mdi:eraser$$
-  l: ['0', '1']
+  l: [qwertz, puq]
 - p: [15, 16]
   k: $$mdi:keyboard-return$$
-  l: ['0', '1']
+  l: [qwertz, puq]
 - p: [26, 28]
   k: $$mdi:content-cut$$
-  l: ['0', '1']
+  l: [qwertz, puq]
 - p: [26, 27]
   k: $$mdi:content-copy$$
-  l: ['0', '1']
+  l: [qwertz, puq]
 - p: [27, 28]
   k: $$mdi:content-paste$$
-  l: ['0', '1']
+  l: [qwertz, puq]
