@@ -271,7 +271,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:power-on$$ $$mdi:toggle-switch$$ $$mdi:power-off$$
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-plug-battery-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}
