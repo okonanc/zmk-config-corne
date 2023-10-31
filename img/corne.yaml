@@ -132,9 +132,9 @@ layers:
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
-  - {t: '$$mdi:backspace$$', h: LC(BSPC)}
-  - {t: '$$mdi:arrow-up-bold$$', h: LC(HOME)}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: LC(DEL)}
+  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:chevron-double-up$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: /}
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-down$$
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: LC(END)}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:chevron-double-down$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
