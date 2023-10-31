@@ -38,8 +38,8 @@ layers:
   - {t: '?', s: '!'}
   - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: sym}
-  - {t: '$$mdi:keyboard-space$$', h: num, s: '&dot_spc'}
-  - {t: RET, h: fnc}
+  - {t: '$$mdi:keyboard-space$$', h: fnc, s: '&dot_spc'}
+  - {t: RET, h: num}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - sym
@@ -60,13 +60,13 @@ layers:
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: A, h: '$$mdi:star-three-points$$'}
-  - O
-  - D
-  - {t: T, h: '$$mdi:star-three-points$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: O, h: '$$mdi:star-three-points$$'}
+  - {t: D, h: '$$mdi:star-three-points$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: fnc, h: '$$mdi:gesture-tap-hold$$'}
   - K
@@ -132,28 +132,28 @@ layers:
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
-  - $$mdi:page-first$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:page-last$$
+  - {t: '$$mdi:backspace$$', h: LC(BSPC)}
+  - {t: '$$mdi:arrow-up-bold$$', h: LC(HOME)}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: LC(DEL)}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
-  - /
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: /}
   - {t: '8', s: (}
   - {t: '9', s: )}
-  - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - $$mdi:transfer-down$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: LC(END)}
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
-  - '*'
-  - {t: '4', h: '$$mdi:star-three-points$$', s: $}
-  - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
+  - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
+  - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
-  - {t: +, h: '$$mdi:apple-keyboard-control$$', s: '*'}
-  - $$mdi:calculator$$
+  - {t: '0', h: '$$mdi:apple-keyboard-command$$', s: '='}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
@@ -164,57 +164,57 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
   - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
-  - '='
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:close-box$$', type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: '='}
   - {t: '$$mdi:transfer$$', type: trans}
   fnc:
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
-  - $$mdi:volume-low$$
+  - $$mdi:power-standby$$
+  - '&win_sleep'
+  - $$mdi:skip-previous$$
   - $$mdi:volume-high$$
+  - $$mdi:skip-next$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
   - F7
   - F8
   - F9
   - F10
-  - $$mdi:power-standby$$
-  - {t: '$$mdi:progress-download$$', type: bootloader}
-  - {t: '$$mdi:undo-variant$$', h: Undo}
-  - {t: '$$mdi:redo-variant$$', h: Redo}
-  - {t: '$$mdi:content-copy$$', h: Copy}
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
-  - {t: '$$mdi:microphone$$', h: Teams}
-  - F4
-  - F5
-  - F6
-  - F11
-  - {t: '$$mdi:progress-download$$', type: bootloader}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:content-cut$$', h: Cut}
-  - {t: '$$mdi:content-paste$$', h: Paste}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&win_sleep'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: LG(LC(LEFT)), h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:volume-low$$
+  - {t: LG(LC(RIGHT)), h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:microphone$$', h: '$$mdi:star-three-points$$'}
+  - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LA(GRAVE)
+  - LG(LC(LS(Q)))
+  - LG(LC(LS(A)))
   - {t: '$$mdi:video$$', h: Teams}
   - F1
   - F2
   - F3
   - F12
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$', type: held}
-  - $$mdi:backup-restore$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: def, type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:play-pause$$', type: held}
+  - {t: '$$mdi:volume-off$$', type: held}
   - def
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backup-restore$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ´, s: '`'}
@@ -353,7 +353,7 @@ combos:
 - p: [14, 15]
   k: $$mdi:eraser$$
   l: [def, puq]
-- p: [15, 16]
+- p: [3, 4]
   k: $$mdi:keyboard-return$$
   l: [def, puq]
 - p: [26, 27]
@@ -364,4 +364,4 @@ combos:
   l: [def, puq]
 - p: [15, 16]
   k: {t: '&key_repeat', h: LS(LCTRL)}
-  l: [def, puq]
+  l: [def, num, puq]
