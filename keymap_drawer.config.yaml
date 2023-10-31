@@ -472,9 +472,7 @@ parse_config:
     
     # External Power
     "&ext_power EP_TOG":
-      shifted: $$mdi:power-on$$
-      tap: $$mdi:toggle-switch$$
-      hold: $$mdi:power-off$$
+      tap: $$mdi:power-on$$ $$mdi:toggle-switch$$ $$mdi:power-off$$
      # External Power
 
   # ZMK
