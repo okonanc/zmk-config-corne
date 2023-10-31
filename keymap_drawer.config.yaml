@@ -447,6 +447,12 @@ parse_config:
       shifted: $$mdi:bluetooth-connect$$
       tap: ""
       hold: 5
+    "&bt BT_NXT":
+      tap: $$mdi:bluetooth-connect$$
+      hold: $$mdi:chevron-right$$
+    "&bt BT_PRV":
+      tap: $$mdi:bluetooth-connect$$
+      hold: $$mdi:chevron-left$$
     "&out OUT_TOG":
       shifted: $$mdi:usb$$
       tap: $$mdi:toggle-switch$$
