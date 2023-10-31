@@ -62,8 +62,8 @@ ZMK_COMBO(quickload , &kp F8         , LT3 LT2   ,             GME     , COMBO_T
 
 /* Misc */
 ZMK_COMBO(del_word  , &kp LC(BSPC)   , LM3 LM2   , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(enter     , &kp ENTER      , LM2 LM1   , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(enter     , &kp ENTER      , LT2 LT1   , DEF             PUQ , COMBO_TERM_FAST)
 //ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1   , DEF             PUQ , COMBO_TERM_FAST)
 ZMK_COMBO(copy      , &copy_cut      , LB3 LB2   , DEF             PUQ , COMBO_TERM_FAST)
 ZMK_COMBO(paste     , &kp LS(INS)    , LB2 LB1   , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(repeat    , HRC_REPEAT     , LM2 LM1   , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(repeat    , HRC_REPEAT     , LM2 LM1   , DEF NUM         PUQ , COMBO_TERM_FAST)
