@@ -167,10 +167,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:close-box$$', type: held}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:close-box$$
   - {t: '$$mdi:transfer$$', type: trans}
   fnc:
   - $$mdi:power-standby$$
@@ -314,6 +314,9 @@ combos:
   k: puq
   l: [def, gme]
   a: bottom
+- p: [0, 12, 24]
+  k: sys
+  l: [def, num, puq]
 - p: [5, 17]
   k: Ä
   l: [def]
