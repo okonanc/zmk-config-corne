@@ -142,7 +142,7 @@ layers:
   - {t: '9', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-down$$
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
   - {t: '$$mdi:arrow-down-bold$$', h: LC(END)}
@@ -154,7 +154,7 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
   - {t: '0', h: '$$mdi:apple-keyboard-command$$', s: '='}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:window-close$$'}
@@ -178,7 +178,7 @@ layers:
   - $$mdi:skip-previous$$
   - $$mdi:volume-high$$
   - $$mdi:skip-next$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:play-pause$$
   - {t: '$$mdi:hand-front-right-outline$$', h: Teams}
   - F7
   - F8
@@ -187,22 +187,22 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&win_sleep'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: LG(LC(LEFT)), h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-low$$
-  - {t: LG(LC(RIGHT)), h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:microphone$$', h: '$$mdi:star-three-points$$'}
   - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LA(GRAVE)
-  - LG(LC(LS(Q)))
-  - LG(LC(LS(A)))
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:video$$', h: Teams}
   - F1
   - F2
@@ -210,8 +210,8 @@ layers:
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:play-pause$$', type: held}
-  - {t: '$$mdi:volume-off$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - def
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -274,8 +274,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT PRV
+  - BT NXT
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -286,7 +286,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-off$$', s: '$$mdi:power-on$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
   - $$mdi:backup-restore$$
@@ -329,7 +329,7 @@ combos:
 - p: [3, 16]
   k: Ä
   l: [puq]
-- p: [23, 35]
+- p: [22, 34]
   k: ß
   l: [puq]
 - p: [3, 17]
@@ -338,12 +338,6 @@ combos:
 - p: [3, 2]
   k: Ü
   l: [puq]
-- p: [16, 17]
-  k: $$mdi:play-pause$$
-  l: [fnc, gme]
-- p: [4, 5]
-  k: $$mdi:volume-off$$
-  l: [fnc, gme]
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
   l: [gme]
@@ -363,5 +357,5 @@ combos:
   k: $$mdi:content-paste$$
   l: [def, puq]
 - p: [15, 16]
-  k: {t: '&key_repeat', h: LS(LCTRL)}
+  k: $$mdi:repeat$$
   l: [def, num, puq]
