@@ -174,7 +174,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   fnc:
   - $$mdi:power-standby$$
-  - '&win_sleep'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-previous$$
   - $$mdi:volume-high$$
   - $$mdi:skip-next$$
@@ -185,7 +185,7 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&win_sleep'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-low$$
@@ -274,8 +274,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT PRV
-  - BT NXT
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - {t: '$$mdi:progress-download$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -314,9 +314,6 @@ combos:
   k: puq
   l: [def, gme]
   a: bottom
-- p: [0, 12, 24]
-  k: sys
-  l: [def, num, puq]
 - p: [5, 17]
   k: Ä
   l: [def]
