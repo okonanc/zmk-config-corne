@@ -626,6 +626,8 @@ parse_config:
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
+    LC(HOME): $$mdi:chevron-double-up$$
+    LC(END): $$mdi:chevron-double-down$$
 
     # Whitespace
     ENTER:
@@ -637,12 +639,14 @@ parse_config:
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE:
       type: backspace
-      tap: $$mdi:backspace$$
+      tap: $$mdi:backspace-outline$$
     BSPC:
       type: backspace
-      tap: $$mdi:backspace$$
+      tap: $$mdi:backspace-outline$$
     DELETE: $$mdi:backspace-reverse-outline$$
     DEL: $$mdi:backspace-reverse-outline$$
+    LC(BSPC): $$mdi:backspace$$
+    LC(DEL): $$mdi:backspace-reverse$$
 
     # Locks
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
