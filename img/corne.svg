@@ -721,38 +721,44 @@ path.combo {
 <text x="269" y="345" class="combo tap">puq</text>
 </g>
 <g class="combo combopos-2">
+<path d="M40,150 l0,-53" class="combo"/>
+<path d="M40,150 l0,53" class="combo"/>
+<rect rx="4" ry="4" x="22" y="132" width="36" height="36" class="combo"/>
+<text x="40" y="150" class="combo tap">sys</text>
+</g>
+<g class="combo combopos-3">
 <rect rx="4" ry="4" x="422" y="82" width="36" height="36" class="combo"/>
 <text x="440" y="100" class="combo tap">Ä</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="4" ry="4" x="422" y="162" width="36" height="36" class="combo"/>
 <text x="440" y="180" class="combo tap">ß</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <rect rx="4" ry="4" x="742" y="82" width="36" height="36" class="combo"/>
 <text x="760" y="100" class="combo tap">Ö</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <rect rx="4" ry="4" x="742" y="162" width="36" height="36" class="combo"/>
 <text x="760" y="180" class="combo tap">Ü</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
 <use href="#mdi:eraser" xlink:href="#mdi:eraser" x="227" y="112" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="4" ry="4" x="302" y="27" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="32" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="4" ry="4" x="222" y="187" width="36" height="36" class="combo"/>
 <use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="227" y="192" height="26" width="26.0" class="combo tap glyph mdi:content-copy"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-10">
 <rect rx="4" ry="4" x="302" y="187" width="36" height="36" class="combo"/>
 <use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="307" y="192" height="26" width="26.0" class="combo tap glyph mdi:content-paste"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
 <use href="#mdi:repeat" xlink:href="#mdi:repeat" x="307" y="112" height="26" width="26.0" class="combo tap glyph mdi:repeat"/>
 </g>
@@ -967,40 +973,46 @@ path.combo {
 <text x="224" y="345" class="combo tap">def</text>
 </g>
 <g class="combo combopos-2">
+<path d="M40,150 l0,-53" class="combo"/>
+<path d="M40,150 l0,53" class="combo"/>
+<rect rx="4" ry="4" x="22" y="132" width="36" height="36" class="combo"/>
+<text x="40" y="150" class="combo tap">sys</text>
+</g>
+<g class="combo combopos-3">
 <rect rx="4" ry="4" x="302" y="67" width="36" height="36" class="combo"/>
 <text x="320" y="85" class="combo tap">Ä</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="4" ry="4" x="1062" y="172" width="36" height="36" class="combo"/>
 <text x="1080" y="190" class="combo tap">ß</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <path d="M360,90 l-57,-36" class="combo"/>
 <path d="M360,90 l57,36" class="combo"/>
 <rect rx="4" ry="4" x="342" y="72" width="36" height="36" class="combo"/>
 <text x="360" y="90" class="combo tap">Ö</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <rect rx="4" ry="4" x="222" y="27" width="36" height="36" class="combo"/>
 <text x="240" y="45" class="combo tap">Ü</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
 <use href="#mdi:eraser" xlink:href="#mdi:eraser" x="227" y="112" height="26" width="26.0" class="combo tap glyph mdi:eraser"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="4" ry="4" x="302" y="27" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="307" y="32" height="26" width="26.0" class="combo tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="4" ry="4" x="222" y="187" width="36" height="36" class="combo"/>
 <use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="227" y="192" height="26" width="26.0" class="combo tap glyph mdi:content-copy"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-10">
 <rect rx="4" ry="4" x="302" y="187" width="36" height="36" class="combo"/>
 <use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="307" y="192" height="26" width="26.0" class="combo tap glyph mdi:content-paste"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
 <use href="#mdi:repeat" xlink:href="#mdi:repeat" x="307" y="112" height="26" width="26.0" class="combo tap glyph mdi:repeat"/>
 </g>
@@ -1394,7 +1406,6 @@ path.combo {
 </g>
 <g transform="translate(408, 304) rotate(15.0)" class="key held keypos-37">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key held tap glyph mdi:close-box"/>
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key held keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key held"/>
@@ -1403,15 +1414,21 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(792, 304) rotate(-15.0)" class="key trans keypos-40">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
 </g>
 <g transform="translate(880, 293)" class="key trans keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
+<path d="M40,150 l0,-53" class="combo"/>
+<path d="M40,150 l0,53" class="combo"/>
+<rect rx="4" ry="4" x="22" y="132" width="36" height="36" class="combo"/>
+<text x="40" y="150" class="combo tap">sys</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
 <use href="#mdi:repeat" xlink:href="#mdi:repeat" x="307" y="112" height="26" width="26.0" class="combo tap glyph mdi:repeat"/>
 </g>
