@@ -37,7 +37,7 @@ ZMK_COMBO(ouml      , &kp DE_OE      , RT0 RM0    , DEF                , COMBO_T
 ZMK_COMBO(uuml      , &kp DE_UE      , RM0 RB0    , DEF                , COMBO_TERM_SLOW)
 
 ZMK_COMBO(puq_auml  , &kp DE_AE      , LT2 LM1    ,                 PUQ, COMBO_TERM_SLOW)
-ZMK_COMBO(puq_de_ss , &kp DE_SS      , RM5 RB5    ,                 PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_de_ss , &kp DE_SS      , RM4 RB4    ,                 PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_ouml  , &kp DE_OE      , LT2 LM0    ,                 PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_uuml  , &kp DE_UE      , LT2 LT3    ,                 PUQ, COMBO_TERM_SLOW)    
 
@@ -53,8 +53,10 @@ ZMK_COMBO(bt_sel_4  , &bt BT_SEL 4   , LT0 LM0    ,         FNC        , COMBO_T
 */
 
 /* Media */
+/*
 ZMK_COMBO(play      , &kp C_PP       , LM1 LM0   ,         FNC GME     , COMBO_TERM_FAST)
 ZMK_COMBO(mute      , &kp C_MUTE     , LT1 LT0   ,         FNC GME     , COMBO_TERM_FAST)
+*/
 
 /* Gaming */
 ZMK_COMBO(quicksave , &kp F5         , LM3 LM2   ,             GME     , COMBO_TERM_FAST)
