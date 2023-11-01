@@ -405,6 +405,7 @@ parse_config:
       tap: FNC
       hold: $$mdi:close-box$$
     "&lt_spc FNC 0": 
+      shifted: .$$mdi:keyboard-space$$$$mdi:apple-keyboard-shift$$
       tap: $$mdi:keyboard-space$$
       hold: FNC
     "&lt NUM RET":
