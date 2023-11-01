@@ -341,9 +341,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:button-cursor$$', h: Right}
-  - {t: '$$mdi:button-cursor$$', h: Left}
-  - {t: '$$mdi:button-cursor$$', h: Middle}
+  - {t: '$$tabler:click$$', h: Right}
+  - {t: '$$tabler:click$$', h: Left}
+  - {t: '$$tabler:click$$', h: Middle}
 combos:
 - p: [0, 38]
   k: gme
