@@ -374,7 +374,7 @@ draw_config:
         --color--key--bg: var(--color--material--blue-gray--100);
         --color--key--border: var(--color--material--blue-gray--50);
     }
-
+    /*
     .keypos-12 {
         --color--key--bg: var(--color--material--red--300);
         --color--key--border: var(--color--material--red--200);
@@ -386,7 +386,8 @@ draw_config:
         --color--key--bg: var(--color--material--teal--200);
         --color--key--border: var(--color--material--teal--100);
     }
-
+    */
+    
 parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
