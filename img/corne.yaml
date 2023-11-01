@@ -38,7 +38,7 @@ layers:
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
-  - {t: '$$mdi:keyboard-space$$', h: FNC}
+  - {t: '$$mdi:keyboard-space$$', h: FNC, s: '. $$mdi:keyboard-space$$ $$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -81,7 +81,7 @@ layers:
   - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
-  - {t: '$$mdi:keyboard-space$$', h: FNC}
+  - {t: '$$mdi:keyboard-space$$', h: FNC, s: '. $$mdi:keyboard-space$$ $$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
