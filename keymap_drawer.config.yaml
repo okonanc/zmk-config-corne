@@ -831,6 +831,6 @@ parse_config:
     combo_repeat:
       key:
         tap: $$mdi:repeat$$
-    combo_smart_mouse:
+    combo_mouse:
       key:
         tap: $$mdi:mouse$$
