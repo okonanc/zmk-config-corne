@@ -854,4 +854,4 @@ parse_config:
       key:
         tap: $$mdi:mouse$$
         align: top
-        offset: 0.03
+        offset: 0.3
