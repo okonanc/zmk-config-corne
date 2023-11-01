@@ -400,16 +400,20 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: NUM
       hold: $$mdi:gesture-tap-hold$$
-    "&sl 4":
+    "&sl FNC":
       tap: FNC
       hold: $$mdi:close-box$$
-    "&mo 3":
-      shifted: $$mdi:alpha-w-box$$
-      tap: $$mdi:close-box$$
-      hold: NUM
     "&lt_spc FNC 0": 
       tap: $$mdi:keyboard-space$$
       hold: FNC
+    "&lt NUM RET":
+      tap: $$mdi:keyboard-return$$
+      hold: NUM
+    "&lt SYM TAB":
+      tap: $$mdi:keyboard-tab$$
+      hold: SYM
+    "&mo SYM"
+      tap: SYM
 
     # Mouse Layer
     "&mwh SCROLL_VERT(-100)": $$mdi:pan-up$$
