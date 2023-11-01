@@ -853,3 +853,4 @@ parse_config:
     combo_mouse:
       key:
         tap: $$mdi:mouse$$
+        align: top
