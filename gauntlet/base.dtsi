@@ -5,10 +5,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#if MOUSE_KEYS
-#  include <dt-bindings/zmk/mouse.h>
-#endif
-
 // Layers
 #define DEF 0
 //#define CDH 1
@@ -21,7 +17,7 @@
 #define SYS 6
 
 #if MOUSE_KEYS
-#  define MSE 6
+    #define MSE 7
 #endif
 
 #define XXX &none
