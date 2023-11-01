@@ -360,6 +360,8 @@ combos:
 - p: [2, 4]
   k: $$mdi:mouse$$
   l: [def, num, puq]
+  a: top
+  o: 0.03
 - p: [3, 16]
   k: Ä
   l: [def, puq]
