@@ -407,7 +407,7 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
-    "&dot_spc": "." & $$mdi:keyboard-space$$
+    "&dot_spc": "." + $$mdi:keyboard-space$$
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
