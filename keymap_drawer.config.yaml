@@ -414,10 +414,10 @@ parse_config:
     # Mouse Layer
     "&mwh SCROLL_VERT(-100)": $$mdi:pan-up$$
     "&mwh SCROLL_VERT(100)": $$mdi:pan-down$$
-    "&mmv MOVE_VERT(-100)": $$mdi:menu-up$$
-    "&mmv MOVE_VERT(100)": $$mdi:menu-down$$
-    "&mmv MOVE_HOR(-100)": $$mdi:menu-left$$
-    "&mmv MOVE_HOR(100)": $$mdi:menu-right$$
+    "&mmv MOVE_VERT(-1250)": $$mdi:menu-up$$
+    "&mmv MOVE_VERT(1250)": $$mdi:menu-down$$
+    "&mmv MOVE_HOR(-1250)": $$mdi:menu-left$$
+    "&mmv MOVE_HOR(1250)": $$mdi:menu-right$$
     "&mkp MB1": 
       tap: $$mdi:button-cursor$$
       hold: "Left"
@@ -854,3 +854,4 @@ parse_config:
       key:
         tap: $$mdi:mouse$$
         align: top
+        offset: 0.03
