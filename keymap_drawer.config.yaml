@@ -407,7 +407,7 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
-    "&lt_spc FNC 0  ": 
+    "&lt_spc FNC 0": 
       tap: $$mdi:keyboard-space$$
       hold: FNC
 
@@ -421,10 +421,10 @@ parse_config:
     "&mkp MB1": 
       tap: $$mdi:button-cursor$$
       hold: "Left"
-    "&mkp MB2": $$mdi:button-cursor$$
+    "&mkp MB2":
       tap: $$mdi:button-cursor$$
       hold: "Right"
-    "&mkp MB3": $$mdi:button-cursor$$
+    "&mkp MB3":
       tap: $$mdi:button-cursor$$
       hold: "Middle"
 
