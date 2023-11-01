@@ -387,7 +387,7 @@ draw_config:
         --color--key--border: var(--color--material--teal--100);
     }
     */
-    
+
 parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
@@ -413,7 +413,7 @@ parse_config:
     "&lt SYM TAB":
       tap: $$mdi:keyboard-tab$$
       hold: SYM
-    "&mo SYM"
+    "&mo SYM":
       tap: SYM
 
     # Mouse Layer
