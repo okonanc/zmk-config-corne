@@ -400,14 +400,34 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: NUM
       hold: $$mdi:gesture-tap-hold$$
-    "&csl 4":
+    "&sl 4":
       tap: FNC
       hold: $$mdi:close-box$$
-    "&cmo 3":
+    "&mo 3":
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:close-box$$
       hold: NUM
-    "&dot_spc": $$mdi:keyboard-space$$
+    "&lt_spc FNC 0  ": 
+      tap: $$mdi:keyboard-space$$
+      shifted: ". $$mdi:keyboard-space$$ $$mdi:apple-keyboard-shift$$"
+      hold: FNC
+
+    # Mouse Layer
+    "&mwh SCROLL_VERT(-100)": $$mdi:pan-up$$
+    "&mwh SCROLL_VERT(100)": $$mdi:pan-down$$
+    "&mmv MOVE_VERT(-100)": $$mdi:menu-up$$
+    "&mmv MOVE_VERT(100)": $$mdi:menu-down$$
+    "&mmv MOVE_HOR(-100)": $$mdi:menu-left$$
+    "&mmv MOVE_HOR(100)": $$mdi:menu-right$$
+    "&mkp MB1": 
+      tap: $$mdi:button-cursor$$
+      hold: "Left"
+    "&mkp MB2": $$mdi:button-cursor$$
+      tap: $$mdi:button-cursor$$
+      hold: "Right"
+    "&mkp MB3": $$mdi:button-cursor$$
+      tap: $$mdi:button-cursor$$
+      hold: "Middle"
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
@@ -474,7 +494,7 @@ parse_config:
     "&ext_power EP_TOG":
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:power-plug-battery-outline$$
-     # External Power
+
 
   # ZMK
   zmk_keycode_map:
