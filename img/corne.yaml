@@ -37,12 +37,12 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: sym}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FNC}
-  - {t: RET, h: '$$mdi:close-box$$'}
+  - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - sym
+  - SYM
   puq:
   - $$mdi:keyboard-esc$$
   - P
@@ -80,12 +80,12 @@ layers:
   - B
   - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: sym}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:close-box$$', s: '&dot_spc'}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - {t: '$$mdi:keyboard-space$$', h: num, s: '&dot_spc'}
   - {t: RET, h: fnc}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - sym
+  - SYM
   gme:
   - T
   - $$mdi:keyboard-esc$$
@@ -167,7 +167,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:close-box$$
@@ -252,12 +252,12 @@ layers:
   - {t: +, s: '*'}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   sys:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -296,7 +296,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
