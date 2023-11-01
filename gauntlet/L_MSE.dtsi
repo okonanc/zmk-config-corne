@@ -1,6 +1,8 @@
 /**
  *  Mouse Layer
  */
+#include <dt-bindings/zmk/mouse.h>
+
 &mmv {
   acceleration-exponent = <1>;      // 1
   time-to-max-speed-ms = <1500>;    // 40

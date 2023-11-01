@@ -301,6 +301,49 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  mse:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mmv MOVE_VERT(-1250)'
+  - '&mwh SCROLL_VERT(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mmv MOVE_VERT(-1250)'
+  - '&mwh SCROLL_VERT(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_HOR(-1250)'
+  - '&mmv MOVE_VERT(1250)'
+  - '&mwh SCROLL_HOR(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_HOR(-1250)'
+  - '&mmv MOVE_VERT(1250)'
+  - '&mwh SCROLL_HOR(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
 combos:
 - p: [0, 38]
   k: gme
@@ -314,6 +357,9 @@ combos:
   k: puq
   l: [def, gme]
   a: bottom
+- p: [2, 4]
+  k: $$mdi:mouse$$
+  l: [def, num, puq]
 - p: [3, 16]
   k: Ä
   l: [def, puq]
