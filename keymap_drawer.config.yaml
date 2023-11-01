@@ -424,13 +424,13 @@ parse_config:
     "&mmv MOVE_HOR(-1250)": $$mdi:menu-left$$
     "&mmv MOVE_HOR(1250)": $$mdi:menu-right$$
     "&mkp MB1": 
-      tap: $$mdi:button-cursor$$
+      tap: $$tabler:click$$
       hold: "Left"
     "&mkp MB2":
-      tap: $$mdi:button-cursor$$
+      tap: $$tabler:click$$
       hold: "Right"
     "&mkp MB3":
-      tap: $$mdi:button-cursor$$
+      tap: $$tabler:click$$
       hold: "Middle"
 
     # Modifiers
