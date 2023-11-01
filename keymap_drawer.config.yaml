@@ -851,7 +851,7 @@ parse_config:
       key:
         tap: $$mdi:repeat$$
     combo_mouse:
+      align: top
+      offset: 0.03
       key:
         tap: $$mdi:mouse$$
-        align: top
-        offset: 0.3
