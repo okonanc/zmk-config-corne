@@ -303,22 +303,22 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   mse:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mwh SCROLL_VERT(-100)'
-  - '&mmv MOVE_VERT(-1250)'
-  - '&mwh SCROLL_VERT(100)'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mwh SCROLL_VERT(-100)'
   - '&mmv MOVE_VERT(-1250)'
   - '&mwh SCROLL_VERT(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mmv MOVE_VERT(-1250)'
+  - '&mwh SCROLL_VERT(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_HOR(-1250)'
   - '&mmv MOVE_VERT(1250)'
   - '&mwh SCROLL_HOR(100)'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_HOR(-1250)'
@@ -358,7 +358,7 @@ combos:
   l: [def, gme]
   a: bottom
 - p: [2, 4]
-  k: '&smart_mouse'
+  k: $$mdi:mouse$$
   l: [def, num, puq]
 - p: [3, 16]
   k: Ä
