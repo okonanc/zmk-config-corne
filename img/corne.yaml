@@ -301,6 +301,49 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  mse:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mmv MOVE_VERT(-1250)'
+  - '&mwh SCROLL_VERT(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mwh SCROLL_VERT(-100)'
+  - '&mmv MOVE_VERT(-1250)'
+  - '&mwh SCROLL_VERT(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_HOR(-1250)'
+  - '&mmv MOVE_VERT(1250)'
+  - '&mwh SCROLL_HOR(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_HOR(-1250)'
+  - '&mmv MOVE_VERT(1250)'
+  - '&mwh SCROLL_HOR(100)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
 combos:
 - p: [0, 38]
   k: gme
@@ -314,30 +357,21 @@ combos:
   k: puq
   l: [def, gme]
   a: bottom
-- p: [5, 17]
-  k: Ä
-  l: [def]
-- p: [17, 29]
-  k: ß
-  l: [def]
-- p: [6, 18]
-  k: Ö
-  l: [def]
-- p: [18, 30]
-  k: Ü
-  l: [def]
+- p: [2, 4]
+  k: '&smart_mouse'
+  l: [def, num, puq]
 - p: [3, 16]
   k: Ä
-  l: [puq]
+  l: [def, puq]
 - p: [22, 34]
   k: ß
-  l: [puq]
+  l: [def, puq]
 - p: [3, 17]
   k: Ö
-  l: [puq]
+  l: [def, puq]
 - p: [3, 2]
   k: Ü
-  l: [puq]
+  l: [def, puq]
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
   l: [gme]
@@ -346,9 +380,6 @@ combos:
   l: [gme]
 - p: [14, 15]
   k: $$mdi:eraser$$
-  l: [def, puq]
-- p: [3, 4]
-  k: $$mdi:keyboard-return$$
   l: [def, puq]
 - p: [26, 27]
   k: $$mdi:content-copy$$
