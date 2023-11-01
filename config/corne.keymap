@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#define MOUSE_KEYS 0
+#define MOUSE_KEYS 1
 
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
