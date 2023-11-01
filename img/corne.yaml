@@ -338,9 +338,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$tabler:click$$', h: Middle}
+  - {t: '$$tabler:click$$', h: Left}
+  - {t: '$$tabler:click$$', h: Right}
   - {t: '$$tabler:click$$', h: Right}
   - {t: '$$tabler:click$$', h: Left}
   - {t: '$$tabler:click$$', h: Middle}
