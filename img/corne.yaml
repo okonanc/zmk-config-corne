@@ -123,12 +123,12 @@ layers:
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - fnc
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: RET, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RET
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:volume-off$$', h: '$$mdi:star-three-points$$'}
   - {t: '$$mdi:microphone$$', h: '$$mdi:star-three-points$$'}
   - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
