@@ -186,10 +186,10 @@ layers:
   - F10
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:monitor$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:microphone$$', h: '$$mdi:star-three-points$$'}
   - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
@@ -304,9 +304,9 @@ layers:
   mse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
+  - $$mdi:menu-up$$
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
@@ -316,9 +316,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:menu-left$$
+  - $$mdi:menu-down$$
+  - $$mdi:menu-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:menu-left$$
