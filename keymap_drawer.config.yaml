@@ -655,6 +655,9 @@ parse_config:
     LC(END): $$mdi:chevron-double-down$$
 
     # Whitespace
+    RET:
+      type: enter
+      tap: $$mdi:keyboard-return$$
     ENTER:
       type: enter
       tap: $$mdi:keyboard-return$$
