@@ -418,8 +418,8 @@ parse_config:
       tap: SYM
 
     # Mouse Layer
-    "&mwh SCROLL_VERT(-100)": $$mdi:pan-up$$
-    "&mwh SCROLL_VERT(100)": $$mdi:pan-down$$
+    "&mwh SCROLL_VERT(-100)": $$mdi:pan-down$$
+    "&mwh SCROLL_VERT(100)": $$mdi:pan-up$$
     "&mmv MOVE_VERT(-1250)": $$mdi:menu-up$$
     "&mmv MOVE_VERT(1250)": $$mdi:menu-down$$
     "&mmv MOVE_HOR(-1250)": $$mdi:menu-left$$

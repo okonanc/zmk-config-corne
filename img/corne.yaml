@@ -304,14 +304,14 @@ layers:
   mse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-up$$
-  - $$mdi:menu-up$$
   - $$mdi:pan-down$$
+  - $$mdi:menu-up$$
+  - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-up$$
-  - $$mdi:menu-up$$
   - $$mdi:pan-down$$
+  - $$mdi:menu-up$$
+  - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
