@@ -2039,7 +2039,7 @@ path.combo {
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-up"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-down"/>
 </g>
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -2047,7 +2047,7 @@ path.combo {
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-down"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-up"/>
 </g>
 <g transform="translate(440, 60)" class="key trans keypos-5">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -2059,7 +2059,7 @@ path.combo {
 </g>
 <g transform="translate(840, 50)" class="key keypos-7">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-up"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-down"/>
 </g>
 <g transform="translate(920, 40)" class="key keypos-8">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -2067,7 +2067,7 @@ path.combo {
 </g>
 <g transform="translate(1000, 50)" class="key keypos-9">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-down"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:pan-up"/>
 </g>
 <g transform="translate(1080, 70)" class="key trans keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
