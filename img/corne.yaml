@@ -365,7 +365,7 @@ combos:
 - p: [3, 16]
   k: Ä
   l: [def, puq]
-- p: [22, 34]
+- p: [3, 22]
   k: ß
   l: [def, puq]
 - p: [3, 17]
@@ -392,3 +392,81 @@ combos:
 - p: [15, 16]
   k: $$mdi:repeat$$
   l: [def, num, puq]
+- p: [2, 14]
+  k: '@'
+  l: [def, puq]
+- p: [3, 15]
+  k: '#'
+  l: [def, puq]
+- p: [4, 16]
+  k: $
+  l: [def, puq]
+- p: [5, 17]
+  k: '%'
+  l: [def, puq]
+- p: [14, 26]
+  k: '`'
+  l: [def, puq]
+- p: [15, 27]
+  k: \
+  l: [def, puq]
+- p: [16, 28]
+  k: '='
+  l: [def, puq]
+- p: [17, 29]
+  k: '~'
+  l: [def, puq]
+- p: [7, 8]
+  k: {t: '$$mdi:backspace-outline$$', type: backspace}
+  l: [def, puq]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [def, puq]
+- p: [19, 20]
+  k: {t: (, h: RS(LCTRL), s: <}
+  l: [def, puq]
+- p: [20, 21]
+  k: {t: ), h: LA(LCTRL), s: '>'}
+  l: [def, puq]
+- p: [19, 20]
+  k: <
+  l: [num]
+- p: [20, 21]
+  k: '>'
+  l: [num]
+- p: [31, 32]
+  k: '['
+  l: [def, puq]
+- p: [32, 33]
+  k: ']'
+  l: [def, puq]
+- p: [31, 32]
+  k: '{'
+  l: [num]
+- p: [32, 33]
+  k: '}'
+  l: [num]
+- p: [6, 18]
+  k: ^
+  l: [def, puq]
+- p: [7, 19]
+  k: +
+  l: [def, puq]
+- p: [8, 20]
+  k: '*'
+  l: [def, puq]
+- p: [9, 21]
+  k: '&'
+  l: [def, puq]
+- p: [18, 30]
+  k: _
+  l: [def, puq]
+- p: [19, 31]
+  k: '-'
+  l: [def, puq]
+- p: [20, 32]
+  k: /
+  l: [def, puq]
+- p: [21, 33]
+  k: '|'
+  l: [def, puq]

@@ -184,13 +184,13 @@ ZMK_BEHAVIOR(bkspc_del, mod_morph,
 
 // tap: left-parenthesis | shft + tap: less-than
 ZMK_BEHAVIOR(lpar_lt, mod_morph,
-    bindings = <&kp LPAR>, <&kp LT>;
+    bindings = <&kp DE_LPAR>, <&kp DE_LT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
 // tap: right-parenthesis | shft + tap: greater-than
 ZMK_BEHAVIOR(rpar_gt, mod_morph,
-    bindings = <&kp RPAR>, <&kp GT>;
+    bindings = <&kp DE_RPAR>, <&kp DE_GT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
