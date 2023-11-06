@@ -782,10 +782,8 @@ path.combo {
 <text x="320" y="85" class="combo tap">Ä</text>
 </g>
 <g class="combo combopos-4">
-<path d="M680,95 l-374,-51" class="combo"/>
-<path d="M680,95 l374,51" class="combo"/>
-<rect rx="4" ry="4" x="662" y="77" width="36" height="36" class="combo"/>
-<text x="680" y="95" class="combo tap">ß</text>
+<rect rx="4" ry="4" x="1062" y="172" width="36" height="36" class="combo"/>
+<text x="1080" y="190" class="combo tap">ß</text>
 </g>
 <g class="combo combopos-5">
 <path d="M360,90 l-57,-36" class="combo"/>
@@ -1126,10 +1124,8 @@ path.combo {
 <text x="320" y="85" class="combo tap">Ä</text>
 </g>
 <g class="combo combopos-4">
-<path d="M680,95 l-374,-51" class="combo"/>
-<path d="M680,95 l374,51" class="combo"/>
-<rect rx="4" ry="4" x="662" y="77" width="36" height="36" class="combo"/>
-<text x="680" y="95" class="combo tap">ß</text>
+<rect rx="4" ry="4" x="1062" y="172" width="36" height="36" class="combo"/>
+<text x="1080" y="190" class="combo tap">ß</text>
 </g>
 <g class="combo combopos-5">
 <path d="M360,90 l-57,-36" class="combo"/>

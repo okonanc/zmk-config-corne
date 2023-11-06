@@ -148,7 +148,7 @@ ZMK_BEHAVIOR(dot_inner_morph, mod_morph,
 
 // tap: qmark | shift + tap: excl
 ZMK_BEHAVIOR(qexcl, mod_morph,
-    bindings = <&kp QMARK>, <&kp EXCL>;
+    bindings = <&kp DE_QMARK>, <&kp DE_EXCL>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
