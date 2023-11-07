@@ -859,10 +859,9 @@ path.combo {
 </g>
 <g class="combo combopos-22">
 <rect rx="4" ry="4" x="942" y="107" width="36" height="36" class="combo"/>
-<text x="960" y="125" class="combo tap">
-<tspan x="960" dy="-1.0em" style="font-size: 60%">&amp;hmr_rpasr_gt</tspan><tspan x="960" dy="1.0em" style="font-size: 60%">LA(LCTRL)</tspan>
-<tspan x="960" dy="1.0em" style="font-size: 60%">0</tspan>
-</text>
+<text x="960" y="125" class="combo tap">)</text>
+<text x="960" y="139" class="combo hold"><tspan style="font-size: 60%">LA(LCTRL)</tspan></text>
+<text x="960" y="111" class="combo shifted">&gt;</text>
 </g>
 <g class="combo combopos-23">
 <rect rx="4" ry="4" x="862" y="187" width="36" height="36" class="combo"/>
@@ -1202,10 +1201,9 @@ path.combo {
 </g>
 <g class="combo combopos-22">
 <rect rx="4" ry="4" x="942" y="107" width="36" height="36" class="combo"/>
-<text x="960" y="125" class="combo tap">
-<tspan x="960" dy="-1.0em" style="font-size: 60%">&amp;hmr_rpasr_gt</tspan><tspan x="960" dy="1.0em" style="font-size: 60%">LA(LCTRL)</tspan>
-<tspan x="960" dy="1.0em" style="font-size: 60%">0</tspan>
-</text>
+<text x="960" y="125" class="combo tap">)</text>
+<text x="960" y="139" class="combo hold"><tspan style="font-size: 60%">LA(LCTRL)</tspan></text>
+<text x="960" y="111" class="combo shifted">&gt;</text>
 </g>
 <g class="combo combopos-23">
 <rect rx="4" ry="4" x="862" y="187" width="36" height="36" class="combo"/>

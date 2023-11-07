@@ -426,7 +426,7 @@ combos:
   k: {t: (, h: RS(LCTRL), s: <}
   l: [def, puq]
 - p: [20, 21]
-  k: '&hmr_rpasr_gt LA(LCTRL) 0'
+  k: {t: ), h: LA(LCTRL), s: '>'}
   l: [def, puq]
 - p: [19, 20]
   k: <
