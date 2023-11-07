@@ -17,7 +17,7 @@
 //#define HRC_TAB    &hml         LA(LCTRL) TAB
 #define HRC_REPEAT &hml_repeat  LS(LCTRL) 0
 #define HRC_LPAR   &hmr_lpar_lt RS(LCTRL) 0
-#define HRC_RPAR   &hmr_rpasr_gt LA(LCTRL) 0
+#define HRC_RPAR   &hmr_rpar_gt LA(LCTRL) 0
 
 
 /* Horizontal combos - left hand */
