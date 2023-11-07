@@ -17,31 +17,31 @@
 //#define HRC_TAB    &hml         LA(LCTRL) TAB
 #define HRC_REPEAT &hml_repeat  LS(LCTRL) 0
 #define HRC_LPAR   &hmr_lpar_lt RS(LCTRL) 0
-#define HRC_RPAR   &hmr_rpar_gt LA(LCTRL) 0
+#define HRC_RPAR   &hmr_rpasr_gt LA(LCTRL) 0
 
 
 /* Horizontal combos - left hand */
 /* Layers */
-ZMK_COMBO(to_gaming , &to GME        , LT5 LH0     , DEF             PUQ, COMBO_TERM_FAST)
-ZMK_COMBO(to_base   , &to DEF        , LM5 LH1     ,             GME PUQ, COMBO_TERM_FAST)
-ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_FAST)
+ZMK_COMBO(to_gaming , &to GME        , LT5 LH0     , DEF             PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(to_base   , &to DEF        , LM5 LH1     ,             GME PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_SLOW)
 //ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1 , DEF         GME  ,  , COMBO_TERM_FAST)
 
 #if MOUSE_KEYS
   ZMK_COMBO(mouse     , &smart_mouse   , LT3 LT1     ,  DEF  NUM       PUQ, COMBO_TERM_FAST)
-//ZMK_COMBO(to_mouse  , &to MSE        , RT1 RT2      , DEF         GME   ,  COMBO_TERM_FAST)
+//ZMK_COMBO(to_mouse  , &to MSE        , RT1 RT2      , DEF         GME   ,  xz)
 #endif 
 
 /* Umlaute */
 //ZMK_COMBO(auml      , &kp DE_AE      , LT0 LM0     , DEF                , COMBO_TERM_SLOW)
 //ZMK_COMBO(de_ss     , &kp DE_SS      , LM0 LB0     , DEF                , COMBO_TERM_SLOW)
 //ZMK_COMBO(ouml      , &kp DE_OE      , RT0 RM0     , DEF                , COMBO_TERM_SLOW)
-//ZMK_COMBO(uuml      , &kp DE_UE      , RM0 RB0     , DEF                , COMBO_TERM_SLOW)
+//ZMK_COMBO(uuml      , &kp DE_UE      , RM0 RB0     , DEF                , )
 
 ZMK_COMBO(puq_auml  , &kp DE_AE      , LT2 LM1     , DEF             PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_de_ss , &kp DE_SS      , RB4 RM4     , DEF             PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_ouml  , &kp DE_OE      , LT2 LM0     , DEF             PUQ, COMBO_TERM_SLOW)
-ZMK_COMBO(puq_uuml  , &kp DE_UE      , LT2 LT3     , DEF             PUQ, COMBO_TERM_SLOW)    
+ZMK_COMBO(puq_uuml  , &kp DE_UE      , LT2 LT3     , DEF             PUQ, COMBO_TERM_FAST)    
 
 /* Bluetooth 
 ZMK_COMBO(bt_clear  , &bt BT_CLR     , RM1 RM2 RM3 ,         FNC        , COMBO_TERM_FAST)
