@@ -38,7 +38,7 @@ ZMK_COMBO(to_puq    , &to PUQ        , LM5 LH1 LM1 , DEF         GME    , COMBO_
 //ZMK_COMBO(ouml      , &kp DE_OE      , RT0 RM0     , DEF                , COMBO_TERM_SLOW)
 //ZMK_COMBO(uuml      , &kp DE_UE      , RM0 RB0     , DEF                , )
 
-ZMK_COMBO(puq_auml  , &kp DE_AE      , LT2 LM1     , DEF             PUQ, COMBO_TERM_SLOW)
+ZMK_COMBO(puq_auml  , &kp DE_AE      , LT2 LM1     , DEF             PUQ, COMBO_TERM_FAST)
 ZMK_COMBO(puq_de_ss , &kp DE_SS      , RB4 RM4     , DEF             PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_ouml  , &kp DE_OE      , LT2 LM0     , DEF             PUQ, COMBO_TERM_SLOW)
 ZMK_COMBO(puq_uuml  , &kp DE_UE      , LT2 LT3     , DEF             PUQ, COMBO_TERM_FAST)    
