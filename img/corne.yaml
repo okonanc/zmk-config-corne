@@ -152,7 +152,7 @@ layers:
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
   - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
-  - {t: '0', h: '$$mdi:apple-keyboard-command$$', s: '='}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
@@ -169,8 +169,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:close-box$$
+  - {t: '0', s: '='}
   - {t: '$$mdi:transfer$$', type: trans}
   fnc:
   - $$mdi:power-standby$$

@@ -1564,9 +1564,8 @@ path.combo {
 </g>
 <g transform="translate(1080, 150)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">0</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-command"/>
-<text x="0" y="-34" class="key shifted">=</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-command"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(1160, 150)" class="key trans keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1641,13 +1640,14 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(698, 320) rotate(-30.0)" class="key trans keypos-39">
-<rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
+<rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
+<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
+<text x="0" y="0" class="key tap">0</text>
+<text x="0" y="-34" class="key shifted">=</text>
 </g>
 <g transform="translate(880, 293)" class="key trans keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
