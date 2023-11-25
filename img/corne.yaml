@@ -48,7 +48,7 @@ layers:
   - P
   - U
   - {t: '?', s: '!'}
-  - {t: ',', s: ;}
+  - {t: '''', s: '"'}
   - Q
   - G
   - C
@@ -57,9 +57,9 @@ layers:
   - F
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: O, h: '$$mdi:star-three-points$$'}
   - {t: D, h: '$$mdi:star-three-points$$'}
@@ -72,7 +72,7 @@ layers:
   - K
   - Y
   - {t: ., s: ':'}
-  - {t: '''', s: '"'}
+  - {t: ',', s: ;}
   - X
   - J
   - V
@@ -122,7 +122,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - fnc
+  - {t: fnc, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -346,15 +346,15 @@ layers:
   - {t: '$$tabler:click$$', h: Middle}
 combos:
 - p: [0, 38]
-  k: gme
+  k: {t: gme, h: toggle}
   l: [def, puq]
   a: right
 - p: [12, 37]
-  k: def
+  k: {t: def, h: toggle}
   l: [gme, puq]
   a: bottom
 - p: [12, 37, 16]
-  k: puq
+  k: {t: puq, h: toggle}
   l: [def, gme]
   a: bottom
 - p: [2, 4]
