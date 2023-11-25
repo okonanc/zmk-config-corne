@@ -423,10 +423,10 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [def, puq]
 - p: [19, 20]
-  k: '&HRC_LPAR'
+  k: {t: (, h: RS(LCTRL), s: <}
   l: [def, puq]
 - p: [20, 21]
-  k: '&HRC_RPAR'
+  k: {t: ), h: LA(LCTRL), s: '>'}
   l: [def, puq]
 - p: [19, 20]
   k: <
