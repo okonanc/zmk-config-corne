@@ -63,9 +63,8 @@
 #include "../gauntlet/L_FNC.dtsi"
 #include "../gauntlet/L_SYM.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
-
-#if MOUSE_KEYS
 #include "../gauntlet/L_MSE.dtsi"
-#endif
+#include "../gauntlet/L_FNR.dtsi"
+#include "../gauntlet/L_NMR.dtsi"
 
 // #include "chords_en_qwertz.dtsi"
