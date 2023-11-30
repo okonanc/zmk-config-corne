@@ -15,10 +15,11 @@
 #define FNC 4
 #define SYM 5
 #define SYS 6
+#define MSE 7
 
-#if MOUSE_KEYS
-    #define MSE 7
-#endif
+// For gaming only left side needed
+#define FNR 8
+#define NMR 9
 
 #define XXX &none
 #define ___ &trans
