@@ -20,6 +20,7 @@
 // For gaming only left side needed
 #define FNR 8
 #define NMR 9
+#define HD2 10
 
 #define XXX &none
 #define ___ &trans
@@ -66,5 +67,6 @@
 #include "../gauntlet/L_MSE.dtsi"
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_NMR.dtsi"
+#include "../gauntlet/L_HD2.dtsi"
 
 // #include "chords_en_qwertz.dtsi"
