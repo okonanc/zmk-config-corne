@@ -3,7 +3,7 @@
  */
 
 / {
-    #define STRATA  &kp LCTRL
+    #define STRATA     &kp LCTRL
     #define HD_UP      &kp W
     #define HD_DOWN    &kp S
     #define HD_LEFT    &kp A
