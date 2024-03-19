@@ -304,14 +304,14 @@ layers:
   mse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-down$$
+  - '&msc SCROLL_VERT(-100)'
   - $$mdi:menu-up$$
-  - $$mdi:pan-up$$
+  - '&msc SCROLL_VERT(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-up$$
+  - '&msc SCROLL_VERT(100)'
   - $$mdi:menu-up$$
-  - $$mdi:pan-down$$
+  - '&msc SCROLL_VERT(-100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
