@@ -1,0 +1,15 @@
+#define STRATA     &kp LCTRL
+#define HD_UP      &kp W
+#define HD_DOWN    &kp S
+#define HD_LEFT    &kp A
+#define HD_RIGHT   &kp D
+
+ / {
+    macros {
+        resupply: resupply {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap STRATA HD_DOWN HD_DOWN HD_UP HD_RIGHT>;
+        };
+    };
+};
