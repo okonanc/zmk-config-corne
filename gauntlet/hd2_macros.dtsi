@@ -4,12 +4,27 @@
 #define HD_LEFT    &kp A
 #define HD_RIGHT   &kp D
 
- / {
-    macros {
-        resupply: resupply {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap STRATA HD_DOWN HD_DOWN HD_UP HD_RIGHT>;
-        };
+/*
+macros {
+    resupply: resupply {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&macro_tap STRATA HD_DOWN HD_DOWN HD_UP HD_RIGHT>;
     };
 };
+*/
+
+#define HD2_STRATAGEM(name, layout) \
+    / { \
+        macros { \
+            name: name { \
+                compatible = "zmk,behavior-macro"; \
+                #binding-cells = <0>; \
+                bindings = <&macro_tap STRATA layout>;
+            }; \
+        }; \
+    };
+
+HD2_STRATAGEM(resupply,HD_DOWN HD_DOWN HD_UP HD_RIGHT)
+HD2_STRATAGEM(reinforce,HD_UP HD_UP HD_RIGHT HD_LEFT HD_UP)
+HD2_STRATAGEM(gd_rover, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_LEFT HD_DOWN HD_DOWN)
