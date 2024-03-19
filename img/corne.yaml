@@ -99,7 +99,7 @@ layers:
   - O
   - {t: '''', s: '"'}
   - $$mdi:close-box$$
-  - {t: G, h: fnr}
+  - G
   - $$mdi:keyboard-tab$$
   - A
   - S
@@ -111,7 +111,7 @@ layers:
   - L
   - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: B, h: nmr}
+  - B
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -125,7 +125,7 @@ layers:
   - {t: fnc, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: fnr}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -357,7 +357,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:power-standby$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F4
   - F5
@@ -383,7 +383,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -412,7 +412,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '"'}
