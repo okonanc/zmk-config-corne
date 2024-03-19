@@ -13,7 +13,7 @@
         resupply: resupply {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap STRATA HD_DOWN HD_DOWN HD_UP HD_LEFT>;
+            bindings = <&macro_tap STRATA HD_DOWN HD_DOWN HD_UP HD_RIGHT>;
         };
     };
 };
