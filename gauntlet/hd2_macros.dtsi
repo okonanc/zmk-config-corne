@@ -20,7 +20,7 @@ macros {
             name: name { \
                 compatible = "zmk,behavior-macro"; \
                 #binding-cells = <0>; \
-                bindings = <&macro_tap STRATA layout>;
+                bindings = <&macro_tap STRATA layout>; \
             }; \
         }; \
     };
