@@ -11,9 +11,9 @@
 
     macros {
         resupply: resupply {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings = <&macro_tap STRATAS DOWN DOWN UP LEFT>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap STRATA DOWN DOWN UP LEFT>;
         };
     };
 };
