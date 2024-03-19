@@ -15,7 +15,7 @@
 #define FNC 4
 #define SYM 5
 #define SYS 6
-#define MSE 7
+//#define MSE 7
 
 // For gaming only left side needed
 #define FNR 8
@@ -64,7 +64,7 @@
 #include "../gauntlet/L_FNC.dtsi"
 #include "../gauntlet/L_SYM.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
-#include "../gauntlet/L_MSE.dtsi"
+//#include "../gauntlet/L_MSE.dtsi"
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_NMR.dtsi"
 #include "../gauntlet/L_HD2.dtsi"
