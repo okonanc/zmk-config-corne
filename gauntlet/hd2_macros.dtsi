@@ -20,8 +20,8 @@ macros {
             name: name { \
                 compatible = "zmk,behavior-macro"; \
                 #binding-cells = <0>; \
-                wait-ms = <500>; \
-                tap-ms = <200>; \
+                wait-ms = <100>; \
+                tap-ms = <100>; \
                 bindings = <&macro_tap STRATA layout>; \
             }; \
         }; \
