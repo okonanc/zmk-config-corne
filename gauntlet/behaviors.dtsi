@@ -211,8 +211,8 @@ ZMK_BEHAVIOR(win_sleep, macro,
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
-#define DSK_PREV    &hml LALT LG(LC(LEFT))  // previous desktop
-#define DSK_NEXT    &hml LSHFT LG(LC(RIGHT))  // next     desktop
+#define DSK_PREV    &kp LG(LC(LEFT))         // previous desktop
+#define DSK_NEXT    &kp LG(LC(RIGHT))        // next     desktop
 #define PIN_WIN     &kp LG(LC(LS(Q)))        // pin window across desktops
 #define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
 #define DSK_MGR     &kp LA(GRAVE)            // desktop manager
