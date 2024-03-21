@@ -27,6 +27,7 @@ macros {
         }; \
     };
 
+////////////////////////////////
 //
 // Mission Stratagems
 //
@@ -36,6 +37,7 @@ HD2_STRATAGEM(resupply,HD_DOWN HD_DOWN HD_UP HD_RIGHT)
 // Reinforce
 HD2_STRATAGEM(reinforce,HD_UP HD_UP HD_RIGHT HD_LEFT HD_UP)
 
+////////////////////////////////
 //
 // Supply: Backpacks
 //
@@ -51,10 +53,13 @@ HD2_STRATAGEM(shieldgen, HD_DOWN HD_UP HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
 // SH-20 Ballistic Shield Backpack
 HD2_STRATAGEM(balshield, HD_DOWN HD_LEFT HD_DOWN HD_DOWN HD_UP HD_LEFT)
 
+////////////////////////////////
 //
 // Supply: Support Weapons
 //
 
+// Flamethrower
+HD2_STRATAGEM(flamethrower, HD_DOWN HD_LEFT HD_UP HD_DOWN HD_UP)
 // MG-43 Machine Gun
 HD2_STRATAGEM(machinegun, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_RIGHT)
 // M-105 Stalwart
@@ -62,6 +67,7 @@ HD2_STRATAGEM(stalwart, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_UP HD_LEFT)
 // GL-21 Grenade Launcher
 HD2_STRATAGEM(grenade, HD_DOWN HD_LEFT HD_UP HD_LEFT HD_DOWN)
 
+////////////////////////////////
 //
 // Defensive Stratagems
 //
@@ -73,13 +79,20 @@ HD2_STRATAGEM(shieldgen, HD_DOWN HD_DOWN HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
 // A/G-16 Gatling Sentry
 HD2_STRATAGEM(gatling, HD_DOWN HD_UP HD_RIGHT HD_LEFT)
 
+////////////////////////////////
 //
 // Offensive: Orbital
 //
+
 // Orbital Precision Strike
 HD2_STRATAGEM(orb_prestr, HD_RIGHT HD_RIGHT HD_UP)
+
+////////////////////////////////
 //
 // Offensive: Eagle
 //
+
 // Eagle Airstrike
 HD2_STRATAGEM(eagle_as, HD_UP HD_RIGHT HD_DOWN HD_RIGHT)
+// Eagle 500kg Bomb
+HD2_STRATAGEM(eagle_500, HD_UP HD_RIGHT HD_DOWN HD_DOWN HD_DOWN)
