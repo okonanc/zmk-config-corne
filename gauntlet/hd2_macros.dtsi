@@ -35,7 +35,9 @@ macros {
 // Resupply
 HD2_STRATAGEM(resupply,HD_DOWN HD_DOWN HD_UP HD_RIGHT)
 // Reinforce
-HD2_STRATAGEM(reinforce,HD_UP HD_UP HD_RIGHT HD_LEFT HD_UP)
+HD2_STRATAGEM(reinforce,HD_UP HD_DOWN HD_RIGHT HD_LEFT HD_UP)
+// NUX-223 Hellbomb
+HD2_STRATAGEM(hellbomb, HD_DOWN HD_UP HD_LEFT HD_DOWN HD_UP HD_RIGHT HD_DOWN HD_UP)
 
 ////////////////////////////////
 //
@@ -66,6 +68,8 @@ HD2_STRATAGEM(machinegun, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_RIGHT)
 HD2_STRATAGEM(stalwart, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_UP HD_LEFT)
 // GL-21 Grenade Launcher
 HD2_STRATAGEM(grenade, HD_DOWN HD_LEFT HD_UP HD_LEFT HD_DOWN)
+// ARC-3 Arc Thrower
+HD2_STRATAGEM(arc, HD_DOWN HD_RIGHT HD_DOWN HD_UP HD_LEFT HD_LEFT)
 
 ////////////////////////////////
 //
@@ -78,6 +82,8 @@ HD2_STRATAGEM(sen_a_m12, HD_DOWN HD_UP HD_RIGHT HD_RIGHT HD_DOWN)
 HD2_STRATAGEM(shieldgen, HD_DOWN HD_DOWN HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
 // A/G-16 Gatling Sentry
 HD2_STRATAGEM(gatling, HD_DOWN HD_UP HD_RIGHT HD_LEFT)
+// A/ARC-3 Tesla Tower
+HD2_STRATAGEM(tesla, HD_DOWN HD_UP HD_RIGHT HD_UP HD_LEFT HD_RIGHT)
 
 ////////////////////////////////
 //
