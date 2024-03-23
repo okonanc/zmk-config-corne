@@ -1381,8 +1381,10 @@ path.combo {
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:apple-keyboard-shift"/>
-<text x="0" y="54" class="key hold">hd2</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em">&amp;glt</tspan><tspan x="0" dy="1.0em">7</tspan>
+<tspan x="0" dy="1.0em">LSHFT</tspan>
+</text>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
@@ -2350,8 +2352,9 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(502, 320) rotate(30.0)" class="key held keypos-38">
-<rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key held"/>
+<g transform="translate(502, 320) rotate(30.0)" class="key trans keypos-38">
+<rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key trans keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
