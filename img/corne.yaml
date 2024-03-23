@@ -125,7 +125,7 @@ layers:
   - {t: fnc, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - '&glt 7 LSHFT'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '7'}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
