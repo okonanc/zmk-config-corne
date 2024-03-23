@@ -14,7 +14,7 @@
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
-glt: gaming_layer_tap {
+/omit-if-no-ref/ glt: gaming_layer_tap {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
     flavor = "balanced";
