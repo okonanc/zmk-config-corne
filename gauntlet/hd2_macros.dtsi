@@ -1,8 +1,8 @@
 #define STRATA     &kp LCTRL
-#define HD_UP      &kp W
-#define HD_DOWN    &kp S
-#define HD_LEFT    &kp A
-#define HD_RIGHT   &kp D
+#define HD_UP      &kp UP
+#define HD_DOWN    &kp DOWN
+#define HD_LEFT    &kp LEFT
+#define HD_RIGHT   &kp RIGHT
 
 /*
 macros {
