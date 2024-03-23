@@ -14,11 +14,11 @@
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
-/omit-if-no-ref/ glt: gaming_layer_tap {
+glt: glt {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
     flavor = "balanced";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <300>;
     quick-tap-ms = <250>;
     require-prior-idle-ms = <125>;
     bindings = <&kp>, <&kp>;
