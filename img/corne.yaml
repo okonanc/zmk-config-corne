@@ -132,8 +132,7 @@ layers:
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:chevron-double-up$$'}
+  - '&mt LC(BSPC) BSPC NwwAV_UP'
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,8 +166,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:close-box$$
   - {t: '0', s: '='}
   - {t: '$$mdi:transfer$$', type: trans}
