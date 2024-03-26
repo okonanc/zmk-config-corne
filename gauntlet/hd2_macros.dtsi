@@ -30,66 +30,71 @@ macros {
 ////////////////////////////////
 //
 // Mission Stratagems
+// Prefix: m1_
 //
 
 // Resupply
-HD2_STRATAGEM(resupply,HD_DOWN HD_DOWN HD_UP HD_RIGHT)
+HD2_STRATAGEM(m1_resupply,HD_DOWN HD_DOWN HD_UP HD_RIGHT)
 // Reinforce
-HD2_STRATAGEM(reinforce,HD_UP HD_DOWN HD_RIGHT HD_LEFT HD_UP)
+HD2_STRATAGEM(m1_reinforce,HD_UP HD_DOWN HD_RIGHT HD_LEFT HD_UP)
 // NUX-223 Hellbomb
-HD2_STRATAGEM(hellbomb, HD_DOWN HD_UP HD_LEFT HD_DOWN HD_UP HD_RIGHT HD_DOWN HD_UP)
+HD2_STRATAGEM(m1_hellbomb, HD_DOWN HD_UP HD_LEFT HD_DOWN HD_UP HD_RIGHT HD_DOWN HD_UP)
 
 ////////////////////////////////
 //
 // Supply: Backpacks
+// Prefix: bp_
 //
 
 // AX/LAS-5 "Guard Dog" Rover
-HD2_STRATAGEM(gd_rover, HD_DOWN HD_UP HD_LEFT HD_UP HD_RIGHT HD_RIGHT)
+HD2_STRATAGEM(bp_gd_rover, HD_DOWN HD_UP HD_LEFT HD_UP HD_RIGHT HD_RIGHT)
 // LIFT-850 Jump Pack
-HD2_STRATAGEM(jumppack, HD_DOWN HD_UP HD_UP HD_DOWN HD_UP)
+HD2_STRATAGEM(bp_jump, HD_DOWN HD_UP HD_UP HD_DOWN HD_UP)
 // B-1 Supply Pack
-HD2_STRATAGEM(suppack, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_UP HD_DOWN)
+HD2_STRATAGEM(bp_suppack, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_UP HD_DOWN)
 // SH-32 Shield Generator Pack
-HD2_STRATAGEM(shieldgen, HD_DOWN HD_UP HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
+HD2_STRATAGEM(bp_shield, HD_DOWN HD_UP HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
 // SH-20 Ballistic Shield Backpack
-HD2_STRATAGEM(balshield, HD_DOWN HD_LEFT HD_DOWN HD_DOWN HD_UP HD_LEFT)
+HD2_STRATAGEM(bp_ball, HD_DOWN HD_LEFT HD_DOWN HD_DOWN HD_UP HD_LEFT)
 
 ////////////////////////////////
 //
 // Supply: Support Weapons
+// Prefix: wp_
 //
 
 // Flamethrower
-HD2_STRATAGEM(flamethrower, HD_DOWN HD_LEFT HD_UP HD_DOWN HD_UP)
+HD2_STRATAGEM(wp_flame, HD_DOWN HD_LEFT HD_UP HD_DOWN HD_UP)
 // MG-43 Machine Gun
-HD2_STRATAGEM(machinegun, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_RIGHT)
+HD2_STRATAGEM(wp_mg, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_RIGHT)
 // M-105 Stalwart
-HD2_STRATAGEM(stalwart, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_UP HD_LEFT)
+HD2_STRATAGEM(wp_stalwart, HD_DOWN HD_LEFT HD_DOWN HD_UP HD_UP HD_LEFT)
 // GL-21 Grenade Launcher
-HD2_STRATAGEM(grenade, HD_DOWN HD_LEFT HD_UP HD_LEFT HD_DOWN)
+HD2_STRATAGEM(wp_grenade, HD_DOWN HD_LEFT HD_UP HD_LEFT HD_DOWN)
 // ARC-3 Arc Thrower
-HD2_STRATAGEM(arc, HD_DOWN HD_RIGHT HD_DOWN HD_UP HD_LEFT HD_LEFT)
+HD2_STRATAGEM(wp_arc, HD_DOWN HD_RIGHT HD_DOWN HD_UP HD_LEFT HD_LEFT)
 
 ////////////////////////////////
 //
 // Defensive Stratagems
+// Prefix: def_
 //
 
 // A/M-12 Mortar Sentry
-HD2_STRATAGEM(sen_a_m12, HD_DOWN HD_UP HD_RIGHT HD_RIGHT HD_DOWN)
-// FX-12 Shield Generator Relay
-HD2_STRATAGEM(shield_rel, HD_DOWN HD_DOWN HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
+HD2_STRATAGEM(def_sen_mortar, HD_DOWN HD_UP HD_RIGHT HD_RIGHT HD_DOWN)
 // A/G-16 Gatling Sentry
-HD2_STRATAGEM(gatling, HD_DOWN HD_UP HD_RIGHT HD_LEFT)
+HD2_STRATAGEM(def_sen_gat, HD_DOWN HD_UP HD_RIGHT HD_LEFT)
 // A/ARC-3 Tesla Tower
-HD2_STRATAGEM(tesla, HD_DOWN HD_UP HD_RIGHT HD_UP HD_LEFT HD_RIGHT)
+HD2_STRATAGEM(def_sen_tesla, HD_DOWN HD_UP HD_RIGHT HD_UP HD_LEFT HD_RIGHT)
 // A/M-23 EMS Mortar Sentry
-HD2_STRATAGEM(sen_ems, HD_DOWN HD_UP HD_RIGHT HD_DOWN HD_RIGHT)
+HD2_STRATAGEM(def_sen_ems, HD_DOWN HD_UP HD_RIGHT HD_DOWN HD_RIGHT)
+// FX-12 Shield Generator Relay
+HD2_STRATAGEM(def_shield, HD_DOWN HD_DOWN HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
 
 ////////////////////////////////
 //
 // Offensive: Orbital
+// Prefix: off_orb_
 //
 
 // Orbital Precision Strike
@@ -98,12 +103,14 @@ HD2_STRATAGEM(orb_prestr, HD_RIGHT HD_RIGHT HD_UP)
 HD2_STRATAGEM(orb_rcs, HD_RIGHT HD_UP HD_DOWN HD_DOWN HD_RIGHT)
 // Orbital Laser
 HD2_STRATAGEM(orb_laser, HD_RIGHT HD_DOWN HD_UP HD_RIGHT HD_DOWN)
+
 ////////////////////////////////
 //
 // Offensive: Eagle
+// Prefix: off_eag_
 //
 
 // Eagle Airstrike
-HD2_STRATAGEM(eagle_as, HD_UP HD_RIGHT HD_DOWN HD_RIGHT)
+HD2_STRATAGEM(off_eag_as, HD_UP HD_RIGHT HD_DOWN HD_RIGHT)
 // Eagle 500kg Bomb
-HD2_STRATAGEM(eagle_500, HD_UP HD_RIGHT HD_DOWN HD_DOWN HD_DOWN)
+HD2_STRATAGEM(off_eag_500, HD_UP HD_RIGHT HD_DOWN HD_DOWN HD_DOWN)
