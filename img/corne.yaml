@@ -303,9 +303,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   hd2:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&grenade'
-  - '&gatling'
   - '&flamethrower'
+  - '&gatling'
+  - '&grenade'
   - '&gd_rover'
   - '&reinforce'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -315,9 +315,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&sen_a_m12'
-  - '&tesla'
+  - '&orb_laser'
+  - '&sen_ems'
+  - '&shieldgen'
   - '&eagle_as'
   - '&resupply'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -327,8 +327,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&shieldgen'
+  - '&orb_rcs'
+  - '&sen_a_m12'
   - '&arc'
   - '&eagle_500'
   - '&hellbomb'
