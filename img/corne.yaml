@@ -132,8 +132,7 @@ layers:
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:backspace$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:chevron-double-up$$'}
+  - '&mt LC(BSPC) BSPC NwwAV_UP'
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace-reverse$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,8 +166,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:close-box$$
   - {t: '0', s: '='}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -303,11 +302,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   hd2:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&flamethrower'
-  - '&gatling'
-  - '&grenade'
-  - '&gd_rover'
-  - '&reinforce'
+  - '&wp_flame'
+  - '&def_sen_gat'
+  - '&wp_grenade'
+  - '&bp_gd_rover'
+  - '&m1_reinforce'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -316,10 +315,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&orb_laser'
-  - '&sen_ems'
-  - '&shieldgen'
-  - '&eagle_as'
-  - '&resupply'
+  - '&def_sen_ems'
+  - '&bp_shield'
+  - '&off_eag_as'
+  - '&m1_resupply'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -328,10 +327,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&orb_rcs'
-  - '&sen_a_m12'
-  - '&arc'
-  - '&eagle_500'
-  - '&hellbomb'
+  - '&def_sen_mortar'
+  - '&wp_arc'
+  - '&off_eag_500'
+  - '&m1_hellbomb'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
