@@ -84,6 +84,8 @@ HD2_STRATAGEM(shieldgen, HD_DOWN HD_DOWN HD_LEFT HD_RIGHT HD_LEFT HD_RIGHT)
 HD2_STRATAGEM(gatling, HD_DOWN HD_UP HD_RIGHT HD_LEFT)
 // A/ARC-3 Tesla Tower
 HD2_STRATAGEM(tesla, HD_DOWN HD_UP HD_RIGHT HD_UP HD_LEFT HD_RIGHT)
+// A/M-23 EMS Mortar Sentry
+HD2_STRATAGEM(sen_ems, HD_DOWN HD_UP HD_RIGHT HD_DOWN HD_RIGHT)
 
 ////////////////////////////////
 //
@@ -92,7 +94,10 @@ HD2_STRATAGEM(tesla, HD_DOWN HD_UP HD_RIGHT HD_UP HD_LEFT HD_RIGHT)
 
 // Orbital Precision Strike
 HD2_STRATAGEM(orb_prestr, HD_RIGHT HD_RIGHT HD_UP)
-
+// Orbital Railcannon Strike
+HD2_STRATAGEM(orb_rcs, HD_RIGHT HD_UP HD_DOWN HD_DOWN HD_RIGHT)
+// Orbital Laser
+HD2_STRATAGEM(orb_laser, HD_RIGHT HD_DOWN HD_UP HD_RIGHT HD_DOWN)
 ////////////////////////////////
 //
 // Offensive: Eagle
