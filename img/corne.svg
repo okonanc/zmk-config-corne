@@ -2303,7 +2303,7 @@ path.combo {
 </g>
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;def_sen_mortar</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;wp_quasar</tspan></text>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
