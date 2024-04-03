@@ -304,8 +304,8 @@ layers:
   hd2:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&wp_flame'
-  - '&def_sen_gat'
-  - '&wp_grenade'
+  - '&wp_antitank'
+  - '&wp_recrifle'
   - '&bp_gd_rover'
   - '&m1_reinforce'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -328,7 +328,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&orb_rcs'
-  - '&wp_quasar'
+  - '&wp_quasar_c'
   - '&wp_arc'
   - '&off_eag_500'
   - '&m1_hellbomb'
