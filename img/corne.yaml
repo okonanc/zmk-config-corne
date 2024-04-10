@@ -93,7 +93,7 @@ layers:
   - W
   - E
   - R
-  - Y
+  - Z
   - U
   - I
   - O
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - $$mdi:apple-keyboard-control$$
-  - Z
+  - Y
   - X
   - C
   - V
@@ -302,7 +302,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   hd2:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&def_shield'
   - '&wp_flame'
   - '&wp_antitank'
   - '&wp_recrifle'
@@ -314,7 +314,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&def_sen_tesla'
   - '&orb_laser'
   - '&def_sen_ems'
   - '&bp_shield'
