@@ -638,6 +638,7 @@ parse_config:
     Alt: $$mdi:apple-keyboard-option$$
     AGr: $$mdi:apple-keyboard-option$$
     Gui: $$mdi:apple-keyboard-command$$
+    LCMD: $$mdi:apple-keyboard-command$$
     # "Meh" key
     Ctl+Sft+Alt: $$mdi:star-three-points$$
 

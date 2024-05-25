@@ -14,7 +14,7 @@ layers:
   - {t: 'Sft+ #', s: Sft+ 2}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: A, h: LCMD}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RSHFT}
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
-  - {t: P, h: LCMD}
+  - {t: P, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - Y
@@ -57,7 +57,7 @@ layers:
   - F
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: H, h: LCMD}
+  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: LALT}
   - {t: E, h: LCTRL}
   - {t: A, h: LSHFT}
@@ -66,7 +66,7 @@ layers:
   - {t: T, h: RSHFT}
   - {t: R, h: LCTRL}
   - {t: N, h: LALT}
-  - {t: S, h: LCMD}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - K
@@ -152,7 +152,7 @@ layers:
   - {t: '4', h: RSHFT}
   - {t: '5', h: LCTRL}
   - {t: '6', h: LALT}
-  - {t: LCMD, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+ $$mdi:keyboard-tab$$
@@ -186,7 +186,7 @@ layers:
   - F10
   - $$mdi:power-standby$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: LCMD, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: LALT, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:volume-low$$', h: LCTRL}
   - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$'}
@@ -195,7 +195,7 @@ layers:
   - {t: F4, h: RSHFT}
   - {t: F5, h: LCTRL}
   - {t: F6, h: LALT}
-  - {t: F11, h: LCMD}
+  - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
   - RESET
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
