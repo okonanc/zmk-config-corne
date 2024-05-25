@@ -14,16 +14,16 @@ layers:
   - {t: 'Sft+ #', s: Sft+ 2}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: H, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: P, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: LCMD}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - {t: G, h: Ctl+Sft+ LALT}
+  - {t: H, h: Ctl+Sft+ LALT}
+  - {t: J, h: RSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: P, h: LCMD}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - Y
@@ -41,7 +41,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - SYM
   puq:
   - $$mdi:keyboard-esc$$
@@ -57,16 +57,16 @@ layers:
   - F
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: D, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: H, h: LCMD}
+  - {t: I, h: LALT}
+  - {t: E, h: LCTRL}
+  - {t: A, h: LSHFT}
+  - {t: O, h: Ctl+Sft+ LALT}
+  - {t: D, h: Ctl+Sft+ LALT}
+  - {t: T, h: RSHFT}
+  - {t: R, h: LCTRL}
+  - {t: N, h: LALT}
+  - {t: S, h: LCMD}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - K
@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - SYM
   gme:
   - T
@@ -112,7 +112,7 @@ layers:
   - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
-  - $$mdi:apple-keyboard-control$$
+  - LCTRL
   - Y
   - X
   - C
@@ -123,11 +123,11 @@ layers:
   - {t: ., s: ':'}
   - {t: Sft+ ß, s: Sft+ 1}
   - {t: fnc, h: toggle}
-  - $$mdi:apple-keyboard-option$$
+  - LALT
   - {t: '$$mdi:keyboard-space$$', h: num}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: hd2}
+  - {t: LSHFT, h: hd2}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -137,9 +137,9 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+ $$mdi:backspace-reverse-outline$$'}
   - Sft+ $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: /}
-  - {t: '8', s: (}
-  - {t: '9', s: )}
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -148,11 +148,11 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+ $$mdi:page-last$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
-  - {t: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
-  - {t: '5', h: '$$mdi:apple-keyboard-control$$', s: '%'}
-  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: '&'}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: Ctl+Sft+ LALT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '4', h: RSHFT}
+  - {t: '5', h: LCTRL}
+  - {t: '6', h: LALT}
+  - {t: LCMD, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+ $$mdi:keyboard-tab$$
@@ -161,16 +161,16 @@ layers:
   - Gui+Sft+ $$mdi:arrow-right-bold$$
   - Ctl+ $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '"'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: §}
+  - '1'
+  - '2'
+  - {t: '3', h: LALT}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:close-box$$
-  - {t: '0', s: '='}
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   fnc:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -186,16 +186,16 @@ layers:
   - F10
   - $$mdi:power-standby$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:volume-off$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: Ctl+Sft+ M, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: LCMD, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LALT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:volume-low$$', h: LCTRL}
+  - {t: LSHFT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:volume-off$$', h: Ctl+Sft+ LALT}
+  - {t: Ctl+Sft+ M, h: Ctl+Sft+ LALT}
+  - {t: F4, h: RSHFT}
+  - {t: F5, h: LCTRL}
+  - {t: F6, h: LALT}
+  - {t: F11, h: LCMD}
   - RESET
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -218,37 +218,37 @@ layers:
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ´, s: '`'}
-  - {t: Sft+ 5, s: Sft+ %}
-  - {t: Sft+ 4, s: Sft+ $}
+  - Sft+ 5
+  - Sft+ 4
   - AGr+ E
   - {t: Sft+ +, s: Sft+ *}
   - {t: ^, s: °}
   - {t: AGr+ +, s: AGr+ *}
   - 'Sft+ #'
-  - {t: Sft+ 2, s: Sft+ "}
+  - Sft+ 2
   - {t: Sft+ ´, s: Sft+ `}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: <, s: '>'}
-  - {t: AGr+ 7, s: AGr+ /}
-  - {t: AGr+ 8, s: AGr+ (}
-  - {t: Sft+ 8, s: Sft+ (}
+  - AGr+ 7
+  - AGr+ 8
+  - Sft+ 8
   - AGr+ ß
-  - {t: Sft+ 7, s: Sft+ /}
-  - {t: Sft+ 9, s: Sft+ )}
-  - {t: AGr+ 9, s: AGr+ )}
-  - {t: AGr+ 0, s: AGr+ =}
+  - Sft+ 7
+  - Sft+ 9
+  - AGr+ 9
+  - AGr+ 0
   - {t: Sft+ <, s: Sft+ >}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+ 1, s: Sft+ !}
+  - Sft+ 1
   - AGr+ Q
   - '#'
-  - {t: Sft+ 6, s: Sft+ &}
+  - Sft+ 6
   - {t: AGr+ <, s: AGr+ >}
   - {t: Sft+ -, s: Sft+ _}
   - {t: '-', s: _}
-  - {t: Sft+ 0, s: Sft+ =}
+  - Sft+ 0
   - {t: +, s: '*'}
   - Sft+ ß
   - {t: '$$mdi:transfer$$', type: trans}
@@ -390,9 +390,9 @@ layers:
   nmr:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: /}
-  - {t: '8', s: (}
-  - {t: '9', s: )}
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -402,10 +402,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: '&'}
-  - {t: '0', s: '='}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -414,9 +414,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '"'}
-  - {t: '3', s: §}
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -504,10 +504,10 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [def, puq]
 - p: [19, 20]
-  k: {t: Sft+ 8, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
+  k: {t: Sft+ 8, h: Sft+ LCTRL, s: <}
   l: [def, puq]
 - p: [20, 21]
-  k: {t: Sft+ 9, h: 'Alt+ $$mdi:apple-keyboard-control$$', s: Sft+ <}
+  k: {t: Sft+ 9, h: Alt+ LCTRL, s: Sft+ <}
   l: [def, puq]
 - p: [19, 20]
   k: <
