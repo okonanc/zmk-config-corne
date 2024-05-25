@@ -790,15 +790,11 @@ path.combo {
 </g>
 <g class="combo combopos-22">
 <rect rx="4" ry="4" x="862" y="187" width="36" height="36" class="combo"/>
-<text x="880" y="205" class="combo tap">
-<tspan x="880" dy="-0.5em">AGr+</tspan><tspan x="880" dy="1.0em">8</tspan>
-</text>
+<text x="880" y="205" class="combo tap">[</text>
 </g>
 <g class="combo combopos-23">
 <rect rx="4" ry="4" x="942" y="187" width="36" height="36" class="combo"/>
-<text x="960" y="205" class="combo tap">
-<tspan x="960" dy="-0.5em">AGr+</tspan><tspan x="960" dy="1.0em">9</tspan>
-</text>
+<text x="960" y="205" class="combo tap">]</text>
 </g>
 <g class="combo combopos-24">
 <rect rx="4" ry="4" x="742" y="82" width="36" height="36" class="combo"/>
@@ -1132,15 +1128,11 @@ path.combo {
 </g>
 <g class="combo combopos-22">
 <rect rx="4" ry="4" x="862" y="187" width="36" height="36" class="combo"/>
-<text x="880" y="205" class="combo tap">
-<tspan x="880" dy="-0.5em">AGr+</tspan><tspan x="880" dy="1.0em">8</tspan>
-</text>
+<text x="880" y="205" class="combo tap">[</text>
 </g>
 <g class="combo combopos-23">
 <rect rx="4" ry="4" x="942" y="187" width="36" height="36" class="combo"/>
-<text x="960" y="205" class="combo tap">
-<tspan x="960" dy="-0.5em">AGr+</tspan><tspan x="960" dy="1.0em">9</tspan>
-</text>
+<text x="960" y="205" class="combo tap">]</text>
 </g>
 <g class="combo combopos-24">
 <rect rx="4" ry="4" x="742" y="82" width="36" height="36" class="combo"/>
@@ -1590,25 +1582,19 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="862" y="107" width="36" height="36" class="combo"/>
-<text x="880" y="125" class="combo tap">[</text>
+<text x="880" y="125" class="combo tap">&lt;</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="942" y="107" width="36" height="36" class="combo"/>
-<text x="960" y="125" class="combo tap">
-<tspan x="960" dy="-0.5em">Sft+</tspan><tspan x="960" dy="1.0em">&lt;</tspan>
-</text>
+<text x="960" y="125" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="4" ry="4" x="862" y="187" width="36" height="36" class="combo"/>
-<text x="880" y="205" class="combo tap">
-<tspan x="880" dy="-0.5em">AGr+</tspan><tspan x="880" dy="1.0em">7</tspan>
-</text>
+<text x="880" y="205" class="combo tap">{</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="4" ry="4" x="942" y="187" width="36" height="36" class="combo"/>
-<text x="960" y="205" class="combo tap">
-<tspan x="960" dy="-0.5em">AGr+</tspan><tspan x="960" dy="1.0em">0</tspan>
-</text>
+<text x="960" y="205" class="combo tap">}</text>
 </g>
 </g>
 </g>

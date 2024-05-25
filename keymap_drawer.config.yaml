@@ -884,10 +884,22 @@ parse_config:
         tap: ")"
     combo_lt:
       key:
+        tap: "<"
+    combo_gt:
+      key:
+        tap: ">"
+    combo_lbkt:
+      key:
         tap: "["
-    combo_rt:
+    combo_rbkt:
       key:
         tap: "]"
+    combo_lbrc:
+      key:
+        tap: "{"
+    combo_rbrc:
+      key:
+        tap: "}"
     combo_del_word:
       key:
         tap: $$mdi:eraser$$

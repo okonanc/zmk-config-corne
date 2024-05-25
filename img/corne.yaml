@@ -510,22 +510,22 @@ combos:
   k: )
   l: [def, puq]
 - p: [19, 20]
-  k: '['
+  k: <
   l: [num]
 - p: [20, 21]
-  k: Sft+ <
+  k: '>'
   l: [num]
 - p: [31, 32]
-  k: AGr+ 8
+  k: '['
   l: [def, puq]
 - p: [32, 33]
-  k: AGr+ 9
+  k: ']'
   l: [def, puq]
 - p: [31, 32]
-  k: AGr+ 7
+  k: '{'
   l: [num]
 - p: [32, 33]
-  k: AGr+ 0
+  k: '}'
   l: [num]
 - p: [6, 18]
   k: ^
