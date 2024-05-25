@@ -601,58 +601,53 @@ parse_config:
     Y: "Z"
     
     # Numbers
-    N1:
+    1:
       tap: 1
       shifted: "!"
-    N2:
+    2:
       tap: 2
       shifted: '"'
-    N3:
+    3:
       tap: 3
       shifted: "§"
-    N4:
+    4:
       tap: 4
       shifted: "$"
-    N5:
+    5:
       tap: 5
       shifted: "%"
-    N6:
+    6:
       tap: 6
       shifted: "&"
-    N7:
+    7:
       tap: 7
       shifted: "/"
-    N8:
+    8:
       tap: 8
       shifted: "("
-    N9:
+    9:
       tap: 9
       shifted: ")"
-    N0:
+    0:
       tap: 0
       shifted: "="
 
     # Modifiers
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
-    RCTRL: $$mdi:apple-keyboard-control$$
-    RALT: $$mdi:apple-keyboard-option$$
-    RSHIFT: $$mdi:apple-keyboard-shift$$
-    RSHFT: $$mdi:apple-keyboard-shift$$
-    RCMD: $$mdi:apple-keyboard-command$$
+    Sft: $$mdi:apple-keyboard-shift$$
+    Ctl: $$mdi:apple-keyboard-control$$
+    Alt: $$mdi:apple-keyboard-option$$
+    AGr: $$mdi:apple-keyboard-option$$
+    Gui: $$mdi:apple-keyboard-command$$
     # "Meh" key
-    LC(LS(LALT)): $$mdi:star-three-points$$
+    Ctl+Sft+Alt: $$mdi:star-three-points$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
-    LC(HOME): $$mdi:chevron-double-up$$
-    LC(END): $$mdi:chevron-double-down$$
+    Ctl+HOME: $$mdi:chevron-double-up$$
+    Ctl+END: $$mdi:chevron-double-down$$
 
     # Whitespace
     RET:
@@ -663,7 +658,7 @@ parse_config:
       tap: $$mdi:keyboard-return$$
     ESC: $$mdi:keyboard-esc$$
     TAB: $$mdi:keyboard-tab$$
-    LS(TAB): $$mdi:keyboard-tab-reverse$$
+    Sft+TAB: $$mdi:keyboard-tab-reverse$$
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE:
       type: backspace
@@ -673,8 +668,8 @@ parse_config:
       tap: $$mdi:backspace-outline$$
     DELETE: $$mdi:backspace-reverse-outline$$
     DEL: $$mdi:backspace-reverse-outline$$
-    LC(BSPC): $$mdi:backspace$$
-    LC(DEL): $$mdi:backspace-reverse$$
+    Ctl+BSPC: $$mdi:backspace$$
+    Ctl+DEL: $$mdi:backspace-reverse$$
 
     # Locks
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
@@ -704,30 +699,30 @@ parse_config:
     K_CANCEL: $$mdi:close-box$$
 
     # Teams
-    LC(LS(K)):
+    Ctl+Sft+ K:
       tap: $$mdi:hand-front-right-outline$$
       hold: Teams
-    LC(LS(M)):
+    Ctl+Sft+ M:
       tap: $$mdi:microphone$$
       hold: Teams
-    LC(LS(O)):
+    Ctl+Sft+ O:
       tap: $$mdi:video$$
       hold: Teams
 
     # Clipboard
-    LC(Y):
+    Ctl+ Y:
       tap: $$mdi:undo-variant$$
       hold: "Undo"
-    LC(Z):
+    Ctl+ Z:
       tap: $$mdi:redo-variant$$
       hold: "Redo"
-    LC(X):
+    Ctl+ X:
       tap: $$mdi:content-cut$$
       hold: "Cut"
-    LC(INS): 
+    Ctl+INS: 
       tap: $$mdi:content-copy$$
       hold: "Copy"
-    LS(INS):
+    Sft+INS:
       tap: $$mdi:content-paste$$
       hold: "Paste"
     PG_UP:
@@ -740,61 +735,61 @@ parse_config:
       tap: $$mdi:page-last$$
 
     # Tabs, Window and Desktop
-    LG(LC(LEFT)):
+    Gui+Ctl+LEFT:
       tap: $$mdi:monitor$$
       hold: $$mdi:chevron-left-box-outline$$
-    LG(LC(RIGHT)):
+    Gui+Ctl+RIGHT:
       tap: $$mdi:monitor$$
       hold: $$mdi:chevron-right-box-outline$$
-    LC(LS(TAB)):
+    Ctl+Sft+TAB:
       tap: $$mdi:tab$$
       hold: $$mdi:chevron-left$$
-    LC(TAB):
+    Ctl+TAB:
       tap: $$mdi:tab$$
       hold: $$mdi:chevron-right$$
-    LG(LS(LEFT)):
+    Gui+Sft+LEFT:
       tap: $$mdi:application-outline$$
       hold: $$mdi:pan-left$$
-    LG(LS(RIGHT)):
+    Gui+Sft+RIGHT:
       tap: $$mdi:application-outline$$
       hold: $$mdi:pan-right$$
-    LS(TAB):
+    Sft+TAB:
       tap: $$mdi:application-outline$$
       hold: $$mdi:chevron-left$$
-    LA(F4):
+    Alt+F4:
       tap: $$mdi:application-outline$$
       hold: $$mdi:window-close$$
 
     # Symbols
-    RA(N7): "{"
-    RA(N8): "["
-    LS(N8): "("
-    RA(MINUS): '\'
-    LS(N5): "%"
-    LS(N4): "$"
-    RA(E): "€"
-    LS(RBKT): "*"
-    LS(N1): "!"
-    RA(Q): "@"
-    LS(N6): "&"
-    RA(NON_US_BSLH): "|"
-    RA(GRAVE): "~"
-    RA(RBKT): "~"
-    LS(NON_US_HASH): "'"
-    LS(N2): '"'
-    LS(EQUAL): "`"
-    LS(N7): "/"
-    LS(N9): ")"
-    RA(N9): "]"
-    RA(N0): "}"
-    LS(NON_US_BSLH): ">"
-    LS(FSLH): "_"
-    LS(N0): "="
-    LS(MINUS): "?"
-    LS(N0): "="
-    LS(RBKT): "*"
-    LC(LEFT): "$$mdi:chevron-double-left$$"
-    LC(RIGHT): "$$mdi:chevron-double-right$$"    
+    AGr+7: "{"
+    AGr+8: "["
+    Sft+8: "("
+    AGr+MINUS: '\'
+    Sft+5: "%"
+    Sft+4: "$"
+    AGr+ E: "€"
+    Sft+RBKT: "*"
+    Sft+1: "!"
+    AGr+ Q: "@"
+    Sft+6: "&"
+    AGr+NON_US_BSLH: "|"
+    AGr+GRAVE: "~"
+    AGr+RBKT: "~"
+    Sft+NON_US_HASH: "'"
+    Sft+2: '"'
+    Sft+EQUAL: "`"
+    Sft+7: "/"
+    Sft+9: ")"
+    AGr+9: "]"
+    AGr+0: "}"
+    Sft+NON_US_BSLH: ">"
+    Sft+FSLH: "_"
+    Sft+0: "="
+    Sft+MINUS: "?"
+    Sft+0: "="
+    Sft+RBKT: "*"
+    Ctl+LEFT: "$$mdi:chevron-double-left$$"
+    Ctl+RIGHT: "$$mdi:chevron-double-right$$"    
     C_AL_CALC:
       tap: $$mdi:calculator$$
 
