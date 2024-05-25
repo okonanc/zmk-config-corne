@@ -480,22 +480,22 @@ combos:
   k: '#'
   l: [def, puq]
 - p: [4, 16]
-  k: Sft+ 4
+  k: $
   l: [def, puq]
 - p: [5, 17]
-  k: Sft+ 5
+  k: '%'
   l: [def, puq]
 - p: [14, 26]
-  k: Sft+ ´
+  k: '`'
   l: [def, puq]
 - p: [15, 27]
-  k: AGr+ ß
+  k: \
   l: [def, puq]
 - p: [16, 28]
-  k: Sft+ 0
+  k: '='
   l: [def, puq]
 - p: [17, 29]
-  k: AGr+ +
+  k: '~'
   l: [def, puq]
 - p: [7, 8]
   k: {t: '$$mdi:backspace-outline$$', type: backspace}
@@ -504,13 +504,13 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [def, puq]
 - p: [19, 20]
-  k: {t: Sft+ 8, h: 'Sft+ $$mdi:apple-keyboard-control$$', s: <}
+  k: (
   l: [def, puq]
 - p: [20, 21]
-  k: {t: Sft+ 9, h: 'Alt+ $$mdi:apple-keyboard-control$$', s: Sft+ <}
+  k: )
   l: [def, puq]
 - p: [19, 20]
-  k: <
+  k: '['
   l: [num]
 - p: [20, 21]
   k: Sft+ <
@@ -534,20 +534,20 @@ combos:
   k: +
   l: [def, puq]
 - p: [8, 20]
-  k: Sft+ +
+  k: '*'
   l: [def, puq]
 - p: [9, 21]
-  k: Sft+ 6
+  k: '&'
   l: [def, puq]
 - p: [18, 30]
-  k: Sft+ -
+  k: _
   l: [def, puq]
 - p: [19, 31]
   k: '-'
   l: [def, puq]
 - p: [20, 32]
-  k: Sft+ 7
+  k: /
   l: [def, puq]
 - p: [21, 33]
-  k: AGr+ <
+  k: '|'
   l: [def, puq]

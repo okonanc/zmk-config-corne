@@ -840,6 +840,54 @@ parse_config:
     combo_at:
       key:
         tap: "@"
+    combo_dllr:
+      key:
+        tap: "$"
+    combo_prcnt:
+      key:
+        tap: "%"
+    combo_grave:
+      key:
+        tap: "`"
+    combo_bslh:
+      key:
+        tap: "\\"
+    combo_equal:
+      key:
+        tap: "="
+    combo_tilde:
+      key:
+        tap: "~"
+    combo_star:
+      key:
+        tap: "*"
+    combo_amps:
+      key:
+        tap: "&"
+    combo_under:
+      key:
+        tap: "_"
+    combo_minus:
+      key:
+        tap: "-"
+    combo_fslh:
+      key:
+        tap: "/"
+    combo_pipe:
+      key:
+        tap: "|"
+    combo_lpar:
+      key:
+        tap: "("
+    combo_rpar:
+      key:
+        tap: ")"
+    combo_lt:
+      key:
+        tap: "["
+    combo_rt:
+      key:
+        tap: "]"
     combo_del_word:
       key:
         tap: $$mdi:eraser$$
