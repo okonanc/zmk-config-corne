@@ -768,7 +768,7 @@ parse_config:
       hold: $$mdi:window-close$$
     'Sft+ #':
       tap: "'"
-      hold: "\""
+      shifted: "\""
 
     # Symbols
     AGr+7: "{"
