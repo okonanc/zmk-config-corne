@@ -837,6 +837,9 @@ parse_config:
     combo_puq_de_ss:
       key:
         tap: "ß"
+    combo_at:
+      key:
+        tap: "@"
     combo_del_word:
       key:
         tap: $$mdi:eraser$$
@@ -865,4 +868,4 @@ parse_config:
       align: top
       offset: 0.03
       key:
-        tap: $$mdi:mouse$$
+        ta<PageDown>uup: $$mdi:mouse$$

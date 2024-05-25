@@ -474,7 +474,7 @@ combos:
   k: $$mdi:repeat$$
   l: [def, num, puq]
 - p: [2, 14]
-  k: AGr+ Q
+  k: '@'
   l: [def, puq]
 - p: [3, 15]
   k: '#'
