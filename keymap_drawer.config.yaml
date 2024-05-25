@@ -634,9 +634,15 @@ parse_config:
 
     # Modifiers
     Sft: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
     Ctl: $$mdi:apple-keyboard-control$$
+    LCTRL: $$mdi:apple-keyboard-control$$
+    RCTRL: $$mdi:apple-keyboard-control$$
     Alt: $$mdi:apple-keyboard-option$$
     AGr: $$mdi:apple-keyboard-option$$
+    LALT: $$mdi:apple-keyboard-option$$
+    RALT: $$mdi:apple-keyboard-option$$
     Gui: $$mdi:apple-keyboard-command$$
     LCMD: $$mdi:apple-keyboard-command$$
     # "Meh" key
