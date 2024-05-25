@@ -773,7 +773,7 @@ parse_config:
     Sft+8: "("
     AGr+MINUS: '\'
     Sft+5: "%"
-    Sft+4: "$"
+    Sft+ 4: "$"
     AGr+ E: "€"
     Sft+RBKT: "*"
     Sft+1: "!"
