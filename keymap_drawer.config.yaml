@@ -766,6 +766,9 @@ parse_config:
     Alt+F4:
       tap: $$mdi:application-outline$$
       hold: $$mdi:window-close$$
+    Sft+#:
+      tap: "'"
+      hold: "\""
 
     # Symbols
     AGr+7: "{"
