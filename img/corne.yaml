@@ -18,8 +18,8 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
-  - {t: H, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: G, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
+  - {t: H, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
@@ -61,8 +61,8 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
+  - {t: D, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-control$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
@@ -132,10 +132,10 @@ layers:
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
-  - {t: '$$mdi:backspace-outline$$', h: 'Ctl+$$mdi:backspace-outline$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: 'Ctl+$$mdi:page-first$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
-  - Sft+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace-outline$$', h: 'Ctl+ $$mdi:backspace-outline$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: 'Ctl+ $$mdi:page-first$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+ $$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '7'
   - '8'
@@ -145,21 +145,21 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-down$$
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+$$mdi:page-last$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+ $$mdi:page-last$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
-  - {t: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '6', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+$$mdi:keyboard-tab$$
-  - Gui+Sft+$$mdi:arrow-left-bold$$
-  - Alt+F4
-  - Gui+Sft+$$mdi:arrow-right-bold$$
-  - Ctl+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:window-close$$'}
+  - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
+  - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:volume-off$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:microphone$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: '$$mdi:microsoft-teams$$'}
+  - {t: '$$mdi:volume-off$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:microphone$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$', s: '$$mdi:microsoft-teams$$'}
   - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
@@ -199,9 +199,9 @@ layers:
   - $$mdi:restart$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+Ctl+$$mdi:arrow-left-bold$$
+  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+Ctl+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:video$$', s: '$$mdi:microsoft-teams$$'}
   - F1
@@ -375,11 +375,11 @@ layers:
   - F2
   - F3
   - F12
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+INS
-  - Sft+INS
-  - Ctl+Y
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ INS
+  - Sft+ INS
+  - Ctl+ Y
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -458,11 +458,9 @@ combos:
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
   l: [gme]
-  draw_separate: true
 - p: [2, 3]
   k: $$mdi:cloud-download$$
   l: [gme]
-  draw_separate: true
 - p: [14, 15]
   k: $$mdi:eraser$$
   l: [def, puq]
@@ -482,6 +480,7 @@ combos:
 - p: [2, 14]
   k: '@'
   l: [def, puq]
+  draw_separate: true
 - p: [3, 15]
   k: '#'
   l: [def, puq]
@@ -511,11 +510,13 @@ combos:
   l: [def, puq]
   draw_separate: true
 - p: [7, 8]
-  k: {t: '$$mdi:backspace-outline$$', type: backspace}
+  k: $$mdi:backspace-outline$$
   l: [def, puq]
+  draw_separate: true
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
   l: [def, puq]
+  draw_separate: true
 - p: [19, 20]
   k: (
   l: [def, puq]
@@ -555,6 +556,7 @@ combos:
 - p: [7, 19]
   k: +
   l: [def, puq]
+  draw_separate: true
 - p: [8, 20]
   k: '*'
   l: [def, puq]
