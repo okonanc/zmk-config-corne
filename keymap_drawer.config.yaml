@@ -22,8 +22,8 @@ draw_config:
   inner_pad_h: 1.5
 
   # padding between layers
-  outer_pad_w: 0
-  outer_pad_h: 0
+  outer_pad_w: 50
+  outer_pad_h: 50
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -388,13 +388,19 @@ draw_config:
     }
     */
 
+# Parse Config:
 parse_config:
+  skip_binding_parsing: false
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
+  toggle_label: $$mdi:toggle-switch$$
   trans_legend:
     tap: $$mdi:transfer$$
     type: trans
+  modifier_fn_map:
+    keycode_combiner: '{mods}+{key}'
 
+  # raw binding map
   raw_binding_map:
     # Layers
     "&smart_num NUM 0":
@@ -499,9 +505,93 @@ parse_config:
     "&ext_power EP_TOG":
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:power-plug-battery-outline$$
+      
+    "&key_repeat": $$mdi:repeat-variant$$
 
+    "&sdq":
+      tap: "'"
+      shifted: "\""
+    "&qexcl":
+      tap: "?"
+      shifted: "!"
+
+    # SYM Layer
+    "&kp DE_ACUT":
+      tap: "'"
+    "&kp DE_PRCNT":
+      tap: "%"
+    "&kp DE_DLLR":
+      tap: "$"
+    "&kp DE_EURO":
+      tap: "€"
+    "&kp DE_STAR":
+      tap: "*"
+    "&kp DE_LBRC":
+      tap: "{"
+    "&kp DE_LBKT":
+      tap: "["
+    "&kp DE_LPAR":
+      tap: "("
+    "&kp DE_BSLH":
+      tap: "\\"
+    "&kp DE_EXCL":
+      tap: "!"
+    "&kp DE_AT":
+      tap: "@"
+    "&kp DE_HASH":
+      tap: "#"
+    "&kp DE_AMPS":
+      tap: "&"
+    "&kp DE_PIPE":
+      tap: "|"
+    "&kp DE_TILDE":
+      tap: "~"
+      shifted: ""
+    "&kp DE_SQT":
+      tap: "'"
+    "&kp DE_DQT":
+      tap: "\""
+    "&kp DE_GRAVE":
+      tap: "`"
+    "&kp DE_FSLH":
+      tap: "/"
+    "&kp DE_RPAR":
+      tap: ")"
+    "&kp DE_RBKT":
+      tap: "]"
+    "&kp DE_RBRC":
+      tap: "}"
+    "&kp DE_GT":
+      tap: ">"
+    "&kp DE_UNDER":
+      tap: "_"
+    "&kp DE_MINUS":
+      tap: "-"
+    "&kp DE_EQUAL":
+      tap: "="
+    "&kp DE_PLUS":
+      tap: "+"
+    "&kp DE_QMARK":
+      tap: "?"
+
+    # Teams
+    "&kp TEAMS_HR":
+      tap: $$mdi:hand-front-right-outline$$
+      shifted: $$mdi:microsoft-teams$$
+    "&kp TEAMS_TA":
+      tap: $$mdi:microphone$$
+      shifted: $$mdi:microsoft-teams$$
+    "&kp TEAMS_TV":
+      tap: $$mdi:video$$
+      shifted: $$mdi:microsoft-teams$$
+
+    "&kp C_RESET":
+      tap: $$mdi:restart$$
+    "&kp C_AL_LOGOFF":
+      tap: $$mdi:logout$$
 
   # ZMK
+  zmk_remove_keycode_prefix: ["DE_"] 
   zmk_keycode_map:
     # Symbols
     EXCLAMATION: "!"
@@ -705,16 +795,6 @@ parse_config:
     C_AL_LOCK: $$mdi:lock$$
     K_CANCEL: $$mdi:close-box$$
 
-    # Teams
-    Ctl+Sft+ K:
-      tap: $$mdi:hand-front-right-outline$$
-      hold: Teams
-    Ctl+Sft+ M:
-      tap: $$mdi:microphone$$
-      hold: Teams
-    Ctl+Sft+ O:
-      tap: $$mdi:video$$
-      hold: Teams
 
     # Clipboard
     Ctl+ Y:
@@ -766,9 +846,6 @@ parse_config:
     Alt+F4:
       tap: $$mdi:application-outline$$
       hold: $$mdi:window-close$$
-    'Sft+ #':
-      tap: "'"
-      shifted: "\""
 
     # Symbols
     AGr+7: "{"
@@ -843,92 +920,136 @@ parse_config:
     combo_at:
       key:
         tap: "@"
+    combo_hash:
+      key:
+        tap: "#"
+      draw_separate: true
     combo_dllr:
       key:
         tap: "$"
+      draw_separate: true
     combo_prcnt:
       key:
         tap: "%"
+      draw_separate: true
     combo_grave:
       key:
         tap: "`"
+      draw_separate: true
+    combo_caret:
+      key:
+        tap: "^"
+      draw_separate: true
     combo_bslh:
       key:
         tap: "\\"
+      draw_separate: true
+    combo_plus:
+      key:
+        tap: "+"
     combo_equal:
       key:
         tap: "="
+      draw_separate: true
     combo_tilde:
       key:
         tap: "~"
+      draw_separate: true
     combo_star:
       key:
         tap: "*"
+      draw_separate: true
     combo_amps:
       key:
         tap: "&"
+      draw_separate: true
     combo_under:
       key:
         tap: "_"
+      draw_separate: true
     combo_minus:
       key:
         tap: "-"
+      draw_separate: true
     combo_fslh:
       key:
         tap: "/"
+      draw_separate: true
     combo_pipe:
       key:
         tap: "|"
+      draw_separate: true
     combo_lpar:
       key:
         tap: "("
+      draw_separate: true
     combo_rpar:
       key:
         tap: ")"
+      draw_separate: true
     combo_lt:
       key:
         tap: "<"
+      draw_separate: true
     combo_gt:
       key:
         tap: ">"
+      draw_separate: true
     combo_lbkt:
       key:
         tap: "["
+      draw_separate: true
     combo_rbkt:
       key:
         tap: "]"
+      draw_separate: true
     combo_lbrc:
       key:
         tap: "{"
+      draw_separate: true
     combo_rbrc:
       key:
         tap: "}"
+      draw_separate: true
     combo_del_word:
       key:
         tap: $$mdi:eraser$$
+      draw_separate: true
+    combo_del_word:
+      key:
+        tap: $$mdi:eraser$$
+      draw_separate: true
     combo_quicksave:
       key:
         tap: $$mdi:cloud-upload$$
+      draw_separate: true
     combo_quickload:
       key:
         tap: $$mdi:cloud-download$$
+      draw_separate: true
     combo_enter:
       key:
         tap: $$mdi:keyboard-return$$
+      draw_separate: true
     combo_cut:
       key:
         tap: $$mdi:content-cut$$
+      draw_separate: true
     combo_copy:
       key:
         tap: $$mdi:content-copy$$
+      draw_separate: true
     combo_paste:
       key:
         tap: $$mdi:content-paste$$
+      draw_separate: true
     combo_repeat:
       key:
         tap: $$mdi:repeat$$
+      draw_separate: true
     combo_mouse:
       align: top
       offset: 0.03
+      draw_separate: true
       key:
-        ta<PageDown>uup: $$mdi:mouse$$
+        tap: $$mdi:mouse$$
