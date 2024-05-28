@@ -22,8 +22,8 @@ draw_config:
   inner_pad_h: 1.5
 
   # padding between layers
-  outer_pad_w: 0
-  outer_pad_h: 0
+  outer_pad_w: 50
+  outer_pad_h: 50
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -313,6 +313,10 @@ draw_config:
         font-size: 16px;
         /* translate: 2px 0px; */
     }
+    .key.held {
+        --color--key--bg: var(--color--material--blue-gray--800);
+      
+    }
 
     /*
      * Transparent, None, and Ghost Keys
@@ -374,27 +378,18 @@ draw_config:
         --color--key--bg: var(--color--material--blue-gray--100);
         --color--key--border: var(--color--material--blue-gray--50);
     }
-    /*
-    .keypos-12 {
-        --color--key--bg: var(--color--material--red--300);
-        --color--key--border: var(--color--material--red--200);
-        --color--key--text--shifted: var(--color--key--text--tap);
-        --color--key--text--hold: var(--color--key--text--tap);
-    }
 
-    .keypos-23 {
-        --color--key--bg: var(--color--material--teal--200);
-        --color--key--border: var(--color--material--teal--100);
-    }
-    */
-
+# Parse Config:
 parse_config:
+  skip_binding_parsing: false
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
+  toggle_label: $$mdi:toggle-switch$$
   trans_legend:
     tap: $$mdi:transfer$$
     type: trans
 
+  # raw binding map
   raw_binding_map:
     # Layers
     "&smart_num NUM 0":
@@ -499,9 +494,125 @@ parse_config:
     "&ext_power EP_TOG":
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:power-plug-battery-outline$$
+      
+    "&key_repeat": $$mdi:repeat-variant$$
 
+    "&sdq":
+      tap: "'"
+      shifted: "\""
+    "&qexcl":
+      tap: "?"
+      shifted: "!"
 
+    # SYM Layer
+    "&kp DE_ACUT":
+      tap: "'"
+    "&kp DE_PRCNT":
+      tap: "%"
+    "&kp DE_DLLR":
+      tap: "$"
+    "&kp DE_EURO":
+      tap: "€"
+    "&kp DE_STAR":
+      tap: "*"
+    "&kp DE_LBRC":
+      tap: "{"
+    "&kp DE_LBKT":
+      tap: "["
+    "&kp DE_LPAR":
+      tap: "("
+    "&kp DE_BSLH":
+      tap: "\\"
+    "&kp DE_EXCL":
+      tap: "!"
+    "&kp DE_AT":
+      tap: "@"
+    "&kp DE_HASH":
+      tap: "#"
+    "&kp DE_AMPS":
+      tap: "&"
+    "&kp DE_PIPE":
+      tap: "|"
+    "&kp DE_TILDE":
+      tap: "~"
+      shifted: ""
+    "&kp DE_SQT":
+      tap: "'"
+    "&kp DE_DQT":
+      tap: "\""
+    "&kp DE_GRAVE":
+      tap: "`"
+    "&kp DE_FSLH":
+      tap: "/"
+    "&kp DE_RPAR":
+      tap: ")"
+    "&kp DE_RBKT":
+      tap: "]"
+    "&kp DE_RBRC":
+      tap: "}"
+    "&kp DE_GT":
+      tap: ">"
+    "&kp DE_UNDER":
+      tap: "_"
+    "&kp DE_MINUS":
+      tap: "-"
+    "&kp DE_EQUAL":
+      tap: "="
+    "&kp DE_PLUS":
+      tap: "+"
+    "&kp DE_QMARK":
+      tap: "?"
+
+    # Teams
+    "&kp TEAMS_HR":
+      tap: $$mdi:hand-front-right-outline$$
+      shifted: $$mdi:microsoft-teams$$
+    "&kp TEAMS_TA":
+      tap: $$mdi:microphone$$
+      shifted: $$mdi:microsoft-teams$$
+    "&kp TEAMS_TV":
+      tap: $$mdi:video$$
+      shifted: $$mdi:microsoft-teams$$
+
+    "&kp C_RESET":
+      tap: $$mdi:restart$$
+    "&kp C_AL_LOGOFF":
+      tap: $$mdi:logout$$
+
+    "&kp TAB_LT":
+      tap: $$mdi:keyboard-tab-reverse$$
+
+    # Tabs, Window and Desktop
+    "DSK_PREV":
+      tap: $$mdi:monitor$$
+      hold: $$mdi:chevron-left-box-outline$$
+    "DSK_NEXT":
+      tap: $$mdi:monitor$$
+      hold: $$mdi:chevron-right-box-outline$$
+    "&kp TAB_LT":
+      tap: $$mdi:tab$$
+      hold: $$mdi:chevron-left$$
+    "&kp TAB_RT":
+      tap: $$mdi:tab$$
+      hold: $$mdi:chevron-right$$
+    "&kp MOV_W_LT":
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:pan-left$$
+    "&kp MOV_W_RT":
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:pan-right$$
+    "&kp WIN_PREV":
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:chevron-left$$
+    "&kp LA(F4)":
+      tap: $$mdi:application-outline$$
+      hold: $$mdi:window-close$$
+
+    "&sk MEH":
+      tap: $$mdi:star-three-points$$
+      hold: $$mdi:gesture-tap-hold$$
   # ZMK
+  zmk_remove_keycode_prefix: ["DE_"] 
   zmk_keycode_map:
     # Symbols
     EXCLAMATION: "!"
@@ -601,58 +712,59 @@ parse_config:
     Y: "Z"
     
     # Numbers
-    N1:
+    "1":
       tap: 1
       shifted: "!"
-    N2:
+    "2":
       tap: 2
       shifted: '"'
-    N3:
+    "3":
       tap: 3
       shifted: "§"
-    N4:
+    "4":
       tap: 4
       shifted: "$"
-    N5:
+    "5":
       tap: 5
       shifted: "%"
-    N6:
+    "6":
       tap: 6
       shifted: "&"
-    N7:
+    "7":
       tap: 7
       shifted: "/"
-    N8:
+    "8":
       tap: 8
       shifted: "("
-    N9:
+    "9":
       tap: 9
       shifted: ")"
-    N0:
+    "0":
       tap: 0
       shifted: "="
 
     # Modifiers
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
+    Sft: $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
-    RCTRL: $$mdi:apple-keyboard-control$$
-    RALT: $$mdi:apple-keyboard-option$$
-    RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
-    RCMD: $$mdi:apple-keyboard-command$$
+    Ctl: $$mdi:apple-keyboard-control$$
+    LCTRL: $$mdi:apple-keyboard-control$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    Alt: $$mdi:apple-keyboard-option$$
+    AGr: $$mdi:apple-keyboard-option$$
+    LALT: $$mdi:apple-keyboard-option$$
+    RALT: $$mdi:apple-keyboard-option$$
+    Gui: $$mdi:apple-keyboard-command$$
+    LCMD: $$mdi:apple-keyboard-command$$
     # "Meh" key
-    LC(LS(LALT)): $$mdi:star-three-points$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
-    LC(HOME): $$mdi:chevron-double-up$$
-    LC(END): $$mdi:chevron-double-down$$
+    Ctl+HOME: $$mdi:chevron-double-up$$
+    Ctl+END: $$mdi:chevron-double-down$$
 
     # Whitespace
     RET:
@@ -663,7 +775,6 @@ parse_config:
       tap: $$mdi:keyboard-return$$
     ESC: $$mdi:keyboard-esc$$
     TAB: $$mdi:keyboard-tab$$
-    LS(TAB): $$mdi:keyboard-tab-reverse$$
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE:
       type: backspace
@@ -673,8 +784,8 @@ parse_config:
       tap: $$mdi:backspace-outline$$
     DELETE: $$mdi:backspace-reverse-outline$$
     DEL: $$mdi:backspace-reverse-outline$$
-    LC(BSPC): $$mdi:backspace$$
-    LC(DEL): $$mdi:backspace-reverse$$
+    Ctl+BSPC: $$mdi:backspace$$
+    Ctl+DEL: $$mdi:backspace-reverse$$
 
     # Locks
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
@@ -703,31 +814,21 @@ parse_config:
     C_AL_LOCK: $$mdi:lock$$
     K_CANCEL: $$mdi:close-box$$
 
-    # Teams
-    LC(LS(K)):
-      tap: $$mdi:hand-front-right-outline$$
-      hold: Teams
-    LC(LS(M)):
-      tap: $$mdi:microphone$$
-      hold: Teams
-    LC(LS(O)):
-      tap: $$mdi:video$$
-      hold: Teams
 
     # Clipboard
-    LC(Y):
+    Ctl+ Y:
       tap: $$mdi:undo-variant$$
       hold: "Undo"
-    LC(Z):
+    Ctl+ Z:
       tap: $$mdi:redo-variant$$
       hold: "Redo"
-    LC(X):
+    Ctl+ X:
       tap: $$mdi:content-cut$$
       hold: "Cut"
-    LC(INS): 
+    Ctl+INS: 
       tap: $$mdi:content-copy$$
       hold: "Copy"
-    LS(INS):
+    Sft+INS:
       tap: $$mdi:content-paste$$
       hold: "Paste"
     PG_UP:
@@ -739,62 +840,37 @@ parse_config:
     END:
       tap: $$mdi:page-last$$
 
-    # Tabs, Window and Desktop
-    LG(LC(LEFT)):
-      tap: $$mdi:monitor$$
-      hold: $$mdi:chevron-left-box-outline$$
-    LG(LC(RIGHT)):
-      tap: $$mdi:monitor$$
-      hold: $$mdi:chevron-right-box-outline$$
-    LC(LS(TAB)):
-      tap: $$mdi:tab$$
-      hold: $$mdi:chevron-left$$
-    LC(TAB):
-      tap: $$mdi:tab$$
-      hold: $$mdi:chevron-right$$
-    LG(LS(LEFT)):
-      tap: $$mdi:application-outline$$
-      hold: $$mdi:pan-left$$
-    LG(LS(RIGHT)):
-      tap: $$mdi:application-outline$$
-      hold: $$mdi:pan-right$$
-    LS(TAB):
-      tap: $$mdi:application-outline$$
-      hold: $$mdi:chevron-left$$
-    LA(F4):
-      tap: $$mdi:application-outline$$
-      hold: $$mdi:window-close$$
 
     # Symbols
-    RA(N7): "{"
-    RA(N8): "["
-    LS(N8): "("
-    RA(MINUS): '\'
-    LS(N5): "%"
-    LS(N4): "$"
-    RA(E): "€"
-    LS(RBKT): "*"
-    LS(N1): "!"
-    RA(Q): "@"
-    LS(N6): "&"
-    RA(NON_US_BSLH): "|"
-    RA(GRAVE): "~"
-    RA(RBKT): "~"
-    LS(NON_US_HASH): "'"
-    LS(N2): '"'
-    LS(EQUAL): "`"
-    LS(N7): "/"
-    LS(N9): ")"
-    RA(N9): "]"
-    RA(N0): "}"
-    LS(NON_US_BSLH): ">"
-    LS(FSLH): "_"
-    LS(N0): "="
-    LS(MINUS): "?"
-    LS(N0): "="
-    LS(RBKT): "*"
-    LC(LEFT): "$$mdi:chevron-double-left$$"
-    LC(RIGHT): "$$mdi:chevron-double-right$$"    
+    AGr+7: "{"
+    AGr+8: "["
+    Sft+8: "("
+    AGr+MINUS: '\'
+    Sft+5: "%"
+    "Sft+ 4": "$"
+    AGr+ E: "€"
+    Sft+RBKT: "*"
+    Sft+1: "!"
+    AGr+ Q: "@"
+    Sft+6: "&"
+    AGr+NON_US_BSLH: "|"
+    AGr+GRAVE: "~"
+    AGr+RBKT: "~"
+    Sft+NON_US_HASH: "'"
+    Sft+2: '"'
+    Sft+EQUAL: "`"
+    Sft+7: "/"
+    Sft+9: ")"
+    AGr+9: "]"
+    AGr+0: "}"
+    Sft+NON_US_BSLH: ">"
+    Sft+FSLH: "_"
+    Sft+0: "="
+    Sft+MINUS: "?"
+    Sft+0: "="
+    Sft+RBKT: "*"
+    Ctl+LEFT: "$$mdi:chevron-double-left$$"
+    Ctl+RIGHT: "$$mdi:chevron-double-right$$"
     C_AL_CALC:
       tap: $$mdi:calculator$$
 
@@ -835,9 +911,114 @@ parse_config:
     combo_puq_de_ss:
       key:
         tap: "ß"
+    combo_at:
+      key:
+        tap: "@"
+      draw_separate: true
+    combo_hash:
+      key:
+        tap: "#"
+      draw_separate: true
+    combo_dllr:
+      key:
+        tap: "$"
+      draw_separate: true
+    combo_prcnt:
+      key:
+        tap: "%"
+      draw_separate: true
+    combo_grave:
+      key:
+        tap: "`"
+      draw_separate: true
+    combo_caret:
+      key:
+        tap: "^"
+      draw_separate: true
+    combo_bslh:
+      key:
+        tap: "\\"
+      draw_separate: true
+    combo_plus:
+      key:
+        tap: "+"
+      draw_separate: true
+    combo_equal:
+      key:
+        tap: "="
+      draw_separate: true
+    combo_tilde:
+      key:
+        tap: "~"
+      draw_separate: true
+    combo_star:
+      key:
+        tap: "*"
+      draw_separate: true
+    combo_amps:
+      key:
+        tap: "&"
+      draw_separate: true
+    combo_under:
+      key:
+        tap: "_"
+      draw_separate: true
+    combo_minus:
+      key:
+        tap: "-"
+      draw_separate: true
+    combo_fslh:
+      key:
+        tap: "/"
+      draw_separate: true
+    combo_pipe:
+      key:
+        tap: "|"
+      draw_separate: true
+    combo_lpar:
+      key:
+        tap: "("
+      draw_separate: true
+    combo_rpar:
+      key:
+        tap: ")"
+      draw_separate: true
+    combo_lt:
+      key:
+        tap: "<"
+      draw_separate: true
+    combo_gt:
+      key:
+        tap: ">"
+      draw_separate: true
+    combo_lbkt:
+      key:
+        tap: "["
+      draw_separate: true
+    combo_rbkt:
+      key:
+        tap: "]"
+      draw_separate: true
+    combo_lbrc:
+      key:
+        tap: "{"
+      draw_separate: true
+    combo_rbrc:
+      key:
+        tap: "}"
+      draw_separate: true
+    combo_del:
+      key:
+        tap: $$mdi:backspace-reverse-outline$$
+      draw_separate: true
+    combo_bspc:
+      key:
+        tap: $$mdi:backspace-outline$$
+      draw_separate: true
     combo_del_word:
       key:
         tap: $$mdi:eraser$$
+      draw_separate: true
     combo_quicksave:
       key:
         tap: $$mdi:cloud-upload$$
@@ -847,20 +1028,26 @@ parse_config:
     combo_enter:
       key:
         tap: $$mdi:keyboard-return$$
+      draw_separate: true
     combo_cut:
       key:
         tap: $$mdi:content-cut$$
+      draw_separate: true
     combo_copy:
       key:
         tap: $$mdi:content-copy$$
+      draw_separate: true
     combo_paste:
       key:
         tap: $$mdi:content-paste$$
+      draw_separate: true
     combo_repeat:
       key:
         tap: $$mdi:repeat$$
+      draw_separate: true
     combo_mouse:
       align: top
       offset: 0.03
+      draw_separate: true
       key:
         tap: $$mdi:mouse$$
