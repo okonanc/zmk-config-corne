@@ -150,13 +150,13 @@ ZMK_BEHAVIOR(dot_inner_morph, mod_morph,
 
 // tap: qmark | shift + tap: excl
 ZMK_BEHAVIOR(qexcl, mod_morph,
-    bindings = <&kp DE_QMARK>, <&kp DE_EXCL>;
+    bindings = <&kp QMARK>, <&kp EXCL>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
 // tap: sqt | shift + tap: dqt
 ZMK_BEHAVIOR(sdq, mod_morph,
-    bindings = <&kp DE_SQT>, <&kp DE_DQT>;
+    bindings = <&kp SQT>, <&kp DQT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
@@ -186,13 +186,13 @@ ZMK_BEHAVIOR(bkspc_del, mod_morph,
 
 // tap: left-parenthesis | shft + tap: less-than
 ZMK_BEHAVIOR(lpar_lt, mod_morph,
-    bindings = <&kp DE_LPAR>, <&kp DE_LT>;
+    bindings = <&kp LPAR>, <&kp LT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
 // tap: right-parenthesis | shft + tap: greater-than
 ZMK_BEHAVIOR(rpar_gt, mod_morph,
-    bindings = <&kp DE_RPAR>, <&kp DE_GT>;
+    bindings = <&kp RPAR>, <&kp GT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
