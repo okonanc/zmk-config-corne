@@ -27,14 +27,14 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - Y
-  - X
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - C
   - V
   - B
   - N
   - M
   - {t: ',', s: ;}
-  - {t: ., s: ':'}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
@@ -47,8 +47,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - P
   - U
-  - {t: '?', s: '!'}
-  - {t: '''', s: '"'}
+  - '"'
+  - {t: ',', s: ;}
   - Q
   - G
   - C
@@ -70,15 +70,15 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - K
-  - Y
+  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., s: ':'}
-  - {t: ',', s: ;}
+  - {t: '''', s: '"'}
   - X
   - J
   - V
   - W
-  - B
-  - Z
+  - {t: B, h: '$$mdi:apple-keyboard-option$$'}
+  - Y
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - $$mdi:apple-keyboard-control$$
-  - Y
+  - Z
   - X
   - C
   - V
@@ -184,7 +184,7 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:power-standby$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -196,7 +196,7 @@ layers:
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:restart$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
@@ -208,7 +208,7 @@ layers:
   - F2
   - F3
   - F12
-  - $$mdi:logout$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -217,26 +217,26 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   sym:
   - {t: '$$mdi:transfer$$', type: trans}
-  - ''''
+  - {t: '''', s: '"'}
   - '%'
   - $
-  - €
+  - $
   - '*'
-  - {t: ^, s: °}
+  - ^
   - '~'
-  - ''''
+  - {t: '''', s: '"'}
   - '"'
-  - '`'
+  - {t: ^, s: °}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: <, s: '>'}
+  - <
   - '{'
-  - '['
+  - Ü
   - (
-  - \
-  - /
+  - '-'
+  - {t: \, s: '|'}
   - )
-  - ']'
+  - +
   - '}'
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,11 +245,11 @@ layers:
   - '@'
   - '#'
   - '&'
-  - '|'
+  - PIPE
   - _
-  - '-'
-  - '='
-  - +
+  - ß
+  - ''''
+  - {t: +, s: '*'}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -270,7 +270,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:power-standby$$
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-plug-battery-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -282,7 +282,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:restart$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,7 +294,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:logout$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -443,18 +443,6 @@ combos:
   k: {t: puq, h: '$$mdi:toggle-switch$$'}
   l: [def, gme]
   a: bottom
-- p: [3, 16]
-  k: Ä
-  l: [def, puq]
-- p: [34, 22]
-  k: ß
-  l: [def, puq]
-- p: [3, 17]
-  k: Ö
-  l: [def, puq]
-- p: [3, 2]
-  k: Ü
-  l: [def, puq]
 - p: [14, 15]
   k: $$mdi:cloud-upload$$
   l: [gme]
