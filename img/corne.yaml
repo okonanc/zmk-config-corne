@@ -93,7 +93,7 @@ layers:
   - W
   - E
   - R
-  - Z
+  - DE Z
   - U
   - I
   - O
@@ -220,7 +220,7 @@ layers:
   - ^
   - '%'
   - $
-  - $
+  - €
   - '*'
   - ^
   - '~'
@@ -375,11 +375,11 @@ layers:
   - F2
   - F3
   - F12
-  - Ctl+ Z
+  - Ctl+ DE Z
   - Ctl+ X
   - Ctl+ INS
   - Sft+ INS
-  - Ctl+ Y
+  - Ctl+ DE Y
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
