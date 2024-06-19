@@ -50,8 +50,8 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 100
 
-#include "combos.dtsi"
 #include "behaviors.dtsi"
+#include "combos.dtsi"
 //#include "dances.dtsi"
 #include "hd2_macros.dtsi"
 
