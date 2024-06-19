@@ -150,6 +150,10 @@ SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 // tap: sqt | shift + tap: dqt
 SIMPLE_MORPH(sdq, SFT, &kp SQT, &kp DQT)
 
+// tap: left/right parenthesis | shft + tap: less-than/greater-than
+SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
+SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
+
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
 ZMK_HOLD_TAP(lt_spc,
     flavor = "balanced";
