@@ -415,6 +415,7 @@ parse_config:
       tap: "."
       hold: $$mdi:apple-keyboard-option$$
       shifted: ":"
+    "&hml MEH G":
     # Mouse Layer
     "&mwh SCROLL_VERT(-100)": $$mdi:pan-down$$
     "&mwh SCROLL_VERT(100)": $$mdi:pan-up$$
@@ -759,6 +760,7 @@ parse_config:
     RALT: $$mdi:apple-keyboard-option$$
     Gui: $$mdi:apple-keyboard-command$$
     LCMD: $$mdi:apple-keyboard-command$$
+    MEH: $$mdi:star-three-points$$
     # "Meh" key
 
     # Arrows
