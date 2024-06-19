@@ -520,7 +520,7 @@ parse_config:
       shifted: "!"
 
     # SYM Layer
-    "&curr_euro":
+    "&kp RA(N5)":
       tap: "€"
     "&kp ACUT":
       tap: "'"
