@@ -2,7 +2,7 @@
  * helper.h
  *
  * Convenience macros simplifying ZMK's keymap configuration.
- * See https://github.com/urob/zmk-nodefree-config for documentation.
+ * See https://github.com/urob/zmk-helpers for documentation.
  */
 
 #pragma once
@@ -38,6 +38,20 @@
             }; \
         }; \
     };
+
+#define ZMK_CAPS_WORD(name, ...) ZMK_BEHAVIOR(name, caps_word, __VA_ARGS__)
+#define ZMK_HOLD_TAP(name, ...) ZMK_BEHAVIOR(name, hold_tap, __VA_ARGS__)
+#define ZMK_KEY_REPEAT(name, ...) ZMK_BEHAVIOR(name, key_repeat, __VA_ARGS__)
+#if ZMK_HELPERS_KEEP_NATIVE != 1
+    #undef ZMK_MACRO
+    #define ZMK_MACRO(name, ...) ZMK_BEHAVIOR(name, macro, __VA_ARGS__)
+#endif
+#define ZMK_MACRO_ONE_PARAM(name, ...) ZMK_BEHAVIOR(name, macro_one_param, __VA_ARGS__)
+#define ZMK_MACRO_TWO_PARAM(name, ...) ZMK_BEHAVIOR(name, macro_two_param, __VA_ARGS__)
+#define ZMK_MOD_MORPH(name, ...) ZMK_BEHAVIOR(name, mod_morph, __VA_ARGS__)
+#define ZMK_STICKY_KEY(name, ...) ZMK_BEHAVIOR(name, sticky_key, __VA_ARGS__)
+#define ZMK_TAP_DANCE(name, ...) ZMK_BEHAVIOR(name, tap_dance, __VA_ARGS__)
+#define ZMK_TRI_STATE(name, ...) ZMK_BEHAVIOR(name, tri_state, __VA_ARGS__)
 
 /* ZMK_LAYER */
 
@@ -163,3 +177,9 @@
     UC_MACRO(name ## _upper, &kp U0 &kp U1 &kp U2 &kp U3) \
     UC_MODMORPH(name, &name ## _lower, &name ## _upper)
 
+/* ZMK_APPLY_MATRIX_TRANSFORM */
+
+#define ZMK_APPLY_MATRIX_TRANSFORM(transform) \
+    / { \
+        chosen { zmk,matrix_transform = &transform; }; \
+    };

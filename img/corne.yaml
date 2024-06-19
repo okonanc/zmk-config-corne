@@ -33,15 +33,15 @@ layers:
   - B
   - N
   - M
-  - '&comma_morph'
-  - '&dot_morph'
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&smart_shift'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - SYM
   puq:
   - $$mdi:keyboard-esc$$
@@ -71,8 +71,8 @@ layers:
   - {t: FNC, h: '$$mdi:close-box$$'}
   - K
   - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
-  - '&dot_morph'
-  - '&comma_morph'
+  - {t: ., s: ':'}
+  - {t: ',', s: ;}
   - X
   - J
   - V
@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&smart_shift'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - SYM
   gme:
   - T
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: num}
   - {t: '$$mdi:apple-keyboard-shift$$', h: hd2}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - '&smart_shift'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-down$$
-  - '&mt_home 0 LEFT'
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
   - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+ $$mdi:page-last$$'}
-  - '&mt_end 0 RIGHT'
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}

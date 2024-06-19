@@ -1,3 +1,4 @@
+
 &sk {  // sticky-key config
     release-after-ms = <900>;  // release after 0.9s
     quick-release;             // no double capitalization when rolling keys
@@ -20,7 +21,7 @@
 #define THUMBS LH2 LH1 LH0 RH0 RH1 RH2                                      // thumbs
 
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
-    ZMK_BEHAVIOR(NAME, hold_tap, \
+    ZMK_HOLD_TAP(NAME, \
         flavor = "balanced"; \
         tapping-term-ms = <280>; \
         quick-tap-ms = <QUICK_TAP_MS>; \
