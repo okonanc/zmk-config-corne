@@ -411,7 +411,10 @@ parse_config:
       hold: SYM
     "&mo SYM":
       tap: SYM
-
+    "&hmr_alt_dot RALT 0":
+      tap: "."
+      hold: $$mdi:apple-keyboard-option$$
+      shifted: ":"
     # Mouse Layer
     "&mwh SCROLL_VERT(-100)": $$mdi:pan-down$$
     "&mwh SCROLL_VERT(100)": $$mdi:pan-up$$
