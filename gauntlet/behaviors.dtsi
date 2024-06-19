@@ -178,7 +178,7 @@ ZMK_TAP_DANCE(copy_cut,
 )
 
 // Windows sleep key
-ZMK_MACRO(win_sleep,
+ZMK_BEHAVIOR(win_sleep, macro,
     wait-ms = <500>;
     tap-ms = <50>;
     bindings = <&kp LG(X) &kp U &kp S>;
