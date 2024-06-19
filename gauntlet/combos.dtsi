@@ -84,11 +84,11 @@ ZMK_COMBO(equal     , &kp EQUAL   , LM1 LB1    , DEF             PUQ , COMBO_TER
 ZMK_COMBO(tilde     , &kp TILDE   , LM0 LB0    , DEF             PUQ , COMBO_TERM_SLOW)
 
 /* Horizontal combos - right hand */
-ZMK_COMBO(bspc      , &kp BSPC    , RT1 RT2    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(del       , &kp DEL     , RT2 RT3    , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(bspc      , &kp BSPC       , RT1 RT2    , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(del       , &kp DEL        , RT2 RT3    , DEF             PUQ , COMBO_TERM_FAST)
 
-ZMK_COMBO(lpar      , HRC_LPAR    , RM1 RM2    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(rpar      , HRC_RPAR    , RM2 RM3    , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(lpar      , HRC_LPAR       , RM1 RM2    , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(rpar      , HRC_RPAR       , RM2 RM3    , DEF             PUQ , COMBO_TERM_FAST)
 ZMK_COMBO(lt        , &kp LT      , RM1 RM2    ,     NUM             , COMBO_TERM_FAST)
 ZMK_COMBO(gt        , &kp GT      , RM2 RM3    ,     NUM             , COMBO_TERM_FAST)
 
