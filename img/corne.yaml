@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - {t: ',', s: ;}
-  - {t: ., s: ':'}
+  - '&hmr_alt_dot RALT 0'
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
