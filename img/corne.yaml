@@ -33,7 +33,8 @@ layers:
   - B
   - N
   - M
-  - '&comma_morph HMR_DOT_ALT'
+  - '&comma_morph'
+  - '&dot_morph'
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
