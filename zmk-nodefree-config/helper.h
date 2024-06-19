@@ -39,7 +39,7 @@
         }; \
     };
 
-#define ZMK_HELPERS_KEEP_NATIVE = 0
+#define ZMK_HELPERS_KEEP_NATIVE 0
 
 #define ZMK_CAPS_WORD(name, ...) ZMK_BEHAVIOR(name, caps_word, __VA_ARGS__)
 #define ZMK_HOLD_TAP(name, ...) ZMK_BEHAVIOR(name, hold_tap, __VA_ARGS__)
