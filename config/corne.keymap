@@ -5,7 +5,7 @@
  */
 
 #define MOUSE_KEYS 0
-#define ZMK_HELPERS_KEEPS_NATIVE 0
+#define ZMK_HELPERS_KEEPS_NATIVE = 0
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
