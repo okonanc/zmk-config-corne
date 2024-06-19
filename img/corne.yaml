@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - {t: ',', s: ;}
-  - '&hmr_alt_dot RALT 0'
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
