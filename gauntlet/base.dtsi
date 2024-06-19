@@ -26,6 +26,8 @@
 #define XXX &none
 #define ___ &trans
 
+/* Global settings */
+
 // Meh key
 #define MEH             LC(LS(LALT)) 
 

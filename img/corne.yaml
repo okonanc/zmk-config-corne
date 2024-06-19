@@ -14,34 +14,33 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: H, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: P, h: '$$mdi:apple-keyboard-command$$'}
+  - '&hml LCMD A'
+  - '&hml LALT S'
+  - '&hml LCTRL D'
+  - '&hml LSHFT F'
+  - '&hml LC(LS(LALT)) G'
+  - '&hmr LC(LS(LALT)) H'
+  - '&hmr RSHFT J'
+  - '&hmr LCTRL K'
+  - '&hmr LALT L'
+  - '&hmr LCMD P'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - Y
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - '&hml RALT X'
   - C
   - V
   - B
   - N
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
+  - '&comma_morph HMR_DOT_ALT'
   - {t: '?', s: '!'}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - '&smart_shift'
   - SYM
   puq:
   - $$mdi:keyboard-esc$$
@@ -57,34 +56,34 @@ layers:
   - F
   - $$mdi:close-box$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: D, h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - '&hml LCMD H'
+  - '&hml LALT I'
+  - '&hml LCTRL E'
+  - '&hml LSHFT A'
+  - '&hml LC(LS(LALT)) O'
+  - '&hml LC(LS(LALT)) D'
+  - '&hmr RSHFT T'
+  - '&hmr LCTRL R'
+  - '&hmr LALT N'
+  - '&hmr LCMD S'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - K
-  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ., s: ':'}
-  - {t: ',', s: ;}
+  - '&hml RALT Y'
+  - '&dot_morph'
+  - '&comma_morph'
   - X
   - J
   - V
   - W
-  - {t: B, h: '$$mdi:apple-keyboard-option$$'}
+  - '&hmr RALT B'
   - Y
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - '&smart_shift'
   - SYM
   gme:
   - T
@@ -127,7 +126,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: num}
   - {t: '$$mdi:apple-keyboard-shift$$', h: hd2}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - '&smart_shift'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,14 +143,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-down$$
-  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
+  - '&mt_home 0 LEFT'
   - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+ $$mdi:page-last$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
+  - '&mt_end 0 RIGHT'
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '6', h: '$$mdi:apple-keyboard-option$$'}
+  - '&hmr RSHFT N4'
+  - '&hmr LCTRL N5'
+  - '&hmr LALT N6'
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,14 +187,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '&hml LCTRL C_VOL_DN'
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:volume-off$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:microphone$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$', s: '$$mdi:microsoft-teams$$'}
-  - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
+  - '&hml LC(LS(LALT)) C_MUTE'
+  - '&hmr LC(LS(LALT)) LC(LS(M))'
+  - '&hmr RSHFT F4'
+  - '&hmr LCTRL F5'
+  - '&hmr LALT F6'
+  - '&hmr LCMD F11'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

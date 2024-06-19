@@ -9,22 +9,30 @@
 
 #define ZMK_HELPER_STRINGIFY(x) #x
 
+// Preprocessor mechanism to overload macros, cf. https://stackoverflow.com/a/27051616/6114651
+#define VARGS_(_10, _9, _8, _7, _6, _5, _4, _3, _2, _1, N, ...) N
+#define VARGS(...) VARGS_(__VA_ARGS__, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+#define CONCAT_(a, b) a##b
+#define CONCAT(a, b) CONCAT_(a, b)
+
 /* ZMK_BEHAVIOR */
 
-#define ZMK_BEHAVIOR_CORE_caps_word   compatible = "zmk,behavior-caps-word";  #binding-cells = <0>
-#define ZMK_BEHAVIOR_CORE_hold_tap    compatible = "zmk,behavior-hold-tap";   #binding-cells = <2>
-#define ZMK_BEHAVIOR_CORE_key_repeat  compatible = "zmk,behavior-key-repeat"; #binding-cells = <0>
-#define ZMK_BEHAVIOR_CORE_macro       compatible = "zmk,behavior-macro";      #binding-cells = <0>
-#define ZMK_BEHAVIOR_CORE_mod_morph   compatible = "zmk,behavior-mod-morph";  #binding-cells = <0>
-#define ZMK_BEHAVIOR_CORE_sticky_key  compatible = "zmk,behavior-sticky-key"; #binding-cells = <1>
-#define ZMK_BEHAVIOR_CORE_tap_dance   compatible = "zmk,behavior-tap-dance";  #binding-cells = <0>
-#define ZMK_BEHAVIOR_CORE_tri_state   compatible = "zmk,behavior-tri-state";  #binding-cells = <0>
+#define ZMK_BEHAVIOR_CORE_caps_word       compatible = "zmk,behavior-caps-word";       #binding-cells = <0>
+#define ZMK_BEHAVIOR_CORE_dynamic_macro   compatible = "zmk,behavior-dynamic-macro";   #binding-cells = <1>
+#define ZMK_BEHAVIOR_CORE_hold_tap        compatible = "zmk,behavior-hold-tap";        #binding-cells = <2>
+#define ZMK_BEHAVIOR_CORE_key_repeat      compatible = "zmk,behavior-key-repeat";      #binding-cells = <0>
+#define ZMK_BEHAVIOR_CORE_macro           compatible = "zmk,behavior-macro";           #binding-cells = <0>
+#define ZMK_BEHAVIOR_CORE_macro_one_param compatible = "zmk,behavior-macro-one-param"; #binding-cells = <1>
+#define ZMK_BEHAVIOR_CORE_macro_two_param compatible = "zmk,behavior-macro-two-param"; #binding-cells = <2>
+#define ZMK_BEHAVIOR_CORE_mod_morph       compatible = "zmk,behavior-mod-morph";       #binding-cells = <0>
+#define ZMK_BEHAVIOR_CORE_sticky_key      compatible = "zmk,behavior-sticky-key";      #binding-cells = <1>
+#define ZMK_BEHAVIOR_CORE_tap_dance       compatible = "zmk,behavior-tap-dance";       #binding-cells = <0>
+#define ZMK_BEHAVIOR_CORE_tri_state       compatible = "zmk,behavior-tri-state";       #binding-cells = <0>
 
 #define ZMK_BEHAVIOR(name, type, ...) \
     / { \
         behaviors { \
             name: name { \
-                label = ZMK_HELPER_STRINGIFY(ZB_ ## name); \
                 ZMK_BEHAVIOR_CORE_ ## type; \
                 __VA_ARGS__ \
             }; \
@@ -33,24 +41,23 @@
 
 /* ZMK_LAYER */
 
-#define MACRO_CHOOSER3(_1, _2, _3, FUNC, ...) FUNC
-#define ZMK_LAYER(...) MACRO_CHOOSER3(__VA_ARGS__, ZMK_LAYER_3_ARGS, ZMK_LAYER_2_ARGS)(__VA_ARGS__)
-#define ZMK_LAYER_2_ARGS(name, layout) \
+#define ZMK_LAYER(...) CONCAT(ZMK_LAYER_, VARGS(__VA_ARGS__))(__VA_ARGS__)
+#define ZMK_LAYER_2(_name, layout) \
     / { \
         keymap { \
             compatible = "zmk,keymap"; \
-            layer_ ## name { \
-                label = ZMK_HELPER_STRINGIFY(name); \
+            layer_ ## _name { \
+                display-name = ZMK_HELPER_STRINGIFY(_name); \
                 bindings = <layout>; \
             }; \
         }; \
     };
-#define ZMK_LAYER_3_ARGS(name, layout, sensors) \
+#define ZMK_LAYER_3(_name, layout, sensors) \
     / { \
         keymap { \
             compatible = "zmk,keymap"; \
-            layer_ ## name { \
-                label = ZMK_HELPER_STRINGIFY(name); \
+            layer_ ## _name { \
+                display-name = ZMK_HELPER_STRINGIFY(_name); \
                 bindings = <layout>; \
                 sensor-bindings = <sensors>; \
             }; \
@@ -63,15 +70,17 @@
 #if !defined COMBO_TERM
     #define COMBO_TERM 30
 #endif
-#if !defined COMBO_HOOK
-    #define COMBO_HOOK
-#endif
 
-#define MACRO_CHOOSER5(_1, _2, _3, _4, _5, FUNC, ...) FUNC
-#define ZMK_COMBO(...) MACRO_CHOOSER5(__VA_ARGS__, ZMK_COMBO_5_ARGS, ZMK_COMBO_4_ARGS)(__VA_ARGS__)
-#define ZMK_COMBO_4_ARGS(name, combo_bindings, keypos, combo_layers) \
-    ZMK_COMBO_5_ARGS(name, combo_bindings, keypos, combo_layers, COMBO_TERM)
-#define ZMK_COMBO_5_ARGS(name, combo_bindings, keypos, combo_layers, combo_timeout) \
+#define ZMK_COMBO(...) CONCAT(ZMK_COMBO_, VARGS(__VA_ARGS__))(__VA_ARGS__)
+#define ZMK_COMBO_3(name, combo_bindings, keypos) \
+    ZMK_COMBO_4(name, combo_bindings, keypos, ALL)
+#define ZMK_COMBO_4(name, combo_bindings, keypos, combo_layers) \
+    ZMK_COMBO_5(name, combo_bindings, keypos, combo_layers, COMBO_TERM)
+#define ZMK_COMBO_5(name, combo_bindings, keypos, combo_layers, combo_timeout) \
+    ZMK_COMBO_6(name, combo_bindings, keypos, combo_layers, combo_timeout, 0)
+#define ZMK_COMBO_6(name, combo_bindings, keypos, combo_layers, combo_timeout, combo_idle) \
+    ZMK_COMBO_7(name, combo_bindings, keypos, combo_layers, combo_timeout, combo_idle, )
+#define ZMK_COMBO_7(name, combo_bindings, keypos, combo_layers, combo_timeout, combo_idle, combo_vaargs) \
     / { \
         combos { \
             compatible = "zmk,combos"; \
@@ -80,7 +89,8 @@
                 bindings = <combo_bindings>; \
                 key-positions = <keypos>; \
                 layers = <combo_layers>; \
-                COMBO_HOOK \
+                require-prior-idle-ms = <combo_idle>; \
+                combo_vaargs \
             }; \
         }; \
     };
@@ -124,7 +134,6 @@
         macros { \
             name: name { \
                 compatible = "zmk,behavior-macro"; \
-                label = ZMK_HELPER_STRINGIFY(UC_MACRO_ ## name); \
                 wait-ms = <0>; \
                 tap-ms = <0>; \
                 #binding-cells = <0>; \
@@ -138,7 +147,6 @@
         behaviors { \
             name: name { \
                 compatible = "zmk,behavior-mod-morph"; \
-                label = ZMK_HELPER_STRINGIFY(UC_MORPH_ ## name); \
                 #binding-cells = <0>; \
                 bindings = <uc_binding>, <shifted_uc_binding>; \
                 mods = <(MOD_LSFT|MOD_RSFT)>; \
@@ -154,3 +162,4 @@
     UC_MACRO(name ## _lower, &kp L0 &kp L1 &kp L2 &kp L3) \
     UC_MACRO(name ## _upper, &kp U0 &kp U1 &kp U2 &kp U3) \
     UC_MODMORPH(name, &name ## _lower, &name ## _upper)
+
