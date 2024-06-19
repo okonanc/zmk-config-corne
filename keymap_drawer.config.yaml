@@ -520,62 +520,62 @@ parse_config:
       shifted: "!"
 
     # SYM Layer
-    "&kp DE_ACUT":
+    "&kp ACUT":
       tap: "'"
-    "&kp DE_PRCNT":
+    "&kp PRCNT":
       tap: "%"
-    "&kp DE_DLLR":
+    "&kp DLLR":
       tap: "$"
-    "&kp DE_EURO":
+    "&kp EURO":
       tap: "€"
-    "&kp DE_STAR":
+    "&kp STAR":
       tap: "*"
-    "&kp DE_LBRC":
+    "&kp LBRC":
       tap: "{"
-    "&kp DE_LBKT":
+    "&kp LBKT":
       tap: "["
-    "&kp DE_LPAR":
+    "&kp LPAR":
       tap: "("
-    "&kp DE_BSLH":
+    "&kp BSLH":
       tap: "\\"
-    "&kp DE_EXCL":
+    "&kp EXCL":
       tap: "!"
-    "&kp DE_AT":
+    "&kp AT":
       tap: "@"
-    "&kp DE_HASH":
+    "&kp HASH":
       tap: "#"
-    "&kp DE_AMPS":
+    "&kp AMPS":
       tap: "&"
-    "&kp DE_PIPE":
+    "&kp PIPE":
       tap: "|"
-    "&kp DE_TILDE":
+    "&kp TILDE":
       tap: "~"
       shifted: ""
-    "&kp DE_SQT":
+    "&kp SQT":
       tap: "'"
-    "&kp DE_DQT":
+    "&kp DQT":
       tap: "\""
-    "&kp DE_GRAVE":
+    "&kp GRAVE":
       tap: "`"
-    "&kp DE_FSLH":
+    "&kp FSLH":
       tap: "/"
-    "&kp DE_RPAR":
+    "&kp RPAR":
       tap: ")"
-    "&kp DE_RBKT":
+    "&kp RBKT":
       tap: "]"
-    "&kp DE_RBRC":
+    "&kp RBRC":
       tap: "}"
-    "&kp DE_GT":
+    "&kp GT":
       tap: ">"
-    "&kp DE_UNDER":
+    "&kp UNDER":
       tap: "_"
-    "&kp DE_MINUS":
+    "&kp MINUS":
       tap: "-"
-    "&kp DE_EQUAL":
+    "&kp EQUAL":
       tap: "="
-    "&kp DE_PLUS":
+    "&kp PLUS":
       tap: "+"
-    "&kp DE_QMARK":
+    "&kp QMARK":
       tap: "?"
 
     # Teams
@@ -627,7 +627,7 @@ parse_config:
       tap: $$mdi:star-three-points$$
       hold: $$mdi:gesture-tap-hold$$
   # ZMK
-  zmk_remove_keycode_prefix: ["DE_"] 
+  zmk_remove_keycode_prefix: [""] 
   zmk_keycode_map:
     # Symbols
     EXCLAMATION: "!"

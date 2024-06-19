@@ -224,19 +224,19 @@ layers:
   - '*'
   - ^
   - '~'
-  - {t: '''', s: '"'}
+  - ''''
   - '"'
-  - {t: ^, s: °}
+  - '`'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '{'
-  - Ü
+  - '['
   - (
-  - '-'
-  - {t: \, s: '|'}
+  - /
+  - \
   - )
-  - +
+  - ']'
   - '}'
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,11 +245,11 @@ layers:
   - '@'
   - '#'
   - '&'
-  - PIPE
+  - '|'
   - _
-  - ß
-  - ''''
-  - {t: +, s: '*'}
+  - '-'
+  - '='
+  - +
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
