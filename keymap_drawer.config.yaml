@@ -525,6 +525,8 @@ parse_config:
     "&sdq":
       tap: "'"
       shifted: "\""
+    "&ndk_dqt":
+      tap: "\""
     "&ndk_sqt":
       tap: "'"
     "&qexcl":
@@ -568,7 +570,7 @@ parse_config:
     "&kp SQT":
       tap: "'"
     "&kp DQT":
-      tap: "\""
+      tap: $$mdi:skull-outline$$
     "&kp GRAVE":
       tap: "`"
     "&kp FSLH":
