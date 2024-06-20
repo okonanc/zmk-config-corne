@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - Z
+  - Y
   - U
   - I
   - O
@@ -26,7 +26,7 @@ layers:
   - {t: P, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
-  - Y
+  - Z
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - C
   - V
@@ -70,7 +70,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: FNC, h: '$$mdi:close-box$$'}
   - K
-  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Y, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., s: ':'}
   - ''''
   - X
@@ -78,7 +78,7 @@ layers:
   - V
   - W
   - {t: B, h: '$$mdi:apple-keyboard-option$$'}
-  - Y
+  - Z
   - {t: FNC, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
@@ -93,7 +93,7 @@ layers:
   - W
   - E
   - R
-  - Y
+  - Z
   - U
   - I
   - O
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - $$mdi:apple-keyboard-control$$
-  - Z
+  - Y
   - X
   - C
   - V
@@ -375,11 +375,11 @@ layers:
   - F2
   - F3
   - F12
-  - Ctl+ Y
+  - Ctl+ Z
   - Ctl+ X
   - Ctl+ INS
   - Sft+ INS
-  - Ctl+ Z
+  - Ctl+ Y
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

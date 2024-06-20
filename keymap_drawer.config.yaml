@@ -738,8 +738,6 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
-    Z: "Y"
-    Y: "Z"
     
     # Numbers
     "1":
