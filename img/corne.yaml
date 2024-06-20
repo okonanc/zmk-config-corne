@@ -375,11 +375,11 @@ layers:
   - F2
   - F3
   - F12
-  - Ctl+ DE Z
+  - Ctl+ Y
   - Ctl+ X
   - Ctl+ INS
   - Sft+ INS
-  - Ctl+ DE Y
+  - Ctl+ Z
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
