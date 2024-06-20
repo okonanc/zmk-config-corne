@@ -415,6 +415,8 @@ parse_config:
       tap: "."
       hold: $$mdi:apple-keyboard-option$$
       shifted: ":"
+
+    # MEH
     "&hml MEH O":
       tap: "O"
       hold: $$mdi:star-three-points$$ 
@@ -427,6 +429,14 @@ parse_config:
     "&hml MEH D":
       tap: "D"
       hold: $$mdi:star-three-points$$ 
+    "&hmr MEH TEAMS_TA":
+      tap: $$mdi:microphone$$
+      shifted: $$mdi:microsoft-teams$$
+      hold: $$mdi:star-three-points$$
+    "&hml MEH C_MUTE":
+      tap: $$mdi:volume-off$$
+      hold: $$mdi:star-three-points$$
+
     # Mouse Layer
     "&mwh SCROLL_VERT(-100)": $$mdi:pan-down$$
     "&mwh SCROLL_VERT(100)": $$mdi:pan-up$$
