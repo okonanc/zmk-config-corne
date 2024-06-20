@@ -763,6 +763,7 @@ path.combo {
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:skull-outline" xlink:href="#mdi:skull-outline" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:skull-outline"/>
+<text x="0" y="-34" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>

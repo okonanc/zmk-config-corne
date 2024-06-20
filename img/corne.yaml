@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - P
   - U
-  - $$mdi:skull-outline$$
+  - {t: '$$mdi:skull-outline$$', s: '"'}
   - {t: ',', s: ;}
   - Q
   - G

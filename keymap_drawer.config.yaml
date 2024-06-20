@@ -571,6 +571,7 @@ parse_config:
       tap: "'"
     "&kp DQT":
       tap: $$mdi:skull-outline$$
+      shifted: "\""
     "&kp GRAVE":
       tap: "`"
     "&kp FSLH":
