@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:volume-off$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:microphone$$', h: 'Ctl+Sft+ $$mdi:apple-keyboard-option$$', s: '$$mdi:microsoft-teams$$'}
+  - {t: '$$mdi:volume-off$$', h: '$$mdi:star-three-points$$'}
+  - {t: '$$mdi:microphone$$', h: '$$mdi:star-three-points$$', s: '$$mdi:microsoft-teams$$'}
   - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F6, h: '$$mdi:apple-keyboard-option$$'}
