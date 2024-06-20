@@ -72,7 +72,7 @@ layers:
   - K
   - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ., s: ':'}
-  - '&ndk_sqt'
+  - ''''
   - X
   - J
   - V
