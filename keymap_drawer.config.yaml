@@ -525,6 +525,8 @@ parse_config:
     "&sdq":
       tap: "'"
       shifted: "\""
+    "&ndk_sqt":
+      tap: "'"
     "&qexcl":
       tap: "?"
       shifted: "!"

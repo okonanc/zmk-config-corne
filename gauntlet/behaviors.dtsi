@@ -189,12 +189,12 @@ ZMK_BEHAVIOR(win_sleep, macro,
 )
 
 // No-Dead-Key for single and double quote
-ZMK_BEHAVIOUR(ndk_dqt, macro,
+ZMK_BEHAVIOR(ndk_dqt, macro,
     wait-ms = <0>;
     tap-ms = <5>;
     bindings = <&kp DQT &kp SPACE>;
 )
-ZMK_BEHAVIOUR(ndk_sqt, macro,
+ZMK_BEHAVIOR(ndk_sqt, macro,
     wait-ms = <0>;
     tap-ms = <5>;
     bindings = <&kp SQT &kp SPACE>;
