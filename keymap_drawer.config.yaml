@@ -587,6 +587,7 @@ parse_config:
     "&kp TEAMS_TA":
       tap: $$mdi:microphone$$
       shifted: $$mdi:microsoft-teams$$
+      hold: $$mdi:star-three-points$$
     "&kp TEAMS_TV":
       tap: $$mdi:video$$
       shifted: $$mdi:microsoft-teams$$
@@ -810,7 +811,9 @@ parse_config:
     CAPS: $$mdi:apple-keyboard-caps$$
 
     # Sound
-    C_MUTE: $$mdi:volume-off$$
+    C_MUTE: 
+      tap: $$mdi:volume-off$$
+      hold: $$mdi:star-three-points$$
     C_VOL_UP: $$mdi:volume-high$$
     C_VOL_DN: $$mdi:volume-low$$
 
