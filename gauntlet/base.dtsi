@@ -54,7 +54,7 @@
 #include "hd2_macros.dtsi"
 
 // Alpha layer: uncomment desired, comment the others
-#include "../gauntlet/L0_qwertz.dtsi"
+#include "../gauntlet/L0_qwerty.dtsi"
 //#include "../gauntlet/L0_colemak_dhm.dtsi"
 //#include "../gauntlet/L0_Buteck.dtsi"
 #include "../gauntlet/L0_PUQ.dtsi"
