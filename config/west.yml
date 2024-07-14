@@ -7,13 +7,13 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/latest/develop/west/manifest.html#projects
   projects:
-    - name: zmk-urob
+    - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+    #- name: zmk
+    #  remote: zmkfirmware
+    #  revision: main
+    #  import: app/west.yml
   self:
     path: config
