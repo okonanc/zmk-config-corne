@@ -9,8 +9,8 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
-#config ZMK_USB
-#    default y
+config ZMK_USB
+    default y
 
 endif
 
@@ -22,15 +22,15 @@ config ZMK_SPLIT
 config ZMK_BLE
     default y
 
-if ZMK_DISPLAY
+#if ZMK_DISPLAY
 
-config I2C
-    default y
+#config I2C
+#    default y
 
-config SSD1306
-    default y
+#config SSD1306
+#    default y
 
-endif # ZMK_DISPLAY
+#endif # ZMK_DISPLAY
 
 #if LVGL
 #
