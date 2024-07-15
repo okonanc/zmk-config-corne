@@ -12,3 +12,6 @@ config SHIELD_CORNE_DONGLE
 
 config SHIELD_RESET_BUTTON
 	def_bool $(shields_list_contains,reset_button)
+
+config SHIELD_RESET_NRF52840
+    def_bool $(shields_list_contains,reset_nrf52840)
