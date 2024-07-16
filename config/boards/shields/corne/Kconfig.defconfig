@@ -18,9 +18,9 @@ if SHIELD_CORNE_LEFT
       default n
 endif
 
-if SHIELD_CORNE_LEFT_CENTRAL
+if SHIELD_CORNE_CENTRAL
     config ZMK_KEYBOARD_NAME
-        default "Infinity CLeft"
+        default "Infinity Corne"
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
       default y
    config ZMK_SPLIT_ROLE_CENTRAL
@@ -38,7 +38,7 @@ if SHIELD_CORNE_RIGHT
       default n
 endif
 
-if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORNE_LEFT_CENTRAL
+if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORNE_CENTRAL
     config ZMK_SPLIT
         default y
     config ZMK_BLE
