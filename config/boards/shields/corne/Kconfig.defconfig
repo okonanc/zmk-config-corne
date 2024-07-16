@@ -1,6 +1,6 @@
 if SHIELD_CORNE_DONGLE
     config ZMK_KEYBOARD_NAME
-        default "Infinity Corne Dongle"
+        default "Infinity Dongle"
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
    config ZMK_SPLIT_ROLE_CENTRAL
@@ -11,7 +11,7 @@ endif
 
 if SHIELD_CORNE_CENTRAL
     config ZMK_KEYBOARD_NAME
-        default "Infinity Corne Central"
+        default "Infinity Central"
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
       default y
    config ZMK_SPLIT_ROLE_CENTRAL
@@ -22,7 +22,7 @@ endif
 
 if SHIELD_CORNE_LEFT
     config ZMK_KEYBOARD_NAME
-        default "Infinity Corne Left"
+        default "Infinity Left"
    config ZMK_SPLIT_BLE_ROLE_CENTRAL
       default n
    config ZMK_SPLIT_ROLE_CENTRAL
@@ -31,7 +31,7 @@ endif
 
 if SHIELD_CORNE_RIGHT
     config ZMK_KEYBOARD_NAME
-        default "Infinity Corne Right"
+        default "Infinity Right"
    config ZMK_SPLIT_BLE_ROLE_CENTRAL
       default n
    config ZMK_SPLIT_ROLE_CENTRAL
