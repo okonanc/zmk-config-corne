@@ -40,10 +40,6 @@
             , <&gpio1 13 GPIO_ACTIVE_HIGH>
             , <&gpio1 11 GPIO_ACTIVE_HIGH>
             ;
-
-         input-gpios
-            = <&gpio1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            ;
      };
  
      default_transform: keymap_transform_0 {
