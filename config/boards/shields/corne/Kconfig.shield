@@ -12,3 +12,6 @@ config SHIELD_CORNE_CENTRAL
     
 config SHIELD_CORNE_DONGLE
     def_bool $(shields_list_contains,corne_dongle)
+
+config SHIELD_CORNE_DONGLE_RESET
+    def_bool $(shields_list_contains,corne_dongle_reset)

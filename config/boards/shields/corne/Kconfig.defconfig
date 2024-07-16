@@ -38,6 +38,11 @@ if SHIELD_CORNE_RIGHT
       default n
 endif
 
+if SHIELD_CORNE_DONGLE_RESET
+    config ZMK_KEYBOARD_NAME
+        default "Dongle Reset"
+endif
+
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORNE_CENTRAL
     config ZMK_SPLIT
         default y

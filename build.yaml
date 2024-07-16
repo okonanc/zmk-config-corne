@@ -29,5 +29,4 @@ include:
   - board: nrf52840_mdk_usb_dongle
     shield: corne_dongle
   - board: nrf52840_mdk_usb_dongle
-    shield: settings_reset
-    cmake-args: -DCONFIG_BUILD_OUTPUT_UF2=y
+    shield: corne_dongle_reset

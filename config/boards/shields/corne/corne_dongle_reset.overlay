@@ -1,0 +1,38 @@
+
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+ #include <dt-bindings/zmk/matrix_transform.h>
+
+// / {
+//     chosen {
+//         zmk,kscan = &kscan0;
+//     };
+// 
+//     kscan0: kscan {
+//         compatible = "zmk,kscan-gpio-direct";
+//         label = "KSCAN";
+// 
+//         input-gpios
+//             = <&gpio0 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+//             ;
+//     };
+// 
+// };
+
+ &usbd {
+    status = "okay";
+    cdc_acm_uart: cdc_acm_uart {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};
+
+/ {
+
+    chosen {
+        zephyr,console = &cdc_acm_uart;
+    };
+};
