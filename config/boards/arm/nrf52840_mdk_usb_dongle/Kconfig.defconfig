@@ -29,15 +29,23 @@ if BOARD_NRF52840_MDK_USB_DONGLE
 		default 0x1000
 		depends on BOARD_HAS_NRF5_BOOTLOADER && !USE_DT_CODE_PARTITION
 
-	if USB_DEVICE_STACK
+	if USB
 
-		# Enable UART driver, needed for CDC ACM
-		config SERIAL
+		config USB_NRFX
 			default y
 
-	endif # USB_DEVICE_STACK
+		config USB_DEVICE_STACK
+			default y
+
+	endif # USB
 
 	config BT_CTLR
 		default BT
+
+	config ZMK_BLE
+		default y
+
+	config ZMK_USB
+		default y
 
 endif # BOARD_NRF52840_MDK_USB_DONGLE
