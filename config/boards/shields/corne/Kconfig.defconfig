@@ -40,7 +40,7 @@ endif
 
 if SHIELD_CORNE_DONGLE_RESET
     config ZMK_KEYBOARD_NAME
-        default "Dongle Reset"
+        default "Infinity Reset"
 endif
 
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORNE_CENTRAL
