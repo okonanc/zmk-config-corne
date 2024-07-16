@@ -11,5 +11,6 @@ features:
   - underglow
 siblings:
   - corne_left
+  - corne_left_central
   - corne_right
   - corne_dongle
