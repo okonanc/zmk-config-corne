@@ -8,6 +8,7 @@ on:
       - mdk
       - dev
       - dongle_nn
+      - main
     #    paths:
     #      - "config/*.keymap"
     #      - "config/*.dtsi"
