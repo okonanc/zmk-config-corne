@@ -87,5 +87,8 @@ endif
 if SHIELD_CORNE_DONGLE_RESET
     config ZMK_KEYBOARD_NAME
         default "Infinity Reset"
+    config USB
+        bool
+        default y
 endif
 
