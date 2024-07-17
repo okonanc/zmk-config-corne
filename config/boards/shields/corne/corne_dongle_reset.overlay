@@ -17,21 +17,7 @@
          label = "KSCAN";
  
          input-gpios
-             = <&gpio1 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+             = <&gpio0 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
              ;
      };
  };
-
-//&usbd {
-//    status = "okay";
-//    cdc_acm_uart: cdc_acm_uart {
-//        compatible = "zephyr,cdc-acm-uart";
-//    };
-//};
-//
-/// {
-//
-//    chosen {
-//        zephyr,console = &cdc_acm_uart;
-//    };
-//};
