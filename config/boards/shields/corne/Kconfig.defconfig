@@ -5,10 +5,8 @@ if SHIELD_CORNE_DONGLE
         default y
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
-    config ZMK_USB
-        default y
-    config USB
-        default y
+    #config ZMK_USB
+    #default y
 endif
 
 if SHIELD_CORNE_CENTRAL
@@ -16,12 +14,10 @@ if SHIELD_CORNE_CENTRAL
         default "Infinity Central"
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
-   config ZMK_SPLIT_ROLE_CENTRAL
+    config ZMK_SPLIT_ROLE_CENTRAL
         default y
-    config ZMK_USB
-        default y
-    config USB
-        default y
+    #config ZMK_USB
+    #default y
 endif
 
 if SHIELD_CORNE_LEFT
@@ -51,6 +47,10 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORN
     config ZMK_SPLIT
         default y
     config ZMK_BLE
+        default y
+    config ZMK_USB
+        default y
+    config USB
         default y
     if ZMK_DISPLAY
         config I2C
