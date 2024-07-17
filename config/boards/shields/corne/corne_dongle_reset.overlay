@@ -17,7 +17,7 @@
          label = "KSCAN";
  
          input-gpios
-             = <&gpio0 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+             = <&gpio1 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
              ;
      };
  };
