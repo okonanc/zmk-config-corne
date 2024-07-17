@@ -32,11 +32,12 @@ if SHIELD_CORNE_DONGLE
     config ZMK_USB
         default y
     config USB
+        bool
         default y
-    config USB_DEVICE_ID
-        default "0x1D50"
-    config USB_DEVICE_PID
-        default "0x615E"
+#    config USB_DEVICE_ID
+#        default "0x1D50"
+#    config USB_DEVICE_PID
+#        default "0x615E"
 endif
 
 if SHIELD_CORNE_CENTRAL
@@ -49,11 +50,14 @@ if SHIELD_CORNE_CENTRAL
     config ZMK_USB
         default y
     config USB
+        bool
         default y
-    config USB_DEVICE_ID
-        default "0x1D50"
-    config USB_DEVICE_PID
-        default "0x615E"
+#    config USB_DEVICE_ID
+#        hex
+#        default "0x1D50"
+#    config USB_DEVICE_PID
+#        hex
+#        default "0x615E"
 endif
 
 if SHIELD_CORNE_LEFT
