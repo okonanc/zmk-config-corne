@@ -33,6 +33,10 @@ if SHIELD_CORNE_DONGLE
         default y
     config USB
         default y
+    config USB_DEVICE_ID
+        default "0x1D50"
+    config USB_DEVICE_PID
+        default "0x615E"
 endif
 
 if SHIELD_CORNE_CENTRAL
@@ -46,6 +50,10 @@ if SHIELD_CORNE_CENTRAL
         default y
     config USB
         default y
+    config USB_DEVICE_ID
+        default "0x1D50"
+    config USB_DEVICE_PID
+        default "0x615E"
 endif
 
 if SHIELD_CORNE_LEFT
