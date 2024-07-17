@@ -1,0 +1,76 @@
+
+if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORNE_CENTRAL
+    config ZMK_SPLIT
+        default y
+    config ZMK_BLE
+        default y
+    if ZMK_DISPLAY
+        config I2C
+            default y
+        config SSD1306
+            default y
+    endif # ZMK_DISPLAY
+    if LVGL
+        config LV_Z_VDB_SIZE
+            default 64
+        config LV_DPI_DEF
+            default 148
+        config LV_Z_BITS_PER_PIXEL
+            default 1
+        choice LV_COLOR_DEPTH
+            default LV_COLOR_DEPTH_1
+        endchoice
+    endif # LVGL
+endif
+
+if SHIELD_CORNE_DONGLE
+    config ZMK_KEYBOARD_NAME
+        default "Infinity Dongle"
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+    config ZMK_USB
+        default y
+endif
+
+if SHIELD_CORNE_CENTRAL
+    config ZMK_KEYBOARD_NAME
+        default "Infinity Central"
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+    config ZMK_USB
+        default y
+#    config USB_DEVICE_ID
+#        hex
+#        default "0x1D50"
+#    config USB_DEVICE_PID
+#        hex
+#        default "0x615E"
+endif
+
+if SHIELD_CORNE_LEFT
+    config ZMK_KEYBOARD_NAME
+        default "Infinity Left"
+   config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default n
+   config ZMK_SPLIT_ROLE_CENTRAL
+        default n
+endif
+
+if SHIELD_CORNE_RIGHT
+    config ZMK_KEYBOARD_NAME
+        default "Infinity Right"
+   config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default n
+   config ZMK_SPLIT_ROLE_CENTRAL
+        default n
+endif
+
+if SHIELD_CORNE_DONGLE_RESET
+    config ZMK_KEYBOARD_NAME
+        default "Infinity Reset"
+endif
+

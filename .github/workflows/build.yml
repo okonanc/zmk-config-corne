@@ -3,13 +3,21 @@ name: Build ZMK Firmware
 on: 
   workflow_dispatch:
   push:
-    paths:
-      - "config/*.keymap"
-      - "config/*.dtsi"
-      - "config/*.conf"
-      - "config/west.yml"
-      - "gauntlet/*.dtsi"
-      - "gauntlet/*.keymap"
+    branches:
+      - mdk_working
+      - mdk
+      - dev
+      - dongle_nn
+    #    paths:
+    #      - "config/*.keymap"
+    #      - "config/*.dtsi"
+    #      - "config/*.conf"
+    #      - "config/west.yml"
+    #      - "gauntlet/*.dtsi"
+    #      - "gauntlet/*.keymap"
+    #      - "**.conf"
+    #      - "**.defconf"
+    #      - "**.overlay"
   
 jobs:
   build:

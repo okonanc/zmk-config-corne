@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg width="1325" height="9039" viewBox="0 0 1325 9039" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:alpha-w-box">
@@ -6448,3 +6449,5 @@ path.combo {
 </g>
 </g>
 </svg>
+=======
+>>>>>>> dongle_nn
