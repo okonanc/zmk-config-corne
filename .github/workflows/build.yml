@@ -7,16 +7,16 @@ on:
       - mdk_working
       - mdk
       - dev
-    paths:
-      - "config/*.keymap"
-      - "config/*.dtsi"
-      - "config/*.conf"
-      - "config/west.yml"
-      - "gauntlet/*.dtsi"
-      - "gauntlet/*.keymap"
-      - "**.conf"
-      - "**.defconf"
-      - "**.overlay"
+    #    paths:
+    #      - "config/*.keymap"
+    #      - "config/*.dtsi"
+    #      - "config/*.conf"
+    #      - "config/west.yml"
+    #      - "gauntlet/*.dtsi"
+    #      - "gauntlet/*.keymap"
+    #      - "**.conf"
+    #      - "**.defconf"
+    #      - "**.overlay"
   
 jobs:
   build:
