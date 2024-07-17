@@ -50,8 +50,6 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORN
         default y
     config ZMK_USB
         default y
-    config USB
-        default y
     if ZMK_DISPLAY
         config I2C
             default y
