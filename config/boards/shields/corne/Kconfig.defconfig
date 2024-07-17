@@ -7,6 +7,8 @@ if SHIELD_CORNE_DONGLE
         default y
     config ZMK_USB
         default y
+    config USB
+        default y
 endif
 
 if SHIELD_CORNE_CENTRAL
@@ -17,6 +19,8 @@ if SHIELD_CORNE_CENTRAL
    config ZMK_SPLIT_ROLE_CENTRAL
         default y
     config ZMK_USB
+        default y
+    config USB
         default y
 endif
 
