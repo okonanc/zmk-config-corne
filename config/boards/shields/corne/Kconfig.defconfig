@@ -67,6 +67,9 @@ if SHIELD_CORNE_LEFT
         default n
    config ZMK_SPLIT_ROLE_CENTRAL
         default n
+    config USB
+        bool
+        default n
 endif
 
 if SHIELD_CORNE_RIGHT
@@ -75,6 +78,9 @@ if SHIELD_CORNE_RIGHT
    config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default n
    config ZMK_SPLIT_ROLE_CENTRAL
+        default n
+    config USB
+        bool
         default n
 endif
 
