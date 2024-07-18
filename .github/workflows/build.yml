@@ -1,6 +1,6 @@
 name: Build ZMK Firmware
 
-on[workflow_dispatch, push] 
+on: [workflow_dispatch, push] 
 #  workflow_dispatch:
 #  push:
 #    branches:
