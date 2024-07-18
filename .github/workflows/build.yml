@@ -1,14 +1,14 @@
 name: Build ZMK Firmware
 
-on: 
-  workflow_dispatch:
-  push:
-    branches:
-      - mdk_working
-      - mdk
-      - dev
-      - dongle_nn
-      - main
+on[workflow_dispatch, push] 
+#  workflow_dispatch:
+#  push:
+#    branches:
+#      - mdk_working
+#      - mdk
+#      - dev
+#      - dongle_nn
+#      - main
     #    paths:
     #      - "config/*.keymap"
     #      - "config/*.dtsi"
