@@ -4,7 +4,7 @@ name: Corne
 type: shield
 url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
-exposes: [i2c_oled]
+exposes: [i2c_oled, nice_view_header]
 features:
   - keys
   - display
