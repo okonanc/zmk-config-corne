@@ -8,7 +8,7 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORN
         config I2C
             default y
         config SSD1306
-            default y
+            default n
     endif # ZMK_DISPLAY
     if LVGL
         config LV_Z_VDB_SIZE
