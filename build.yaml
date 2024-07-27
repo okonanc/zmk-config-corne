@@ -37,3 +37,6 @@ include:
     shield: corne_central nice_view
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
     artifact-name: infinity_central_with_logging
+  - board: nice_nano_v2
+    shield: corne_dongle_reset
+    artifact-name: infinity_dongle_reset
