@@ -22,9 +22,11 @@
 
 /* Horizontal combos - left hand */
 /* Layers */
-ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             PUQ, COMBO_TERM_SLOW)
-ZMK_COMBO(to_base     , &to DEF        , LM5 LH1     ,             GME PUQ, COMBO_TERM_SLOW)
-ZMK_COMBO(to_puq      , &to PUQ        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_SLOW)
+ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(to_base     , &to DEF        , LM5 LH1     ,             GME PUQ STN, COMBO_TERM_SLOW)
+ZMK_COMBO(to_puq      , &to PUQ        , LM5 LH1 LM1 , DEF         GME     STN, COMBO_TERM_SLOW)
+ZMK_COMBO(to_steno    , &to STN        , LM5 LH1 LM2 , DEF         GME        , COMBO_TERM_SLOW)
+
 //ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1 , DEF         GME  ,  , COMBO_TERM_FAST)
 
 #if MOUSE_KEYS
@@ -61,49 +63,49 @@ ZMK_COMBO(mute      , &kp C_MUTE     , LT1 LT0    ,         FNC GME     , COMBO_
 */
 
 /* Gaming */
-ZMK_COMBO(quicksave , &kp F5         , LM3 LM2    ,             GME     , COMBO_TERM_FAST)
-ZMK_COMBO(quickload , &kp F8         , LT3 LT2    ,             GME     , COMBO_TERM_FAST)
+ZMK_COMBO(quicksave , &kp F5           , LM3 LM2    ,             GME        , COMBO_TERM_FAST)
+ZMK_COMBO(quickload , &kp F8           , LT3 LT2    ,             GME        , COMBO_TERM_FAST)
 
 /* Misc */
-ZMK_COMBO(del_word  , &kp LC(BSPC)   , LM3 LM2    , DEF             PUQ , COMBO_TERM_FAST)
-//ZMK_COMBO(enter     , &kp ENTER      , LT2 LT1    , DEF             PUQ , COMBO_TERM_FAST)
-//ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(copy      , &copy_cut      , LB3 LB2    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(paste     , &kp LS(INS)    , LB2 LB1    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(repeat    , HRC_REPEAT     , LM2 LM1    , DEF NUM         PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(del_word  , &kp LC(BSPC)     , LM3 LM2    , DEF             PUQ STN, COMBO_TERM_FAST)
+//ZMK_COMBO(enter     , &kp ENTER      , LT2 LT1    , DEF             PUQ    , COMBO_TERM_FAST)
+//ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(copy      , &copy_cut        , LB3 LB2    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(paste     , &kp LS(INS)      , LB2 LB1    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(repeat    , HRC_REPEAT       , LM2 LM1    , DEF NUM         PUQ    , COMBO_TERM_FAST)
 
 /* Vertical combos - left hand */
-ZMK_COMBO(at        , &kp AT      , LT3 LM3    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(hash      , &kp HASH    , LT2 LM2    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(dllr      , &kp DLLR    , LT1 LM1    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(prcnt     , &kp PRCNT   , LT0 LM0    , DEF             PUQ , COMBO_TERM_SLOW)
+ZMK_COMBO(at        , &kp AT           , LT3 LM3    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(hash      , &kp HASH         , LT2 LM2    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(dllr      , &kp DLLR         , LT1 LM1    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(prcnt     , &kp PRCNT        , LT0 LM0    , DEF             PUQ    , COMBO_TERM_SLOW)
 
-ZMK_COMBO(grave     , &kp GRAVE   , LM3 LB3    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(bslh      , &kp BSLH    , LM2 LB2    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(equal     , &kp EQUAL   , LM1 LB1    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(tilde     , &kp TILDE   , LM0 LB0    , DEF             PUQ , COMBO_TERM_SLOW)
+ZMK_COMBO(grave     , &kp GRAVE        , LM3 LB3    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(bslh      , &kp BSLH         , LM2 LB2    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(equal     , &kp EQUAL        , LM1 LB1    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(tilde     , &kp TILDE        , LM0 LB0    , DEF             PUQ    , COMBO_TERM_SLOW)
 
 /* Horizontal combos - right hand */
-ZMK_COMBO(bspc      , &kp BSPC       , RT1 RT2    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(del       , &kp DEL        , RT2 RT3    , DEF             PUQ , COMBO_TERM_FAST)
+ZMK_COMBO(bspc      , &kp BSPC         , RT1 RT2    , DEF             PUQ STN, COMBO_TERM_FAST)
+ZMK_COMBO(del       , &kp DEL          , RT2 RT3    , DEF             PUQ STN, COMBO_TERM_FAST)
 
-ZMK_COMBO(lpar      , HRC_LPAR       , RM1 RM2    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(rpar      , HRC_RPAR       , RM2 RM3    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(lt        , &kp LT      , RM1 RM2    ,     NUM             , COMBO_TERM_FAST)
-ZMK_COMBO(gt        , &kp GT      , RM2 RM3    ,     NUM             , COMBO_TERM_FAST)
+ZMK_COMBO(lpar      , HRC_LPAR         , RM1 RM2    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(rpar      , HRC_RPAR         , RM2 RM3    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(lt        , &kp LT           , RM1 RM2    ,     NUM                , COMBO_TERM_FAST)
+ZMK_COMBO(gt        , &kp GT           , RM2 RM3    ,     NUM                , COMBO_TERM_FAST)
 
-ZMK_COMBO(lbkt      , &kp LBKT    , RB1 RB2    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(rbkt      , &kp RBKT    , RB2 RB3    , DEF             PUQ , COMBO_TERM_FAST)
-ZMK_COMBO(lbrc      , &kp LBRC    , RB1 RB2    ,     NUM             , COMBO_TERM_FAST)
-ZMK_COMBO(rbrc      , &kp RBRC    , RB2 RB3    ,     NUM             , COMBO_TERM_FAST)
+ZMK_COMBO(lbkt      , &kp LBKT         , RB1 RB2    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(rbkt      , &kp RBKT         , RB2 RB3    , DEF             PUQ    , COMBO_TERM_FAST)
+ZMK_COMBO(lbrc      , &kp LBRC         , RB1 RB2    ,     NUM                , COMBO_TERM_FAST)
+ZMK_COMBO(rbrc      , &kp RBRC         , RB2 RB3    ,     NUM                , COMBO_TERM_FAST)
 
 /* Vertical combos - right hand */   
-ZMK_COMBO(caret     , &kp CARET   , RT0 RM0    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(plus      , &kp PLUS    , RT1 RM1    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(star      , &kp STAR    , RT2 RM2    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(amps      , &kp AMPS    , RT3 RM3    , DEF             PUQ , COMBO_TERM_SLOW)
+ZMK_COMBO(caret     , &kp CARET        , RT0 RM0    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(plus      , &kp PLUS         , RT1 RM1    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(star      , &kp STAR         , RT2 RM2    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(amps      , &kp AMPS         , RT3 RM3    , DEF             PUQ    , COMBO_TERM_SLOW)
 
-ZMK_COMBO(under     , &kp UNDER   , RM0 RB0    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(minus     , &kp MINUS   , RM1 RB1    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(fslh      , &kp FSLH    , RM2 RB2    , DEF             PUQ , COMBO_TERM_SLOW)
-ZMK_COMBO(pipe      , &kp PIPE    , RM3 RB3    , DEF             PUQ , COMBO_TERM_SLOW)
+ZMK_COMBO(under     , &kp UNDER        , RM0 RB0    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(minus     , &kp MINUS        , RM1 RB1    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(fslh      , &kp FSLH         , RM2 RB2    , DEF             PUQ    , COMBO_TERM_SLOW)
+ZMK_COMBO(pipe      , &kp PIPE         , RM3 RB3    , DEF             PUQ    , COMBO_TERM_SLOW)
