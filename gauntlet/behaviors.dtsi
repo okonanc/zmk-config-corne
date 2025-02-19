@@ -40,7 +40,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
 #include "leader.dtsi"
-#include "mouse.dtsi"
+//#include "L_MSE.dtsi"
 
 /* Nav cluster */
 
