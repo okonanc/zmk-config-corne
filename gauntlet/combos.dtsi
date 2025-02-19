@@ -35,7 +35,7 @@ ZMK_COMBO(to_base     , &to DEF        , LM5 LH1     ,             GME PUQ, COMB
 ZMK_COMBO(to_puq      , &to PUQ        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 //ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1 , DEF         GME  ,  , COMBO_TERM_FAST, COMBO_IDLE_FAST, COMBO_IDLE_FAST)
 
-#if MOUSE_KEYS
+#ifdef MOUSE_KEYS
   ZMK_COMBO(mouse     , &smart_mouse   , LT3 LT1     ,  DEF  NUM       PUQ, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 //ZMK_COMBO(to_mouse  , &to MSE        , RT1 RT2      , DEF         GME   ,  xz)
 #endif 
