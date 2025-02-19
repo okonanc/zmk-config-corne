@@ -14,7 +14,7 @@
     &kp ESC         &kp K           &kp U           &kp DE_UE       &kp DOT         &kp DE_AE           &kp V           &kp G           &kp C           &kp L           &kp J           &kp F
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  12              13              14              15              16              17                  18              19              20              21              22              23
-    &bkspc_del      &mt LCTRL H     &mt LALT I      &mt LCMD E      &mt MEH A       &kp O               &kp D           &mt MEH T       &mt RCMD R      &mt RALT N      &mt RCTRL S     &kp DE_SS
+    &bs_del         &mt LCTRL H     &mt LALT I      &mt LCMD E      &mt MEH A       &kp O               &kp D           &mt MEH T       &mt RCMD R      &mt RALT N      &mt RCTRL S     &kp DE_SS
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 //  24              25              26              27              28              29                  30              31              32              33              34              35
     &csl FNC        &mt RCTRL X     &mt RALT DE_Y   &mt RCMD DE_OE  &kp COMMA       &kp Q               &kp B           &kp P           &mt LCMD W      &mt LALT M      &mt LCTRL DE_Z  &csl FNC
