@@ -19,7 +19,7 @@
 };
 
 &msc {
-    acceleration-exponent = <1>;      // 0
+    acceleration-exponent = <0>;      // 0
     time-to-max-speed-ms = <40>;      // 300
     delay-ms = <0>;                   // 0
 };
@@ -47,11 +47,11 @@
 
 &msc_input_listener {
   warp {
-    layers = <NAV>;
+    layers = <NUM>;
     input-processors = <&zip_scroll_scaler 2 1>;
   };
   precision {
-    layers = <FN>;
+    layers = <FNC>;
     input-processors = <&zip_scroll_scaler 1 2>;
   };
 };
