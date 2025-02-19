@@ -51,7 +51,6 @@
 #include "behaviors.dtsi"
 #include "combos.dtsi"
 //#include "dances.dtsi"
-#include "hd2_macros.dtsi"
 
 // Alpha layer: uncomment desired, comment the others
 #include "../gauntlet/L0_qwerty.dtsi"
@@ -66,7 +65,6 @@
 #include "../gauntlet/L_SYM.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
 #include "../gauntlet/L_MSE.dtsi"
-#include "../gauntlet/L_HD2.dtsi"
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_NMR.dtsi"
 
