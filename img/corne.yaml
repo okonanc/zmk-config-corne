@@ -1,57 +1,10 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  def:
-  - $$mdi:keyboard-esc$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - {t: '''', s: '"'}
-  - $$mdi:close-box$$
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: '$$mdi:star-three-points$$'}
-  - {t: H, h: '$$mdi:star-three-points$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: P, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: FNC, h: '$$mdi:close-box$$'}
-  - Z
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', s: ;}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '?', s: '!'}
-  - {t: FNC, h: '$$mdi:close-box$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYM}
-  - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
-  - {t: '$$mdi:keyboard-return$$', h: NUM}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - SYM
   puq:
   - $$mdi:keyboard-esc$$
   - P
   - U
-<<<<<<< HEAD
-  - $$mdi:skull-outline$$
-=======
   - {t: '$$mdi:skull-outline$$', s: '"'}
->>>>>>> dongle_nn
   - {t: ',', s: ;}
   - Q
   - G
@@ -60,7 +13,7 @@ layers:
   - M
   - F
   - $$mdi:close-box$$
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: H, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
@@ -88,7 +41,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: FNC, s: . X}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '&shift_repeat', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:alpha-w-box$$'}
   - SYM
   gme:
   - T
@@ -126,12 +79,12 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: fnc, h: '$$mdi:toggle-switch$$'}
+  - {t: sym, h: '$$mdi:toggle-switch$$'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: num}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: hd2}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '&shift_repeat', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,8 +94,8 @@ layers:
   - '9'
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
-  - {t: '$$mdi:backspace-outline$$', h: 'Ctl+ $$mdi:backspace-outline$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+ $$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:backspace-outline$$', h: 'Ctl+$$mdi:backspace-outline$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -153,8 +106,8 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+ $$mdi:page-last$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: 'Ctl+ $$mdi:page-first$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+$$mdi:page-last$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: 'Ctl+$$mdi:page-first$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -171,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:close-box$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -300,42 +253,34 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:logout$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  hd2:
-  - '&def_shield'
-  - '&wp_flame'
-  - '&wp_antitank'
-  - '&wp_recrifle'
-  - '&bp_gd_rover'
-  - '&m1_reinforce'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&def_sen_tesla'
-  - '&orb_laser'
-  - '&def_sen_ems'
-  - '&bp_shield'
-  - '&off_eag_as'
-  - '&m1_resupply'
+  mse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_UP'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&msc SCRL_UP'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_DOWN'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&orb_rcs'
-  - '&wp_quasar_c'
-  - '&wp_arc'
-  - '&off_eag_500'
-  - '&m1_hellbomb'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -344,10 +289,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   fnr:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -379,11 +332,11 @@ layers:
   - F2
   - F3
   - F12
-  - Ctl+ Z
-  - Ctl+ X
-  - Ctl+ INS
-  - Sft+ INS
-  - Ctl+ Y
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+INS
+  - Sft+INS
+  - Ctl+Y
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -394,9 +347,9 @@ layers:
   nmr:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-up$$
-  - {t: '$$mdi:backspace-outline$$', h: 'Ctl+ $$mdi:backspace-outline$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: 'Ctl+ $$mdi:page-first$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+ $$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:backspace-outline$$', h: 'Ctl+$$mdi:backspace-outline$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: 'Ctl+$$mdi:page-first$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '7'
@@ -407,7 +360,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:transfer-down$$
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:page-first$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+ $$mdi:page-last$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: 'Ctl+$$mdi:page-last$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:page-last$$'}
   - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
   - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -436,140 +389,146 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 38]
-  k: {t: gme, h: '$$mdi:toggle-switch$$'}
-  l: [def, puq]
+  k: {t: num, h: '$$mdi:toggle-switch$$'}
+  l: [puq, gme]
   a: right
 - p: [12, 37]
-  k: {t: def, h: '$$mdi:toggle-switch$$'}
-  l: [gme, puq]
+  k: {t: puq, h: '$$mdi:toggle-switch$$'}
+  l: [num, gme]
   a: bottom
 - p: [12, 37, 16]
-  k: {t: puq, h: '$$mdi:toggle-switch$$'}
-  l: [def, gme]
+  k: {t: gme, h: '$$mdi:toggle-switch$$'}
+  l: [puq, num]
   a: bottom
-- p: [14, 15]
-  k: $$mdi:cloud-upload$$
-  l: [gme]
-- p: [2, 3]
-  k: $$mdi:cloud-download$$
-  l: [gme]
+- p: [2, 4]
+  k: $$mdi:mouse$$
+  l: [puq, fnc, gme]
+  a: top
+  o: 0.03
+  draw_separate: true
 - p: [14, 15]
   k: $$mdi:eraser$$
-  l: [def, puq]
+  l: [puq, gme]
+  draw_separate: true
+- p: [26, 28]
+  k: $$mdi:content-cut$$
+  l: [puq, gme]
   draw_separate: true
 - p: [26, 27]
   k: $$mdi:content-copy$$
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [27, 28]
   k: $$mdi:content-paste$$
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [15, 16]
-  k: $$mdi:repeat$$
-  l: [def, num, puq]
-  draw_separate: true
+  k: {t: '&leader', h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  l: [puq, fnc, gme]
+- p: [14, 15, 16]
+  k: {t: '&leader_sft', h: 'Sft+Ctl+$$mdi:apple-keyboard-option$$'}
+  l: [puq, fnc, gme]
 - p: [2, 14]
   k: '@'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [3, 15]
   k: '#'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [4, 16]
   k: $
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [5, 17]
   k: '%'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [14, 26]
   k: '`'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [15, 27]
   k: \
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [16, 28]
   k: '='
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [17, 29]
   k: '~'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [7, 8]
   k: $$mdi:backspace-outline$$
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [19, 20]
   k: (
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [20, 21]
   k: )
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [19, 20]
   k: <
-  l: [num]
+  l: [fnc]
   draw_separate: true
 - p: [20, 21]
   k: '>'
-  l: [num]
+  l: [fnc]
   draw_separate: true
 - p: [31, 32]
   k: '['
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [32, 33]
   k: ']'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [31, 32]
   k: '{'
-  l: [num]
+  l: [fnc]
   draw_separate: true
 - p: [32, 33]
   k: '}'
-  l: [num]
+  l: [fnc]
   draw_separate: true
 - p: [6, 18]
   k: ^
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [7, 19]
   k: +
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [8, 20]
   k: '*'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [9, 21]
   k: '&'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [18, 30]
   k: _
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [19, 31]
   k: '-'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [20, 32]
   k: /
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
 - p: [21, 33]
   k: '|'
-  l: [def, puq]
+  l: [puq, gme]
   draw_separate: true
