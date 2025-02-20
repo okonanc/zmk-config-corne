@@ -1,7 +1,6 @@
 /**
  *  Mouse Layer
  */
-#include <dt-bindings/zmk/mouse.h>
 
 // Settings tuned for 3840 x 2160 display resolution
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 600 // 600
@@ -13,15 +12,15 @@
 
 // Based on @caksoylar's config, defaults in comments
 &mmv {
-  acceleration-exponent = <1>;      // 1
-  time-to-max-speed-ms = <500>;    // 300
-  delay-ms = <0>;                   // 0
+  acceleration-exponent = <1>;          // 1
+  time-to-max-speed-ms = <500>;         // 300
+  delay-ms = <0>;                       // 0
 };
 
 &msc {
-    acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <40>;      // 300
-    delay-ms = <0>;                   // 0
+  acceleration-exponent = <0>;          // 0
+  time-to-max-speed-ms = <300>;         // 300
+  delay-ms = <0>;                       // 0
 };
 
 &mmv_input_listener {
@@ -63,7 +62,7 @@
 #define U_WH_U &msc SCRL_UP
 #define U_WH_D &msc SCRL_DOWN
 #define U_WH_L &msc SCRL_LEFT
-#define U_WH_R &msc SCRL_RIGHT
+#define U_WH_R &msc SCRL_RIGHTds
 
 ZMK_LAYER(mse,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
