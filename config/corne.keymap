@@ -5,7 +5,7 @@
  */
 
 #define MOUSE_KEYS
-#define CONFIG_WIRLESS
+#define CONFIG_WIRELESS
 
 //#include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
