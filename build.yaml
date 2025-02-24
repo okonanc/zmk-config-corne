@@ -18,7 +18,7 @@ include:
   - board: nice_nano_v2 
     artifact-name: infinity_central
     shield: corne_central nice_view
-    snippet: studio-rpc-usb-uart
+#    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2 
     artifact-name: infinity_left
     shield: corne_left nice_view
@@ -28,16 +28,16 @@ include:
   - board: nice_nano_v2
     artifact-name: infinity_dongle
     shield: corne_dongle nice_view
-    snippet: studio-rpc-usb-uartds
+#    snippet: studio-rpc-usb-uartds
   - board: nice_nano_v2
     artifact-name: infinity_dongle_with_logging
     shield: corne_dongle nice_view
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-    snippet: studio-rpc-usb-uart
+#    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     artifact-name: infinity_central_with_logging
     shield: corne_central nice_view
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-    snippet: studio-rpc-usb-uart
+#    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: settings_reset
