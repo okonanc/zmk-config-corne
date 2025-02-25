@@ -15,10 +15,10 @@
     };
 
 /* German umlauts */
-ZMK_LEADER_SEQUENCE(de_ae,      &de_ae,         A)  // ä
-ZMK_LEADER_SEQUENCE(de_oe,      &de_oe,         O)  // ö
-ZMK_LEADER_SEQUENCE(de_ue,      &de_ue,         U)  // ü
-ZMK_LEADER_SEQUENCE(de_eszett,  &de_eszett,     S)  // ß
+ZMK_LEADER_SEQUENCE(de_ae,      &intl_ae,     A)  // ä
+ZMK_LEADER_SEQUENCE(de_oe,      &intl_oe,     O)  // ö
+ZMK_LEADER_SEQUENCE(de_ue,      &intl_ue,     U)  // ü
+ZMK_LEADER_SEQUENCE(de_eszett,  &intl_sz,     S)  // ß
 
 // BLE and USB
 #ifdef CONFIG_WIRELESS
