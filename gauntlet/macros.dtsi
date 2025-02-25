@@ -6,7 +6,7 @@
                 wait-ms = <0>; \
                 tap-ms = <0>; \
                 #binding-cells = <0>; \
-                bindings = &macro_press &kp RALT, <&macro_tap macro_bindings>,  &macro_release &kp RALT; \
+                bindings = <&macro_press &kp RALT>, <&macro_tap macro_bindings>,  <&macro_release &kp RALT>; \
             }; \
         }; \
     };
