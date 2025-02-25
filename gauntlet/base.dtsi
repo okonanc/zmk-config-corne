@@ -52,6 +52,7 @@
 #define QUICK_TAP_MS 175
 
 #include "behaviors.dtsi"
+#include "macros.dtsi"
 //#include "combos.dtsi"
 //#include "leader.dtsi"
 //#include "dances.dtsi"

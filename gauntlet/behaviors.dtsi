@@ -40,7 +40,6 @@ MAKE_HRM(hmr_alt_dot, &kp, &dot_morph, KEYS_L THUMBS)
   ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
-#include "macros.dtsi"
 #include "leader.dtsi"
 //#include "L_MSE.dtsi"
 
