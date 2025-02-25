@@ -30,7 +30,7 @@
     DE_MODMORPH(name, &name ## _lower, &name ## _upper)
 */
 
-DE_MACRO(intl_ae, &kp q)
-DE_MACRO(intl_oe, &kp p)
-DE_MACRO(intl_ue, &kp y)
-DE_MACRO(intl_sz, &kp s)
+DE_MACRO(intl_ae, &kp Q)
+DE_MACRO(intl_oe, &kp P)
+DE_MACRO(intl_ue, &kp Y)
+DE_MACRO(intl_sz, &kp S)
