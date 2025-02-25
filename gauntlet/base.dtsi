@@ -15,8 +15,8 @@
 #define DEF 0
 //#define CDH 1
 //#define BuT 1
-#define NOT 1
-//#define PUQ 1
+//#define NOT 1
+#define PUQ 1
 #define GME 2
 #define NUM 3
 #define FNC 4
@@ -61,8 +61,8 @@
 #include "../gauntlet/L0_qwerty.dtsi"
 //#include "../gauntlet/L0_colemak_dhm.dtsi"
 //#include "../gauntlet/L0_Buteck.dtsi"
-//#include "../gauntlet/L0_PUQ.dtsi"
-#include "../gauntlet/L0_Noted.dtsi"
+#include "../gauntlet/L0_PUQ.dtsi"
+//#include "../gauntlet/L0_Noted.dtsi"
 
 // Other layers
 #include "../gauntlet/L_GME.dtsi"
