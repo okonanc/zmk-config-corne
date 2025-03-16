@@ -211,12 +211,14 @@ ZMK_BEHAVIOR(ndk_sqt, macro,
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
-#define DSK_PREV    &hmr LCTRL LG(LC(LEFT))         // previous desktop
-#define DSK_NEXT    &hmr LALT LG(LC(RIGHT))        // next     desktop
+#define DSK_PREV    &hmr RALT LG(LC(LEFT))         // previous desktop
+#define DSK_NEXT    &kp LG(LC(RIGHT))        // next     desktop
 #define PIN_WIN     &kp LG(LC(LS(Q)))        // pin window across desktops
 #define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
 #define DSK_MGR     &kp LA(GRAVE)            // desktop manager
-#define VOL_DOWN    &hml LCTRL C_VOL_DN
-#define VOL_MUTE    &hml MEH C_MUTE
+#define VOL_DOWN    &hmr LSHFT C_VOL_DN
+#define VOL_UP      &hmr LCTRL C_MUTE
+#define MED_PREV    &hmr LALT C_PREV
+#define MED_NEXT    &hmr MEH C_NEXT
 
-ZMK_CONDITIONAL_LAYER(sys, FNC NUM, SYS)  // FNC + NUM --> SYS
+ZMK_CONDITIONAL_LAYER(sys, FNR NUM, SYS)  // FNR + NUM --> SYS

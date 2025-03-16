@@ -1,17 +1,15 @@
 /**
- * Alpha Layer - QWERTY
+ * Alpha Layer - PUQ
  */
 
-#define HMR_ALT_DOT &hmr_alt_dot RALT 0
-
-ZMK_LAYER(def,
+ZMK_LAYER(puq,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-    &kp ESC         &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp SQT         &kp K_CANCEL
+    &kp ESC         &kp Q           &kp K           &kp O           &kp U           &kp Y               &kp V           &kp D           &kp C           &kp L           &kp F           &kp K_CANCEL
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &bs_del         &hml LCMD A     &hml LALT S     &hml LCTRL D    &hml LSHFT F    &kp G               &kp H           &hmr RSHFT J    &hmr LCTRL K    &hmr LALT L     &hmr LCMD P     &kp ENTER
+    &bs_del         &hml LCMD H     &hml LALT A     &hml LCTRL E    &hml LSHFT I    &comma_morph        &hml MEH G      &hmr RSHFT T    &hmr LCTRL R    &hmr LALT N     &hmr LCMD S     &kp ENTER
 // ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-    &sl FNR         &kp Z           &hml RALT X     &kp C           &kp V           &kp B               &kp N           &kp M           &comma_morph    HMR_ALT_DOT     &qexcl          &sl FNC
+    &sl FNC         &qexcl          &hml RALT Z     &kp SQT         &dot_morph      &kp X               &kp B           &kp P           &kp M           &hmr RALT W     &kp J           &sl FNC
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
-                                                    &lt SYM TAB     &lt_spc NUM 0   &lt FNR RET         SMART_NUM       MAGIC_SHIFT     &mo SYM
+                                                    &lt SYM TAB     &lt_spc FNC 0   &lt NUM RET         SMART_NUM       MAGIC_SHIFT     &mo SYM
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
 )
