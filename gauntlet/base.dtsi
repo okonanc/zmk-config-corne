@@ -26,8 +26,8 @@
 
 // For gaming only left side needed
 //#define HD2 7
-#define FNC 8
-#define NMR 9
+//#define FNC 8
+//#define NMR 9
 
 
 #define XXX &none
@@ -71,7 +71,7 @@
 #include "../gauntlet/L_SYM.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
 #include "../gauntlet/L_MSE.dtsi"
-#include "../gauntlet/L_FNC.dtsi"
-#include "../gauntlet/L_NMR.dtsi"
+//#include "../gauntlet/L_FNC.dtsi"
+//#include "../gauntlet/L_NMR.dtsi"
 
 // #include "chords_en_qwertz.dtsi"
