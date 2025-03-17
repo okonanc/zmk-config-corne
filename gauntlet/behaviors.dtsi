@@ -218,7 +218,7 @@ ZMK_BEHAVIOR(ndk_sqt, macro,
 #define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
 #define DSK_MGR     &kp LA(GRAVE)            // desktop manager
 #define VOL_DOWN    &hmr LSHFT C_VOL_DN
-#define VOL_UP      &hmr LCTRL C_MUTE
+#define VOL_UP      &hmr LCTRL C_VOL_UP
 #define MED_PREV    &hmr LALT C_PREV
 #define MED_NEXT    &hmr MEH C_NEXT
 
