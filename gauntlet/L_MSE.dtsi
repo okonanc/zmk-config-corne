@@ -50,7 +50,7 @@
     input-processors = <&zip_scroll_scaler 2 1>;
   };
   precision {
-    layers = <FNC>;
+    layers = <FNR>;
     input-processors = <&zip_scroll_scaler 1 2>;
   };
 };
