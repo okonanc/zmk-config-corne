@@ -221,5 +221,11 @@ ZMK_BEHAVIOR(ndk_sqt, macro,
 #define VOL_UP      &hmr LCTRL C_VOL_UP
 #define MED_PREV    &hmr LALT C_PREV
 #define MED_NEXT    &hmr MEH C_NEXT
+/* Keymap */
 
 ZMK_CONDITIONAL_LAYER(sys, FNR NUM, SYS)  // FNR + NUM --> SYS
+
+#ifndef ZMK_BASE_LAYER
+  #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                 \
+      ZMK_LAYER(name, LT RT LM RM LB RB LH RH)
+#endif
