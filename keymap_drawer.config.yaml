@@ -381,6 +381,7 @@ draw_config:
 
 # Parse Config:
 parse_config:
+  zmk_additional_includes: ["zmk-helpers/include"]
   skip_binding_parsing: false
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
