@@ -17,7 +17,7 @@
 //#define BuT 1
 //#define NOT 1
 #define PUQ 1
-#define GME PUQ + 1
+#define GME 2
 #define NUM 3
 #define FNR 4
 #define SYM 5
@@ -61,7 +61,7 @@
 #include "../gauntlet/L0_qwerty.dtsi"
 //#include "../gauntlet/L0_colemak_dhm.dtsi"
 //#include "../gauntlet/L0_Buteck.dtsi"
-#include "../gauntlet/L0_PUQ.dtsi"
+#include "../gauntlet/L0_ANYMAK.dtsi"
 //#include "../gauntlet/L0_Noted.dtsi"
 
 // Other layers
