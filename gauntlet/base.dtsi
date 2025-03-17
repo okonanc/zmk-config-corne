@@ -17,7 +17,7 @@
 //#define BuT 1
 //#define NOT 1
 #define PUQ 1
-#define GME 2
+#define GME PUQ + 1
 #define NUM 3
 #define FNR 4
 #define SYM 5
