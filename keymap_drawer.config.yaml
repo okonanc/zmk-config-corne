@@ -397,13 +397,13 @@ parse_config:
       shifted: $$mdi:alpha-w-box$$
       tap: NUM
       hold: $$mdi:gesture-tap-hold$$
-    "&sl FNC":
-      tap: FNC
+    "&sl FNR":
+      tap: FNR
       hold: $$mdi:close-box$$
     "&lt_spc FNC 0": 
       shifted: ". X"
       tap: $$mdi:keyboard-space$$
-      hold: FNC
+      hold: FNR
     "&lt NUM RET":
       tap: $$mdi:keyboard-return$$
       hold: NUM
