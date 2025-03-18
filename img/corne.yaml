@@ -288,7 +288,7 @@ layers:
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-up-thin$$'}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
@@ -312,7 +312,7 @@ layers:
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-up-thin$$'}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
