@@ -7,8 +7,8 @@ layers:
     - {t: S, h: '$$mdi:apple-keyboard-option$$'}
     - {t: D, h: '$$mdi:apple-keyboard-control$$'}
     - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-    - G
-    - H
+    - {t: G, h: '$$mdi:star-three-points$$'}
+    - {t: H, h: '$$mdi:star-three-points$$'}
     - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
     - {t: K, h: '$$mdi:apple-keyboard-control$$'}
     - {t: L, h: '$$mdi:apple-keyboard-option$$'}
@@ -39,8 +39,8 @@ layers:
     - {t: A, h: '$$mdi:apple-keyboard-option$$'}
     - {t: E, h: '$$mdi:apple-keyboard-control$$'}
     - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
-    - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: ;}
-    - {t: G, h: '$$mdi:star-three-points$$'}
+    - {t: ',', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$', s: ;}
+    - {t: G, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
     - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
     - {t: R, h: '$$mdi:apple-keyboard-control$$'}
     - {t: N, h: '$$mdi:apple-keyboard-option$$'}
