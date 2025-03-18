@@ -30,7 +30,7 @@ layers:
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:magic-staff$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$phosphor:fill/magic-wand$$', h: '$$mdi:apple-keyboard-shift$$'}
     - SYS
   Any:
   - ['$$mdi:keyboard-esc$$', Q, K, O, U, Y, V, D, C, L, F, '$$mdi:close-box$$']
@@ -62,7 +62,7 @@ layers:
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:magic-staff$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$phosphor:fill/magic-wand$$', h: '$$mdi:apple-keyboard-shift$$'}
     - SYS
   Gme:
   - - T
@@ -105,7 +105,7 @@ layers:
     - $$mdi:keyboard-space$$
     - $$mdi:apple-keyboard-shift$$
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:magic-staff$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$phosphor:fill/magic-wand$$', h: '$$mdi:apple-keyboard-shift$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   Num:
   - - {t: '$$mdi:transfer$$', type: trans}
@@ -317,6 +317,44 @@ layers:
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
   - ['$$phosphor:fill/mouse-right-click$$', '$$phosphor:fill/mouse-middle-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-middle-click$$',
+  Combos:
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+  - ['$$phosphor:fill/mouse-right-click$$', '$$phosphor:fill/mouse-middle-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-middle-click$$',
     '$$phosphor:fill/mouse-right-click$$']
 combos:
 - p: [0, 38]
@@ -336,134 +374,103 @@ combos:
   l: [Def, Num, Any]
   a: top
   o: 0.03
-  draw_separate: true
 - p: [14, 15]
   k: $$mdi:eraser$$
   l: [Def, Any]
-  draw_separate: true
 - p: [26, 28]
   k: $$mdi:content-cut$$
   l: [Def, Any]
-  draw_separate: true
 - p: [26, 27]
   k: $$mdi:content-copy$$
   l: [Def, Any]
-  draw_separate: true
 - p: [27, 28]
   k: $$mdi:content-paste$$
   l: [Def, Any]
-  draw_separate: true
 - p: [15, 16]
-  k: Leader
+  k: $$phosphor:regular/crown$$
   l: [Def, Num, Any]
   a: top
   o: 1.35
 - p: [14, 15, 16]
-  k: Shift+Leader
-  l: [Def, Num, Any]
+  k: {t: '$$phosphor:regular/crown$$', h: '$$phosphor:regular/arrow-fat-up$$"'}
+  l: [Sys]
   a: top
   o: 1.35
 - p: [2, 14]
   k: '@'
   l: [Def, Any]
-  draw_separate: true
 - p: [3, 15]
   k: '#'
   l: [Def, Any]
-  draw_separate: true
 - p: [4, 16]
   k: $
   l: [Def, Any]
-  draw_separate: true
 - p: [5, 17]
   k: '%'
   l: [Def, Any]
-  draw_separate: true
 - p: [14, 26]
   k: '`'
   l: [Def, Any]
-  draw_separate: true
 - p: [15, 27]
   k: \
   l: [Def, Any]
-  draw_separate: true
 - p: [16, 28]
   k: '='
   l: [Def, Any]
-  draw_separate: true
 - p: [17, 29]
   k: '~'
   l: [Def, Any]
-  draw_separate: true
 - p: [7, 8]
   k: $$mdi:backspace-outline$$
   l: [Def, Any]
-  draw_separate: true
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
   l: [Def, Any]
-  draw_separate: true
 - p: [19, 20]
   k: (
   l: [Def, Any]
-  draw_separate: true
 - p: [20, 21]
   k: )
   l: [Def, Any]
-  draw_separate: true
 - p: [19, 20]
   k: <
   l: [Num]
-  draw_separate: true
 - p: [20, 21]
   k: '>'
   l: [Num]
-  draw_separate: true
 - p: [31, 32]
   k: '['
   l: [Def, Any]
-  draw_separate: true
 - p: [32, 33]
   k: ']'
   l: [Def, Any]
-  draw_separate: true
 - p: [31, 32]
   k: '{'
   l: [Num]
-  draw_separate: true
 - p: [32, 33]
   k: '}'
   l: [Num]
-  draw_separate: true
 - p: [6, 18]
   k: ^
   l: [Def, Any]
-  draw_separate: true
 - p: [7, 19]
   k: +
   l: [Def, Any]
-  draw_separate: true
 - p: [8, 20]
   k: '*'
   l: [Def, Any]
-  draw_separate: true
 - p: [9, 21]
   k: '&'
   l: [Def, Any]
-  draw_separate: true
 - p: [18, 30]
   k: _
   l: [Def, Any]
-  draw_separate: true
 - p: [19, 31]
   k: '-'
   l: [Def, Any]
-  draw_separate: true
 - p: [20, 32]
   k: /
   l: [Def, Any]
-  draw_separate: true
 - p: [21, 33]
   k: '|'
   l: [Def, Any]
-  draw_separate: true

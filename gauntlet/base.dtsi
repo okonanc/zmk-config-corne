@@ -23,6 +23,7 @@
 #define SYM 5
 #define SYS 6
 #define MSE 7
+#define XXX 8
 
 // For gaming only left side needed
 //#define HD2 7
@@ -71,6 +72,7 @@
 #include "../gauntlet/L_SYM.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
 #include "../gauntlet/L_MSE.dtsi"
+#include "../gauntlet/L_XXX.dtsi"
 //#include "../gauntlet/L_FNC.dtsi"
 //#include "../gauntlet/L_NMR.dtsi"
 
