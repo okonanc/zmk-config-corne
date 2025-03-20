@@ -1,7 +1,18 @@
 layout: {zmk_keyboard: corne}
 layers:
   Def:
-  - ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O, '''', '$$mdi:close-box$$']
+  - - $$mdi:keyboard-esc$$
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - {t: '''', s: '"'}
+    - $$mdi:close-box$$
   - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
     - {t: A, h: '$$mdi:apple-keyboard-command$$'}
     - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -30,7 +41,7 @@ layers:
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$phosphor:fill/magic-wand$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
     - SYS
   Any:
   - ['$$mdi:keyboard-esc$$', Q, K, O, U, Y, V, D, C, L, F, '$$mdi:close-box$$']
@@ -49,7 +60,7 @@ layers:
   - - {t: SYS, h: '$$mdi:close-box$$'}
     - {t: '?', s: '!'}
     - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
-    - ''''
+    - {t: '''', s: '"'}
     - {t: ., s: ':'}
     - X
     - B
@@ -62,7 +73,7 @@ layers:
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$phosphor:fill/magic-wand$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
     - SYS
   Gme:
   - - T
@@ -105,7 +116,7 @@ layers:
     - $$mdi:keyboard-space$$
     - $$mdi:apple-keyboard-shift$$
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$phosphor:fill/magic-wand$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   Num:
   - - {t: '$$mdi:transfer$$', type: trans}
@@ -282,42 +293,28 @@ layers:
   Mse:
   - - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-up$$'}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-up-thin$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-up$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-thin$$'}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-up-thin$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-thin$$'}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
   - - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-left$$'}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-down$$'}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-right$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-left$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-down$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-right$$'}
     - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-left$$'}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-down$$'}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-up$$'}
-    - {t: '$$phosphor:fill/mouse$$', h: '$$mdi:menu-right$$'}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-left$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-down$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-up$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-right$$'}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-down-thin$$'}
-    - {t: '$$phosphor:fill/mouse-scroll$$', h: '$$mdi:arrow-up-thin$$'}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-  - ['$$phosphor:fill/mouse-right-click$$', '$$phosphor:fill/mouse-middle-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-middle-click$$',
-  Combos:
   - - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
@@ -325,11 +322,14 @@ layers:
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-thin$$'}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
-    - {t: '$$mdi:transfer$$', type: trans}
+  - ['$$mdi:mouse-right-click-outline$$', '$$mdi:mouse-scroll-wheel$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-scroll-wheel$$',
+    '$$mdi:mouse-right-click-outline$$']
+  xxx:
   - - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
@@ -354,8 +354,24 @@ layers:
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
     - {t: '$$mdi:transfer$$', type: trans}
-  - ['$$phosphor:fill/mouse-right-click$$', '$$phosphor:fill/mouse-middle-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-left-click$$', '$$phosphor:fill/mouse-middle-click$$',
-    '$$phosphor:fill/mouse-right-click$$']
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+  - - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
+    - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 38]
   k: {t: Gme, h: '$$mdi:toggle-switch$$'}
@@ -371,106 +387,104 @@ combos:
   a: bottom
 - p: [2, 4]
   k: $$mdi:mouse$$
-  l: [Def, Num, Any]
+  l: [xxx]
   a: top
   o: 0.03
 - p: [14, 15]
   k: $$mdi:eraser$$
-  l: [Def, Any]
+  l: [xxx]
 - p: [26, 28]
   k: $$mdi:content-cut$$
-  l: [Def, Any]
+  l: [xxx]
+  a: bottom
 - p: [26, 27]
   k: $$mdi:content-copy$$
-  l: [Def, Any]
+  l: [xxx]
 - p: [27, 28]
   k: $$mdi:content-paste$$
-  l: [Def, Any]
+  l: [xxx]
 - p: [15, 16]
-  k: $$phosphor:regular/crown$$
-  l: [Def, Num, Any]
-  a: top
-  o: 1.35
+  k: $$mdi:crown$$
+  l: [xxx]
 - p: [14, 15, 16]
-  k: {t: '$$phosphor:regular/crown$$', h: '$$phosphor:regular/arrow-fat-up$$"'}
-  l: [Sys]
-  a: top
-  o: 1.35
+  k: {t: '$$mdi:crown$$', h: '$$phosphor:regular/arrow-fat-up$$"'}
+  l: [xxx]
+  hidden: true
 - p: [2, 14]
   k: '@'
-  l: [Def, Any]
+  l: [xxx]
 - p: [3, 15]
   k: '#'
-  l: [Def, Any]
+  l: [xxx]
 - p: [4, 16]
   k: $
-  l: [Def, Any]
+  l: [xxx]
 - p: [5, 17]
   k: '%'
-  l: [Def, Any]
+  l: [xxx]
 - p: [14, 26]
   k: '`'
-  l: [Def, Any]
+  l: [xxx]
 - p: [15, 27]
   k: \
-  l: [Def, Any]
+  l: [xxx]
 - p: [16, 28]
   k: '='
-  l: [Def, Any]
+  l: [xxx]
 - p: [17, 29]
   k: '~'
-  l: [Def, Any]
+  l: [xxx]
 - p: [7, 8]
   k: $$mdi:backspace-outline$$
-  l: [Def, Any]
+  l: [xxx]
 - p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
-  l: [Def, Any]
+  l: [xxx]
 - p: [19, 20]
-  k: (
-  l: [Def, Any]
+  k: (<
+  l: [xxx]
 - p: [20, 21]
-  k: )
-  l: [Def, Any]
+  k: )>
+  l: [xxx]
 - p: [19, 20]
-  k: <
-  l: [Num]
+  k: (<
+  l: [xxx]
 - p: [20, 21]
-  k: '>'
-  l: [Num]
+  k: )>
+  l: [xxx]
 - p: [31, 32]
-  k: '['
-  l: [Def, Any]
+  k: '[{'
+  l: [xxx]
 - p: [32, 33]
-  k: ']'
-  l: [Def, Any]
+  k: ']}'
+  l: [xxx]
 - p: [31, 32]
-  k: '{'
-  l: [Num]
+  k: '[{'
+  l: [xxx]
 - p: [32, 33]
-  k: '}'
-  l: [Num]
+  k: ']}'
+  l: [xxx]
 - p: [6, 18]
   k: ^
-  l: [Def, Any]
+  l: [xxx]
 - p: [7, 19]
   k: +
-  l: [Def, Any]
+  l: [xxx]
 - p: [8, 20]
   k: '*'
-  l: [Def, Any]
+  l: [xxx]
 - p: [9, 21]
   k: '&'
-  l: [Def, Any]
+  l: [xxx]
 - p: [18, 30]
   k: _
-  l: [Def, Any]
+  l: [xxx]
 - p: [19, 31]
   k: '-'
-  l: [Def, Any]
+  l: [xxx]
 - p: [20, 32]
   k: /
-  l: [Def, Any]
+  l: [xxx]
 - p: [21, 33]
   k: '|'
-  l: [Def, Any]
+  l: [xxx]

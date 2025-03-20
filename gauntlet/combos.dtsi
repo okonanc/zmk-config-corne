@@ -70,7 +70,7 @@ ZMK_COMBO(mute      , &kp C_MUTE     , LT1 LT0    ,         FNC GME     , COMBO_
 
 /* Misc */
 ZMK_COMBO(del_word  , &kp LC(BSPC)   , LM3 LM2    , DEF             PUQ , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//ZMK_COMBO(enter     , &kp ENTER      , LT2 LT1    , DEF             PUQ , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(esc       , &kp ESC        , LT3 LTa2    , DEF             PUQ , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1    , DEF             PUQ , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(copy      , &copy_cut      , LB3 LB2    , DEF             PUQ , COMBO_TERM_FAST, COMBO_IDLE_FAST)
