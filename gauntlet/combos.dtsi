@@ -27,8 +27,8 @@
 /* Horizontal combos - left hand */
 /* Layers */
 ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(to_base     , &to DEF        , LM5 LH1     ,             GME ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(to_puq      , &to ALT        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+//ZMK_COMBO(to_base     , &to DEF        , LM5 LH1     ,             GME ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+//ZMK_COMBO(to_alt      , &to ALT        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 //ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1 , DEF         GME  ,  , COMBO_TERM_FAST, COMBO_IDLE_FAST, COMBO_IDLE_FAST)
 
 #ifdef MOUSE_KEYS
