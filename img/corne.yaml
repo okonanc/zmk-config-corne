@@ -1,0 +1,492 @@
+layout: {zmk_keyboard: corne}
+layers:
+  Def:
+  - - $$mdi:keyboard-esc$$
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - {t: '''', s: '"'}
+    - $$mdi:close-box$$
+  - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
+    - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: G, h: '$$mdi:star-three-points$$'}
+    - {t: H, h: '$$mdi:star-three-points$$'}
+    - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: P, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  - - {t: SYS, h: '$$mdi:close-box$$'}
+    - Z
+    - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+    - C
+    - V
+    - B
+    - N
+    - M
+    - {t: ',', s: ;}
+    - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
+    - {t: '?', s: '!'}
+    - {t: SYS, h: '$$mdi:close-box$$'}
+  - - {t: '$$mdi:keyboard-tab$$', h: SYS}
+    - {t: '$$mdi:keyboard-space$$', h: NUM, s: . X}
+    - {t: '$$mdi:keyboard-return$$', h: Num}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - SYS
+  Any:
+  - ['$$mdi:keyboard-esc$$', Q, K, O, U, Y, V, D, C, L, F, '$$mdi:close-box$$']
+  - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
+    - {t: H, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
+    - {t: G, h: '$$mdi:star-three-points$$'}
+    - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: R, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  - - {t: SYS, h: '$$mdi:close-box$$'}
+    - {t: '?', s: '!'}
+    - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: '''', s: '"'}
+    - {t: ., s: ':'}
+    - X
+    - B
+    - P
+    - M
+    - {t: W, h: '$$mdi:apple-keyboard-option$$'}
+    - J
+    - {t: SYS, h: '$$mdi:close-box$$'}
+  - - {t: '$$mdi:keyboard-tab$$', h: SYS}
+    - {t: '$$mdi:keyboard-space$$', h: NUM, s: . X}
+    - {t: '$$mdi:keyboard-return$$', h: Num}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - SYS
+  Gme:
+  - - T
+    - $$mdi:keyboard-esc$$
+    - Q
+    - W
+    - E
+    - R
+    - Z
+    - U
+    - I
+    - O
+    - {t: '''', s: '"'}
+    - $$mdi:close-box$$
+  - - G
+    - $$mdi:keyboard-tab$$
+    - A
+    - S
+    - D
+    - F
+    - H
+    - J
+    - K
+    - L
+    - P
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  - - B
+    - $$mdi:apple-keyboard-control$$
+    - Y
+    - X
+    - C
+    - V
+    - N
+    - M
+    - {t: ',', s: ;}
+    - {t: ., s: ':'}
+    - {t: '?', s: '!'}
+    - {t: Fnr, h: '$$mdi:toggle-switch-outline$$'}
+  - - $$mdi:apple-keyboard-option$$
+    - $$mdi:keyboard-space$$
+    - $$mdi:apple-keyboard-shift$$
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  Num:
+  - - {type: trans}
+    - {type: trans}
+    - '7'
+    - '8'
+    - '9'
+    - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-left$$'}
+    - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-left$$'}
+    - {t: '$$mdi:backspace-outline$$', h: 'Ctl+$$mdi:backspace-outline$$'}
+    - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
+    - {t: '$$mdi:application-outline$$', h: '$$mdi:pan-right$$'}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {t: '0', h: '$$mdi:apple-keyboard-command$$'}
+    - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
+    - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
+    - {t: '6', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:application-outline$$', h: '$$mdi:chevron-right$$'}
+    - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:format-horizontal-align-left$$'}
+    - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:format-vertical-align-bottom$$'}
+    - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:format-vertical-align-top$$'}
+    - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:format-horizontal-align-right$$'}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {t: '1', h: '$$mdi:apple-keyboard-option$$'}
+    - '2'
+    - '3'
+    - {type: trans}
+    - {t: '$$mdi:tab$$', h: '$$mdi:chevron-left$$'}
+    - $$mdi:transfer-down$$
+    - $$mdi:transfer-up$$
+    - {t: '$$mdi:tab$$', h: '$$mdi:chevron-right$$'}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:close-box$$', type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  Fnr:
+  - - {type: trans}
+    - F12
+    - F7
+    - F8
+    - F9
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:power-standby$$
+  - - {type: trans}
+    - {t: F11, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: F4, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: F5, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: F6, h: '$$mdi:apple-keyboard-shift$$'}
+    - {type: trans}
+    - {t: '$$mdi:skip-previous$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+    - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:volume-high$$', h: '$$mdi:apple-keyboard-control$$'}
+    - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-option$$'}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - F10
+    - {t: F1, h: '$$mdi:apple-keyboard-option$$'}
+    - F2
+    - F3
+    - {type: trans}
+    - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-left-box-outline$$'}
+    - {t: '$$mdi:pin$$', h: '$$mdi:application-outline$$'}
+    - {t: '$$mdi:pin$$', h: '$$mdi:monitor$$'}
+    - {t: '$$mdi:monitor$$', h: '$$mdi:chevron-right-box-outline$$'}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:volume-off$$', h: '$$mdi:star-three-points$$'}
+    - $$mdi:play-pause$$
+    - {type: trans}
+  Sym:
+  - - {type: trans}
+    - ^
+    - '%'
+    - $
+    - €
+    - '*'
+    - ^
+    - '~'
+    - ''''
+    - '"'
+    - '`'
+    - {type: trans}
+  - - {type: trans}
+    - <
+    - '{'
+    - '['
+    - (
+    - /
+    - \
+    - )
+    - ']'
+    - '}'
+    - '>'
+    - {type: trans}
+  - - {type: trans}
+    - '!'
+    - '@'
+    - '#'
+    - '&'
+    - '|'
+    - _
+    - '-'
+    - '='
+    - +
+    - '?'
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  Sys:
+  - - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+    - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+    - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+    - $$mdi:bluetooth-off$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:power-standby$$
+  - - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-plug-outline$$', s: '$$mdi:power-plug-off-outline$$'}
+    - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}
+    - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-right$$'}
+    - {t: '$$mdi:progress-download$$', type: bootloader}
+    - {t: '$$mdi:progress-download$$', type: bootloader}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:restart$$
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:backup-restore$$
+    - $$mdi:backup-restore$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:logout$$
+  - - {type: trans}
+    - {type: trans}
+    - $$mdi:close-box$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  Mse:
+  - - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-up$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-thin$$'}
+    - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-thin$$'}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-left$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-down$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-right$$'}
+    - {type: trans}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-left$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-down$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-up$$'}
+    - {t: '$$mdi:mouse$$', h: '$$mdi:menu-right$$'}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-down-thin$$'}
+    - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:arrow-up-thin$$'}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - ['$$mdi:mouse-right-click-outline$$', '$$mdi:mouse-scroll-wheel$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-scroll-wheel$$',
+    '$$mdi:mouse-right-click-outline$$']
+  xxx:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+combos:
+- p: [0, 38]
+  k: {t: Gme, h: '$$mdi:toggle-switch-outline$$'}
+  l: [Def, Any]
+  a: right
+- p: [12, 37]
+  k: {t: Def, h: '$$mdi:toggle-switch-outline$$'}
+  l: [Gme, Any]
+  a: bottom
+- p: [12, 37, 16]
+  k: {t: Any, h: '$$mdi:toggle-switch-outline$$'}
+  l: [Def, Gme]
+  a: bottom
+- p: [3, 4]
+  k: $$mdi:mouse$$
+  l: [xxx]
+- p: [14, 15]
+  k: $$mdi:eraser$$
+  l: [xxx]
+- p: [2, 3]
+  k: $$mdi:keyboard-esc$$
+  l: [xxx]
+- p: [26, 28]
+  k: $$mdi:content-cut$$
+  l: [xxx]
+  a: bottom
+- p: [26, 27]
+  k: $$mdi:content-copy$$
+  l: [xxx]
+- p: [27, 28]
+  k: $$mdi:content-paste$$
+  l: [xxx]
+- p: [15, 16]
+  k: $$mdi:crown$$
+  l: [xxx]
+- p: [14, 15, 16]
+  k: {t: '$$mdi:crown$$', h: '$$phosphor:regular/arrow-fat-up$$"'}
+  l: [xxx]
+  a: top
+  o: 1.25
+- p: [2, 14]
+  k: '@'
+  l: [xxx]
+- p: [3, 15]
+  k: '#'
+  l: [xxx]
+- p: [4, 16]
+  k: $
+  l: [xxx]
+- p: [5, 17]
+  k: '%'
+  l: [xxx]
+- p: [14, 26]
+  k: '`'
+  l: [xxx]
+- p: [15, 27]
+  k: \
+  l: [xxx]
+- p: [16, 28]
+  k: '='
+  l: [xxx]
+- p: [17, 29]
+  k: '~'
+  l: [xxx]
+- p: [7, 8]
+  k: $$mdi:backspace-outline$$
+  l: [xxx]
+- p: [8, 9]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [xxx]
+- p: [19, 20]
+  k: (<
+  l: [xxx]
+- p: [20, 21]
+  k: )>
+  l: [xxx]
+- p: [19, 20]
+  k: (<
+  l: [xxx]
+- p: [20, 21]
+  k: )>
+  l: [xxx]
+- p: [31, 32]
+  k: '[{'
+  l: [xxx]
+- p: [32, 33]
+  k: ']}'
+  l: [xxx]
+- p: [31, 32]
+  k: '[{'
+  l: [xxx]
+- p: [32, 33]
+  k: ']}'
+  l: [xxx]
+- p: [6, 18]
+  k: ^
+  l: [xxx]
+- p: [7, 19]
+  k: +
+  l: [xxx]
+- p: [8, 20]
+  k: '*'
+  l: [xxx]
+- p: [9, 21]
+  k: '&'
+  l: [xxx]
+- p: [18, 30]
+  k: _
+  l: [xxx]
+- p: [19, 31]
+  k: '-'
+  l: [xxx]
+- p: [20, 32]
+  k: /
+  l: [xxx]
+- p: [21, 33]
+  k: '|'
+  l: [xxx]
