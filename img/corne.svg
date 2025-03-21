@@ -114,6 +114,9 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
+<svg id="mdi:layers-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-layers-outline" viewBox="0 0 24 24"><path d="M12,18.54L19.37,12.8L21,14.07L12,21.07L3,14.07L4.62,12.81L12,18.54M12,16L3,9L12,2L21,9L12,16M12,4.53L6.26,9L12,13.47L17.74,9L12,4.53Z" /></svg>
+</svg>
 <svg id="mdi:logout">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-logout" viewBox="0 0 24 24"><path d="M17 7L15.59 8.41L18.17 11H8V13H18.17L15.59 15.58L17 17L22 12M4 5H12V3H4C2.9 3 2 3.9 2 5V19C2 20.1 2.9 21 4 21H12V19H4V5Z" /></svg>
 </svg>
@@ -185,9 +188,6 @@
 </svg>
 <svg id="mdi:toggle-switch">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-toggle-switch" viewBox="0 0 24 24"><path d="M17,7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7M17,15A3,3 0 0,1 14,12A3,3 0 0,1 17,9A3,3 0 0,1 20,12A3,3 0 0,1 17,15Z" /></svg>
-</svg>
-<svg id="mdi:toggle-switch-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-toggle-switch-outline" viewBox="0 0 24 24"><path d="M17 6H7C3.69 6 1 8.69 1 12S3.69 18 7 18H17C20.31 18 23 15.31 23 12S20.31 6 17 6M17 16H7C4.79 16 3 14.21 3 12S4.79 8 7 8H17C19.21 8 21 9.79 21 12S19.21 16 17 16M17 9C15.34 9 14 10.34 14 12S15.34 15 17 15 20 13.66 20 12 18.66 9 17 9Z" /></svg>
 </svg>
 <svg id="mdi:transfer-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-down" viewBox="0 0 24 24"><path d="M16,3V5H8V3H16M16,7V9H8V7H16M16,11V13H8V11H16M5,15H19L12,22L5,15Z" /></svg>
@@ -725,9 +725,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Any">
-<text x="0" y="0" class="key tap layer-activator">Any</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
+<text x="0" y="0" class="key tap">ANY</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -776,9 +775,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Def">
-<text x="0" y="0" class="key tap layer-activator">Def</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
+<text x="0" y="0" class="key tap">DEF</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -816,9 +814,8 @@ path.combo { stroke: #7f7f7f; }
 <path d="M542,195 v-119 a6.0,6.0 0 0 0 -6.0,-6.0 h-470" class="combo"/>
 <path d="M542,195 v119 a6.0,6.0 0 0 1 -6.0,6.0 h-8" class="combo"/>
 <rect rx="4" ry="4" x="524" y="177" width="36" height="36" class="combo"/>
-<a href="#Gme">
-<text x="542" y="195" class="combo tap layer-activator">Gme</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="533" y="191" height="18" width="18.0" class="combo hold glyph mdi:toggle-switch-outline"/>
+<text x="542" y="195" class="combo tap">GME</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="533" y="191" height="18" width="18.0" class="combo hold glyph mdi:layers-outline"/>
 </g>
 </g>
 </g>
@@ -935,9 +932,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Def">
-<text x="0" y="0" class="key tap layer-activator">Def</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
+<text x="0" y="0" class="key tap">DEF</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -986,9 +982,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Any">
-<text x="0" y="0" class="key tap layer-activator">Any</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
+<text x="0" y="0" class="key tap">ANY</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1026,9 +1021,8 @@ path.combo { stroke: #7f7f7f; }
 <path d="M542,195 v-119 a6.0,6.0 0 0 0 -6.0,-6.0 h-470" class="combo"/>
 <path d="M542,195 v119 a6.0,6.0 0 0 1 -6.0,6.0 h-8" class="combo"/>
 <rect rx="4" ry="4" x="524" y="177" width="36" height="36" class="combo"/>
-<a href="#Gme">
-<text x="542" y="195" class="combo tap layer-activator">Gme</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="533" y="191" height="18" width="18.0" class="combo hold glyph mdi:toggle-switch-outline"/>
+<text x="542" y="195" class="combo tap">GME</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="533" y="191" height="18" width="18.0" class="combo hold glyph mdi:layers-outline"/>
 </g>
 </g>
 </g>
@@ -1181,9 +1175,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Def">
-<text x="0" y="0" class="key tap layer-activator">Def</text>
-</a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
+<text x="0" y="0" class="key tap">DEF</text>
+<use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
