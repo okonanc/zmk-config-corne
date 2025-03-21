@@ -57,7 +57,7 @@ layers:
     - {t: N, h: '$$mdi:apple-keyboard-option$$'}
     - {t: S, h: '$$mdi:apple-keyboard-command$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
-  - - {t: Any, h: '$$mdi:toggle-switch-outline$$'}
+  - - {t: Def, h: '$$mdi:toggle-switch-outline$$'}
     - {t: '?', s: '!'}
     - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
     - {t: '''', s: '"'}
@@ -68,7 +68,7 @@ layers:
     - M
     - {t: W, h: '$$mdi:apple-keyboard-option$$'}
     - J
-    - {t: Def, h: '$$mdi:toggle-switch-outline$$'}
+    - {t: Any, h: '$$mdi:toggle-switch-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: Num}
@@ -111,7 +111,7 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
-    - {t: Fnr, h: '$$mdi:toggle-switch-outline$$'}
+    - {t: Def, h: '$$mdi:toggle-switch-outline$$'}
   - - $$mdi:apple-keyboard-option$$
     - $$mdi:keyboard-space$$
     - $$mdi:apple-keyboard-shift$$

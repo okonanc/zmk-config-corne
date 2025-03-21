@@ -569,12 +569,12 @@ path.combo {
 /* Outer column + thumb keys */
 .keypos-0,
 .keypos-11,
-.keypos-24,
-.keypos-35,
-.keypos-36,
+.keypos-12,
+.keypos-23,
+.keypos-37,
 .keypos-38,
 .keypos-39,
-.keypos-41 {
+.keypos-40 {
     --color--key--bg: var(--color--key--bg--outer);
     --color--key--text--tap: var(--color--text--outer);
     //--color--key--text--hold: var(--color--text--outer);
@@ -582,10 +582,10 @@ path.combo {
 
 /* Outer column + thumb keys */
 /* middle keys */
-.keypos-12,
-.keypos-23,
-.keypos-37,
-.keypos-40 {
+.keypos-24,
+.keypos-35,
+.keypos-36,
+.keypos-41 {
     --color--key--bg: var(--color--key--bg--outer--alt);
     //--color--key--border: var(--color--material--blue-gray--50);
     --color--key--text--tap: var(--color--text--outer);
@@ -935,8 +935,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Any">
-<text x="0" y="0" class="key tap layer-activator">Any</text>
+<a href="#Def">
+<text x="0" y="0" class="key tap layer-activator">Def</text>
 </a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
@@ -986,8 +986,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Def">
-<text x="0" y="0" class="key tap layer-activator">Def</text>
+<a href="#Any">
+<text x="0" y="0" class="key tap layer-activator">Any</text>
 </a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
@@ -1181,8 +1181,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Fnr">
-<text x="0" y="0" class="key tap layer-activator">Fnr</text>
+<a href="#Def">
+<text x="0" y="0" class="key tap layer-activator">Def</text>
 </a><use href="#mdi:toggle-switch-outline" xlink:href="#mdi:toggle-switch-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:toggle-switch-outline"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
