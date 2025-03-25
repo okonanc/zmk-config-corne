@@ -36,12 +36,12 @@ layers:
     - {t: ',', s: ;}
     - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
     - {t: '?', s: '!'}
-    - {t: DEF, h: '$$mdi:layers-outline$$'}
+    - {t: ANY, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
-    - {t: '$$mdi:keyboard-return$$', h: Num}
+    - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - SYS
   Any:
   - ['$$mdi:keyboard-esc$$', Q, K, O, U, Y, V, D, C, L, F, '$$mdi:close-box$$']
@@ -68,12 +68,12 @@ layers:
     - M
     - {t: W, h: '$$mdi:apple-keyboard-option$$'}
     - J
-    - {t: ANY, h: '$$mdi:layers-outline$$'}
+    - {t: DEF, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
-    - {t: '$$mdi:keyboard-return$$', h: Num}
+    - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - SYS
   Gme:
   - - T
@@ -116,7 +116,7 @@ layers:
     - $$mdi:keyboard-space$$
     - $$mdi:apple-keyboard-shift$$
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:auto-fix$$', h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   Num:
   - - {type: trans}
@@ -157,7 +157,7 @@ layers:
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - {t: '$$mdi:close-box$$', type: held}
+    - $$mdi:close-box$$
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -201,7 +201,7 @@ layers:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
-    - {t: '$$mdi:volume-off$$', h: '$$mdi:star-three-points$$'}
+    - $$mdi:volume-off$$
     - $$mdi:play-pause$$
     - {type: trans}
   Sys:
@@ -331,9 +331,10 @@ layers:
     - {type: trans}
 combos:
 - p: [0, 38]
-  k: {t: GME, h: '$$mdi:layers-outline$$'}
+  k: $$mdi:controller-classic-outline$$
   l: [Def, Any]
-  a: right
+  a: top
+  o: 0.7
 - p: [3, 4]
   k: $$mdi:mouse$$
   l: [xxx]
@@ -357,7 +358,7 @@ combos:
   k: $$mdi:crown$$
   l: [xxx]
 - p: [14, 15, 16]
-  k: {t: '$$mdi:crown$$', h: '$$phosphor:regular/arrow-fat-up$$"'}
+  k: {t: '$$mdi:crown$$', h: '$$mdi:apple-keyboard-shift$$"'}
   l: [xxx]
   a: top
   o: 1.25
