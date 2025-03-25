@@ -1,10 +1,24 @@
-/*
+
 ZMK_ADAPTIVE_KEY(
-    ak_g: ak_g {
-    compatible = "zmk,behavior-adaptive-key";
-    #binding-cells = <0>;
-    bindings = <&kp G>;
-    akt_gm { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp G &kp L>;}
-    }
+    ak_m,
+    bindings = <&kp M>;
+    // gm -> gl
+    akt_gl { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>;};
 )
-*/
+ZMK_ADAPTIVE_KEY(
+    ak_g,
+    bindings = <&kp G>;
+    akt_mg { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp L &kp G>;};
+)
+ZMK_ADAPTIVE_KEY(
+    ak_w,
+    bindings = <&kp W>;
+    akt_mp { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp P>;};
+)
+ZMK_ADAPTIVE_KEY(
+    ak_f,
+    bindings = <&kp F>;
+    akt_dw { trigger-keys = <D>; max-prior-idle-ms = <300>; bindings = <&kp W>;};
+    akt_ps { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp P &kp S>;};
+)
+
