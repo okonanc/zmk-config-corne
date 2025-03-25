@@ -1,3 +1,4 @@
+/*
 ZMK_ADAPTIVE_KEY(
     ak_g: ak_g {
     compatible = "zmk,behavior-adaptive-key";
@@ -6,3 +7,4 @@ ZMK_ADAPTIVE_KEY(
     akt_gm { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp G &kp L>;}
     }
 )
+*/
