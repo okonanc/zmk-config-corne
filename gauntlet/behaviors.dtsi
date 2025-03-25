@@ -149,8 +149,8 @@ ZMK_TRI_STATE(swapper,
     )
 
 // tap: minus | shift + tap: plus | ctrl + shift + tap: _
-SIMPEL_MORPH(minus_morph, SFT, &kp MINUS, &minus_inner_morph)
-SIMPEL_MORPH(minus_inner_morph, CTL, &kp PLUS, &kp UNDER)
+SIMPLE_MORPH(minus_morph, SFT, &kp MINUS, &minus_inner_morph)
+SIMPLE_MORPH(minus_inner_morph, CTL, &kp PLUS, &kp UNDER)
 
 // tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
