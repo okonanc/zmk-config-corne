@@ -43,6 +43,7 @@ MAKE_HRM(hml_ralt_minus, &kp, &minus_morph, KEYS_R THUMBS)
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
 #include "leader.dtsi"
+#include "adaptive_keys.dtsi"
 //#include "L_MSE.dtsi"
 
 /* Nav cluster */

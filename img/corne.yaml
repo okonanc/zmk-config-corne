@@ -1,5 +1,37 @@
 layout: {zmk_keyboard: corne}
 layers:
+  Prom:
+  - ['$$mdi:keyboard-esc$$', B, Y, O, U, Z, X, L, D, P, F, '$$mdi:close-box$$']
+  - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
+    - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
+    - {t: K, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+    - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  - - {t: ANY, h: '$$mdi:layers-outline$$'}
+    - {t: '?', s: '!'}
+    - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: +}
+    - {t: '''', s: '"'}
+    - {t: ., s: ':'}
+    - Q
+    - J
+    - M
+    - G
+    - {t: W, h: '$$mdi:apple-keyboard-option$$'}
+    - V
+    - {t: ANY, h: '$$mdi:layers-outline$$'}
+  - - {t: '$$mdi:keyboard-tab$$', h: SYS}
+    - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
+    - {t: '$$mdi:keyboard-return$$', h: NUM}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
+    - R
   Def:
   - - $$mdi:keyboard-esc$$
     - Q
@@ -25,7 +57,7 @@ layers:
     - {t: L, h: '$$mdi:apple-keyboard-option$$'}
     - {t: P, h: '$$mdi:apple-keyboard-command$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
-  - - {t: ANY, h: '$$mdi:layers-outline$$'}
+  - - {t: DEF, h: '$$mdi:layers-outline$$'}
     - Z
     - {t: X, h: '$$mdi:apple-keyboard-option$$'}
     - C
@@ -36,38 +68,6 @@ layers:
     - {t: ',', s: ;}
     - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
     - {t: '?', s: '!'}
-    - {t: ANY, h: '$$mdi:layers-outline$$'}
-  - - {t: '$$mdi:keyboard-tab$$', h: SYS}
-    - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
-    - {t: '$$mdi:keyboard-return$$', h: NUM}
-    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
-    - SYS
-  Any:
-  - ['$$mdi:keyboard-esc$$', Q, K, O, U, Y, V, D, C, L, F, '$$mdi:close-box$$']
-  - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
-    - {t: H, h: '$$mdi:apple-keyboard-command$$'}
-    - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-    - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
-    - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
-    - {t: G, h: '$$mdi:star-three-points$$'}
-    - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-    - {t: R, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-    - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-    - {t: '$$mdi:keyboard-return$$', type: enter}
-  - - {t: DEF, h: '$$mdi:layers-outline$$'}
-    - {t: '?', s: '!'}
-    - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
-    - {t: '''', s: '"'}
-    - {t: ., s: ':'}
-    - X
-    - B
-    - P
-    - M
-    - {t: W, h: '$$mdi:apple-keyboard-option$$'}
-    - J
     - {t: DEF, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
@@ -332,7 +332,7 @@ layers:
 combos:
 - p: [0, 38]
   k: $$mdi:controller-classic-outline$$
-  l: [Def, Any]
+  l: [Prom, Def]
   a: top
   o: 0.7
 - p: [3, 4]
