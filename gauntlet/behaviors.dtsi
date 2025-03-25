@@ -34,6 +34,7 @@ MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 MAKE_HRM(hmr_alt_dot, &kp, &dot_morph, KEYS_L THUMBS)
 MAKE_HRM(hml_meh_comma, &kp, &comma_morph, KEYS_R THUMBS)
+MAKE_HRM(hml_ralt_minus, &kp, &minus_morph, KEYS_R THUMBS)
 
 // Hack: Make HRM combos tap-only (cf, ZMK issue #544).
 #define ZMK_COMBO_8(NAME, TAP, POS, LAYERS, COMBO_MS, IDLE_MS, HOLD, SIDE)     \
@@ -146,6 +147,10 @@ ZMK_TRI_STATE(swapper,
         mods = <(MOD_L##MOD|MOD_R##MOD)>; \
         bindings = <BINDING1>, <BINDING2>; \
     )
+
+// tap: minus | shift + tap: plus | ctrl + shift + tap: _
+SIMPEL_MORPH(minus_morph, SFT, &kp MINUS, &minus_inner_morph)
+SIMPEL_MORPH(minus_inner_morph, CTL, &kp PLUS, &kp UNDER)
 
 // tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
