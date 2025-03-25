@@ -86,7 +86,7 @@ ZMK_ADAPTIVE_KEY(
 ZMK_ADAPTIVE_KEY(
     ak_g,
     bindings = <&kp G>;
-    akt_gm { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp L &kp BSPC &kp G>;};
+    akt_gm { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp L &kp G>;};
 )
 
 /* Magic-shift & auto-layers */
