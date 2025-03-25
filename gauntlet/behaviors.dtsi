@@ -80,8 +80,8 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
 ZMK_ADAPTIVE_KEY(
     ak_g,
-    bindings = <&kp G>;
-    akt_gm { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp G &kp L>;};
+    bindings = <&kp M>;
+    akt_gm { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>;}
 )
 
 /* Magic-shift & auto-layers */
