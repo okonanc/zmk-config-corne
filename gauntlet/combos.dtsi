@@ -22,30 +22,16 @@
 
 // make homerow combos tap-only (so HRMs can be chorded instantaneously)
 
-
+/* Horizontal combos - left and right hand simultaneously */
+ZMK_COMBO(boot_dongle  , &bootloader   , LM0 RM0     , DEF             ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Horizontal combos - left hand */
 /* Layers */
 ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(to_base     , &to DEF        , LM5 LH1     ,             GME ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(to_alt      , &to ALT        , LM5 LH1 LM1 , DEF         GME    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(to_but    , &to BuT        , LM5 LH1 LM1 , DEF         GME  ,  , COMBO_TERM_FAST, COMBO_IDLE_FAST, COMBO_IDLE_FAST)
 
 #ifdef MOUSE_KEYS
   ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1     ,  DEF  NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//ZMK_COMBO(to_mouse  , &to MSE        , RT1 RT2      , DEF         GME   ,  xz)
 #endif 
-
-/* Umlaute */
-//ZMK_COMBO(auml      , &kp AE      , LT0 LM0     , DEF                , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(ss        , &kp SS      , LM0 LB0     , DEF                , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(ouml      , &kp OE      , RT0 RM0     , DEF                , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(uuml      , &kp UE      , RM0 RB0     , DEF                , )
-
-//ZMK_COMBO(puq_auml  , &kp AE      , LT2 LM1     , DEF             ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//ZMK_COMBO(puq_ss    , &kp SS      , RB4 RM4     , DEF             ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-//ZMK_COMBO(puq_ouml  , &kp OE      , LT2 LM0     , DEF             ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//ZMK_COMBO(puq_uuml  , &kp UE      , LT2 LT3     , DEF             ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)    
 
 /* Bluetooth 
 ZMK_COMBO(bt_clear  , &bt BT_CLR     , RM1 RM2 RM3 ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
