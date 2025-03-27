@@ -22,3 +22,10 @@ ZMK_ADAPTIVE_KEY(
     akt_ps { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp P &kp S>;};
 )
 
+ZMK_ADAPTIVE_KEY(
+    ak_e,
+        bindings = <&kp E>;
+        akt_mg { trigger-keys = <U>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_ue>;};
+        akt_mg { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_ae>;};
+        akt_mg { trigger-keys = <O>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_oe>;};
+)
