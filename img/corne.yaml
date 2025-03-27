@@ -41,8 +41,8 @@ layers:
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - R
+    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
   Qwerty:
   - - $$mdi:keyboard-esc$$
     - Q
@@ -341,6 +341,9 @@ layers:
     - {type: trans}
     - {type: trans}
 combos:
+- p: [17, 18]
+  k: {t: '$$mdi:progress-download$$', type: bootloader}
+  l: [xxx]
 - p: [0, 38]
   k: $$mdi:controller-classic-outline$$
   l: [Prom, Qwerty]
