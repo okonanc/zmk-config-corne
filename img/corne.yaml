@@ -11,12 +11,12 @@ layers:
     - L
     - D
     - P
-    - {t: F, h: '$$mdi:alpha-a-box$$'}
+    - {t: F, s: '$$mdi:alpha-a-box$$'}
     - $$mdi:close-box$$
   - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
     - {t: C, h: '$$mdi:apple-keyboard-command$$'}
     - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-    - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: E, h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:alpha-a-box$$'}
     - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
     - {t: ',', h: '$$mdi:star-three-points$$', s: ;}
     - {t: K, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
@@ -32,9 +32,9 @@ layers:
     - {t: ., s: ':'}
     - Q
     - J
-    - {t: M, h: '$$mdi:alpha-a-box$$'}
-    - {t: G, h: '$$mdi:alpha-a-box$$'}
-    - {t: W, h: '$$mdi:alpha-a-box$$'}
+    - {t: M, s: '$$mdi:alpha-a-box$$'}
+    - {t: G, s: '$$mdi:alpha-a-box$$'}
+    - {t: W, s: '$$mdi:alpha-a-box$$'}
     - V
     - {t: ANY, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
@@ -47,7 +47,7 @@ layers:
   - - $$mdi:keyboard-esc$$
     - Q
     - W
-    - {t: E, h: '$$mdi:alpha-a-box$$'}
+    - {t: E, s: '$$mdi:alpha-a-box$$'}
     - R
     - T
     - Y
