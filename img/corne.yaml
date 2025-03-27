@@ -1,7 +1,18 @@
 layout: {zmk_keyboard: corne}
 layers:
   Prom:
-  - ['$$mdi:keyboard-esc$$', B, Y, O, U, Z, X, L, D, P, F, '$$mdi:close-box$$']
+  - - $$mdi:keyboard-esc$$
+    - B
+    - Y
+    - O
+    - U
+    - Z
+    - X
+    - L
+    - D
+    - P
+    - {t: F, h: '$$mdi:alpha-a-box$$'}
+    - $$mdi:close-box$$
   - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
     - {t: C, h: '$$mdi:apple-keyboard-command$$'}
     - {t: A, h: '$$mdi:apple-keyboard-option$$'}
@@ -21,9 +32,9 @@ layers:
     - {t: ., s: ':'}
     - Q
     - J
-    - M
-    - G
-    - {t: W, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: M, h: '$$mdi:alpha-a-box$$'}
+    - {t: G, h: '$$mdi:alpha-a-box$$'}
+    - {t: W, h: '$$mdi:alpha-a-box$$'}
     - V
     - {t: ANY, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
@@ -32,7 +43,7 @@ layers:
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - R
-  Def:
+  Qwerty:
   - - $$mdi:keyboard-esc$$
     - Q
     - W
@@ -332,7 +343,7 @@ layers:
 combos:
 - p: [0, 38]
   k: $$mdi:controller-classic-outline$$
-  l: [Prom, Def]
+  l: [Prom, Qwerty]
   a: top
   o: 0.7
 - p: [3, 4]

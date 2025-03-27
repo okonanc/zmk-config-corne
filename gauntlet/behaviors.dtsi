@@ -76,21 +76,6 @@ ZMK_HOLD_TAP(mt_end, bindings = <&masked_end>, <&kp>; MT_CORE)
 MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
 MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
-/* Adaptive Keys */
-// gm -> gl
-/*
-ZMK_ADAPTIVE_KEY(
-    ak_m,
-    bindings = <&kp M>;
-    akt_gl { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>;};
-)
-ZMK_ADAPTIVE_KEY(
-    ak_g,
-    bindings = <&kp G>;
-    akt_gm { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp L &kp G>;};
-)
-*/
-
 /* Magic-shift & auto-layers */
 
 // Tap: repeat after alpha, else sticky-shift |
@@ -179,7 +164,7 @@ SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
 // tap: qmark | shift + tap: excl
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 
-// tap: sqt | shift + tap: dqt
+// tap: ' shift + tap: " | hold: 'x'
 SIMPLE_MORPH(sdq, SFT, &ndk_sqt, &ndk_dqt)
 
 // tap: left/right parenthesis | shft + tap: less-than/greater-than

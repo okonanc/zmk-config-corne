@@ -1,5 +1,8 @@
 <svg width="1300" height="3717" viewBox="0 0 1300 3717" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="mdi:alpha-a-box">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-alpha-a-box" viewBox="0 0 24 24"><path d="M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M11,7A2,2 0 0,0 9,9V17H11V13H13V17H15V9A2,2 0 0,0 13,7H11M11,9H13V11H11V9Z" /></svg>
+</svg>
 <svg id="mdi:alpha-w-box">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-alpha-w-box" viewBox="0 0 24 24"><path d="M9,17H15A2,2 0 0,0 17,15V7H15V15H13V8H11V15H9V7H7V15A2,2 0 0,0 9,17M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg>
 </svg>
@@ -658,6 +661,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(1080, 70)" class="key keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
+<use href="#mdi:alpha-a-box" xlink:href="#mdi:alpha-a-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:alpha-a-box"/>
 </g>
 <g transform="translate(1160, 70)" class="key keypos-11">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -760,15 +764,17 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(840, 210)" class="key keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
+<use href="#mdi:alpha-a-box" xlink:href="#mdi:alpha-a-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:alpha-a-box"/>
 </g>
 <g transform="translate(920, 200)" class="key keypos-32">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">G</text>
+<use href="#mdi:alpha-a-box" xlink:href="#mdi:alpha-a-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:alpha-a-box"/>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">W</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:alpha-a-box" xlink:href="#mdi:alpha-a-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:alpha-a-box"/>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -818,8 +824,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(50, 487)" class="layer-Def">
-<text x="0" y="25" class="label" id="Def">Def</text>
+<g transform="translate(50, 487)" class="layer-Qwerty">
+<text x="0" y="25" class="label" id="Qwerty">Qwerty</text>
 <g transform="translate(0, 95)">
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
