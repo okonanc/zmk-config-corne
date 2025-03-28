@@ -1,0 +1,21 @@
+/**
+ * Alpha Layer - Hands Down - Promethium
+ */
+
+#define HML_MEH_COMMA &hml_meh_comma MEH 0
+#define HML_RALT_MINUS &hml_ralt_minus RALT 0
+#define HML_CTRL_E &hml_ctrl_akE LCTRL 0
+#define MAGIC_KEY &ak_*
+#define HML_LSHFT_THORN &hml_lshft_thorn LSHFT 0
+
+ZMK_BASE_LAYER(Infinity,
+// ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
+    &kp ESC         &kp Q           &kp U           &kp O           &kp F           &kp SQT        ,    &kp P           &kp C           &kp L           &kp M           &kp V           &kp K_CANCEL   ,
+// ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+    &bs_del         &hml LCMD A     &hml LALT I     &hml LCTRL E    HML_LSHFT_THORN &hml MEH B     ,    &hmr MEH Y      &hmr RSHFT D    &hmr LCTRL R    &hmr LALT T     &hmr LCMD S     &kp ENTER      ,
+// ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+    &to ALT         &qexcl          &dot_morph      &comma_morph    &kp H           &kp X          ,    &kp W           &kp G           &kp J           &kp K           &kp Z           &to ALT        ,
+// ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
+                                                    &lt SYS TAB     &lt_spc FNR 0   &lt NUM RET    ,    MAGIC_KEY       &kp N           MAGIC_SHIFT
+//                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
+)
