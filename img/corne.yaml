@@ -47,7 +47,7 @@ layers:
   - - $$mdi:keyboard-esc$$
     - Q
     - W
-    - {t: E, s: '$$mdi:alpha-a-box$$'}
+    - E
     - R
     - T
     - Y

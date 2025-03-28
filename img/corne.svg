@@ -838,7 +838,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(280, 40)" class="key keypos-3">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<use href="#mdi:alpha-a-box" xlink:href="#mdi:alpha-a-box" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:alpha-a-box"/>
 </g>
 <g transform="translate(360, 50)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
