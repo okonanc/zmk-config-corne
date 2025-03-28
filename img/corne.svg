@@ -731,7 +731,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">ANY</text>
+<text x="0" y="0" class="key tap">ALT</text>
 <use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
@@ -779,7 +779,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">ANY</text>
+<text x="0" y="0" class="key tap">ALT</text>
 <use href="#mdi:layers-outline" xlink:href="#mdi:layers-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:layers-outline"/>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
@@ -800,7 +800,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
-<text x="0" y="0" class="key tap">E</text>
+<text x="0" y="0" class="key tap">*</text>
 <use href="#mdi:alpha-a-box" xlink:href="#mdi:alpha-a-box" x="-9" y="-54" height="18" width="18.0" class="key shifted glyph mdi:alpha-a-box"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">

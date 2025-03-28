@@ -482,7 +482,7 @@ parse_config:
       shifted: ":"
     "&hm_combo_ldr": $$mdi:crown$$
     "&hm_combo_ldrsh": { "t": $$mdi:crown$$, "h": $$mdi:apple-keyboard-shift$$" }
-    "&to ALT": { t: "ANY", h: $$mdi:layers-outline$$ }
+    "&to ALT": { t: "ALT", h: $$mdi:layers-outline$$ }
     "&to DEF": { t: "DEF", h: $$mdi:layers-outline$$ }
     "&to GME": { t: $$mdi:controller-classic-outline$$ }
     "&ak_g": { t: G, s: $$mdi:alpha-a-box$$ }
@@ -490,7 +490,7 @@ parse_config:
     "&ak_m": { t: M, s: $$mdi:alpha-a-box$$ }
     "&ak_f": { t: F, s: $$mdi:alpha-a-box$$ }
     "&ak_e": { t: E, s: $$mdi:alpha-a-box$$ }
-    "&ak_magic": { t: E, s: $$mdi:alpha-a-box$$ }
+    "&ak_magic": { t: '*', s: $$mdi:alpha-a-box$$ }
     "&hml_lshft_thorn": { t: $$mdi:weather-tornado$$, h: $$mdi:apple-keyboard-shift$$ }
 
     "&kp LG(LC(LS(A)))": {"t": $$mdi:pin$$, "h": $$mdi:application-outline$$}

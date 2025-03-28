@@ -25,7 +25,7 @@ layers:
     - {t: T, h: '$$mdi:apple-keyboard-option$$'}
     - {t: S, h: '$$mdi:apple-keyboard-command$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
-  - - {t: ANY, h: '$$mdi:layers-outline$$'}
+  - - {t: ALT, h: '$$mdi:layers-outline$$'}
     - {t: '?', s: '!'}
     - {t: ., s: ':'}
     - {t: ',', s: ;}
@@ -36,11 +36,11 @@ layers:
     - J
     - K
     - Z
-    - {t: ANY, h: '$$mdi:layers-outline$$'}
+    - {t: ALT, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
-    - {t: E, s: '$$mdi:alpha-a-box$$'}
+    - {t: '*', s: '$$mdi:alpha-a-box$$'}
     - N
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
   Qwerty:
