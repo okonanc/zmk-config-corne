@@ -2,14 +2,14 @@ ZMK_ADAPTIVE_KEY(
     ak_magic,
         bindings = <&kp STAR>;
         akt_a_magic { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp O>;};
-        akt_b_magic { trigger-keys = <B>; max-prior-idle-ms = <300>; bindings = <&kp E &kp F &kp O &kp R &kp E &kp SPACE>;};
+        akt_b_magic { trigger-keys = <B>; max-prior-idle-ms = <300>; bindings = <&kp E &kp F &kp O &kp R &kp E>;};
         akt_c_magic { trigger-keys = <C>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
         akt_d_magic { trigger-keys = <D>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
         akt_e_magic { trigger-keys = <E>; max-prior-idle-ms = <300>; bindings = <&kp U>;};
 //        akt_f_magic { trigger-keys = <F>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
         akt_g_magic { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
 //        akt_h_magic { trigger-keys = <H>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
-        akt_i_magic { trigger-keys = <I>; max-prior-idle-ms = <300>; bindings = <&kp I &kp O &kp N>;};
+        akt_i_magic { trigger-keys = <I>; max-prior-idle-ms = <300>; bindings = <&kp O &kp N>;};
         akt_j_magic { trigger-keys = <J>; max-prior-idle-ms = <300>; bindings = <&kp U &kp S &kp T>;};
         akt_k_magic { trigger-keys = <K>; max-prior-idle-ms = <300>; bindings = <&kp S>;};
         akt_l_magic { trigger-keys = <L>; max-prior-idle-ms = <300>; bindings = <&kp K>;};
@@ -25,7 +25,7 @@ ZMK_ADAPTIVE_KEY(
         akt_v_magic { trigger-keys = <V>; max-prior-idle-ms = <300>; bindings = <&kp E &kp R>;};
         akt_w_magic { trigger-keys = <W>; max-prior-idle-ms = <300>; bindings = <&kp H &kp I &kp C &kp H>;};
         akt_x_magic { trigger-keys = <X>; max-prior-idle-ms = <300>; bindings = <&kp E &kp S>;};
-        akt_y_magic { trigger-keys = <X>; max-prior-idle-ms = <300>; bindings = <&kp P>;};
+        akt_y_magic { trigger-keys = <Y>; max-prior-idle-ms = <300>; bindings = <&kp O &kp U>;};
 //        akt_z_magic { trigger-keys = <Z>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
         akt_space_magic { trigger-keys = <SPACE>; max-prior-idle-ms = <300>; bindings = <&kp T &kp H>;};
 )
