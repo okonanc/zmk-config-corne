@@ -17,7 +17,7 @@ layers:
     - {t: A, h: '$$mdi:apple-keyboard-command$$'}
     - {t: I, h: '$$mdi:apple-keyboard-option$$'}
     - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: '&thorn_th', h: '$$mdi:apple-keyboard-shift$$', s: '&thorn_ch'}
+    - {t: '$$mdi:weather-tornado$$', h: '$$mdi:apple-keyboard-shift$$'}
     - {t: B, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
     - {t: Y, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
     - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -40,7 +40,7 @@ layers:
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
-    - '&ak_magic'
+    - {t: E, s: '$$mdi:alpha-a-box$$'}
     - N
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
   Qwerty:

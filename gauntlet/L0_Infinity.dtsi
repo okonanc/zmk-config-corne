@@ -2,9 +2,6 @@
  * Alpha Layer - Hands Down - Promethium
  */
 
-#define HML_MEH_COMMA &hml_meh_comma MEH 0
-#define HML_RALT_MINUS &hml_ralt_minus RALT 0
-#define HML_CTRL_E &hml_ctrl_akE LCTRL 0
 #define MAGIC_KEY &ak_magic
 #define HML_LSHFT_THORN &hml_lshft_thorn LSHFT 0
 
