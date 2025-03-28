@@ -167,7 +167,7 @@ SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 
 // tap: ' shift + tap: " | hold: 'x'
-SIMPLE_MORPH(sdq, SFT, &ndk_sqt, &ndk_dqt)
+//SIMPLE_MORPH(sdq, SFT, &ndk_sqt, &ndk_dqt)
 
 // tap: left/right parenthesis | shft + tap: less-than/greater-than
 SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
