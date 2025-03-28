@@ -2,6 +2,19 @@
  * Alpha Layer - PUQ
  */
 
+// No-Dead-Key for single and double quotep
+// For the PUQ-Layer needed
+ZMK_BEHAVIOR(ndk_dqt, macro,
+    wait-ms = <0>;
+    tap-ms = <5>;
+    bindings = <&kp DQT &kp SPACE>;
+)
+ZMK_BEHAVIOR(ndk_sqt, macro,
+    wait-ms = <0>;
+    tap-ms = <5>;
+    bindings = <&kp SQT &kp SPACE>;
+)
+
 ZMK_BASE_LAYER(Puq,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
     &kp ESC         &kp P           &kp U           &kp DQT         &kp COMMA       &kp Q               &kp G           &kp C           &kp L           &kp M           &kp F           &kp K_CANCEL

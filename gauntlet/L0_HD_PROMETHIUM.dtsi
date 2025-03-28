@@ -2,6 +2,37 @@
  * Alpha Layer - Hands Down - Promethium
  */
 
+ZMK_ADAPTIVE_KEY(
+    ak_m,
+    bindings = <&kp M>;
+    // gm -> gl
+    akt_gl { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>;};
+)
+ZMK_ADAPTIVE_KEY(
+    ak_g,
+    bindings = <&kp G>;
+    akt_mg { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp L &kp G>;};
+)
+ZMK_ADAPTIVE_KEY(
+    ak_w,
+    bindings = <&kp W>;
+    akt_mp { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp P>;};
+)
+ZMK_ADAPTIVE_KEY(
+    ak_f,
+    bindings = <&kp F>;
+    akt_dw { trigger-keys = <D>; max-prior-idle-ms = <300>; bindings = <&kp W>;};
+    akt_ps { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp P &kp S>;};
+)
+
+ZMK_ADAPTIVE_KEY(
+    ak_e,
+        bindings = <&kp E>;
+        akt_ue { trigger-keys = <U>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_ue>;};
+        akt_ae { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_ae>;};
+        akt_oe { trigger-keys = <O>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_oe>;};
+)
+
 #define HML_MEH_COMMA &hml_meh_comma MEH 0
 #define HML_RALT_MINUS &hml_ralt_minus RALT 0
 #define HML_CTRL_E &hml_ctrl_akE LCTRL 0

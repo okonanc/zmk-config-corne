@@ -1,31 +1,31 @@
-
 ZMK_ADAPTIVE_KEY(
-    ak_m,
-    bindings = <&kp M>;
-    // gm -> gl
-    akt_gl { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp L>;};
-)
-ZMK_ADAPTIVE_KEY(
-    ak_g,
-    bindings = <&kp G>;
-    akt_mg { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp L &kp G>;};
-)
-ZMK_ADAPTIVE_KEY(
-    ak_w,
-    bindings = <&kp W>;
-    akt_mp { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp P>;};
-)
-ZMK_ADAPTIVE_KEY(
-    ak_f,
-    bindings = <&kp F>;
-    akt_dw { trigger-keys = <D>; max-prior-idle-ms = <300>; bindings = <&kp W>;};
-    akt_ps { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp P &kp S>;};
-)
-
-ZMK_ADAPTIVE_KEY(
-    ak_e,
-        bindings = <&kp E>;
-        akt_ue { trigger-keys = <U>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_ue>;};
-        akt_ae { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_ae>;};
-        akt_oe { trigger-keys = <O>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &intl_oe>;};
+    ak_*,
+        bindings = <&kp STAR>;
+        akt_a* { trigger-keys = <A>; max-prior-idle-ms = <300>; bindings = <&kp O>;};
+        akt_b* { trigger-keys = <B>; max-prior-idle-ms = <300>; bindings = <&kp E &kp F &kp O &kp R &kp E &kp SPACE>;};
+        akt_c* { trigger-keys = <C>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_d* { trigger-keys = <D>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_e* { trigger-keys = <E>; max-prior-idle-ms = <300>; bindings = <&kp U>;};
+//        akt_f* { trigger-keys = <F>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_g* { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+//        akt_h* { trigger-keys = <H>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_i* { trigger-keys = <I>; max-prior-idle-ms = <300>; bindings = <&kp I &kp O &kp N>;};
+        akt_j* { trigger-keys = <J>; max-prior-idle-ms = <300>; bindings = <&kp U &kp S &kp T>;};
+        akt_k* { trigger-keys = <K>; max-prior-idle-ms = <300>; bindings = <&kp S>;};
+        akt_l* { trigger-keys = <L>; max-prior-idle-ms = <300>; bindings = <&kp K>;};
+        akt_m* { trigger-keys = <M>; max-prior-idle-ms = <300>; bindings = <&kp E &kp N &kp T>;};
+        akt_n* { trigger-keys = <N>; max-prior-idle-ms = <300>; bindings = <&kp I &kp O &kp N>;};
+        akt_o* { trigger-keys = <O>; max-prior-idle-ms = <300>; bindings = <&kp A>;};
+        akt_p* { trigger-keys = <P>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_q* { trigger-keys = <Q>; max-prior-idle-ms = <300>; bindings = <&kp U>;};
+        akt_r* { trigger-keys = <R>; max-prior-idle-ms = <300>; bindings = <&kp L>;};
+        akt_s* { trigger-keys = <S>; max-prior-idle-ms = <300>; bindings = <&kp K>;};
+        akt_t* { trigger-keys = <T>; max-prior-idle-ms = <300>; bindings = <&kp M &kp E &kp N &kp T>;};
+        akt_u* { trigger-keys = <U>; max-prior-idle-ms = <300>; bindings = <&kp E>;};
+        akt_v* { trigger-keys = <V>; max-prior-idle-ms = <300>; bindings = <&kp E &kp R>;};
+        akt_w* { trigger-keys = <W>; max-prior-idle-ms = <300>; bindings = <&kp H &kp I &kp C &kp H>;};
+        akt_x* { trigger-keys = <X>; max-prior-idle-ms = <300>; bindings = <&kp E &kp S>;};
+        akt_y* { trigger-keys = <X>; max-prior-idle-ms = <300>; bindings = <&kp P>;};
+//        akt_z* { trigger-keys = <Z>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_space* { trigger-keys = <SPACE>; max-prior-idle-ms = <300>; bindings = <&kp T &kp H>;};
 )
