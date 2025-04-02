@@ -492,6 +492,7 @@ parse_config:
     "&ak_e": { t: E, s: $$mdi:alpha-a-box$$ }
     "&ak_magic": { t: '*', s: $$mdi:alpha-a-box$$ }
     "&hml_lshft_thorn": { t: $$mdi:weather-tornado$$, h: $$mdi:apple-keyboard-shift$$ }
+    "&thorn": { t: $$mdi:weather-tornado$$, h: $$mdi:apple-keyboard-shift$$ }
 
     "&kp LG(LC(LS(A)))": {"t": $$mdi:pin$$, "h": $$mdi:application-outline$$}
     "&kp LG(LC(LS(Q)))": {"t": $$mdi:pin$$, "h": $$mdi:monitor$$}

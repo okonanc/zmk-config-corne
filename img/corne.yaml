@@ -8,7 +8,7 @@ layers:
     - U
     - {t: '''', s: '"'}
     - {t: '*', s: '$$mdi:alpha-a-box$$'}
-    - {t: '&thorn_th', s: '&thorn_ch'}
+    - {t: '$$mdi:weather-tornado$$', h: '$$mdi:apple-keyboard-shift$$'}
     - L
     - G
     - V
