@@ -1,47 +1,47 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Infinity:
+  Vibranium:
   - - $$mdi:keyboard-esc$$
-    - Q
-    - U
-    - O
-    - F
-    - {t: '''', s: '"'}
+    - Z
     - P
-    - C
+    - O
+    - U
+    - {t: '''', s: '"'}
+    - {t: '*', s: '$$mdi:alpha-a-box$$'}
+    - {t: '&thorn_th', s: '&thorn_ch'}
     - L
-    - M
+    - G
     - V
     - $$mdi:close-box$$
   - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
-    - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-    - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: H, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: A, h: '$$mdi:apple-keyboard-option$$'}
     - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: '$$mdi:weather-tornado$$', h: '$$mdi:apple-keyboard-shift$$'}
-    - {t: B, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
-    - {t: Y, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
-    - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-    - {t: R, h: '$$mdi:apple-keyboard-control$$'}
-    - {t: T, h: '$$mdi:apple-keyboard-option$$'}
-    - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: K, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+    - {t: M, h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
+    - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+    - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+    - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+    - {t: C, h: '$$mdi:apple-keyboard-command$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   - - {t: ALT, h: '$$mdi:layers-outline$$'}
     - {t: '?', s: '!'}
     - {t: ., s: ':'}
     - {t: ',', s: ;}
-    - H
-    - X
-    - W
-    - G
+    - Y
     - J
-    - K
-    - Z
+    - B
+    - D
+    - W
+    - F
+    - X
     - {t: ALT, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
-    - {t: '*', s: '$$mdi:alpha-a-box$$'}
-    - N
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - R
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
   Qwerty:
   - - $$mdi:keyboard-esc$$
@@ -346,7 +346,7 @@ combos:
   l: [xxx]
 - p: [0, 38]
   k: $$mdi:controller-classic-outline$$
-  l: [Infinity, Qwerty]
+  l: [Vibranium, Qwerty]
   a: top
   o: 0.7
 - p: [3, 4]
