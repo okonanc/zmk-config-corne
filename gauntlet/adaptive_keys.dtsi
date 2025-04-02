@@ -8,7 +8,7 @@ ZMK_ADAPTIVE_KEY(
         akt_e_magic { trigger-keys = <E>; max-prior-idle-ms = <300>; bindings = <&kp U>;};
 //        akt_f_magic { trigger-keys = <F>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
         akt_g_magic { trigger-keys = <G>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
-//        akt_h_magic { trigger-keys = <H>; max-prior-idle-ms = <300>; bindings = <&kp Y>;};
+        akt_h_magic { trigger-keys = <H>; max-prior-idle-ms = <300>; bindings = <&kp BSPC &kp Q &kp U>;};
         akt_i_magic { trigger-keys = <I>; max-prior-idle-ms = <300>; bindings = <&kp O &kp N>;};
         akt_j_magic { trigger-keys = <J>; max-prior-idle-ms = <300>; bindings = <&kp U &kp S &kp T>;};
         akt_k_magic { trigger-keys = <K>; max-prior-idle-ms = <300>; bindings = <&kp S>;};
