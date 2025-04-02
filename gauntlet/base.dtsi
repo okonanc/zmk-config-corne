@@ -57,7 +57,8 @@
 // Alpha layer: uncomment desired, comment the others
 //#include "../gauntlet/L0_ANYMAK.dtsi"
 //#include "../gauntlet/L0_HD_PROMETHIUM.dtsi"
-#include "../gauntlet/L0_Infinity.dtsi"
+//#include "../gauntlet/L0_Infinity.dtsi"
+#include "../gauntlet/L0_HD_Vib_Inf.dtsi"
 #include "../gauntlet/L0_qwerty.dtsi"
 
 // Other layers
