@@ -207,7 +207,7 @@ ZMK_MOD_MORPH(bs_del,
 )
 
 ZMK_HOLD_TAP(qqu,
-    bindings = <&kp BSPC>, <&qu_tap>;
+    bindings = <&kp>, <&qu_tap>;
     flavor = "balanced";
     tapping-term-ms = <150>;
     quick-tap-ms = <QUICK_TAP_MS>;
