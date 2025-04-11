@@ -33,29 +33,8 @@ ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             ALT, COMB
   ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1     ,  DEF  NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 #endif 
 
-/* Bluetooth 
-ZMK_COMBO(bt_clear  , &bt BT_CLR     , RM1 RM2 RM3 ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(bt_sel_0  , &bt BT_SEL 0   , LT4 LM4     ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(bt_sel_1  , &bt BT_SEL 1   , LT3 LM3     ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(bt_sel_2  , &bt BT_SEL 2   , LT2 LM2     ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(bt_sel_3  , &bt BT_SEL 3   , LT1 LM1     ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(bt_sel_4  , &bt BT_SEL 4   , LT0 LM0     ,         FNC        , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//    COMBO(bt_nxt    , &bt BT_NXT     , LM4 LM3    ,         FNC       ,  COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//    COMBO(bt_prv    , &bt BT_PRV     , LB4 LB3    ,         FNC       ,  COMBO_TERM_FAST, COMBO_IDLE_FAST)
-*/
-
-/* Media */
-/*
-ZMK_COMBO(play      , &kp C_PP       , LM1 LM0    ,         FNC GME     , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(mute      , &kp C_MUTE     , LT1 LT0    ,         FNC GME     , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-*/
-
-/* Gaming */
-//ZMK_COMBO(quicksave , &kp F5         , LM3 LM2    ,             GME     , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//ZMK_COMBO(quickload , &kp F8         , LT3 LT2    ,             GME     , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-
 /* Misc */
-ZMK_COMBO(del_word  , &kp LC(BSPC)   , LM3 LM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(rem_word  , &rem_word      , LM3 LM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(esc       , &kp ESC        , LT3 LT2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
@@ -77,8 +56,9 @@ ZMK_COMBO(equal     , &kp EQUAL   , LM1 LB1    , DEF             ALT , COMBO_TER
 ZMK_COMBO(tilde     , &kp TILDE   , LM0 LB0    , DEF             ALT , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Horizontal combos - right hand */
-ZMK_COMBO(bspc      , &kp BSPC       , RT1 RT2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(del       , &kp DEL        , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+//ZMK_COMBO(bspc      , &kp BSPC       , RT1 RT2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+//ZMK_COMBO(del       , &kp DEL        , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(qqu      , &qqu         , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 ZMK_COMBO(lpar      , &lpar_lt       , RM1 RM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL), KEYS_L)
 ZMK_COMBO(rpar      , &rpar_gt       , RM2 RM3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LALT),  KEYS_L)

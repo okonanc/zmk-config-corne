@@ -206,6 +206,25 @@ ZMK_MOD_MORPH(bs_del,
     keep-mods = <MOD_RSFT>;
 )
 
+ZMK_HOLD_TAP(qqu,
+    bindings = <&kp BSPC>, <&kp Q &kp U>;
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+)
+
+SIMPLE_MORPH(rem_word, SFT, &bs_word, &del_word)
+ZMK_BEHAVIOR(bs_word, macro,
+    bindings = <&kp LC(BSPC)>;
+    wait-ms = <0>;
+    tap-ms = <0>;
+)
+ZMK_BEHAVIOR(del_word, macro,
+    bindings = <&kp LC(DEL)>;
+    wait-ms = <0>;
+    tap-ms = <0>;
+)
+
 // tap: copy | double-tap: cut
 ZMK_TAP_DANCE(copy_cut,
     bindings = <&kp LC(INS)>, <&kp LC(X)>;
