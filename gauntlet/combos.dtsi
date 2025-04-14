@@ -60,8 +60,8 @@ ZMK_COMBO(tilde     , &kp TILDE   , LM0 LB0    , DEF             ALT , COMBO_TER
 //ZMK_COMBO(del       , &kp DEL        , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(qqu       , &qqu Q 0    , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
-ZMK_COMBO(lpar      , &lpar_lt       , RM1 RM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL), KEYS_L)
-ZMK_COMBO(rpar      , &rpar_gt       , RM2 RM3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LALT),  KEYS_L)
+ZMK_COMBO(lpar      , &lpar_lt    , RM1 RM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL), KEYS_L)
+ZMK_COMBO(rpar      , &rpar_gt    , RM2 RM3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LALT),  KEYS_L)
 ZMK_COMBO(lt        , &kp LT      , RM1 RM2    ,     NUM             , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(gt        , &kp GT      , RM2 RM3    ,     NUM             , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
