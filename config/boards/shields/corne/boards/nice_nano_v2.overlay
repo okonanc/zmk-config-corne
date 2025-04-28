@@ -1,8 +1,9 @@
 #include <dt-bindings/led/led.h>
 
 
-//	sck= SCL
-//	mosi= SDA
+//  sck  = SCLK = D2 / P0.17
+//  mosi = SI   = D3 / P0.20
+//  miso = SCS  = D1 / P0.06
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
