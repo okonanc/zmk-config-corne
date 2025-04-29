@@ -344,7 +344,7 @@ draw_config:
     }
     .combo.hold {
         font-size: 16px;
-        /* translate: 2px 0px; */
+        translate: 0px 6px;
     }
     .key.held {
         --color--key--bg: var(--color--material--blue-gray--800);
@@ -400,6 +400,9 @@ draw_config:
     }
     .hold.mdi\:power-plug-outline {
       translate: 25px -25px;
+    }
+    .tap.mdi\:crown {
+      translate: 0px -6px;
     }
 
     /* Outer column + thumb keys */
@@ -481,7 +484,6 @@ parse_config:
       hold: $$mdi:apple-keyboard-option$$
       shifted: ":"
     "&hm_combo_ldr": $$mdi:crown$$
-    "&hm_combo_ldrsh": { "t": $$mdi:crown$$, "h": $$mdi:apple-keyboard-shift$$" }
     "&to ALT": { t: "ALT", h: $$mdi:layers-outline$$ }
     "&to DEF": { t: "DEF", h: $$mdi:layers-outline$$ }
     "&to GME": { t: $$mdi:controller-classic-outline$$ }
@@ -986,9 +988,18 @@ parse_config:
 
   # Combos
   zmk_combos:
-    combo_boot_dongle: { l: [xxx] }
-    combo_ldr: { l: [xxx] }
-    combo_ldrsh: { l: [xxx], o: 1.25, a: top }
+    combo_boot_dongle: { l: [ xxx ] }
+    combo_ldr:
+      l: [ xxx ]
+      key:
+        "t": $$mdi:crown-outline$$
+    combo_ldrsh:
+      l: [ xxx ]
+      o: 1.25
+      a: top
+      key:
+        "t": $$mdi:crown$$
+        "h": $$mdi:apple-keyboard-shift$$"
     combo_to_gaming:
       align: top
       offset: 0.7
@@ -1143,4 +1154,13 @@ parse_config:
         tap: $$mdi:mouse$$
     combo_esc:
       l: [ xxx ]
+    combo_rem_word:
+      l: [ xxx ]
+      key:
+        tap: $$mdi:delete-circle-outline$$
+    combo_qqu:
+      l: [ xxx ]
+      key:
+        tap: "QU"
+        hold: "Q"
 

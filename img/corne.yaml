@@ -353,7 +353,7 @@ combos:
   k: $$mdi:mouse$$
   l: [xxx]
 - p: [14, 15]
-  k: $$mdi:eraser$$
+  k: $$mdi:delete-circle-outline$$
   l: [xxx]
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
@@ -369,7 +369,7 @@ combos:
   k: $$mdi:content-paste$$
   l: [xxx]
 - p: [15, 16]
-  k: $$mdi:crown$$
+  k: $$mdi:crown-outline$$
   l: [xxx]
 - p: [14, 15, 16]
   k: {t: '$$mdi:crown$$', h: '$$mdi:apple-keyboard-shift$$"'}
@@ -400,11 +400,8 @@ combos:
 - p: [17, 29]
   k: '~'
   l: [xxx]
-- p: [7, 8]
-  k: $$mdi:backspace-outline$$
-  l: [xxx]
 - p: [8, 9]
-  k: $$mdi:backspace-reverse-outline$$
+  k: {t: QU, h: Q}
   l: [xxx]
 - p: [19, 20]
   k: (<
