@@ -19,7 +19,8 @@
 #define FNR 4
 #define SYS 5
 #define MSE 6
-#define XXX 7
+#define GME_NUM 7
+#define XXX 8
 
 // For gaming only left side needed
 //#define HD2 7
@@ -67,6 +68,7 @@
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
 #include "../gauntlet/L_MSE.dtsi"
+#include "../gauntlet/L_GME_NUM.dtsi"
 #include "../gauntlet/L_XXX.dtsi"
 
 
