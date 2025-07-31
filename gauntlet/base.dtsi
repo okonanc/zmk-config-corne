@@ -28,7 +28,7 @@
 //#define NMR 9
 
 
-#define XXX &none
+#define _X_ &none
 #define ___ &trans
 
 // Meh key
