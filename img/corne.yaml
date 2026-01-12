@@ -123,7 +123,7 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
     - {t: DEF, h: '$$mdi:layers-outline$$'}
-  - - $$mdi:apple-keyboard-option$$
+  - - {t: '$$mdi:apple-keyboard-option$$', h: Gme_num}
     - $$mdi:keyboard-space$$
     - $$mdi:apple-keyboard-shift$$
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
@@ -297,6 +297,49 @@ layers:
     - {type: trans}
   - ['$$mdi:mouse-right-click-outline$$', '$$mdi:mouse-scroll-wheel$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-scroll-wheel$$',
     '$$mdi:mouse-right-click-outline$$']
+  Gme_num:
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '1'
+    - {type: trans}
+    - '2'
+    - '4'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '3'
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - '5'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '0'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: held}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
   xxx:
   - - {type: trans}
     - {type: trans}
@@ -347,6 +390,11 @@ combos:
 - p: [0, 38]
   k: $$mdi:controller-classic-outline$$
   l: [Vibranium, Qwerty]
+  a: top
+  o: 0.7
+- p: [0, 5, 38]
+  k: {t: ALT, h: '$$mdi:layers-outline$$'}
+  l: [Gme]
   a: top
   o: 0.7
 - p: [3, 4]
