@@ -28,7 +28,7 @@ ZMK_COMBO(boot_dongle  , &bootloader   , LM0 RM0     , DEF             ALT, COMB
 /* Horizontal combos - left hand */
 /* Layers */
 ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(to_alt      , &to ALT        , LT5 LT0 LH0 ,         GME        , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(to_gm_qz    , &to GME_QZ     , LT5 LT0 LH0 ,         GME        , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 #ifdef MOUSE_KEYS
   ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1     , DEF NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)

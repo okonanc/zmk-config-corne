@@ -19,8 +19,9 @@
 #define FNR 4
 #define SYS 5
 #define MSE 6
-#define GME_NUM 7
-#define XXX 8
+#define GME_QZ 7
+#define GME_NUM 8
+#define XXX 9
 
 // For gaming only left side needed
 //#define HD2 7
