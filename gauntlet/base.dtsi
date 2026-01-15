@@ -69,6 +69,7 @@
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
 #include "../gauntlet/L_MSE.dtsi"
+#include "../gauntlet/L_GME_QZ.dtsi"
 #include "../gauntlet/L_GME_NUM.dtsi"
 #include "../gauntlet/L_XXX.dtsi"
 
