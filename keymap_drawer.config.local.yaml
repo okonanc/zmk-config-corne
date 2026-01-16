@@ -477,6 +477,9 @@ parse_config:
     "&lt SYM TAB":
       tap: $$mdi:keyboard-tab$$
       hold: SYM
+    "&lt GME_NUM LALT":
+      tap: $$mdi:apple-keyboard-option$$
+      hold: $$mdi:numeric$$
     "&mo SYS":
       tap: SYS
     "&hmr_alt_dot RALT 0":
@@ -1007,7 +1010,8 @@ parse_config:
       align: bottom
       offset: 0.5
     combo_to_alt:
-      align: bottom
+      align: top
+      offset: 0.7
     combo_bt_clear:
       align: top
       offset: 0.03

@@ -123,12 +123,98 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
     - {t: DEF, h: '$$mdi:layers-outline$$'}
-  - - {t: '$$mdi:apple-keyboard-option$$', h: Gme_num}
+  - - $$mdi:apple-keyboard-option$$
     - $$mdi:keyboard-space$$
-    - $$mdi:apple-keyboard-shift$$
+    - {t: '$$mdi:apple-keyboard-shift$$', h: Gme_num}
     - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
+  Gme-qz:
+  - - $$mdi:keyboard-esc$$
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Z
+    - U
+    - I
+    - O
+    - {t: '''', s: '"'}
+    - $$mdi:close-box$$
+  - - {t: '$$mdi:backspace-outline$$', s: '$$mdi:backspace-reverse-outline$$'}
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - P
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  - - $$mdi:controller-classic-outline$$
+    - Y
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - {t: ',', s: ;}
+    - {t: ., s: ':'}
+    - {t: '?', s: '!'}
+    - {t: DEF, h: '$$mdi:layers-outline$$'}
+  - - $$mdi:apple-keyboard-command$$
+    - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
+    - {t: '$$mdi:keyboard-return$$', type: enter}
+  Gme_num:
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '0'
+    - '1'
+    - {type: trans}
+    - '2'
+    - '3'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '4'
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - '5'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '6'
+    - '7'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - '8'
+    - '9'
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: held}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
+    - {t: '$$mdi:minus-circle-outline$$', type: none}
   Num:
   - - {type: trans}
     - {type: trans}
@@ -297,49 +383,6 @@ layers:
     - {type: trans}
   - ['$$mdi:mouse-right-click-outline$$', '$$mdi:mouse-scroll-wheel$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-left-click-outline$$', '$$mdi:mouse-scroll-wheel$$',
     '$$mdi:mouse-right-click-outline$$']
-  Gme_num:
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - '1'
-    - {type: trans}
-    - '2'
-    - '4'
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - '3'
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - '5'
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '0'
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - - {t: '$$mdi:minus-circle-outline$$', type: held}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
-    - {t: '$$mdi:minus-circle-outline$$', type: none}
   xxx:
   - - {type: trans}
     - {type: trans}
@@ -393,10 +436,8 @@ combos:
   a: top
   o: 0.7
 - p: [0, 5, 38]
-  k: {t: ALT, h: '$$mdi:layers-outline$$'}
+  k: {t: Gme-qz, h: '$$mdi:toggle-switch-outline$$'}
   l: [Gme]
-  a: top
-  o: 0.7
 - p: [3, 4]
   k: $$mdi:mouse$$
   l: [xxx]
