@@ -490,6 +490,7 @@ parse_config:
     "&to ALT": { t: "ALT", h: $$mdi:layers-outline$$ }
     "&to DEF": { t: "DEF", h: $$mdi:layers-outline$$ }
     "&to GME": { t: $$mdi:controller-classic-outline$$ }
+    "&to GME_QZ": { t: $$mdi:keyboard-outline$$ }
     "&ak_g": { t: G, s: $$mdi:alpha-a-box$$ }
     "&ak_w": { t: W, s: $$mdi:alpha-a-box$$ }
     "&ak_m": { t: M, s: $$mdi:alpha-a-box$$ }
@@ -1003,6 +1004,9 @@ parse_config:
       key:
         "t": $$mdi:crown$$
         "h": $$mdi:apple-keyboard-shift$$"
+    combo_to_gm_qz:
+      align: top
+      offset: 0.7
     combo_to_gaming:
       align: top
       offset: 0.7

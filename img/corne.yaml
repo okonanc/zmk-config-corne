@@ -436,8 +436,10 @@ combos:
   a: top
   o: 0.7
 - p: [0, 5, 38]
-  k: {t: Gme-qz, h: '$$mdi:toggle-switch-outline$$'}
+  k: $$mdi:keyboard-outline$$
   l: [Gme]
+  a: top
+  o: 0.7
 - p: [3, 4]
   k: $$mdi:mouse$$
   l: [xxx]
