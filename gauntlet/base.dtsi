@@ -15,12 +15,12 @@
 #define DEF 0
 #define ALT 1
 #define GME 2
-#define NUM 3
-#define FNR 4
-#define SYS 5
-#define MSE 6
-#define GME_QZ 7
-#define GME_NUM 8
+#define GME_QZ 3
+#define GME_NUM 4
+#define NUM 5
+#define FNR 6
+#define SYS 7
+#define MSE 8
 #define XXX 9
 
 // For gaming only left side needed
