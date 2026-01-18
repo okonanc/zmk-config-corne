@@ -151,20 +151,21 @@ ZMK_TRI_STATE(swapper,
         bindings = <BINDING1>, <BINDING2>; \
     )
 
-// tap: minus | shift + tap: plus | ctrl + shift + tap: _
+// tap: minus (-) | shift + tap: plus (+) | ctrl + shift + tap: underscore (_)
 SIMPLE_MORPH(minus_morph, SFT, &kp MINUS, &minus_inner_morph)
 SIMPLE_MORPH(minus_inner_morph, CTL, &kp PLUS, &kp UNDER)
 
-// tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
+// tap: comma (,) | shift + tap: semicolon (;) | ctrl + shift + tap: less than (<)
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
 SIMPLE_MORPH(comma_inner_morph, CTL, &kp SEMICOLON, &kp LESS_THAN)
 
-// tap: dot | shift + tap: colon | ctrl + shift + tap: >
+// tap: dot (.) | shift + tap: colon (,) | ctrl + shift + tap: greater than (>)
 SIMPLE_MORPH(dot_morph, SFT, &kp DOT, &dot_inner_morph)
 SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
 
-// tap: qmark | shift + tap: excl
-SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
+// tap: slash (/) | shift + tap: excl (!) | ctrl + shift + tap: qmark (?)
+SIMPLE_MORPH(slash_morph, SFT, &kp SLASH, &slash_inner_morph)
+SIMPLE_MORPH(slash_inner_morph, CTL, &kp EXCL, &kp QMARK)
 
 // tap: ' shift + tap: " | hold: 'x'
 //SIMPLE_MORPH(sdq, SFT, &ndk_sqt, &ndk_dqt)
