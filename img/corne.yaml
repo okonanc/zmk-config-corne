@@ -26,9 +26,9 @@ layers:
     - {t: C, h: '$$mdi:apple-keyboard-command$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   - - {t: ALT, h: '$$mdi:layers-outline$$'}
-    - {t: '?', s: '!'}
-    - {t: ., s: ':'}
-    - {t: ',', s: ;}
+    - {t: /, s: '!', tr: '?'}
+    - {t: ., s: ':', tr: '>'}
+    - {t: ',', s: ;, tr: <}
     - Y
     - J
     - B
@@ -40,7 +40,7 @@ layers:
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
-    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', tr: '$$mdi:alpha-w-box$$'}
     - R
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
   Qwerty:
@@ -76,14 +76,14 @@ layers:
     - B
     - N
     - M
-    - {t: ',', s: ;}
-    - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':'}
-    - {t: '?', s: '!'}
+    - {t: ',', s: ;, tr: <}
+    - {t: ., h: '$$mdi:apple-keyboard-option$$', s: ':', tr: '>'}
+    - {t: /, s: '!', tr: '?'}
     - {t: DEF, h: '$$mdi:layers-outline$$'}
   - - {t: '$$mdi:keyboard-tab$$', h: SYS}
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', h: NUM}
-    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', tr: '$$mdi:alpha-w-box$$'}
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - SYS
   Gme:
@@ -119,14 +119,14 @@ layers:
     - V
     - N
     - M
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
-    - {t: '?', s: '!'}
+    - {t: ',', s: ;, tr: <}
+    - {t: ., s: ':', tr: '>'}
+    - {t: /, s: '!', tr: '?'}
     - {t: DEF, h: '$$mdi:layers-outline$$'}
   - - $$mdi:apple-keyboard-option$$
     - $$mdi:keyboard-space$$
     - {t: '$$mdi:apple-keyboard-shift$$', h: Gme_num}
-    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', tr: '$$mdi:alpha-w-box$$'}
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   Gme-qz:
@@ -162,14 +162,14 @@ layers:
     - B
     - N
     - M
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
-    - {t: '?', s: '!'}
+    - {t: ',', s: ;, tr: <}
+    - {t: ., s: ':', tr: '>'}
+    - {t: /, s: '!', tr: '?'}
     - {t: DEF, h: '$$mdi:layers-outline$$'}
   - - $$mdi:apple-keyboard-command$$
     - {t: '$$mdi:keyboard-space$$', h: FNR, s: . X}
     - {t: '$$mdi:keyboard-return$$', type: enter}
-    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+    - {t: NUM, h: '$$mdi:gesture-tap-hold$$', tr: '$$mdi:alpha-w-box$$'}
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:auto-fix$$'}
     - {t: '$$mdi:keyboard-return$$', type: enter}
   Gme_num:
@@ -302,7 +302,7 @@ layers:
     - $$mdi:play-pause$$
     - {type: trans}
   Sys:
-  - - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - - {t: '$$mdi:toggle-switch$$', left: '$$mdi:usb$$', right: '$$mdi:bluetooth$$'}
     - {h: '1', s: '$$mdi:bluetooth-connect$$'}
     - {h: '2', s: '$$mdi:bluetooth-connect$$'}
     - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -314,7 +314,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - $$mdi:power-standby$$
-  - - {t: '$$mdi:toggle-switch$$', h: '$$mdi:power-plug-outline$$', s: '$$mdi:power-plug-off-outline$$'}
+  - - {t: '$$mdi:toggle-switch$$', left: '$$mdi:power-plug-off-outline$$', right: '$$mdi:power-plug-outline$$'}
     - {type: trans}
     - {type: trans}
     - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:chevron-left$$'}

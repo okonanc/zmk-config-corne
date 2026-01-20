@@ -489,6 +489,10 @@ rect.combo {
     dominant-baseline: ideographic;
     fill: var(--color--key--text--hold);
 }
+.tr {
+   font-size: 18px;
+   translate: -9px 10px;
+}
 .right,
 .left {
     font-size: 16px;
@@ -565,20 +569,20 @@ path.combo {
 /*
  * Overrides
  */
-.shifted.mdi\:alpha-w-box {
-  translate: 25px 0px;
+.tr.mdi\:alpha-w-box {
+  translate: 0px 0px;
 }
 .shifted.mdi\:usb {
-  translate: -25px 25px;
+  # translate: -25px 25px;
 }
 .hold.mdi\:bluetooth {
-  translate: 25px -25px;
+  # translate: 25px -25px;
 }
 .shifted.mdi\:power-plug-off-outline {
-  translate: -25px 25px;
+  # translate: -25px 25px;
 }
 .hold.mdi\:power-plug-outline {
-  translate: 25px -25px;
+  # translate: 25px -25px;
 }
 .tap.mdi\:crown {
   translate: 0px -6px;
@@ -750,18 +754,21 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="0" class="key tap">/</text>
 <text x="0" y="-34" class="key shifted">!</text>
+<text x="34" y="-34" class="key tr">?</text>
 </g>
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
 <text x="0" y="-34" class="key shifted">:</text>
+<text x="34" y="-34" class="key tr">&gt;</text>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
 <text x="0" y="-34" class="key shifted">;</text>
+<text x="34" y="-34" class="key tr">&lt;</text>
 </g>
 <g transform="translate(360, 210)" class="key keypos-28">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -816,7 +823,7 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <text x="0" y="0" class="key tap">NUM</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="36" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="-9" y="-54" height="18" width="18.0" class="key shifted glyph mdi:alpha-w-box"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="16" y="-54" height="18" width="18.0" class="key tr glyph mdi:alpha-w-box"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -984,17 +991,20 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
 <text x="0" y="-34" class="key shifted">;</text>
+<text x="34" y="-34" class="key tr">&lt;</text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-option"/>
 <text x="0" y="-34" class="key shifted">:</text>
+<text x="34" y="-34" class="key tr">&gt;</text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="0" class="key tap">/</text>
 <text x="0" y="-34" class="key shifted">!</text>
+<text x="34" y="-34" class="key tr">?</text>
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1021,7 +1031,7 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <text x="0" y="0" class="key tap">NUM</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="36" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="-9" y="-54" height="18" width="18.0" class="key shifted glyph mdi:alpha-w-box"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="16" y="-54" height="18" width="18.0" class="key tr glyph mdi:alpha-w-box"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1176,16 +1186,19 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
 <text x="0" y="-34" class="key shifted">;</text>
+<text x="34" y="-34" class="key tr">&lt;</text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
 <text x="0" y="-34" class="key shifted">:</text>
+<text x="34" y="-34" class="key tr">&gt;</text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="0" class="key tap">/</text>
 <text x="0" y="-34" class="key shifted">!</text>
+<text x="34" y="-34" class="key tr">?</text>
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1210,7 +1223,7 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <text x="0" y="0" class="key tap">NUM</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="36" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="-9" y="-54" height="18" width="18.0" class="key shifted glyph mdi:alpha-w-box"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="16" y="-54" height="18" width="18.0" class="key tr glyph mdi:alpha-w-box"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1367,16 +1380,19 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
 <text x="0" y="-34" class="key shifted">;</text>
+<text x="34" y="-34" class="key tr">&lt;</text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
 <text x="0" y="-34" class="key shifted">:</text>
+<text x="34" y="-34" class="key tr">&gt;</text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">?</text>
+<text x="0" y="0" class="key tap">/</text>
 <text x="0" y="-34" class="key shifted">!</text>
+<text x="34" y="-34" class="key tr">?</text>
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1401,7 +1417,7 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <text x="0" y="0" class="key tap">NUM</text>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-9" y="36" height="18" width="18.0" class="key hold glyph mdi:gesture-tap-hold"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="-9" y="-54" height="18" width="18.0" class="key shifted glyph mdi:alpha-w-box"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="16" y="-54" height="18" width="18.0" class="key tr glyph mdi:alpha-w-box"/>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1929,8 +1945,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(40, 70)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:toggle-switch"/>
-<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:bluetooth"/>
-<use href="#mdi:usb" xlink:href="#mdi:usb" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:usb"/>
+<use href="#mdi:usb" xlink:href="#mdi:usb" x="-34" y="-9" height="18" width="18.0" class="key left glyph mdi:usb"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="16" y="-9" height="18" width="18.0" class="key right glyph mdi:bluetooth"/>
 </g>
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1980,8 +1996,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(40, 150)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:toggle-switch" xlink:href="#mdi:toggle-switch" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:toggle-switch"/>
-<use href="#mdi:power-plug-outline" xlink:href="#mdi:power-plug-outline" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:power-plug-outline"/>
-<use href="#mdi:power-plug-off-outline" xlink:href="#mdi:power-plug-off-outline" x="-9" y="-34" height="18" width="18.0" class="key shifted glyph mdi:power-plug-off-outline"/>
+<use href="#mdi:power-plug-off-outline" xlink:href="#mdi:power-plug-off-outline" x="-34" y="-9" height="18" width="18.0" class="key left glyph mdi:power-plug-off-outline"/>
+<use href="#mdi:power-plug-outline" xlink:href="#mdi:power-plug-outline" x="16" y="-9" height="18" width="18.0" class="key right glyph mdi:power-plug-outline"/>
 </g>
 <g transform="translate(120, 150)" class="key trans keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>

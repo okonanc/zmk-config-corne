@@ -310,6 +310,10 @@ draw_config:
         dominant-baseline: ideographic;
         fill: var(--color--key--text--hold);
     }
+    .tr {
+       font-size: 18px;
+       translate: -9px 10px;
+    }
     .right,
     .left {
         font-size: 16px;
@@ -386,20 +390,20 @@ draw_config:
     /*
      * Overrides
      */
-    .shifted.mdi\:alpha-w-box {
-      translate: 25px 0px;
+    .tr.mdi\:alpha-w-box {
+      translate: 0px 0px;
     }
     .shifted.mdi\:usb {
-      translate: -25px 25px;
+      # translate: -25px 25px;
     }
     .hold.mdi\:bluetooth {
-      translate: 25px -25px;
+      # translate: 25px -25px;
     }
     .shifted.mdi\:power-plug-off-outline {
-      translate: -25px 25px;
+      # translate: -25px 25px;
     }
     .hold.mdi\:power-plug-outline {
-      translate: 25px -25px;
+      # translate: 25px -25px;
     }
     .tap.mdi\:crown {
       translate: 0px -6px;
@@ -451,6 +455,10 @@ parse_config:
     tap: "" # $$mdi:transfer$$
     type: trans
 
+  # rename a layer
+  layer_legend_map: 
+    xxx: Combos
+
   zmk_preamble: |
     #include "zmk-helpers/key-labels/42.h"
     #define CONFIG_WIRELESS
@@ -461,7 +469,7 @@ parse_config:
     "&magic_shift": { "h": $$mdi:auto-fix$$, "t": $$mdi:apple-keyboard-shift$$ } 
       
     "&smart_num":
-      shifted: $$mdi:alpha-w-box$$
+      tr: $$mdi:alpha-w-box$$
       tap: NUM
       hold: $$mdi:gesture-tap-hold$$
     "&sl SYS":
@@ -486,6 +494,7 @@ parse_config:
       tap: "."
       hold: $$mdi:apple-keyboard-option$$
       shifted: ":"
+      tr: ">"
     "&hm_combo_ldr": $$mdi:crown$$
     "&to ALT": { t: "ALT", h: $$mdi:layers-outline$$ }
     "&to DEF": { t: "DEF", h: $$mdi:layers-outline$$ }
@@ -499,13 +508,18 @@ parse_config:
     "&ak_magic": { t: '*', s: $$mdi:alpha-a-box$$ }
     "&hml_lshft_thorn": { t: $$mdi:weather-tornado$$, h: $$mdi:apple-keyboard-shift$$ }
     "&thorn": { t: $$mdi:weather-tornado$$, h: $$mdi:apple-keyboard-shift$$ }
+    "&comma_morph": {"t": ",", "s": ";", "tr": "<" }
+    "&dot_morph": {"t": ".", "s": ":", "tr": ">" }
+    "&minus_morph": {"t": "-", "s": "+", "tr": "_"}
+    "&slash_morph": {"t": "/", "s": "!", "tr": "?"}
+
 
     "&kp LG(LC(LS(A)))": {"t": $$mdi:pin$$, "h": $$mdi:application-outline$$}
     "&kp LG(LC(LS(Q)))": {"t": $$mdi:pin$$, "h": $$mdi:monitor$$}
     
     # MEH
     "&hmr MEH G": {"t": G, "h": $$mdi:star-three-points$$}
-    "&hml_meh_comma": {"t": ",", "s": ";", "h": $$mdi:star-three-points$$}
+    "&hml_meh_comma": {"t": ",", "s": ";", "tr": "<", "h": $$mdi:star-three-points$$}
     "&hml MEH O":
       tap: "O"
       hold: $$mdi:star-three-points$$ 
@@ -586,9 +600,9 @@ parse_config:
       tap: $$mdi:bluetooth-connect$$
       hold: $$mdi:chevron-left$$
     "&out OUT_TOG":
-      shifted: $$mdi:usb$$
+      left: $$mdi:usb$$
       tap: $$mdi:toggle-switch$$
-      hold: $$mdi:bluetooth$$
+      right: $$mdi:bluetooth$$
 
     # Reset
     "&sys_reset":
@@ -604,9 +618,9 @@ parse_config:
     
     # External Power
     "&ext_power EP_TOG":
+      left: $$mdi:power-plug-off-outline$$
       tap: $$mdi:toggle-switch$$
-      hold: $$mdi:power-plug-outline$$
-      shifted: $$mdi:power-plug-off-outline$$
+      right: $$mdi:power-plug-outline$$
       
     "&key_repeat": $$mdi:repeat-variant$$
 
@@ -799,9 +813,11 @@ parse_config:
     DOT:
       tap: "."
       shifted: ":"
+      tr: ">"
     COMMA:
       tap: ","
       shifted: ";"
+      tr: "<"
     GREATER_THAN: ">"
     GT: ">"
     LEFT_BRACKET:
