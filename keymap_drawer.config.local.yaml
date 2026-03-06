@@ -485,8 +485,8 @@ parse_config:
     "&lt SYM TAB":
       tap: $$mdi:keyboard-tab$$
       hold: SYM
-    "&lt GME_NUM LALT":
-      tap: $$mdi:apple-keyboard-option$$
+    "&lt GME_NUM LSHFT":
+      tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:numeric$$
     "&mo SYS":
       tap: SYS

@@ -207,6 +207,7 @@ ZMK_MOD_MORPH(bs_del,
     keep-mods = <MOD_RSFT>;
 )
 
+// tap: qu | hold: q
 ZMK_HOLD_TAP(qqu,
     bindings = <&kp>, <&qu_tap>;
     flavor = "balanced";
