@@ -22,13 +22,13 @@ include:
 #    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2 
     artifact-name: infinity_left
-    shield: corne_left nice_view
+    shield: corne_left nice_view_adapter nice_view
   - board: nice_nano_v2
     artifact-name: infinity_right
-    shield: corne_right nice_view
+    shield: corne_right nice_view_adapter nice_view
   - board: nice_nano_v2
     artifact-name: infinity_dongle
-    shield: corne_dongle nice_view
+    shield: corne_dongle nice_view_adapter nice_view
 #    snippet: studio-rpc-usb-uartds
   # Dongle with Logging enabled
   # - board: nice_nano_v2
