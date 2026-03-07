@@ -470,7 +470,7 @@ parse_config:
       
     "&smart_num":
       tr: $$mdi:alpha-w-box$$
-      tap: NUM
+      tap: $$mdi:numeric$$
       hold: $$mdi:gesture-tap-hold$$
     "&sl SYS":
       tap: SYS
@@ -478,13 +478,16 @@ parse_config:
     "&lt_spc": 
       shifted: ". X"
       tap: $$mdi:keyboard-space$$
-      hold: FNR
+      hold: $$mdi:alpha-f-box$$
     "&lt NUM RET":
       tap: $$mdi:keyboard-return$$
-      hold: NUM
+      hold: $$mdi:numeric$$
     "&lt SYM TAB":
       tap: $$mdi:keyboard-tab$$
       hold: SYM
+    "&lt GME_FNR SPACE":
+      tap: $$mdi:keyboard-space$$
+      hold: $$mdi:alpha-f-box$$
     "&lt GME_NUM LSHFT":
       tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:numeric$$
