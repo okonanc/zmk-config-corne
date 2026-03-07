@@ -25,7 +25,7 @@ include:
     shield: corne_left nice_view
   - board: nice_nano_v2
     artifact-name: infinity_right
-    shield: corne_right nice_view
+    shield: corne_right
   - board: nice_nano_v2
     artifact-name: infinity_dongle
     shield: corne_dongle nice_view
