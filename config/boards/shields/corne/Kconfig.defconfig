@@ -5,8 +5,8 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORN
     config ZMK_BLE
         default y
     config LV_Z_MEM_POOL_SIZE
-        # default 8192 if ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
-        # default 5120 if ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN
+        default 8192 if ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
+        default 5120 if ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN
     if ZMK_DISPLAY
         config I2C
             default n
