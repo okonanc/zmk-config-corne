@@ -17,11 +17,12 @@
 #define GME 2
 #define GME_QZ 3
 #define GME_NUM 4
-#define NUM 5
-#define FNR 6
-#define SYS 7
-#define MSE 8
-#define XXX 9
+#define GME_FNR 5
+#define NUM 6
+#define FNR 7
+#define SYS 8
+#define MSE 9
+#define XXX 10
 
 // For gaming only left side needed
 //#define HD2 7
@@ -67,6 +68,7 @@
 #include "../gauntlet/L_GME.dtsi"
 #include "../gauntlet/L_GME_QWERTZ.dtsi"
 #include "../gauntlet/L_GME_NUM.dtsi"
+#include "../gauntlet/L_GME_FNR.dtsi"
 #include "../gauntlet/L_NUM.dtsi"
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
