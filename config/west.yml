@@ -1,7 +1,7 @@
 manifest:
   defaults:
     remote: urob
-    revision: v0.1 # Pin everything to v0.1
+    revision: v0.3 # Pin everything to v0.1
 
   remotes:
     - name: zmkfirmware
@@ -11,8 +11,10 @@ manifest:
 
   projects:
     - name: zmk
-      remote: urob
-      revision: v0.1+mouse
+      remote: zmkfirmware
+      revision: v0.3.0
+      # remote: urob
+      # revision: v0.1+mouse
       import: app/west.yml
 
     # ZMK modules
@@ -23,7 +25,7 @@ manifest:
     - name: zmk-helpers
       path: modules/zmk/helpers
     - name: zmk-leader-key
-      revision: v0.1+locality
+      # revision: v0.1+locality
       path: modules/zmk/leader-key
     - name: zmk-tri-state
       path: modules/zmk/tri-state
