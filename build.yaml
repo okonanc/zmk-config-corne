@@ -23,14 +23,14 @@ include:
   - board: nice_nano_v2 
     artifact-name: infinity_left
     # this is correct for left side, to have the nice_view_adapter in the shield
-    shield: corne_left nice_view_adapter nice_view
+    shield: corne_left nice_view_adapter nice_epaper
   - board: nice_nano_v2
     artifact-name: infinity_right
     shield: corne_right 
   - board: nice_nano_v2
     artifact-name: infinity_dongle
     # this is correct for dongle
-    shield: corne_dongle nice_view
+    shield: corne_dongle nice_epaper
 #    snippet: studio-rpc-usb-uartds
   # Dongle with Logging enabled
   # - board: nice_nano_v2
