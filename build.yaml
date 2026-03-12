@@ -22,20 +22,20 @@ include:
   #    snippet: studio-rpc-usb-uart
 
   # Left + Nice!View
-  - board: nice_nano_v2 
-    artifact-name: infinity_left
-    shield: corne_left nice_view_adapter nice_view
-  
-  # Right + Nice!View
-  - board: nice_nano_v2
-    artifact-name: infinity_right
-    shield: corne_right nice_view_adapter nice_view
-
-  # Dongle + Nice!View 
-  - board: nice_nano_v2 
-    artifact-name: infinity_dongle_nice_view
-    shield: corne_dongle nice_view_adapter nice_view 
-  #    snippet: studio-rpc-usb-uartds
+  # - board: nice_nano_v2 
+  #   artifact-name: infinity_left
+  #   shield: corne_left nice_view_adapter nice_view
+  #
+  # # Right + Nice!View
+  # - board: nice_nano_v2
+  #   artifact-name: infinity_right
+  #   shield: corne_right nice_view_adapter nice_view
+  #
+  # # Dongle + Nice!View 
+  # - board: nice_nano_v2 
+  #   artifact-name: infinity_dongle_nice_view
+  #   shield: corne_dongle nice_view_adapter nice_view 
+  # #    snippet: studio-rpc-usb-uartds
 
   # Dongle + Prospector
   - board: nice_nano_v2
@@ -64,5 +64,5 @@ include:
   #    snippet: studio-rpc-usb-uart
 
   # Reset Settings
-  - board: nice_nano_v2
-    shield: settings_reset
+  # - board: nice_nano_v
+  #   shield: settings_reset
