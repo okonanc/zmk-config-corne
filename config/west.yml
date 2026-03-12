@@ -49,8 +49,7 @@ manifest:
 
     - name: zmk-dongle-screen
       remote: janpfischer
-      # revision: main
-      revision: 0.1.2
+      revision: main
 
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
