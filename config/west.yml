@@ -18,7 +18,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: v0.3
       # remote: urob
       # revision: v0.1+mouse
       import: app/west.yml
@@ -45,7 +45,8 @@ manifest:
     # Prospector
     - name: prospector-zmk-module
       remote: carrefinho
-      revision: feat/new-status-screens
+      revision: main
+      # revision: feat/new-status-screens
 
     - name: zmk-dongle-screen
       remote: janpfischer
