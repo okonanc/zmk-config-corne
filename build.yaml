@@ -32,9 +32,9 @@ include:
     shield: corne_right nice_view_adapter nice_view
 
   # Dongle + Nice!View 
-  - board: nice_nano_v2 nice_view_adapter nice_view
+  - board: nice_nano_v2 
     artifact-name: infinity_dongle_nice_view
-    shield: corne_dongle nice_view
+    shield: corne_dongle nice_view_adapter nice_view 
   #    snippet: studio-rpc-usb-uartds
 
   # Dongle + Prospector
