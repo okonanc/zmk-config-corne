@@ -29,7 +29,7 @@ include:
   # Right + Nice!View
   - board: nice_nano_v2
     artifact-name: infinity_right
-    shield: corne_right 
+    shield: corne_right nice_view_adapter nice_view
 
   # Dongle + Nice!View 
   - board: nice_nano_v2 nice_view_adapter nice_view
