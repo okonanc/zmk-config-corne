@@ -19,33 +19,50 @@ include:
   # - board: nice_nano_v2 
   #   artifact-name: infinity_central
   #   shield: corne_central nice_view
-#    snippet: studio-rpc-usb-uart
+  #    snippet: studio-rpc-usb-uart
+
+  # Left + Nice!View
   - board: nice_nano_v2 
     artifact-name: infinity_left
-    # this is correct for left side, to have the nice_view_adapter in the shield
     shield: corne_left nice_view_adapter nice_view
+  
+  # Right + Nice!View
   - board: nice_nano_v2
     artifact-name: infinity_right
     shield: corne_right 
-  - board: nice_nano_v2
-    artifact-name: infinity_dongle
-    # this is correct for dongle
+
+  # Dongle + Nice!View 
+  - board: nice_nano_v2 nice_view_adapter nice_view
+    artifact-name: infinity_dongle_nice_view
     shield: corne_dongle nice_view
-    # shield: corne_dongle nice_view
-#    snippet: studio-rpc-usb-uartds
+  #    snippet: studio-rpc-usb-uartds
+
+  # Dongle + Prospector
+  - board: nice_nano_v2
+    shield: corne_dongle prospector_adapter
+    artifact-name: infinity_dongle_screen
+
+  # Dongle + Screen
+  - board: nice_nano_v2
+    shield: corne_dongle dongle_sreen
+    artifact-name: infinity_dongle_screen
+
   # Dongle with Logging enabled
   # - board: nice_nano_v2
   #   artifact-name: infinity_dongle_with_logging
   #   shield: corne_dongle nice_view
   #   snippet: zmk-usb-logging
-#    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-#    snippet: studio-rpc-usb-uart
+  #    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+  #    snippet: studio-rpc-usb-uart
+
   # Central with Logging enabled
   # - board: nice_nano_v2
   #   artifact-name: infinity_central_with_logging
   #   shield: corne_central nice_view
   #   snippet: zmk-usb-logging    
-#    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-#    snippet: studio-rpc-usb-uart
+  #    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+  #    snippet: studio-rpc-usb-uart
+
+  # Reset Settings
   - board: nice_nano_v2
     shield: settings_reset

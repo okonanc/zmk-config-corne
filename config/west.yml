@@ -10,6 +10,10 @@ manifest:
       url-base: https://github.com/urob
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
 
   projects:
     - name: zmk
@@ -32,10 +36,20 @@ manifest:
     - name: zmk-tri-state
       path: modules/zmk/tri-state
 
+    # Nicer visuals on Nice!View and Display
     # nice_epaper support
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+
+    # Prospector
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: feat/new-status-screens
+
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: 0.0.1
 
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
