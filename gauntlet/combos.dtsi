@@ -60,13 +60,13 @@ ZMK_COMBO(tilde     , &kp TILDE   , LM0 LB0    , DEF             ALT , COMBO_TER
 ZMK_COMBO(num1      , &kp N1      , LT3 LT2    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(num2      , &kp N2      , LT2 LT1    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(num3      , &kp N3      , LT3 LT1    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(num4      , &kp N4      , LM3 LM3    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(num4      , &kp N4      , LM3 LM2    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(num5      , &kp N5      , LM2 LM1    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(num6      , &kp N6      , LM3 LM1    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(num7      , &kp N7      , LB3 LB3    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(num7      , &kp N7      , LB3 LB2    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(num8      , &kp N8      , LB2 LB1    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(num9      , &kp N9      , LB3 LB1    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(num0      , &kp N0      , LT3 LM3    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(num0      , &kp N0      , LT2 LM2    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Horizontal combos - right hand */
 //ZMK_COMBO(bspc      , &kp BSPC       , RT1 RT2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
