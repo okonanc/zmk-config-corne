@@ -15,27 +15,27 @@
 
 ---
 include:
+  # Left + Nice!View
+  - board: nice_nano_v2 
+    artifact-name: infinity_left
+    shield: corne_left nice_view_adapter nice_view
+
+  # Right + Nice!View
+  - board: nice_nano_v2
+    artifact-name: infinity_right
+    shield: corne_right nice_view_adapter nice_view
+  
   # Use central instead of left, when dongle is disabled
   # - board: nice_nano_v2 
   #   artifact-name: infinity_central
   #   shield: corne_central nice_view
   #    snippet: studio-rpc-usb-uart
 
-  # Left + Nice!View
-  # - board: nice_nano_v2 
-  #   artifact-name: infinity_left
-  #   shield: corne_left nice_view_adapter nice_view
-  #
-  # # Right + Nice!View
-  # - board: nice_nano_v2
-  #   artifact-name: infinity_right
-  #   shield: corne_right nice_view_adapter nice_view
-  #
-  # # Dongle + Nice!View 
-  # - board: nice_nano_v2 
-  #   shield: corne_dongle nice_view_adapter nice_view 
-  #   artifact-name: infinity_dongle_nice_view
-  # #    snippet: studio-rpc-usb-uartds
+  # Dongle + Nice!View 
+  - board: nice_nano_v2 
+    shield: corne_dongle nice_view_adapter nice_view 
+    artifact-name: infinity_dongle_nice_view
+  #    snippet: studio-rpc-usb-uartds
 
   # Dongle + Prospector
   # - board: nice_nano_v2
