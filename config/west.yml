@@ -6,8 +6,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
     - name: carrefinho
@@ -19,8 +17,6 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
-      # remote: urob
-      # revision: v0.1+mouse
       import: app/west.yml
 
     # ZMK modules

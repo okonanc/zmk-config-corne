@@ -11,6 +11,6 @@
 #include "zmk-helpers/key-labels/42.h"
 
 //#include "../gauntlet/keymap-german-rev3.h"
-#include "../gauntlet/base.dtsi"
+#include "./gauntlet/base.dtsi"
 
 

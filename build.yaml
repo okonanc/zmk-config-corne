@@ -1,68 +1,32 @@
-# This file generates the GitHub Actions matrix
-# For simple board + shield combinations, add them
-# to the top level board and shield arrays, for more
-# control, add individual board + shield combinations to
-# the `include` property, e.g:
-#
-# board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#   - board: nice_nano_v2
-#    shield: settings_reset
-
 ---
 include:
   # Left + Nice!View
   - board: nice_nano_v2 
+    shield: corne_left nice_view_adapter nice_oled
     artifact-name: infinity_left
-    shield: corne_left nice_view_adapter nice_view
 
   # Right + Nice!View
   - board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_oled
     artifact-name: infinity_right
-    shield: corne_right nice_view_adapter nice_view
   
   # Use central instead of left, when dongle is disabled
   # - board: nice_nano_v2 
-  #   artifact-name: infinity_central
   #   shield: corne_central nice_view
+    #   artifact-name: infinity_central
   #    snippet: studio-rpc-usb-uart
 
   # Dongle + Nice!View 
   - board: nice_nano_v2 
-    shield: corne_dongle nice_view_adapter nice_view 
-    artifact-name: infinity_dongle_nice_view
-  #    snippet: studio-rpc-usb-uartds
+    shield: corne_dongle_pro_micro dongle_display
+    artifact-name: infinity_dongle_pro_micro_oled
+    snippet: studio-rpc-usb-uart
 
-  # Dongle + Prospector
-  # - board: nice_nano_v2
-  #   shield: corne_dongle prospector_adapter
-  #   artifact-name: infinity_dongle_prospector
+  ### Reset Settings
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: nice_settings_reset
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: xiao_settings_reset
 
-  # # Dongle + Screen
-  # - board: nice_nano_v2
-  #   shield: corne_dongle dongle_screen
-  #   artifact-name: infinity_dongle_screen
-
-  # Dongle with Logging enabled
-  # - board: nice_nano_v2
-  #   artifact-name: infinity_dongle_with_logging
-  #   shield: corne_dongle nice_view
-  #   snippet: zmk-usb-logging
-  #    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-  #    snippet: studio-rpc-usb-uart
-
-  # Central with Logging enabled
-  # - board: nice_nano_v2
-  #   artifact-name: infinity_central_with_logging
-  #   shield: corne_central nice_view
-  #   snippet: zmk-usb-logging    
-  #    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-  #    snippet: studio-rpc-usb-uart
-
-  # Reset Settings
-  # - board: nice_nano_v
-  #   shield: settings_reset
