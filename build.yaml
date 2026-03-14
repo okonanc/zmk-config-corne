@@ -2,12 +2,12 @@
 include:
   # Left + Nice!View
   - board: nice_nano_v2 
-    shield: corne_left nice_view_adapter nice_oled
+    shield: corne_left nice_view_adapter nice_epaper
     artifact-name: infinity_left
 
   # Right + Nice!View
   - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_oled
+    shield: corne_right nice_view_adapter nice_epaper
     artifact-name: infinity_right
   
   # Use central instead of left, when dongle is disabled
@@ -18,8 +18,8 @@ include:
 
   # Dongle + Nice!View 
   - board: nice_nano_v2 
-    shield: corne_dongle_pro_micro dongle_display
-    artifact-name: infinity_dongle_pro_micro_oled
+    shield: corne_dongle_pro_micro nice_epaper
+    artifact-name: infinity_dongle_pro_micro_epaper
     snippet: studio-rpc-usb-uart
 
   ### Reset Settings
