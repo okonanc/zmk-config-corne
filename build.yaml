@@ -42,10 +42,10 @@ include:
   #   shield: corne_dongle prospector_adapter
   #   artifact-name: infinity_dongle_prospector
 
-  # Dongle + Screen
-  - board: nice_nano_v2
-    shield: corne_dongle dongle_screen
-    artifact-name: infinity_dongle_screen
+  # # Dongle + Screen
+  # - board: nice_nano_v2
+  #   shield: corne_dongle dongle_screen
+  #   artifact-name: infinity_dongle_screen
 
   # Dongle with Logging enabled
   # - board: nice_nano_v2
