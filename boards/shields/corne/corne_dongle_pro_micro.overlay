@@ -82,11 +82,12 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
 &pro_micro_i2c {
     status = "okay";
 
+    // nice view spi
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
-        width = <128>;
-        height = <64>;
+        width = <160>;
+        height = <68>;
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
