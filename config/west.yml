@@ -39,6 +39,10 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+    # dongle_display!view
+    - name: zmk-dongle-display-view
+      remote: mctechnology17
+      revision: main
 
     # Prospector
     - name: prospector-zmk-module

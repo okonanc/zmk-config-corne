@@ -19,8 +19,7 @@
 
 / {
     chosen {
-        /* zephyr,display = &oled; */
-        zephyr,display = &nice_view;
+        zephyr,display = &oled;
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &foostan_corne_6col_layout;
     };
@@ -80,15 +79,23 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
     // TODO: per-key RGB node(s)?
 };
 
-/* &nice_view_spi { */
 &pro_micro_i2c {
     status = "okay";
-    nice_view: ls0xx@0 {
-        compatible = "sharp,ls0xx";
+
+    oled: ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
         spi-max-frequency = <1000000>;
         reg = <0>;
-        width = <160>;  // epaper: 160 vista508: 144 vista2070: 400
-        height = <68>; // epaper: 68  vista508: 168 vista2070: 240
+        width = <160>;
+        height = <68>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <63>;
+        segment-remap;
+        com-invdir;
+        inversion-on;
+        prechargep = <0x22>;
     };
 };
 
