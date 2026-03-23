@@ -1,24 +1,24 @@
 ---
 include:
   # Left (Central) + Nice!View
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_epaper
     artifact-name: infinity_left_view
 
   # Right + Nice!View
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right nice_view_adapter nice_epaper
     artifact-name: infinity_right_view
  
   # Left Peripheral in combination with dongle
-  - board: nice_nano 
+  - board: nice_nano//zmk
     shield: corne_left_peripheral nice_view_adapter nice_epaper
     artifact-name: infinity_left_peripheral_view
     snippet: studio-rpc-usb-uart
 
   ### Dongle Settings
   # Dongle (pro micro) + Nice!View 
-  - board: nice_nano 
+  - board: nice_nano//zmk
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
     shield: corne_dongle_pro_micro nice_view_adapter dongle_display_view_pro_micro
     artifact-name: infinity_dongle_pro_micro_view
@@ -32,7 +32,7 @@ include:
     snippet: studio-rpc-usb-uart
 
   ### Reset Settings
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
     artifact-name: infinity_pro_micro_settings_reset
   - board: xiao_ble
