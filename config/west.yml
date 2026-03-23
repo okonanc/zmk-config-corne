@@ -1,7 +1,7 @@
 manifest:
-  defaults:
-    remote: urob
-    revision: v0.3 # Pin everything to v0.1
+  # defaults:
+    # remote: urob
+    # revision: v0.3 # Pin everything to v0.1
 
   remotes:
     - name: zmkfirmware
