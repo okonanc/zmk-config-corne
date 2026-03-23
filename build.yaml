@@ -22,14 +22,14 @@ include:
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
     shield: corne_dongle_pro_micro nice_view_adapter nice_view #dongle_display_view_pro_micro
     artifact-name: infinity_dongle_pro_micro_view
-    # snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart
 
   # Dongle (Seeed XIAO BLE) + Prospector
   - board: xiao_ble
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
     shield: corne_dongle_xiao prospector_adapter
     artifact-name: infinity_dongle_xiao_prospector
-    # snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart
 
   ### Reset Settings
   - board: nice_nano//zmk
