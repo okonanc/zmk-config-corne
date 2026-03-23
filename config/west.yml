@@ -8,12 +8,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    # - name: mctechnology17
+    #   url-base: https://github.com/mctechnology17
     - name: carrefinho
       url-base: https://github.com/carrefinho
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    # - name: janpfischer
+    #   url-base: https://github.com/janpfischer
 
   projects:
     - name: zmk
@@ -37,13 +37,13 @@ manifest:
 
     # Nicer visuals on Nice!View and Display
     # nice_epaper support
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+    # - name: zmk-nice-oled
+    #   remote: mctechnology17
+    #   revision: main
     # dongle_display!view
-    - name: zmk-dongle-display-view
-      remote: mctechnology17
-      revision: main
+    # - name: zmk-dongle-display-view
+    #   remote: mctechnology17
+    #   revision: main
 
     # Prospector
     - name: prospector-zmk-module
@@ -51,9 +51,9 @@ manifest:
       # revision: main
       revision: feat/new-status-screens
 
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+    # - name: zmk-dongle-screen
+    #   remote: janpfischer
+    #   revision: main
 
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
@@ -70,7 +70,7 @@ manifest:
           - hal_nordic
           - hal_rpi_pico
           - hal_stm32
-          - lvgl
+          - mbedtls
           - tinycrypt
           
   self:
