@@ -70,6 +70,7 @@ manifest:
           - hal_nordic
           - hal_rpi_pico
           - hal_stm32
+          - lvgl
           - mbedtls
           - tinycrypt
           
