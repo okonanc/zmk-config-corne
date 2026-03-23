@@ -27,15 +27,15 @@ manifest:
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
       path: modules/zmk/auto-layer
-      revision: next
+      # revision: next
     - name: zmk-helpers
       path: modules/zmk/helpers
     - name: zmk-leader-key
       path: modules/zmk/leader-key
     - name: zmk-tri-state
       path: modules/zmk/tri-state
-    # - name: zmk-unicode
-    #   path: modules/zmk/unicode
+    - name: zmk-unicode
+      path: modules/zmk/unicode
 
     # Nicer visuals on Nice!View and Display
     # nice_epaper support
