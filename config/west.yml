@@ -58,7 +58,7 @@ manifest:
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
     - name: zephyr
-      revision: v3.5.0+zmk-fixes
+      # revision: v3.5.0+zmk-fixes
       clone-depth: 1
       import:
         # Only enable most commonly used boards. For less common hardware one
