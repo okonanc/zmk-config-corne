@@ -1,7 +1,7 @@
 manifest:
-  # defaults:
-    # remote: urob
-    # revision: v0.3 # Pin everything to v0.1
+  defaults:
+    remote: urob
+    revision: v0.3 # Pin everything to v0.1
 
   remotes:
     - name: zmkfirmware
@@ -59,6 +59,8 @@ manifest:
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
     - name: zephyr
       # revision: v3.5.0+zmk-fixes
+      remote: zmkfirmware
+      revision: v4.1.0+zmk-fixes
       clone-depth: 1
       import:
         # Only enable most commonly used boards. For less common hardware one
