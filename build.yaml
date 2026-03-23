@@ -25,7 +25,7 @@ include:
     snippet: studio-rpc-usb-uart
 
   # Dongle (Seeed XIAO BLE) + Prospector
-  - board: xiao_ble//zmk
+  - board: xiao_ble
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
     shield: corne_dongle_xiao prospector_adapter
     artifact-name: infinity_dongle_xiao_prospector
