@@ -2,17 +2,17 @@
 include:
   # Left (Central) + Nice!View
   - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view #nice_epaper
+    shield: corne_left nice_view_adapter nice_epaper
     artifact-name: infinity_left_view
 
   # Right + Nice!View
   - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view #nice_epaper
+    shield: corne_right nice_view_adapter nice_epaper
     artifact-name: infinity_right_view
  
   # Left Peripheral in combination with dongle
   - board: nice_nano_v2
-    shield: corne_left_peripheral nice_view_adapter nice_view #nice_epaper
+    shield: corne_left_peripheral nice_view_adapter nice_epaper
     artifact-name: infinity_left_peripheral_view
     # snippet: studio-rpc-usb-uart
 
@@ -20,12 +20,12 @@ include:
   # Dongle (pro micro) + Nice!View 
   - board: nice_nano_v2
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
-    shield: corne_dongle_pro_micro nice_view_adapter nice_view #dongle_display_view_pro_micro
+    shield: corne_dongle_pro_micro nice_view_adapter dongle_display_view_pro_micro
     artifact-name: infinity_dongle_pro_micro_view
     # snippet: studio-rpc-usb-uart
 
   # Dongle (Seeed XIAO BLE) + Prospector
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
     shield: corne_dongle_xiao prospector_adapter
     artifact-name: infinity_dongle_xiao_prospector
@@ -35,7 +35,7 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: infinity_pro_micro_settings_reset
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: seeed_xiao_settings_reset
 
