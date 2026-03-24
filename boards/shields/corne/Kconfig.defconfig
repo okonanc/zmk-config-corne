@@ -21,11 +21,9 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE_XIAO || SHIELD
             default 148
         config LV_Z_BITS_PER_PIXEL
             default 1
-        if SHIELD_CORNE_DONGLE_PRO_MICRO 
-            choice LV_COLOR_DEPTH
-                default LV_COLOR_DEPTH_1
-            endchoice
-        endif
+        choice LV_COLOR_DEPTH
+            default LV_COLOR_DEPTH_1
+        endchoice
         if SHIELD_CORNE_DONGLE_XIAO 
             choice LV_COLOR_DEPTH
                 default LV_COLOR_DEPTH_16
@@ -34,6 +32,13 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE_XIAO || SHIELD
     endif # LVGL
 endif
 
+if SHIELD_CORNE_RIGHT || SHIELD_CORNE_LEFT 
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default n
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default n
+endif
+    
 if SHIELD_CORNE_DONGLE_XIAO || SHIELD_CORNE_DONGLE_PRO_MICRO 
     config ZMK_KEYBOARD_NAME
         default "Infinity"
