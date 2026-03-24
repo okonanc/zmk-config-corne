@@ -33,7 +33,7 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
     shield: corne_dongle_xiao #prospector_adapter
     artifact-name: xiao_prospector_corne_dongle
-    snippet: studio-rpc-usb-uart
+    # snippet: studio-rpc-usb-uart
 
   ### Reset Settings
   - board: nice_nano_v2
