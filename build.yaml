@@ -2,27 +2,28 @@
 include:
   # # Left (Central) + Nice!View
   - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_epaper
+    # shield: corne_left nice_view_adapter nice_epaper
+    shield: corne_left nice_view_adapter nice_view_gem
     artifact-name: nano_view_corne_left
   #
   # # Right + Nice!View
   - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_epaper
+    shield: corne_right nice_view_adapter nice_view_gem
     artifact-name: nano_view_corne_right
   #
   # # Left Peripheral in combination with dongle
-  - board: nice_nano_v2
-    shield: corne_left_peripheral nice_view_adapter nice_epaper
-    artifact-name: nano_view_corne_left_peripheral
-    # snippet: studio-rpc-usb-uart
+  # - board: nice_nano_v2
+  #   shield: corne_left_peripheral nice_view_adapter nice_view_gem
+  #   artifact-name: nano_view_corne_left_peripheral
+  #   # snippet: studio-rpc-usb-uart
   #
   # ### Dongle Settings
   # # Dongle (pro micro) + Nice!View 
-  - board: nice_nano_v2
-    # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
-    shield: corne_dongle_pro_micro nice_view_adapter dongle_display_view_pro_micro
-    artifact-name: nano_view_corne_dongle
-    # snippet: studio-rpc-usb-uart
+  # - board: nice_nano_v2
+  #   # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
+  #   shield: corne_dongle_pro_micro nice_view_adapter dongle_display_view_pro_micro
+  #   artifact-name: nano_view_corne_dongle
+  #   # snippet: studio-rpc-usb-uart
   #
   # Dongle (Seeed XIAO BLE) + Prospector
   - board: seeeduino_xiao_ble
