@@ -49,8 +49,8 @@ manifest:
     # Prospector
     - name: prospector-zmk-module
       remote: carrefinho
-      # revision: main
-      revision: feat/new-status-screens
+      revision: main
+      # revision: feat/new-status-screens
 
     # - name: zmk-dongle-screen
     #   remote: janpfischer
