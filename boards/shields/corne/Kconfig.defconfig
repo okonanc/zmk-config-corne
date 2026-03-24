@@ -24,7 +24,6 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE_XIAO || SHIELD
         choice LV_COLOR_DEPTH
             default LV_COLOR_DEPTH_1
         endchoice
-        endif
     endif # LVGL
 endif
 
