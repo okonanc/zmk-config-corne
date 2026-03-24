@@ -27,7 +27,7 @@ manifest:
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
       path: modules/zmk/auto-layer
-      # revision: next
+      revision: next
     - name: zmk-helpers
       path: modules/zmk/helpers
     - name: zmk-leader-key
