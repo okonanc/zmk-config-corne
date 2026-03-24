@@ -10,8 +10,8 @@ manifest:
       url-base: https://github.com/urob
     # - name: mctechnology17
     #   url-base: https://github.com/mctechnology17
-    - name: carrefinho
-      url-base: https://github.com/carrefinho
+    # - name: carrefinho
+    #   url-base: https://github.com/carrefinho
     # - name: janpfischer
     #   url-base: https://github.com/janpfischer
     - name: m165437
@@ -53,9 +53,9 @@ manifest:
       revision: v0.3.0
 
     # Prospector
-    - name: prospector-zmk-module
-      remote: carrefinho
-      revision: main
+    # - name: prospector-zmk-module
+    #   remote: carrefinho
+    #   revision: main
       # revision: feat/new-status-screens
 
     # - name: zmk-dongle-screen
