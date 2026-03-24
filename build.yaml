@@ -30,7 +30,7 @@ include:
   # Dongle (Seeed XIAO BLE) + Prospector
   - board: seeeduino_xiao_ble
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    # cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     shield: corne_dongle_xiao #prospector_adapter
     artifact-name: xiao_prospector_corne_dongle
     # snippet: studio-rpc-usb-uart
