@@ -30,7 +30,6 @@ manifest:
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
       path: modules/zmk/auto-layer
-      revision: next # Upgrades for zephyr-4.1.
     - name: zmk-helpers
       path: modules/zmk/helpers
     - name: zmk-leader-key
