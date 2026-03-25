@@ -55,8 +55,8 @@ manifest:
     # Prospector
     - name: prospector-zmk-module
       remote: carrefinho
-      revision: main
-      # revision: feat/new-status-screens
+      # revision: main
+      revision: feat/new-status-screens
 
     # - name: zmk-dongle-screen
     #   remote: janpfischer
@@ -65,9 +65,9 @@ manifest:
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
     - name: zephyr
-      revision: v3.5.0+zmk-fixes
-      remote: zmkfirmware
-      # revision: v4.1.0+zmk-fixes
+      # revision: v3.5.0+zmk-fixes
+      # remote: zmkfirmware
+      revision: v4.1.0+zmk-fixes
       clone-depth: 1
       import:
         # Only enable most commonly used boards. For less common hardware one
