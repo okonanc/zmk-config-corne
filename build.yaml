@@ -28,7 +28,7 @@ include:
   #   # snippet: studio-rpc-usb-uart
   #
   # Dongle (Seeed XIAO BLE) + Prospector
-  - board: xiao_ble//zmk
+  - board: xiao_ble
     # shield: corne_dongle_pro_micro nice_view_adapter nice_epaper
     shield: corne_dongle_xiao prospector_adapter
     artifact-name: xiao_corne_dongle_central
@@ -38,7 +38,7 @@ include:
   - board: nice_nano
     shield: settings_reset
     artifact-name: nano_settings_reset
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: settings_reset
     artifact-name: xiao_settings_reset
 
