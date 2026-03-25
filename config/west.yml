@@ -12,8 +12,8 @@ manifest:
       url-base: https://github.com/mctechnology17
     - name: carrefinho
       url-base: https://github.com/carrefinho
-    # - name: janpfischer
-    #   url-base: https://github.com/janpfischer
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
     # - name: m165437
     #   url-base: https://github.com/M165437
 
@@ -58,9 +58,9 @@ manifest:
       revision: main
       # revision: feat/new-status-screens
 
-    # - name: zmk-dongle-screen
-    #   remote: janpfischer
-    #   revision: main
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
 
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
