@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
-    # - name: mctechnology17
-    #   url-base: https://github.com/mctechnology17
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
     # - name: carrefinho
     #   url-base: https://github.com/carrefinho
     # - name: janpfischer
@@ -40,9 +40,9 @@ manifest:
 
     # Nicer visuals on Nice!View and Display
     # nice_epaper support
-    # - name: zmk-nice-oled
-    #   remote: mctechnology17
-    #   revision: main
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
     # dongle_display!view
     # - name: zmk-dongle-display-view
     #   remote: mctechnology17
