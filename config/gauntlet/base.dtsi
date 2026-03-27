@@ -2,7 +2,7 @@
 #include <behaviors.dtsi>
 #include <behaviors/num_word.dtsi> // Requires auto-layer module.
 #include <zmk-helpers/helper.h>
-#include <zmk-helpers/unicode-chars/german.h>
+#include <zmk-helpers/unicode-chars/german.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #ifdef CONFIG_WIRELESS
     #include <dt-bindings/zmk/bt.h>
