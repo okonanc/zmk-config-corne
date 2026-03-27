@@ -11,4 +11,4 @@ python ~/dev/keymap-drawer/keymap_drawer -c $ZMKCORNE/keymap_drawer.config.local
 
 # Draw svg from keymap
 # keymap -c $ZMKCORNE/keymap_drawer.config.local.yaml draw $ZMKCORNE/img/corne.yaml > $ZMKCORNE/img/corne.svg
- python ~/dev/keymap-drawer/keymap_drawer -c $ZMKCORNE/keymap_drawer.config.local.yaml draw $ZMKCORNE/img/corne.yaml > $ZMKCORNE/img/corne.svg
+python ~/dev/keymap-drawer/keymap_drawer -c $ZMKCORNE/keymap_drawer.config.local.yaml draw $ZMKCORNE/img/corne.yaml > $ZMKCORNE/img/corne.svg
