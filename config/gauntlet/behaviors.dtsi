@@ -120,11 +120,11 @@ ZMK_TAP_DANCE(num_dance,
     bindings = <&num_word NUM>, <&sl NUM>;  // reverse this for sticky-num on single tap
     tapping-term-ms = <200>;
 )
-&num_word {  // num-word, requires PR #1451
-    layers = <NUM>;
-    //continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-    continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>;
-};
+/* &num_word {  // num-word, requires PR #1451 */
+/*     layers = <NUM>; */
+/*     //continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>; */
+/*     continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>; */
+/* }; */
 
 // smart-mouse, requires PR #1366
 ZMK_TRI_STATE(smart_mouse,
