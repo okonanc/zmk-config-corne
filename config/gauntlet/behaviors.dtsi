@@ -121,7 +121,7 @@ ZMK_TAP_DANCE(num_dance,
     tapping-term-ms = <200>;
 )
 &num_word {  // num-word, requires PR #1451
-    layers = <NUM>;
+    /* layers = <NUM>; */
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
     /* continue-list = <HOME END PG_UP PG_DN LEFT RIGHT UP DOWN SPACE DOT COMMA LCTRL RCTRL LSHFT RSHFT BACKSPACE DELETE>; */
 };
