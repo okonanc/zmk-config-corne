@@ -976,6 +976,15 @@ parse_config:
     END:
       tap: $$mdi:format-horizontal-align-right$$
 
+    # Ambient Light - Display
+    F22:
+      tap: $$mdi:theme-light-dark$$
+    F23:
+      tap: $$mdi:weather-sunset-down$$
+    F24:
+      tap: $$mdi:weather-sunset-up$$
+
+
     # Symbols
     AGr+7: "{"
     AGr+8: "["

@@ -308,9 +308,9 @@ layers:
     - F8
     - F9
     - {type: trans}
-    - F22
-    - F23
-    - F24
+    - $$mdi:theme-light-dark$$
+    - $$mdi:weather-sunset-down$$
+    - $$mdi:weather-sunset-up$$
     - {type: trans}
     - {type: trans}
     - $$mdi:power-standby$$
