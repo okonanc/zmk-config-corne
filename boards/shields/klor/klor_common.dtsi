@@ -32,7 +32,7 @@
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
 		resolution = <4>;
-		steps = <120>;
+		steps = <60>;
 		status = "disabled";
 	};
 
