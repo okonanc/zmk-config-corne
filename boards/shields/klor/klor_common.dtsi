@@ -37,7 +37,7 @@
 	sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&left_encoder &right_encoder>;
-		triggers-per-rotation = <20>;
+		triggers-per-rotation = <30>;
 	};
 
 	// TODO: RGB node(s)
