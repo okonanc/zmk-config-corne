@@ -24,6 +24,7 @@
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
 		resolution = <4>;
+		steps = <30>;
 		status = "disabled";
 	};
 
@@ -31,13 +32,14 @@
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
 		resolution = <4>;
+		steps = <30>;
 		status = "disabled";
 	};
 
 	sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&left_encoder &right_encoder>;
-		triggers-per-rotation = <330>;
+		triggers-per-rotation = <20>;
 	};
 
 	// TODO: RGB node(s)
