@@ -25,7 +25,6 @@
 		label = "LEFT_ENCODER";
 		resolution = <4>;
 		status = "disabled";
-		triggers-per-rotation = <18>;
 	};
 
 	right_encoder: encoder_right {
@@ -33,12 +32,12 @@
 		label = "RIGHT_ENCODER";
 		resolution = <4>;
 		status = "disabled";
-		triggers-per-rotation = <300>;
 	};
 
 	sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&left_encoder &right_encoder>;
+		triggers-per-rotation = <330>;
 	};
 
 	// TODO: RGB node(s)
