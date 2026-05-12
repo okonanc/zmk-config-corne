@@ -48,6 +48,18 @@
 // Meh key
 #define MEH             LC(LS(LALT)) 
 
+// Desktop and tab navigation shortcuts
+#define D_LT            LC(LG(LEFT))
+#define D_RT            LC(LG(RIGHT))
+#define TAB_RT          LC(TAB)
+#define TAB_LT          LC(LS(TAB))
+#define MOV_W_LT        LG(LS(LEFT))
+#define MOV_W_RT        LG(LS(RIGHT))
+#define TEAMS_HR        LC(LS(K))
+#define TEAMS_TV        LC(LS(O))
+#define TEAMS_TA        LC(LS(M))
+#define WIN_PREV        LS(TAB)
+
 // Behaviors Constants
 #define QUICK_TAP_MS 175
 
