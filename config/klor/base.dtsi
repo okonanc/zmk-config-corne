@@ -63,18 +63,18 @@
 // Behaviors Constants
 #define QUICK_TAP_MS 175
 
-#include "./macros.dtsi"
-#include "./behaviors.dtsi"
+#include "macros.dtsi"
+#include "behaviors.dtsi"
 
-#include "./L0_qwerty.dtsi"
+#include "L0_qwerty.dtsi"
 
 // Other l./ayers
-#include "./L_GME.dtsi"
-#include "./L_GME_QWERTZ.dtsi"
-#include "./L_GME_NUM.dtsi"
-#include "./L_GME_FNR.dtsi"
-#include "./L_NUM.dtsi"
-#include "./L_FNR.dtsi"
-#include "./L_SYS.dtsi"
+#include "L_GME.dtsi"
+#include "L_GME_QWERTZ.dtsi"
+#include "L_GME_NUM.dtsi"
+#include "L_GME_FNR.dtsi"
+#include "L_NUM.dtsi"
+#include "L_FNR.dtsi"
+#include "L_SYS.dtsi"
 
 /* vim: set ft=c tw=146: */
