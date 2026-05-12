@@ -1,4 +1,6 @@
 
+#include "zmk-helpers/key-labels/klor.h" 
+
 &sk {  // sticky-key config
     release-after-ms = <900>;  // release after 0.9s
     quick-release;             // no double capitalization when rolling keys
