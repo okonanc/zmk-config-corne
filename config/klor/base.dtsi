@@ -28,14 +28,14 @@
 
 // Layers
 // #define ALT 1
-#define DEF 0
-#define GME 1
-#define GME_QZ 2
-#define GME_NUM 3
-#define GME_FNR 4
-#define NUM 5
-#define FNR 6
-#define SYS 7
+// #define DEF 0
+// #define GME 1
+// #define GME_QZ 2
+// #define GME_NUM 3
+// #define GME_FNR 4
+// #define NUM 5
+// #define FNR 6
+// #define SYS 7
 /* #define MSE 9 */
 /* #define BASE   0 */
 /* #define LOWER  1 */
@@ -66,15 +66,21 @@
 #include "macros.dtsi"
 #include "behaviors.dtsi"
 
+#define DEF 0
 #include "L0_qwerty.dtsi"
-
-// Other l./ayers
+#define GME 1
 #include "L_GME.dtsi"
+#define GME_QZ 2
 #include "L_GME_QWERTZ.dtsi"
+#define GME_NUM 3
 #include "L_GME_NUM.dtsi"
+#define GME_FNR 4
 #include "L_GME_FNR.dtsi"
+#define NUM 5
 #include "L_NUM.dtsi"
+#define FNR 6
 #include "L_FNR.dtsi"
+#define SYS 7
 #include "L_SYS.dtsi"
 
 /* vim: set ft=c tw=146: */
