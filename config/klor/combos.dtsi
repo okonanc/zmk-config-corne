@@ -23,7 +23,7 @@
 // make homerow combos tap-only (so HRMs can be chorded instantaneously)
 
 /* Horizontal combos - left and right hand simultaneously */
-ZMK_COMBO(boot_dongle, &bootloader   , LM1 RM0     , DEF              , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(boot_dongle , &bootloader   , LM1 RM0     , DEF              , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Horizontal combos - left hand */
 /* Layers */
