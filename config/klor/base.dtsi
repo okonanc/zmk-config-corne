@@ -21,9 +21,9 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#include "zmk-helpers/helper.h"
-#include "zmk-helpers/key-labels/klor.h"
-#include "zmk-helpers/unicode-chars/german.dtsi"
+#include "../zmk-helpers/helper.h"
+#include "../zmk-helpers/key-labels/klor.h"
+#include "../zmk-helpers/unicode-chars/german.dtsi"
 
 
 // Layers
