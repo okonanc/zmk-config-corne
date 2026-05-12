@@ -33,9 +33,8 @@
 #define FNR 2
 #define SYS 3
 #define GME 4
-#define GME_QZ 5
-#define GME_NUM 6
-#define GME_FNR 7
+#define GME_NUM 5
+#define GME_FNR 6
 /* #define MSE 9 */
 /* #define BASE   0 */
 /* #define LOWER  1 */
@@ -71,7 +70,6 @@
 #include "L_FNR.dtsi"
 #include "L_SYS.dtsi"
 #include "L_GME.dtsi"
-#include "L_GME_QWERTZ.dtsi"
 #include "L_GME_NUM.dtsi"
 #include "L_GME_FNR.dtsi"
 

@@ -148,6 +148,10 @@ ZMK_TRI_STATE(swapper,
         bindings = <BINDING1>, <BINDING2>;          \
     )
 
+// tap: ESC | shift + tap: grave (`) | ctrl + shfit + tap: tilde (~)
+SIMPLE_MORPH(esc_morph, SFT, &kp ESC, &esc_inner_morph)
+SIMPLE_MORPH(esc_inner_morph, CTL, &kp GRAVE, &kp TILDE)
+
 // tap: minus (-) | shift + tap: plus (+) | ctrl + shift + tap: underscore (_)
 SIMPLE_MORPH(minus_morph, SFT, &kp MINUS, &minus_inner_morph)
 SIMPLE_MORPH(minus_inner_morph, CTL, &kp PLUS, &kp UNDER)
