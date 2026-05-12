@@ -2,7 +2,7 @@
  * Alpha Layer - QWERTY
  */
 
-#define HMR_ALT_DOT &hmr_alt_dot RALT 0
+/* #define HMR_ALT_DOT &hmr_alt_dot RALT 0 */
 
 ZMK_BASE_LAYER(Qwerty,
 //                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
