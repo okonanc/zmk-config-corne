@@ -36,7 +36,7 @@ ZMK_COMBO(to_gaming  , &to GME       , LM4 LH0     , DEF              , COMBO_TE
 
 /* Misc */
 ZMK_COMBO(rem_word  , &rem_word      , LM3 LM2     , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(esc       , &kp ESC        , LT3 LT2     , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(esc       , &esc_morph     , LT3 LT2     , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 ZMK_COMBO(cut       , &kp LC(X)      , LB3 LB1     , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(copy      , &copy_cut      , LB3 LB2     , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
