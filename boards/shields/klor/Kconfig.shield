@@ -1,5 +1,11 @@
-config SHIELD_KLOR_LEFT
-    def_bool $(shields_list_contains,klor_left)
+config SHIELD_KLOR_LEFT_CENTRAL
+    def_bool $(shields_list_contains,klor_left_central)
 
-config SHIELD_KLOR_RIGHT
-    def_bool $(shields_list_contains,klor_right)
+config SHIELD_KLOR_LEFT_PERIPHERAL
+    def_bool $(shields_list_contains,klor_left_peripheral)
+    
+config SHIELD_KLOR_RIGHT_PERIPHERAL
+    def_bool $(shields_list_contains,klor_right_peripheral)
+
+config SHIELD_KLOR_DONGLE_PRO_MICRO
+    def_bool $(shields_list_contains,klor_dongle_pro_micro)

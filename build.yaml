@@ -42,10 +42,19 @@ include:
   ### KLOR Build ###
   ##################
 
+  # Central and Dongle
+
   - board: nice_nano_v2
-    shield: klor_left
+    shield: klor_left_cenral
   - board: nice_nano_v2
-    shield: klor_right
+    shield: klor_dongle_pro_micro
+
+  # Left and Right
+
+  - board: nice_nano_v2
+    shield: klor_left_peripheral
+  - board: nice_nano_v2
+    shield: klor_right_peripheral
 
   ######################
   ### Reset Settings ###
