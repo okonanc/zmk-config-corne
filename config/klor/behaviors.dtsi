@@ -283,7 +283,8 @@ ZMK_BEHAVIOR(sensor_vol,sensor_rotate,
     bindings = <&vol_up_morph>, <&vol_down_morph>;
 )
 
-ZMK_SENSOR_ROTATE(sensor_nav,
+/* ZMK_SENSOR_ROTATE(sensor_nav, */
+ZMK_BEHAVIOR(sensor_nav,sensor_rotate,
     bindings = <&pg_up_morph>, <&pg_dn_morph>;
 )
 
