@@ -277,16 +277,14 @@ ZMK_MACRO(leader_sft,
     bindings = <&sk LSHFT &leader>;
 )
 
-// Sensor Rotate Bindings
-ZMK_SENSOR_ROTATE(sensor_vol,
-    #sensor-binding-cells = <0>;
-    bindings = <&vol_up_morph>, <&vol_down_morph>;
-)
-
-ZMK_SENSOR_ROTATE(sensor_nav,
-    #sensor-binding-cells = <0>;
-    bindings = <&pg_up_morph>, <&pg_dn_morph>;
-)
+/* // Sensor Rotate Bindings */
+/* ZMK_SENSOR_ROTATE(sensor_vol, */
+/*     bindings = <&vol_up_morph>, <&vol_down_morph>; */
+/* ) */
+/**/
+/* ZMK_SENSOR_ROTATE(sensor_nav, */
+/*     bindings = <&pg_up_morph>, <&pg_dn_morph>; */
+/* ) */
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
