@@ -148,6 +148,15 @@ ZMK_TRI_STATE(swapper,
         bindings = <BINDING1>, <BINDING2>;          \
     )
 
+// Sensor Rotate Bindings
+ZMK_SENSOR_ROTATE(sensor_vol,
+    bindings = <&vol_up_moprh>, <&vol_down_morph>;
+)
+
+ZMK_SENSOR_ROTATE(sensor_nav,
+    bindings = <&pg_up_morph>, <&pg_dn_morph>;
+)
+
 // tap: VOL_UP | shift + tap: Fastforward | ctrl + shift + tap: Next
 SIMPLE_MORPH(vol_up_morph, SFT, &kp C_VOL_UP, &vol_up_inner_morph)
 SIMPLE_MORPH(vol_up_inner_morph, CTL, &kp C_FF, &kp C_NEXT)
@@ -198,16 +207,6 @@ SIMPLE_MORPH(slash_inner_morph, CTL, &kp EXCL, &kp QMARK)
 // tap: left/right parenthesis | shft + tap: less-than/greater-than
 SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
 SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
-
-// Sensor Rotate Bindings
-ZMK_SENSOR_ROTATE(sensor_vol,
-    bindings = <&vol_up_moprh>, <&vol_down_morph>;
-)
-
-ZMK_SENSOR_ROTATE(sensor_nav,
-    bindings = <&pg_up_morph>, <&pg_dn_morph>;
-)
-
 
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
 ZMK_HOLD_TAP(lt_spc,
