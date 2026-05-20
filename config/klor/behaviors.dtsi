@@ -288,8 +288,8 @@ ZMK_MACRO(leader_sft,
 /* ) */
 
 /* ZMK_SENSOR_ROTATE_VAR(sensor_nav, */
-/* /* ZMK_BEHAVIOR(sensor_nav, sensor_rotate, */ */
-/*     /* #sensor-binding-cells = <0>;  */ */
+ /* ZMK_BEHAVIOR(sensor_nav, sensor_rotate, */
+     /* #sensor-binding-cells = <0>;  */ 
 /*     bindings = <&pg_up_morph>, <&pg_dn_morph>; */
 /* ) */
 
