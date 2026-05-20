@@ -279,10 +279,12 @@ ZMK_MACRO(leader_sft,
 
 // Sensor Rotate Bindings
 ZMK_SENSOR_ROTATE(sensor_vol,
+    #sensor-binding-cells = <0>;
     bindings = <&vol_up_morph>, <&vol_down_morph>;
 )
 
 ZMK_SENSOR_ROTATE(sensor_nav,
+    #sensor-binding-cells = <0>;
     bindings = <&pg_up_morph>, <&pg_dn_morph>;
 )
 
