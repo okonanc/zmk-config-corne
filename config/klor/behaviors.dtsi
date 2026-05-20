@@ -284,7 +284,7 @@ ZMK_MACRO(leader_sft,
 /*     tap-ms = <5>; */
 /* ) */
 
-ZMK_SENSOR_ROTATE(sensor_vol,
+ZMK_SENSOR_ROTATE(sensor_vol, sensor_rotate,
 /* ZMK_BEHAVIOR(sensor_vol, sensor_rotate, */
     /* #sensor-binding-cells = <0>; */
     bindings = <&vol_up_morph>, <&vol_down_morph>;
