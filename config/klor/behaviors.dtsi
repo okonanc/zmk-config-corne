@@ -158,7 +158,7 @@ SIMPLE_MORPH(vol_down_inner_morph, CTL, &kp C_RW, &kp C_PREV)
 
 // tap: MUTE | shift + tap: PLAY/PAUSE | ctrl + shift + tap: 
 SIMPLE_MORPH(mute_morph, SFT, &kp HOME, &mute_inner_morph)
-SIMPLE_MORPH(mute_inner_morph, CTL, &kp END, &kp PRINT)
+SIMPLE_MORPH(mute_inner_morph, CTL, &kp END, &kp PSCRN)
 
 // tap: PG_UP | shift + tap: UP | ctrl + shift + tap: HOME
 SIMPLE_MORPH(pg_up_morph, SFT, &kp PG_UP, &pg_up_inner_morph)
