@@ -3,7 +3,21 @@
  */
 
 #define HMR_ALT_DOT &hmr_alt_dot RALT 0
-
+/{
+    behaviors {
+        sensor_vol: sensor_vol {
+            compatible =  "zmk,behavior-sensor-rotate";
+            #sensor-bindings-cells = <0>;
+            bindings = <&vol_up_morph>, <&vol_down_morph>;
+        };
+        
+        sensor_nav: sensor_nav {
+            compatible =  "zmk,behavior-sensor-rotate";
+            #sensor-bindings-cells = <0>;
+            bindings = <&pg_up_morph>, <&pg_dn_morph>;
+        };
+    };
+};
 ZMK_BASE_LAYER(Qwerty,
 //                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
                     &kp Q           &kp W           &kp E           &kp R           &kp T          ,                                    &kp Y           &kp U           &kp I           &kp O           &kp SQT        ,
@@ -14,6 +28,5 @@ ZMK_BASE_LAYER(Qwerty,
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                     &lt SYS TAB     &lt_spc FNR 0   &kp RET         &mo NUM        ,    &mo SYS         SMART_NUM       MAGIC_SHIFT     &bs_del        ,
 //                                                 ╰───────────────┴───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────┴───────────────╯
-&sensor_vol 0 0
-&sensor_nav 0 0
+&sensor_vol &sensor_nav 
 )

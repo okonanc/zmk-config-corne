@@ -1,4 +1,3 @@
-
 &sk {  // sticky-key config
     release-after-ms = <900>;  // release after 0.9s
     quick-release;             // no double capitalization when rolling keys
@@ -284,15 +283,15 @@ ZMK_MACRO(leader_sft,
 /*     tap-ms = <5>; */
 /* ) */
 
-ZMK_SENSOR_ROTATE_VAR(sensor_vol, 
-    bindings = <&vol_up_morph>, <&vol_down_morph>;
-)
+/* ZMK_SENSOR_ROTATE_VAR(sensor_vol,  */
+/*     bindings = <&vol_up_morph>, <&vol_down_morph>; */
+/* ) */
 
-ZMK_SENSOR_ROTATE_VAR(sensor_nav,
-/* ZMK_BEHAVIOR(sensor_nav, sensor_rotate, */
-    /* #sensor-binding-cells = <0>;  */
-    bindings = <&pg_up_morph>, <&pg_dn_morph>;
-)
+/* ZMK_SENSOR_ROTATE_VAR(sensor_nav, */
+/* /* ZMK_BEHAVIOR(sensor_nav, sensor_rotate, */ */
+/*     /* #sensor-binding-cells = <0>;  */ */
+/*     bindings = <&pg_up_morph>, <&pg_dn_morph>; */
+/* ) */
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
