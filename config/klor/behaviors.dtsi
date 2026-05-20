@@ -148,15 +148,6 @@ ZMK_TRI_STATE(swapper,
         bindings = <BINDING1>, <BINDING2>;          \
     )
 
-// Sensor Rotate Bindings
-ZMK_SENSOR_ROTATE(sensor_vol,
-    bindings = <&vol_up_morph>, <&vol_down_morph>;
-)
-
-ZMK_SENSOR_ROTATE(sensor_nav,
-    bindings = <&pg_up_morph>, <&pg_dn_morph>;
-)
-
 // tap: VOL_UP | shift + tap: Fastforward | ctrl + shift + tap: Next
 SIMPLE_MORPH(vol_up_morph, SFT, &kp C_VOL_UP, &vol_up_inner_morph)
 SIMPLE_MORPH(vol_up_inner_morph, CTL, &kp C_FF, &kp C_NEXT)
@@ -284,6 +275,15 @@ ZMK_TAP_DANCE(copy_cut,
 // Sticky shift + leader.
 ZMK_MACRO(leader_sft, 
     bindings = <&sk LSHFT &leader>;
+)
+
+// Sensor Rotate Bindings
+ZMK_SENSOR_ROTATE(sensor_vol,
+    bindings = <&vol_up_morph>, <&vol_down_morph>;
+)
+
+ZMK_SENSOR_ROTATE(sensor_nav,
+    bindings = <&pg_up_morph>, <&pg_dn_morph>;
 )
 
 // misc aliases
