@@ -153,7 +153,7 @@ SIMPLE_MORPH(vol_up_morph, SFT, &kp C_VOL_UP, &vol_up_inner_morph)
 SIMPLE_MORPH(vol_up_inner_morph, CTL, &kp C_FF, &kp C_NEXT)
 
 // tap: VOL_DOWN| shift + tap: Rewind | ctrl + shift + tap: Previous
-SIMPLE_MORPH(vol_down_morph, SFT, &kp C_VOL_DOWN, &vol_down_inner_morph)
+SIMPLE_MORPH(vol_down_morph, SFT, &kp C_VOL_DN, &vol_down_inner_morph)
 SIMPLE_MORPH(vol_down_inner_morph, CTL, &kp C_RW, &kp C_PREV)
 
 // tap: MUTE | shift + tap: PLAY/PAUSE | ctrl + shift + tap: 
