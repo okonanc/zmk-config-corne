@@ -156,7 +156,7 @@ SIMPLE_MORPH(vol_up_inner_morph, CTL, &kp C_FF, &kp C_NEXT)
 SIMPLE_MORPH(vol_down_morph, SFT, &kp C_VOL_DN, &vol_down_inner_morph)
 SIMPLE_MORPH(vol_down_inner_morph, CTL, &kp C_RW, &kp C_PREV)
 
-// tap: MUTE | shift + tap: PLAY/PAUSE | ctrl + shift + tap: 
+// tap: MUTE | shift + tap: PLAY/PAUSE | ctrl + shift + tap: PRINT
 SIMPLE_MORPH(mute_morph, SFT, &kp HOME, &mute_inner_morph)
 SIMPLE_MORPH(mute_inner_morph, CTL, &kp END, &kp PSCRN)
 
@@ -170,7 +170,7 @@ SIMPLE_MORPH(pg_dn_inner_morph, CTL, &kp DOWN, &kp END)
 
 // tap: HOME | shift + tap: END | ctrl + shift + tap: PRINT
 SIMPLE_MORPH(home_morph, SFT, &kp HOME, &home_inner_morph)
-SIMPLE_MORPH(home_inner_morph, CTL, &kp END, &kp PRINT)
+SIMPLE_MORPH(home_inner_morph, CTL, &kp END, &kp PSCRN)
 
 // tap: ESC | shift + tap: grave (`) | ctrl + shift + tap: tilde (~)
 SIMPLE_MORPH(esc_morph, SFT, &kp ESC, &esc_inner_morph)
