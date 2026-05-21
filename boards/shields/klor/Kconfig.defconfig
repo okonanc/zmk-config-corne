@@ -10,7 +10,11 @@ if SHIELD_KLOR_LEFT_CENTRAL || SHIELD_KLOR_DONGLE_PRO_MICRO
         default 2
 
     config ZMK_USB
+ 
+    config ZMK_SPLIT_BATTERY_HID_REPORT
+        bool "Expose left/right peripheral battery levels via a custom USB HID report"
         default y
+        depends on ZMK_USB && ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING       default y
 
 endif # LEFT_CENTRAL || DONGLE
 
