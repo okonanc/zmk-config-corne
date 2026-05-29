@@ -69,9 +69,9 @@ ZMK_COMBO(num9      , &kp N9      , LB3 LB1    ,            GME      , COMBO_TER
 ZMK_COMBO(num0      , &kp N0      , LT2 LM2    ,            GME      , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Horizontal combos - right hand */
-//ZMK_COMBO(bspc      , &kp BSPC       , RT1 RT2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-//ZMK_COMBO(del       , &kp DEL        , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(qqu       , &qqu Q 0    , RT2 RT3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(bspc      , &kp BSPC    , RT1 RT2    , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(del       , &kp DEL     , RT2 RT3    , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(qqu       , &qqu Q 0    , RT2 RT3    ,              ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 ZMK_COMBO(lpar      , &lpar_lt    , RM1 RM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL), KEYS_L)
 ZMK_COMBO(rpar      , &rpar_gt    , RM2 RM3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LALT),  KEYS_L)
