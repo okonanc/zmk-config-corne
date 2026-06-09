@@ -160,12 +160,12 @@ SIMPLE_MORPH(mute_morph, SFT, &kp C_MUTE, &mute_inner_morph)
 SIMPLE_MORPH(mute_inner_morph, CTL, &kp C_PP, &kp PSCRN)
 
 // tap: PG_UP | shift + tap: UP | ctrl + shift + tap: RIGHT
-SIMPLE_MORPH(pg_up_morph, SFT, &kp PG_UP, &pg_up_inner_morph)
-SIMPLE_MORPH(pg_up_inner_morph, CTL, &kp UP, &kp RIGHT)
+SIMPLE_MORPH(up_morph, SFT, &kp UP, &up_inner_morph)
+SIMPLE_MORPH(up_inner_morph, CTL, &kp PG_UP, &kp RIGHT)
 
-// tap: PG_DN | shift + tap: DOWN | ctrl + shift + tap: left
-SIMPLE_MORPH(pg_dn_morph, SFT, &kp PG_DN, &pg_dn_inner_morph)
-SIMPLE_MORPH(pg_dn_inner_morph, CTL, &kp DOWN, &kp LEFT)
+// tap: PG_DN | shift + tap: DOWN | ctrl + shift + tap: LEFT
+SIMPLE_MORPH(dn_morph, SFT, &kp DOWN, &dn_inner_morph)
+SIMPLE_MORPH(dn_inner_morph, CTL, &kp PG_DN, &kp LEFT)
 
 // tap: HOME | shift + tap: END | ctrl + shift + tap: PRINT
 SIMPLE_MORPH(home_morph, SFT, &kp HOME, &home_inner_morph)

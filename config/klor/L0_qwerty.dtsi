@@ -14,7 +14,7 @@
         sensor_nav: sensor_nav {
             compatible =  "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&pg_up_morph>, <&pg_dn_morph>;
+            bindings = <&up_morph>, <&dn_morph>;
         };
     };
 };
