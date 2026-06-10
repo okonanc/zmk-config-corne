@@ -3,8 +3,8 @@
  */
 &lt {  // layer-tap config
     /* flavor = "balanced"; */
-    /* flavor = "tap-preferred"; */
-    flavor = "hold-preferred";
+    flavor = "tap-preferred";
+    /* flavor = "hold-preferred"; */
     tapping-term-ms = <300>;
     quick-tap-ms = <250>;
 };
