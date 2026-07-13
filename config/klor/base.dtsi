@@ -29,12 +29,13 @@
 // Layers
 // #define ALT 1
 #define DEF 0
-#define NUM 1
-#define FNR 2
-#define SYS 3
-#define GME 4
-#define GME_NUM 5
-#define GME_FNR 6
+#define ALT 1
+#define NUM 2
+#define FNR 3
+#define SYS 4
+#define GME 5
+#define GME_NUM 6
+#define GME_FNR 7
 /* #define MSE 9 */
 /* #define BASE   0 */
 /* #define LOWER  1 */
@@ -66,6 +67,7 @@
 #include "behaviors.dtsi"
 
 #include "L0_qwerty.dtsi"
+#include "L0_EnDeu.dtsi"
 #include "L_NUM.dtsi"
 #include "L_FNR.dtsi"
 #include "L_SYS.dtsi"

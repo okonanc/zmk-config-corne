@@ -1,0 +1,32 @@
+/**
+ * Alpha Layer - EnDeu
+ */
+
+#define HMR_ALT_DOT &hmr_alt_dot RALT 0
+/{
+    behaviors {
+        sensor_vol: sensor_vol {
+            compatible =  "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&vol_up_morph>, <&vol_down_morph>;
+        };
+        
+        sensor_nav: sensor_nav {
+            compatible =  "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&up_morph>, <&dn_morph>;
+        };
+    };
+};
+ZMK_BASE_LAYER(EnDeu,
+//                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
+                    &kp Q           &dot_morp       &kp O           &kp U           &kp Y          ,                                    &kp V           &kp D           &kp C           &kp L           &kp F          ,
+// ╭───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤                                   ├───────────────├───────────────┼───────────────┼───────────────┼───────────────┼───────────────╮
+    &bs_del         &hml LCMD H     &hml LALT A     &hml LCTRL D    &hml LSHFT E    &comma_morph   ,                                    &hmr MEH G      &hmr RSHFT T    &hmr LCTRL R    &hmr LALT N     &hmr LCMD N     &kp J          ,
+// ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────╮   ╭───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
+    &kp SQT         &kp K           &slash_morhp    &kp MINUS       &kp SEMICOLON   &kp X           &mute_morph    ,    &home_morph     &kp B           &kp P           &kp M           &kp W           &kp Z           &kp RET        ,
+// ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
+                                                    &lt SYS TAB     &lt_spc FNR 0   &kp RET         &mo NUM        ,    &mo SYS         SMART_NUM       MAGIC_SHIFT     &kp BSLH       ,
+//                                                 ╰───────────────┴───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────┴───────────────╯
+&sensor_vol &sensor_nav 
+)
