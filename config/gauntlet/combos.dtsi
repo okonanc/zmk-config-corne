@@ -29,6 +29,7 @@ ZMK_COMBO(boot_dongle  , &bootloader   , LM0 RM0     , DEF             ALT, COMB
 /* Layers */
 ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(to_gm_qz    , &to GME_QZ     , LT5 LT0 LH0 ,         GME        , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(to_qwerty   , &to DEF        , LM1 LM4     ,         GME     ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 #ifdef MOUSE_KEYS
   ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1     , DEF NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
@@ -73,6 +74,7 @@ ZMK_COMBO(bspc      , &kp BSPC    , RT1 RT2    , DEF              , COMBO_TERM_F
 ZMK_COMBO(del       , &kp DEL     , RT2 RT3    , DEF              , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(qqu       , &qqu Q 0    , RT2 RT3    ,              ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
+ZMK_COMBO(to_alt    , &to ALT     , RM1 RM4    , DEF                 , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(lpar      , &lpar_lt    , RM1 RM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LCTRL), KEYS_L)
 ZMK_COMBO(rpar      , &rpar_gt    , RM2 RM3    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(LALT),  KEYS_L)
 ZMK_COMBO(lt        , &kp LT      , RM1 RM2    ,     NUM             , COMBO_TERM_FAST, COMBO_IDLE_FAST)
