@@ -32,7 +32,7 @@ ZMK_COMBO(to_gm_qz    , &to GME_QZ     , LT5 LT0 LH0 ,         GME        , COMB
 ZMK_COMBO(to_qwerty   , &to DEF        , LM1 LM2 LM3 ,         GME     ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 #ifdef MOUSE_KEYS
-  ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1     , DEF NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+  ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1 LT0 , DEF NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 #endif 
 
 /* Misc */
