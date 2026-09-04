@@ -31,9 +31,9 @@ ZMK_COMBO(to_gaming   , &to GME        , LT5 LH0     , DEF             ALT, COMB
 ZMK_COMBO(to_gm_qz    , &to GME_QZ     , LT5 LT0 LH0 ,         GME        , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(to_qwerty   , &to DEF        , LM1 LM2 LM3 ,         GME     ALT, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
-#ifdef MOUSE_KEYS
-  ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1 LT0 , DEF NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-#endif 
+/* #ifdef MOUSE_KEYS */
+/*   ZMK_COMBO(mouse     , &smart_mouse   , LT2 LT1 LT0 , DEF NUM       ALT, COMBO_TERM_FAST, COMBO_IDLE_FAST) */
+/* #endif  */
 
 /* Misc */
 ZMK_COMBO(rem_word  , &rem_word      , LM3 LM2    , DEF             ALT , COMBO_TERM_FAST, COMBO_IDLE_FAST)
