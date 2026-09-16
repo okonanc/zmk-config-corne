@@ -25,7 +25,8 @@
 #define FNR 7
 #define SYS 8
 #define MSE 9
-#define XXX 10
+#define MBP 10
+#define XXX 11
 
 // For gaming only left side needed
 //#define HD2 7
@@ -77,6 +78,7 @@
 #include "../gauntlet/L_FNR.dtsi"
 #include "../gauntlet/L_SYS.dtsi"
 #include "../gauntlet/L_MSE.dtsi"
+#include "../gauntlet/L_MBP.dtsi"
 #include "../gauntlet/L_XXX.dtsi"
 
 

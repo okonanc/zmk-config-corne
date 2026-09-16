@@ -133,6 +133,12 @@ ZMK_TRI_STATE(smart_mouse,
     ignored-layers = <MSE>;
 )
 
+ZMK_TRI_STATE(smart_mbp,
+    bindings = <&tog MBP>, <&none>, <&tog MBP>;
+    ignored-key-positions = <LM1 LM2 LH0 LH1 LH2 RM1 RM2 RH0 RH1 RH2>;
+    ignored-layers = <MBP>;
+)
+
 /* Custom behaviors */
 
 // Alt+Tab swapper, requires PR #1366
